@@ -4,3 +4,6 @@
 [submodule "lib/pkl"]
 	path = lib/pkl
 	url = https://github.com/esden/pretty-kicad-libs
+[submodule "lib/kicad-length-matching-checks"]
+	path = lib/kicad-length-matching-checks
+	url = https://github.com/mithro/kicad-length-matching-checks
