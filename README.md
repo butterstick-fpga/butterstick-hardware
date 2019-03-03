@@ -1,0 +1,23 @@
+# ButterStick
+
+## A simple FPGA board for experiments with high speed LVDS interfaces. 3 Standard connectors with an onboard GigE link.
+
+	Still in active Development (Use stuff here if you want, but there is no support.)
+
+
+![alt-text](documentation/images/render_001.jpg "Layout in progress")
+
+## Hardware
+
+* ECP5 
+* Dual 8MB/16MB HyperRAM. high density, low pin count.
+* 16MB QSPI Memory
+* MicroSD socket
+* TCXO Oscillator
+* JST GH SM06 locking Data/Power connector (low current)
+* JTAG on GH SM06
+* 1x LED
+* 3x Stardard SYZYGY compatible connectors
+
+
+![alt-text](documentation/images/proto_top_layer.png "Layout in progress")
