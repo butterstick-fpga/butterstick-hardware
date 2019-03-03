@@ -1,0 +1,275 @@
+EESchema Schematic File Version 4
+LIBS:ButterStick-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 4600 3700 2    60   Input ~ 0
+HB0_RWDS
+Text GLabel 4600 3600 2    60   Input ~ 0
+HB0_CS#
+Text GLabel 4600 3500 2    60   Input ~ 0
+HB0_RESET#
+Text GLabel 3400 3000 0    60   Input ~ 0
+HB0_CK
+Text GLabel 3400 3100 0    60   Input ~ 0
+HB0_CK#
+$Comp
+L gkl_mem:S27KS0641 U4
+U 1 1 5ABD3939
+P 4000 3650
+F 0 "U4" H 4000 4590 60  0000 C CNN
+F 1 "IS66WVH16M8ALL" H 4000 4484 60  0000 C CNN
+F 2 "bosonFrameGrabber:BGA_24" H 4000 4600 60  0001 C CNN
+F 3 "" H 4000 4600 60  0001 C CNN
+F 4 "706-1548-ND" H -3950 -250 50  0001 C CNN "SN-DK"
+F 5 "IS66WVH16M8ALL-166B1LI" H -3950 -250 50  0001 C CNN "PN"
+	1    4000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_power:+1V8 #PWR038
+U 1 1 5ABB0386
+P 4700 2900
+F 0 "#PWR038" H 4700 2750 50  0001 C CNN
+F 1 "+1V8" H 4703 3051 50  0000 C CNN
+F 2 "" H 4700 2900 50  0001 C CNN
+F 3 "" H 4700 2900 50  0001 C CNN
+	1    4700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3000 4700 3000
+Wire Wire Line
+	4700 3000 4700 2900
+Wire Wire Line
+	4600 3300 4800 3300
+$Comp
+L gkl_power:GND #PWR040
+U 1 1 5ABB03DC
+P 4700 4450
+F 0 "#PWR040" H 4700 4200 50  0001 C CNN
+F 1 "GND" H 4703 4324 50  0000 C CNN
+F 2 "" H 4600 4100 50  0001 C CNN
+F 3 "" H 4700 4450 50  0001 C CNN
+	1    4700 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4200 4700 4200
+Wire Wire Line
+	4700 4200 4700 4300
+Wire Wire Line
+	4600 4300 4700 4300
+Connection ~ 4700 4300
+$Comp
+L gkl_power:+1V8 #PWR041
+U 1 1 5ABB0494
+P 4800 3900
+F 0 "#PWR041" H 4800 3750 50  0001 C CNN
+F 1 "+1V8" V 4803 4006 50  0000 L CNN
+F 2 "" H 4800 3900 50  0001 C CNN
+F 3 "" H 4800 3900 50  0001 C CNN
+	1    4800 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 3900 4700 3900
+Wire Wire Line
+	4600 4000 4700 4000
+Wire Wire Line
+	4700 4000 4700 3900
+Connection ~ 4700 3900
+$Comp
+L gkl_mem:AT25SF081 U6
+U 1 1 5ABD9FA9
+P 4000 5750
+F 0 "U6" H 4000 6191 60  0000 C CNN
+F 1 "MX25R1635" H 4000 6085 60  0000 C CNN
+F 2 "Housings_DFN_QFN:DFN-8-1EP_3x2mm_Pitch0.5mm" H 4000 6200 60  0001 C CNN
+F 3 "" H 4000 6200 60  0001 C CNN
+F 4 "1092-1178-1-ND" H -150 1800 50  0001 C CNN "SN-DK"
+F 5 "MX25R1635FZUIH0" H -150 1800 50  0001 C CNN "PN"
+	1    4000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_power:GND #PWR04
+U 1 1 5ABD9FB0
+P 3350 6000
+F 0 "#PWR04" H 3350 5750 50  0001 C CNN
+F 1 "GND" H 3353 5874 50  0000 C CNN
+F 2 "" H 3250 5650 50  0001 C CNN
+F 3 "" H 3350 6000 50  0001 C CNN
+	1    3350 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_power:+3V3 #PWR05
+U 1 1 5ABD9FB6
+P 4650 5500
+F 0 "#PWR05" H 4650 5350 50  0001 C CNN
+F 1 "+3V3" V 4654 5606 50  0000 L CNN
+F 2 "" H 4650 5500 50  0001 C CNN
+F 3 "" H 4650 5500 50  0001 C CNN
+	1    4650 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 3450 5600 0    60   Input ~ 0
+SPI_CONFIG_SS
+Text GLabel 4550 5800 2    60   Input ~ 0
+SPI_CONFIG_SCK
+Text GLabel 3450 5700 0    60   Input ~ 0
+SPI_CONFIG_MISO
+Text GLabel 4550 5900 2    60   Input ~ 0
+SPI_CONFIG_MOSI
+Wire Wire Line
+	4550 5600 4650 5600
+Wire Wire Line
+	4650 5600 4650 5500
+Wire Wire Line
+	3350 6000 3350 5900
+Wire Wire Line
+	3350 5900 3450 5900
+Text GLabel 4550 5700 2    60   Input ~ 0
+QSPI_D3
+Text GLabel 3450 5800 0    60   Input ~ 0
+QSPI_D2
+Wire Wire Line
+	4700 4300 4700 4450
+Wire Wire Line
+	4700 3900 4600 3900
+Text GLabel 3400 3600 0    50   Input ~ 0
+HB0_DQ0
+Text GLabel 3400 3700 0    50   Input ~ 0
+HB0_DQ1
+Text GLabel 3400 3800 0    50   Input ~ 0
+HB0_DQ2
+Text GLabel 3400 3900 0    50   Input ~ 0
+HB0_DQ3
+Text GLabel 3400 4000 0    50   Input ~ 0
+HB0_DQ4
+Text GLabel 3400 4100 0    50   Input ~ 0
+HB0_DQ5
+Text GLabel 3400 4200 0    50   Input ~ 0
+HB0_DQ6
+Text GLabel 3400 4300 0    50   Input ~ 0
+HB0_DQ7
+Text GLabel 8550 3700 2    60   Input ~ 0
+HB1_RWDS
+Text GLabel 8550 3600 2    60   Input ~ 0
+HB1_CS#
+Text GLabel 8550 3500 2    60   Input ~ 0
+HB1_RESET#
+Text GLabel 7350 3000 0    60   Input ~ 0
+HB1_CK
+Text GLabel 7350 3100 0    60   Input ~ 0
+HB1_CK#
+$Comp
+L gkl_mem:S27KS0641 U5
+U 1 1 5BA221BE
+P 7950 3650
+F 0 "U5" H 7950 4590 60  0000 C CNN
+F 1 "IS66WVH16M8ALL" H 7950 4484 60  0000 C CNN
+F 2 "bosonFrameGrabber:BGA_24" H 7950 4600 60  0001 C CNN
+F 3 "" H 7950 4600 60  0001 C CNN
+F 4 "706-1548-ND" H 0   -250 50  0001 C CNN "SN-DK"
+F 5 "IS66WVH16M8ALL-166B1LI" H 0   -250 50  0001 C CNN "PN"
+	1    7950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_power:+1V8 #PWR0126
+U 1 1 5BA221C4
+P 8650 2900
+F 0 "#PWR0126" H 8650 2750 50  0001 C CNN
+F 1 "+1V8" H 8653 3051 50  0000 C CNN
+F 2 "" H 8650 2900 50  0001 C CNN
+F 3 "" H 8650 2900 50  0001 C CNN
+	1    8650 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3000 8650 3000
+Wire Wire Line
+	8650 3000 8650 2900
+$Comp
+L gkl_power:GND #PWR0127
+U 1 1 5BA221CC
+P 8750 3300
+F 0 "#PWR0127" H 8750 3050 50  0001 C CNN
+F 1 "GND" V 8754 3220 50  0000 R CNN
+F 2 "" H 8650 2950 50  0001 C CNN
+F 3 "" H 8750 3300 50  0001 C CNN
+	1    8750 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 3300 8750 3300
+$Comp
+L gkl_power:GND #PWR0128
+U 1 1 5BA221D3
+P 8650 4450
+F 0 "#PWR0128" H 8650 4200 50  0001 C CNN
+F 1 "GND" H 8653 4324 50  0000 C CNN
+F 2 "" H 8550 4100 50  0001 C CNN
+F 3 "" H 8650 4450 50  0001 C CNN
+	1    8650 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 4200 8650 4200
+Wire Wire Line
+	8650 4200 8650 4300
+Wire Wire Line
+	8550 4300 8650 4300
+Connection ~ 8650 4300
+$Comp
+L gkl_power:+1V8 #PWR0129
+U 1 1 5BA221DD
+P 8750 3900
+F 0 "#PWR0129" H 8750 3750 50  0001 C CNN
+F 1 "+1V8" V 8753 4006 50  0000 L CNN
+F 2 "" H 8750 3900 50  0001 C CNN
+F 3 "" H 8750 3900 50  0001 C CNN
+	1    8750 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 3900 8650 3900
+Wire Wire Line
+	8550 4000 8650 4000
+Wire Wire Line
+	8650 4000 8650 3900
+Connection ~ 8650 3900
+Wire Wire Line
+	8650 4300 8650 4450
+Wire Wire Line
+	8650 3900 8550 3900
+Text GLabel 7350 3600 0    50   Input ~ 0
+HB1_DQ0
+Text GLabel 7350 3700 0    50   Input ~ 0
+HB1_DQ1
+Text GLabel 7350 3800 0    50   Input ~ 0
+HB1_DQ2
+Text GLabel 7350 3900 0    50   Input ~ 0
+HB1_DQ3
+Text GLabel 7350 4000 0    50   Input ~ 0
+HB1_DQ4
+Text GLabel 7350 4100 0    50   Input ~ 0
+HB1_DQ5
+Text GLabel 7350 4200 0    50   Input ~ 0
+HB1_DQ6
+Text GLabel 7350 4300 0    50   Input ~ 0
+HB1_DQ7
+$EndSCHEMATC
