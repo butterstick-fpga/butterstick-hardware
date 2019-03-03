@@ -1,0 +1,6 @@
+[submodule "lib/gkl"]
+	path = lib/gkl
+	url = https://github.com/gregdavill/gsd-kicad-libs
+[submodule "lib/pkl"]
+	path = lib/pkl
+	url = https://github.com/esden/pretty-kicad-libs
