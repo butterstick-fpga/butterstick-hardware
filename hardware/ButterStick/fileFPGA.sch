@@ -360,13 +360,13 @@ Text GLabel 1950 7400 2    60   Input ~ 0
 HB1_DQ3
 Text GLabel 1950 7500 2    60   Input ~ 0
 HB1_DQ4
-Text GLabel 1950 7300 2    60   Input ~ 0
+Text GLabel 1950 6900 2    60   Input ~ 0
 HB1_DQ5
 Text GLabel 1950 6800 2    60   Input ~ 0
 HB1_DQ6
 Text GLabel 1950 6700 2    60   Input ~ 0
 HB1_DQ7
-Text GLabel 1950 6900 2    60   Input ~ 0
+Text GLabel 1950 7300 2    60   Input ~ 0
 HB1_RWDS
 Wire Wire Line
 	9150 1400 10000 1400
@@ -379,35 +379,35 @@ Wire Wire Line
 Connection ~ 10000 1600
 Wire Wire Line
 	10000 1600 10000 1650
-Text GLabel 3850 4900 2    50   Input ~ 0
+Text GLabel 3850 5000 2    50   Input ~ 0
 ETH_MDC
-Text GLabel 3850 4800 2    50   Input ~ 0
+Text GLabel 3850 4900 2    50   Input ~ 0
 ETH_MDIO
-Text GLabel 3850 6400 2    50   Input ~ 0
-ETH_TXD0
 Text GLabel 3850 6500 2    50   Input ~ 0
-ETH_TXD1
+ETH_TXD0
 Text GLabel 3850 6600 2    50   Input ~ 0
-ETH_TXD2
+ETH_TXD1
 Text GLabel 3850 6700 2    50   Input ~ 0
+ETH_TXD2
+Text GLabel 3850 6800 2    50   Input ~ 0
 ETH_TXD3
-Text GLabel 3850 6300 2    50   Input ~ 0
+Text GLabel 3850 6400 2    50   Input ~ 0
 ETH_RXD0
-Text GLabel 3850 6000 2    50   Input ~ 0
-ETH_RXD1
-Text GLabel 3850 6200 2    50   Input ~ 0
-ETH_RXD2
 Text GLabel 3850 6100 2    50   Input ~ 0
+ETH_RXD1
+Text GLabel 3850 6300 2    50   Input ~ 0
+ETH_RXD2
+Text GLabel 3850 6200 2    50   Input ~ 0
 ETH_RXD3
-Text GLabel 3850 7300 2    50   Input ~ 0
+Text GLabel 3850 7400 2    50   Input ~ 0
 ETH_TX_CTRL
-Text GLabel 3850 7500 2    50   Input ~ 0
+Text GLabel 3850 7600 2    50   Input ~ 0
 ETH_TX_CLK
-Text GLabel 3850 6900 2    50   Input ~ 0
+Text GLabel 3850 7000 2    50   Input ~ 0
 ETH_RX_CTRL
-Text GLabel 3850 7200 2    50   Input ~ 0
+Text GLabel 3850 7300 2    50   Input ~ 0
 ETH_RX_CLK
-Text GLabel 3850 4600 2    50   Input ~ 0
+Text GLabel 3850 4700 2    50   Input ~ 0
 ETH_INT
 Text GLabel 9600 6200 2    60   Input ~ 0
 IO_C_DIR
@@ -423,7 +423,7 @@ Text GLabel -700 3650 2    50   Input ~ 0
 DISP0_EXTCOMIN
 Text GLabel -700 3750 2    50   Input ~ 0
 DISP0_DISP
-Text GLabel 3850 4500 2    50   Input ~ 0
+Text GLabel 3850 4600 2    50   Input ~ 0
 ETH_RST
 Text GLabel 1950 4800 2    60   Input ~ 0
 PCLKC6_0
@@ -433,7 +433,7 @@ Text GLabel 1950 4600 2    60   Input ~ 0
 PCLKC6_1
 Text GLabel 1950 4500 2    60   Input ~ 0
 PCLKT6_1
-Text GLabel 3850 7400 2    50   Input ~ 0
+Text GLabel 3850 7500 2    50   Input ~ 0
 PCLKT7_0
 Text GLabel 3850 2050 2    60   Input ~ 0
 SYZYGY_0_D0_P
@@ -646,10 +646,10 @@ Wire Wire Line
 Wire Wire Line
 	9650 4800 9650 4550
 $Comp
-L gkl_power:+3V3 #PWR?
+L gkl_power:+3V3 #PWR0106
 U 1 1 5C7C78F9
 P 9650 4550
-F 0 "#PWR?" H 9650 4400 50  0001 C CNN
+F 0 "#PWR0106" H 9650 4400 50  0001 C CNN
 F 1 "+3V3" V 9650 4750 50  0000 C CNN
 F 2 "" H 9650 4550 50  0001 C CNN
 F 3 "" H 9650 4550 50  0001 C CNN
@@ -689,10 +689,10 @@ Wire Wire Line
 Wire Wire Line
 	8800 5700 8600 5700
 $Comp
-L gkl_power:GND #PWR?
+L gkl_power:GND #PWR0123
 U 1 1 5C7CB5AD
 P 7750 5900
-F 0 "#PWR?" H 7750 5650 50  0001 C CNN
+F 0 "#PWR0123" H 7750 5650 50  0001 C CNN
 F 1 "GND" H 7753 5774 50  0000 C CNN
 F 2 "" H 7650 5550 50  0001 C CNN
 F 3 "" H 7750 5900 50  0001 C CNN

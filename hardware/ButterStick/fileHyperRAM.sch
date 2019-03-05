@@ -272,4 +272,15 @@ Text GLabel 7350 4200 0    50   Input ~ 0
 HB1_DQ6
 Text GLabel 7350 4300 0    50   Input ~ 0
 HB1_DQ7
+$Comp
+L gkl_power:GND #PWR?
+U 1 1 5C7E74A0
+P 4800 3300
+F 0 "#PWR?" H 4800 3050 50  0001 C CNN
+F 1 "GND" H 4803 3174 50  0000 C CNN
+F 2 "" H 4700 2950 50  0001 C CNN
+F 3 "" H 4800 3300 50  0001 C CNN
+	1    4800 3300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
