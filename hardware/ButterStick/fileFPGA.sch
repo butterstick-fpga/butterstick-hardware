@@ -30,29 +30,29 @@ Text GLabel -450 2450 2    60   Input ~ 0
 SD_CK
 Text GLabel 9600 6300 2    60   Input ~ 0
 SD_CD
-Text GLabel 1950 5600 2    60   Input ~ 0
-HB0_CS#
 Text GLabel 1950 5000 2    60   Input ~ 0
+HB0_CS#
+Text GLabel 1950 5600 2    60   Input ~ 0
 HB0_RESET#
 Text GLabel 1950 6200 2    60   Input ~ 0
 HB0_CK
 Text GLabel 1950 6100 2    60   Input ~ 0
 HB0_CK#
-Text GLabel 1950 5900 2    60   Input ~ 0
+Text GLabel 1950 5500 2    60   Input ~ 0
 HB0_DQ0
-Text GLabel 1950 5200 2    60   Input ~ 0
+Text GLabel 1950 5300 2    60   Input ~ 0
 HB0_DQ1
 Text GLabel 1950 5700 2    60   Input ~ 0
 HB0_DQ2
-Text GLabel 1950 5500 2    60   Input ~ 0
+Text GLabel 1950 5100 2    60   Input ~ 0
 HB0_DQ3
-Text GLabel 1950 6000 2    60   Input ~ 0
+Text GLabel 1950 5900 2    60   Input ~ 0
 HB0_DQ4
-Text GLabel 1950 5300 2    60   Input ~ 0
+Text GLabel 1950 5200 2    60   Input ~ 0
 HB0_DQ5
 Text GLabel 1950 5400 2    60   Input ~ 0
 HB0_DQ6
-Text GLabel 1950 5100 2    60   Input ~ 0
+Text GLabel 1950 6000 2    60   Input ~ 0
 HB0_DQ7
 Text GLabel 9150 2900 2    60   Input ~ 0
 SPI_CONFIG_SS
@@ -475,29 +475,29 @@ Text GLabel 3850 3750 2    60   Input ~ 0
 SYZYGY_0_D7_N
 Text GLabel 3850 3650 2    60   Input ~ 0
 SYZYGY_0_D7_P
-Text GLabel 3850 1050 2    60   Input ~ 0
-SYZYGY_0_S16
-Text GLabel 3850 1150 2    60   Input ~ 0
-SYZYGY_0_S17
-Text GLabel 3850 1450 2    60   Input ~ 0
-SYZYGY_0_S18
-Text GLabel 3850 1550 2    60   Input ~ 0
-SYZYGY_0_S19
-Text GLabel 3850 1850 2    60   Input ~ 0
-SYZYGY_0_S20
-Text GLabel 3850 1950 2    60   Input ~ 0
-SYZYGY_0_S21
-Text GLabel 3850 2250 2    60   Input ~ 0
-SYZYGY_0_S22
-Text GLabel 3850 2350 2    60   Input ~ 0
-SYZYGY_0_S23
 Text GLabel 3850 3250 2    60   Input ~ 0
-SYZYGY_0_S24
+SYZYGY_0_S16
+Text GLabel 3850 1550 2    60   Input ~ 0
+SYZYGY_0_S17
 Text GLabel 3850 3350 2    60   Input ~ 0
-SYZYGY_0_S25
-Text GLabel 3850 3450 2    60   Input ~ 0
-SYZYGY_0_S26
+SYZYGY_0_S18
+Text GLabel 3850 1450 2    60   Input ~ 0
+SYZYGY_0_S19
 Text GLabel 3850 3550 2    60   Input ~ 0
+SYZYGY_0_S20
+Text GLabel 3850 1150 2    60   Input ~ 0
+SYZYGY_0_S21
+Text GLabel 3850 1050 2    60   Input ~ 0
+SYZYGY_0_S22
+Text GLabel 3850 1950 2    60   Input ~ 0
+SYZYGY_0_S23
+Text GLabel 3850 3450 2    60   Input ~ 0
+SYZYGY_0_S24
+Text GLabel 3850 1850 2    60   Input ~ 0
+SYZYGY_0_S25
+Text GLabel 3850 2350 2    60   Input ~ 0
+SYZYGY_0_S26
+Text GLabel 3850 2250 2    60   Input ~ 0
 SYZYGY_0_S27
 Text GLabel 6250 6400 2    60   Input ~ 0
 SYZYGY_1_D0_P
@@ -579,29 +579,29 @@ Text GLabel 6250 3750 2    60   Input ~ 0
 SYZYGY_2_D7_N
 Text GLabel 6250 3650 2    60   Input ~ 0
 SYZYGY_2_D7_P
-Text GLabel 6250 1850 2    60   Input ~ 0
-SYZYGY_2_S16
-Text GLabel 6250 1950 2    60   Input ~ 0
-SYZYGY_2_S17
-Text GLabel 6250 2250 2    60   Input ~ 0
-SYZYGY_2_S18
 Text GLabel 6250 2350 2    60   Input ~ 0
-SYZYGY_2_S19
+SYZYGY_2_S16
 Text GLabel 6250 2650 2    60   Input ~ 0
-SYZYGY_2_S20
-Text GLabel 6250 2750 2    60   Input ~ 0
-SYZYGY_2_S21
-Text GLabel 6250 3050 2    60   Input ~ 0
-SYZYGY_2_S22
+SYZYGY_2_S17
 Text GLabel 6250 3150 2    60   Input ~ 0
-SYZYGY_2_S23
+SYZYGY_2_S18
+Text GLabel 6250 2750 2    60   Input ~ 0
+SYZYGY_2_S19
 Text GLabel 6250 3450 2    60   Input ~ 0
-SYZYGY_2_S24
+SYZYGY_2_S20
+Text GLabel 6250 1850 2    60   Input ~ 0
+SYZYGY_2_S21
 Text GLabel 6250 3550 2    60   Input ~ 0
-SYZYGY_2_S25
+SYZYGY_2_S22
+Text GLabel 6250 3050 2    60   Input ~ 0
+SYZYGY_2_S23
 Text GLabel 6250 3850 2    60   Input ~ 0
-SYZYGY_2_S26
+SYZYGY_2_S24
+Text GLabel 6250 2250 2    60   Input ~ 0
+SYZYGY_2_S25
 Text GLabel 6250 3950 2    60   Input ~ 0
+SYZYGY_2_S26
+Text GLabel 6250 1950 2    60   Input ~ 0
 SYZYGY_2_S27
 Text GLabel 6250 4800 2    60   Input ~ 0
 SYZYGY_1_S16
@@ -609,23 +609,23 @@ Text GLabel 6250 4900 2    60   Input ~ 0
 SYZYGY_1_S17
 Text GLabel 6250 5000 2    60   Input ~ 0
 SYZYGY_1_S18
-Text GLabel 6250 5100 2    60   Input ~ 0
-SYZYGY_1_S19
-Text GLabel 6250 5400 2    60   Input ~ 0
-SYZYGY_1_S20
-Text GLabel 6250 5500 2    60   Input ~ 0
-SYZYGY_1_S21
 Text GLabel 6250 5800 2    60   Input ~ 0
+SYZYGY_1_S19
+Text GLabel 6250 5100 2    60   Input ~ 0
+SYZYGY_1_S20
+Text GLabel 6250 5400 2    60   Input ~ 0
+SYZYGY_1_S21
+Text GLabel 6250 5500 2    60   Input ~ 0
 SYZYGY_1_S22
-Text GLabel 6250 5900 2    60   Input ~ 0
-SYZYGY_1_S23
-Text GLabel 6250 6200 2    60   Input ~ 0
-SYZYGY_1_S24
 Text GLabel 6250 6300 2    60   Input ~ 0
+SYZYGY_1_S23
+Text GLabel 6250 5900 2    60   Input ~ 0
+SYZYGY_1_S24
+Text GLabel 6250 6700 2    60   Input ~ 0
 SYZYGY_1_S25
 Text GLabel 6250 6600 2    60   Input ~ 0
 SYZYGY_1_S26
-Text GLabel 6250 6700 2    60   Input ~ 0
+Text GLabel 6250 6200 2    60   Input ~ 0
 SYZYGY_1_S27
 $Comp
 L gkl_lattice:ECP5U25-BG381 U3
