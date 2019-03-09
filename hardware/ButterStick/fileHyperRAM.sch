@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 13
+Sheet 3 14
 Title ""
 Date ""
 Rev ""
@@ -339,8 +339,6 @@ Text GLabel 4650 4350 2    60   Input ~ 0
 HB1_DQ7
 Text GLabel 4650 4950 2    60   Input ~ 0
 HB1_RWDS
-Text GLabel 4650 2450 2    60   Input ~ 0
-PCLKC6_0
 Text GLabel 4650 2350 2    60   Input ~ 0
 PCLKT6_0
 Text GLabel 4650 2250 2    60   Input ~ 0
@@ -355,7 +353,7 @@ AR Path="/5AB8ACB7/5C97C904" Ref="U?"  Part="2"
 AR Path="/5ABD38F2/5C97C904" Ref="U3"  Part="2" 
 F 0 "U3" H 5550 2300 60  0000 L CNN
 F 1 "ECP5U25" H 4850 2300 60  0000 L CNN
-F 2 "" H 4650 2150 50  0001 C CNN
+F 2 "gkl_housings_bga:caBGA_381_17x17" H 4650 2150 50  0001 C CNN
 F 3 "" H 4650 2150 50  0001 C CNN
 F 4 " 220-2052-ND " H 800 1300 50  0001 C CNN "SN-DK"
 F 5 " LFE5U-25F-6BG381I " H 800 1300 50  0001 C CNN "PN"

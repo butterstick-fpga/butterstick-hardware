@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 13
+Sheet 12 14
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ AR Path="/5AB8ACB7/5C811DF8" Ref="U?"  Part="5"
 AR Path="/5C80F1A0/5C811DF8" Ref="U3"  Part="5" 
 F 0 "U3" H 5500 2650 60  0000 L CNN
 F 1 "ECP5U25" H 4600 2650 60  0000 L CNN
-F 2 "" H 4400 2450 50  0001 C CNN
+F 2 "gkl_housings_bga:caBGA_381_17x17" H 4400 2450 50  0001 C CNN
 F 3 "" H 4400 2450 50  0001 C CNN
 F 4 " 220-2052-ND " H -1850 -1950 50  0001 C CNN "SN-DK"
 F 5 " LFE5U-25F-6BG381I " H -1850 -1950 50  0001 C CNN "PN"
@@ -206,29 +206,29 @@ C2P_CLK_P
 Text Label 6400 5550 0    50   ~ 0
 C2P_CLK_N
 Wire Wire Line
-	4400 3950 4850 3950
-Wire Wire Line
-	4400 4250 4850 4250
-Wire Wire Line
 	4400 4750 4850 4750
-Wire Wire Line
-	4400 4350 4850 4350
-Wire Wire Line
-	4400 5050 4850 5050
-Wire Wire Line
-	4400 3450 4850 3450
-Wire Wire Line
-	4400 5150 4850 5150
-Wire Wire Line
-	4400 4650 4850 4650
 Wire Wire Line
 	4400 5450 4850 5450
 Wire Wire Line
-	4400 3850 4850 3850
+	4400 3950 4850 3950
 Wire Wire Line
 	4400 5550 4850 5550
 Wire Wire Line
+	4400 3850 4850 3850
+Wire Wire Line
+	4400 3450 4850 3450
+Wire Wire Line
+	4400 4350 4850 4350
+Wire Wire Line
+	4400 4650 4850 4650
+Wire Wire Line
+	4400 4250 4850 4250
+Wire Wire Line
 	4400 3550 4850 3550
+Wire Wire Line
+	4400 5150 4850 5150
+Wire Wire Line
+	4400 5050 4850 5050
 Wire Wire Line
 	4400 2850 5050 2850
 Wire Wire Line
@@ -269,29 +269,29 @@ Wire Wire Line
 	4400 2450 5350 2450
 Wire Wire Line
 	4400 2550 5350 2550
-Text Label 4850 3950 2    50   ~ 0
-S16
-Text Label 4850 4250 2    50   ~ 0
-S17
 Text Label 4850 4750 2    50   ~ 0
+S16
+Text Label 4850 5450 2    50   ~ 0
+S17
+Text Label 4850 3950 2    50   ~ 0
 S18
-Text Label 4850 4350 2    50   ~ 0
+Text Label 4850 5550 2    50   ~ 0
 S19
-Text Label 4850 5050 2    50   ~ 0
+Text Label 4850 3850 2    50   ~ 0
 S20
 Text Label 4850 3450 2    50   ~ 0
 S21
-Text Label 4850 5150 2    50   ~ 0
+Text Label 4850 4350 2    50   ~ 0
 S22
 Text Label 4850 4650 2    50   ~ 0
 S23
-Text Label 4850 5450 2    50   ~ 0
+Text Label 4850 4250 2    50   ~ 0
 S24
-Text Label 4850 3850 2    50   ~ 0
-S25
-Text Label 4850 5550 2    50   ~ 0
-S26
 Text Label 4850 3550 2    50   ~ 0
+S25
+Text Label 4850 5150 2    50   ~ 0
+S26
+Text Label 4850 5050 2    50   ~ 0
 S27
 Text Label 5050 2850 2    50   ~ 0
 D0_P
@@ -345,7 +345,7 @@ U 1 1 5C986FFC
 P 8950 3700
 F 0 "R28" H 9020 3746 50  0000 L CNN
 F 1 "R" H 9020 3655 50  0000 L CNN
-F 2 "" V 8880 3700 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 8880 3700 50  0001 C CNN
 F 3 "~" H 8950 3700 50  0001 C CNN
 	1    8950 3700
 	1    0    0    -1  

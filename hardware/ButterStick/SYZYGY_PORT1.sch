@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 13
+Sheet 10 14
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ AR Path="/5AB8ACB7/5C810715" Ref="U?"  Part="4"
 AR Path="/5C80F19D/5C810715" Ref="U3"  Part="4" 
 F 0 "U3" H 4600 2600 60  0000 L CNN
 F 1 "ECP5U25" H 3850 2600 60  0000 L CNN
-F 2 "" H 3650 2450 50  0001 C CNN
+F 2 "gkl_housings_bga:caBGA_381_17x17" H 3650 2450 50  0001 C CNN
 F 3 "" H 3650 2450 50  0001 C CNN
 F 4 " 220-2052-ND " H -200 -1950 50  0001 C CNN "SN-DK"
 F 5 " LFE5U-25F-6BG381I " H -200 -1950 50  0001 C CNN "PN"
@@ -206,57 +206,57 @@ C2P_CLK_P
 Text Label 5850 5500 0    50   ~ 0
 C2P_CLK_N
 Wire Wire Line
+	3650 4350 4100 4350
+Wire Wire Line
 	3650 2850 4100 2850
 Wire Wire Line
-	3650 2950 4100 2950
-Wire Wire Line
-	3650 3050 4100 3050
+	3650 4250 4100 4250
 Wire Wire Line
 	3650 3850 4100 3850
 Wire Wire Line
+	3650 3050 4100 3050
+Wire Wire Line
+	3650 2950 4100 2950
+Wire Wire Line
+	3650 4750 4100 4750
+Wire Wire Line
 	3650 3150 4100 3150
+Wire Wire Line
+	3650 4650 4100 4650
+Wire Wire Line
+	3650 3950 4100 3950
 Wire Wire Line
 	3650 3450 4100 3450
 Wire Wire Line
 	3650 3550 4100 3550
 Wire Wire Line
-	3650 3950 4100 3950
+	3650 3250 4300 3250
 Wire Wire Line
-	3650 4350 4100 4350
-Wire Wire Line
-	3650 4750 4100 4750
-Wire Wire Line
-	3650 4650 4100 4650
-Wire Wire Line
-	3650 4250 4100 4250
-Wire Wire Line
-	3650 4450 4300 4450
-Wire Wire Line
-	3650 4550 4300 4550
+	3650 3350 4300 3350
 Wire Wire Line
 	3650 5450 4300 5450
 Wire Wire Line
 	3650 5550 4300 5550
 Wire Wire Line
-	3650 4050 4300 4050
+	3650 3650 4300 3650
 Wire Wire Line
-	3650 4150 4300 4150
+	3650 3750 4300 3750
 Wire Wire Line
 	3650 5250 4300 5250
 Wire Wire Line
 	3650 5350 4300 5350
 Wire Wire Line
-	3650 3650 4300 3650
+	3650 4450 4300 4450
 Wire Wire Line
-	3650 3750 4300 3750
+	3650 4550 4300 4550
 Wire Wire Line
 	3650 5050 4300 5050
 Wire Wire Line
 	3650 5150 4300 5150
 Wire Wire Line
-	3650 3250 4300 3250
+	3650 4050 4300 4050
 Wire Wire Line
-	3650 3350 4300 3350
+	3650 4150 4300 4150
 Wire Wire Line
 	3650 4850 4300 4850
 Wire Wire Line
@@ -269,57 +269,57 @@ Wire Wire Line
 	3650 2450 4600 2450
 Wire Wire Line
 	3650 2550 4600 2550
-Text Label 4100 2850 2    50   ~ 0
+Text Label 4100 4350 2    50   ~ 0
 S16
-Text Label 4100 2950 2    50   ~ 0
+Text Label 4100 2850 2    50   ~ 0
 S17
-Text Label 4100 3050 2    50   ~ 0
+Text Label 4100 4250 2    50   ~ 0
 S18
 Text Label 4100 3850 2    50   ~ 0
 S19
-Text Label 4100 3150 2    50   ~ 0
+Text Label 4100 3050 2    50   ~ 0
 S20
-Text Label 4100 3450 2    50   ~ 0
+Text Label 4100 2950 2    50   ~ 0
 S21
-Text Label 4100 3550 2    50   ~ 0
-S22
-Text Label 4100 3950 2    50   ~ 0
-S23
-Text Label 4100 4350 2    50   ~ 0
-S24
 Text Label 4100 4750 2    50   ~ 0
-S25
+S22
+Text Label 4100 3150 2    50   ~ 0
+S23
 Text Label 4100 4650 2    50   ~ 0
+S24
+Text Label 4100 3950 2    50   ~ 0
+S25
+Text Label 4100 3450 2    50   ~ 0
 S26
-Text Label 4100 4250 2    50   ~ 0
+Text Label 4100 3550 2    50   ~ 0
 S27
-Text Label 4300 4450 2    50   ~ 0
+Text Label 4300 3250 2    50   ~ 0
 D0_P
-Text Label 4300 4550 2    50   ~ 0
+Text Label 4300 3350 2    50   ~ 0
 D0_N
 Text Label 4300 5450 2    50   ~ 0
 D1_P
 Text Label 4300 5550 2    50   ~ 0
 D1_N
-Text Label 4300 4050 2    50   ~ 0
+Text Label 4300 3650 2    50   ~ 0
 D2_P
-Text Label 4300 4150 2    50   ~ 0
+Text Label 4300 3750 2    50   ~ 0
 D2_N
 Text Label 4300 5250 2    50   ~ 0
 D3_P
 Text Label 4300 5350 2    50   ~ 0
 D3_N
-Text Label 4300 3650 2    50   ~ 0
+Text Label 4300 4450 2    50   ~ 0
 D4_P
-Text Label 4300 3750 2    50   ~ 0
+Text Label 4300 4550 2    50   ~ 0
 D4_N
 Text Label 4300 5050 2    50   ~ 0
 D5_P
 Text Label 4300 5150 2    50   ~ 0
 D5_N
-Text Label 4300 3250 2    50   ~ 0
+Text Label 4300 4050 2    50   ~ 0
 D6_P
-Text Label 4300 3350 2    50   ~ 0
+Text Label 4300 4150 2    50   ~ 0
 D6_N
 Text Label 4300 4850 2    50   ~ 0
 D7_P
@@ -347,7 +347,7 @@ AR Path="/5C80F1A0/5C996E36" Ref="R?"  Part="1"
 AR Path="/5C80F19D/5C996E36" Ref="R26"  Part="1" 
 F 0 "R26" H 8470 3696 50  0000 L CNN
 F 1 "R" H 8470 3605 50  0000 L CNN
-F 2 "" V 8330 3650 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 8330 3650 50  0001 C CNN
 F 3 "~" H 8400 3650 50  0001 C CNN
 	1    8400 3650
 	1    0    0    -1  

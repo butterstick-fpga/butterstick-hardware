@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 13
+Sheet 2 14
 Title ""
 Date ""
 Rev ""
@@ -16,17 +16,17 @@ Comment4 ""
 $EndDescr
 Text GLabel 6450 1650 2    60   Input ~ 0
 FPGA_CDONE
-Text GLabel -450 2650 2    60   Input ~ 0
+Text GLabel 2300 1500 2    60   Input ~ 0
 SD_DAT0
-Text GLabel -450 2750 2    60   Input ~ 0
+Text GLabel 2300 1600 2    60   Input ~ 0
 SD_DAT1
-Text GLabel -450 2850 2    60   Input ~ 0
+Text GLabel 2300 1300 2    60   Input ~ 0
 SD_DAT2
-Text GLabel -450 2950 2    60   Input ~ 0
+Text GLabel 2300 1400 2    60   Input ~ 0
 SD_DAT3
-Text GLabel -450 2550 2    60   Input ~ 0
+Text GLabel 2300 1200 2    60   Input ~ 0
 SD_CMD
-Text GLabel -450 2450 2    60   Input ~ 0
+Text GLabel 2300 1100 2    60   Input ~ 0
 SD_CK
 Text GLabel 9600 6300 2    60   Input ~ 0
 SD_CD
@@ -82,8 +82,6 @@ F 5 " SIT8008BI-71-18E-24.000000G " H 1250 -3400 50  0001 C CNN "PN"
 $EndComp
 Wire Wire Line
 	10250 2400 10250 2000
-Text GLabel 10050 2500 2    60   Input ~ 0
-16MHZ_IN
 $Comp
 L Device:R R4
 U 1 1 5AC144E9
@@ -121,7 +119,7 @@ U 1 1 5B09968A
 P 2300 1100
 F 0 "U3" H 3150 1250 60  0000 L CNN
 F 1 "ECP5U25" H 2500 1250 60  0000 L CNN
-F 2 "" H 2300 1100 50  0001 C CNN
+F 2 "gkl_housings_bga:caBGA_381_17x17" H 2300 1100 50  0001 C CNN
 F 3 "" H 2300 1100 50  0001 C CNN
 F 4 " 220-2052-ND " H 400 250 50  0001 C CNN "SN-DK"
 F 5 " LFE5U-25F-6BG381I " H 400 250 50  0001 C CNN "PN"
@@ -135,7 +133,7 @@ U 6 1 5B09970F
 P 2250 4000
 F 0 "U3" H 3100 4150 60  0000 L CNN
 F 1 "ECP5U25" H 2450 4150 60  0000 L CNN
-F 2 "" H 2250 4000 50  0001 C CNN
+F 2 "gkl_housings_bga:caBGA_381_17x17" H 2250 4000 50  0001 C CNN
 F 3 "" H 2250 4000 50  0001 C CNN
 F 4 " 220-2052-ND " H 350 -350 50  0001 C CNN "SN-DK"
 F 5 " LFE5U-25F-6BG381I " H 350 -350 50  0001 C CNN "PN"
@@ -149,7 +147,7 @@ U 7 1 5B099944
 P 6450 1250
 F 0 "U3" H 8050 1450 60  0000 L CNN
 F 1 "ECP5U25" H 6650 1450 60  0000 L CNN
-F 2 "" H 6450 1250 50  0001 C CNN
+F 2 "gkl_housings_bga:caBGA_381_17x17" H 6450 1250 50  0001 C CNN
 F 3 "" H 6450 1250 50  0001 C CNN
 F 4 " 220-2052-ND " H -2700 -50 50  0001 C CNN "SN-DK"
 F 5 " LFE5U-25F-6BG381I " H -2700 -50 50  0001 C CNN "PN"
@@ -163,7 +161,7 @@ U 8 1 5B0999B9
 P 6450 5550
 F 0 "U3" H 7250 5750 60  0000 L CNN
 F 1 "ECP5U25" H 6650 5750 60  0000 L CNN
-F 2 "" H 6450 5550 50  0001 C CNN
+F 2 "gkl_housings_bga:caBGA_381_17x17" H 6450 5550 50  0001 C CNN
 F 3 "" H 6450 5550 50  0001 C CNN
 F 4 " 220-2052-ND " H -3400 -50 50  0001 C CNN "SN-DK"
 F 5 " LFE5U-25F-6BG381I " H -3400 -50 50  0001 C CNN "PN"
@@ -342,14 +340,8 @@ Text GLabel 6650 5350 2    60   Input ~ 0
 VCCIO0
 Text GLabel 6650 5250 2    60   Input ~ 0
 VCCIO1
-Text GLabel 6650 5150 2    60   Input ~ 0
-VCCIO2
-Text GLabel 6650 5050 2    60   Input ~ 0
-VCCIO3
 Text GLabel 6650 4850 2    60   Input ~ 0
 VCCIO7
-Text GLabel 6650 4950 2    60   Input ~ 0
-VCCIO6
 Wire Wire Line
 	6800 5500 6650 5500
 Wire Wire Line
@@ -358,12 +350,6 @@ Wire Wire Line
 	6650 5450 6450 5450
 Wire Wire Line
 	6650 4850 6450 4850
-Wire Wire Line
-	6650 4950 6450 4950
-Wire Wire Line
-	6650 5050 6450 5050
-Wire Wire Line
-	6650 5150 6450 5150
 Wire Wire Line
 	6650 5250 6450 5250
 Wire Wire Line
@@ -386,4 +372,65 @@ Wire Wire Line
 Wire Wire Line
 	9200 2500 9250 2500
 NoConn ~ 9250 2400
+Text HLabel 7800 5250 2    50   Input ~ 0
+PORT0_VCCIO
+Text HLabel 7800 5050 2    50   Input ~ 0
+PORT1_VCCIO
+Text HLabel 7800 4850 2    50   Input ~ 0
+PORT2_VCCIO
+$Comp
+L Device:R R29
+U 1 1 5C9CDF63
+P 7650 4850
+F 0 "R29" V 7550 4750 50  0000 C CNN
+F 1 "0R" V 7550 4950 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 7580 4850 50  0001 C CNN
+F 3 "~" H 7650 4850 50  0001 C CNN
+	1    7650 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 5C9CE4FB
+P 7650 5050
+F 0 "R30" V 7550 4950 50  0000 C CNN
+F 1 "0R" V 7550 5150 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 7580 5050 50  0001 C CNN
+F 3 "~" H 7650 5050 50  0001 C CNN
+	1    7650 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 5C9CEE6F
+P 7650 5250
+F 0 "R31" V 7550 5150 50  0000 C CNN
+F 1 "0R" V 7550 5350 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 7580 5250 50  0001 C CNN
+F 3 "~" H 7650 5250 50  0001 C CNN
+	1    7650 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 4950 7400 4850
+Wire Wire Line
+	7400 4850 7500 4850
+Wire Wire Line
+	6450 4950 7400 4950
+Wire Wire Line
+	6450 5050 7500 5050
+Wire Wire Line
+	7400 5150 7400 5250
+Wire Wire Line
+	7400 5250 7500 5250
+Wire Wire Line
+	6450 5150 7400 5150
+Text Label 7100 4950 0    50   ~ 0
+VCCIO6
+Text Label 7100 5050 0    50   ~ 0
+VCCIO3
+Text Label 7100 5150 0    50   ~ 0
+VCCIO2
+Text GLabel 10050 2500 2    60   Input ~ 0
+PCLKT6_0
 $EndSCHEMATC

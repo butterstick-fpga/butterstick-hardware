@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 14
 Title ""
 Date ""
 Rev ""
@@ -19,6 +19,9 @@ S 4600 2450 1800 900
 U 5AB8ACB7
 F0 "sheetFPGA" 60
 F1 "fileFPGA.sch" 60
+F2 "PORT0_VCCIO" I R 6400 2550 50 
+F3 "PORT1_VCCIO" I R 6400 2650 50 
+F4 "PORT2_VCCIO" I R 6400 2750 50 
 $EndSheet
 $Sheet
 S 4600 1100 1800 1000
@@ -108,7 +111,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 1650 6900 1650
 Wire Wire Line
-	6900 1650 6900 2550
+	6900 1650 6900 2150
 Wire Wire Line
 	6900 2550 6400 2550
 Wire Wire Line
@@ -123,4 +126,75 @@ Wire Wire Line
 	6800 4050 6800 2750
 Wire Wire Line
 	6800 2750 6400 2750
+$Sheet
+S 8900 1200 1100 1250
+U 5C9D13FE
+F0 "SmartVIO" 50
+F1 "SmartVIO.sch" 50
+$EndSheet
+Wire Wire Line
+	6900 2150 8900 2150
+Connection ~ 6900 2150
+Wire Wire Line
+	6900 2150 6900 2550
+Wire Wire Line
+	6900 2900 6900 3400
+Wire Wire Line
+	6900 3400 8650 3400
+Wire Wire Line
+	8650 3400 8650 2250
+Wire Wire Line
+	8650 2250 8900 2250
+Connection ~ 6900 2900
+Wire Wire Line
+	6800 4050 6800 4550
+Wire Wire Line
+	6800 4550 8750 4550
+Wire Wire Line
+	8750 4550 8750 2350
+Wire Wire Line
+	8750 2350 8900 2350
+Connection ~ 6800 4050
+Wire Wire Line
+	8300 4150 8400 4150
+Wire Wire Line
+	8400 4150 8400 3000
+Wire Wire Line
+	8400 1650 8900 1650
+Wire Wire Line
+	8900 1750 8500 1750
+Wire Wire Line
+	8500 1750 8500 1850
+Wire Wire Line
+	8500 4250 8300 4250
+Wire Wire Line
+	8300 3100 8500 3100
+Connection ~ 8500 3100
+Wire Wire Line
+	8500 3100 8500 4250
+Wire Wire Line
+	8300 3000 8400 3000
+Connection ~ 8400 3000
+Wire Wire Line
+	8400 3000 8400 1750
+Wire Wire Line
+	8300 1850 8500 1850
+Connection ~ 8500 1850
+Wire Wire Line
+	8500 1850 8500 3100
+Wire Wire Line
+	8300 1750 8400 1750
+Connection ~ 8400 1750
+Wire Wire Line
+	8400 1750 8400 1650
+Wire Wire Line
+	7000 1850 7000 1400
+Wire Wire Line
+	7000 1400 8900 1400
+Connection ~ 7000 1850
+Wire Wire Line
+	7100 1750 7100 1300
+Wire Wire Line
+	7100 1300 8900 1300
+Connection ~ 7100 1750
 $EndSCHEMATC
