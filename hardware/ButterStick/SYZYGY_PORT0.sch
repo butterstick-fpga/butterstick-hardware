@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 14
+Sheet 8 13
 Title ""
 Date ""
 Rev ""
@@ -365,19 +365,6 @@ F 3 "" H 8900 4000 50  0001 C CNN
 	1    8900 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L gkl_power:GND #PWR?
-U 1 1 5C99D197
-P 9300 3300
-AR Path="/5C80F1A0/5C99D197" Ref="#PWR?"  Part="1" 
-AR Path="/5C80F19A/5C99D197" Ref="#PWR0213"  Part="1" 
-F 0 "#PWR0213" H 9300 3050 50  0001 C CNN
-F 1 "GND" V 9304 3220 50  0000 R CNN
-F 2 "" H 9200 2950 50  0001 C CNN
-F 3 "" H 9300 3300 50  0001 C CNN
-	1    9300 3300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8650 3300 9300 3300
 Wire Wire Line
@@ -398,4 +385,15 @@ Text HLabel 9050 3000 2    50   Input ~ 0
 pmicSCL
 Text HLabel 9050 3100 2    50   Input ~ 0
 pmicSDA
+$Comp
+L gkl_power:+3V3 #PWR0213
+U 1 1 5CD0E4BA
+P 9300 3300
+F 0 "#PWR0213" H 9300 3150 50  0001 C CNN
+F 1 "+3V3" V 9303 3406 50  0000 L CNN
+F 2 "" H 9300 3300 50  0001 C CNN
+F 3 "" H 9300 3300 50  0001 C CNN
+	1    9300 3300
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

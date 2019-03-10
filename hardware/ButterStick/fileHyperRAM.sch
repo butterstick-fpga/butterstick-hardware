@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 14
+Sheet 3 13
 Title ""
 Date ""
 Rev ""
@@ -340,11 +340,11 @@ HB1_DQ7
 Text GLabel 4650 4950 2    60   Input ~ 0
 HB1_RWDS
 Text GLabel 4650 2350 2    60   Input ~ 0
-PCLKT6_0
+PCLKT1_0
 Text GLabel 4650 2250 2    60   Input ~ 0
-PCLKC6_1
+PCLKC1_1
 Text GLabel 4650 2150 2    60   Input ~ 0
-PCLKT6_1
+PCLKT1_1
 $Comp
 L gkl_lattice:ECP5U25-BG381 U?
 U 2 1 5C97C904

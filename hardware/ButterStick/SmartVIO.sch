@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 14
+Sheet 13 13
 Title ""
 Date ""
 Rev ""
@@ -28,59 +28,40 @@ $EndComp
 $Comp
 L gkl_power:+3V3 #PWR0224
 U 1 1 5C9D64ED
-P 2450 1600
-F 0 "#PWR0224" H 2450 1450 50  0001 C CNN
-F 1 "+3V3" H 2453 1751 50  0000 C CNN
-F 2 "" H 2450 1600 50  0001 C CNN
-F 3 "" H 2450 1600 50  0001 C CNN
-	1    2450 1600
+P 1300 1250
+F 0 "#PWR0224" H 1300 1100 50  0001 C CNN
+F 1 "+3V3" H 1303 1401 50  0000 C CNN
+F 2 "" H 1300 1250 50  0001 C CNN
+F 3 "" H 1300 1250 50  0001 C CNN
+	1    1300 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB1
 U 1 1 5C9D6656
-P 2950 1750
-F 0 "FB1" V 2713 1750 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 2804 1750 50  0000 C CNN
-F 2 "pkl_dipol:L_0402" V 2880 1750 50  0001 C CNN
-F 3 "~" H 2950 1750 50  0001 C CNN
-	1    2950 1750
+P 1800 1400
+F 0 "FB1" V 1563 1400 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 1654 1400 50  0000 C CNN
+F 2 "pkl_dipol:L_0402" V 1730 1400 50  0001 C CNN
+F 3 "~" H 1800 1400 50  0001 C CNN
+	1    1800 1400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB2
 U 1 1 5C9D66B1
-P 3750 1750
-F 0 "FB2" V 3513 1750 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 3604 1750 50  0000 C CNN
-F 2 "pkl_dipol:L_0402" V 3680 1750 50  0001 C CNN
-F 3 "~" H 3750 1750 50  0001 C CNN
-	1    3750 1750
+P 3300 1400
+F 0 "FB2" V 3063 1400 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 3154 1400 50  0000 C CNN
+F 2 "pkl_dipol:L_0402" V 3230 1400 50  0001 C CNN
+F 3 "~" H 3300 1400 50  0001 C CNN
+	1    3300 1400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2450 1600 2450 1750
+	1300 1250 1300 1400
 Wire Wire Line
-	2450 1750 2850 1750
-Wire Wire Line
-	3050 1750 3350 1750
-Wire Wire Line
-	3750 2450 3750 2100
-Wire Wire Line
-	3750 2100 4000 2100
-Wire Wire Line
-	4000 2100 4000 1750
-Wire Wire Line
-	4000 1750 3850 1750
-Wire Wire Line
-	3650 2450 3650 2100
-Wire Wire Line
-	3650 2100 3350 2100
-Wire Wire Line
-	3350 2100 3350 1750
-Connection ~ 3350 1750
-Wire Wire Line
-	3350 1750 3650 1750
+	1300 1400 1700 1400
 $Comp
 L gkl_power:GND #PWR0225
 U 1 1 5C9D6870
@@ -92,30 +73,18 @@ F 3 "" H 3650 5450 50  0001 C CNN
 	1    3650 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 3650 5000 3650
-Wire Wire Line
-	4250 3750 5000 3750
-Wire Wire Line
-	4250 3850 5000 3850
 Text Label 4400 3650 0    50   ~ 0
 ADC_0
 Text Label 4400 3750 0    50   ~ 0
 ADC_1
 Text Label 4400 3850 0    50   ~ 0
 ADC_2
-Wire Wire Line
-	4250 4050 5000 4050
-Wire Wire Line
-	4250 4150 5000 4150
 Text Label 4400 4050 0    50   ~ 0
 SDA0
 Text Label 4400 4150 0    50   ~ 0
 SCL0
 Wire Wire Line
-	3050 4450 2550 4450
-Wire Wire Line
-	3050 4550 2550 4550
+	3050 4450 2600 4450
 Text Label 2750 4450 0    50   ~ 0
 SDA1
 Text Label 2750 4550 0    50   ~ 0
@@ -128,6 +97,470 @@ Text Label 4400 4450 0    50   ~ 0
 RXD0
 Text Label 4400 4550 0    50   ~ 0
 TXD0
-Text Notes 6850 2400 0    50   ~ 0
+Text Notes 6250 1750 0    50   ~ 0
 ADC Reference voltage 1.1V
+Text HLabel 6150 4950 2    50   Input ~ 0
+SYZYGY_SDA
+Text HLabel 6150 5050 2    50   Input ~ 0
+SYZYGY_SCL
+Text HLabel 2050 4450 0    50   Input ~ 0
+PMIC_SDA
+Text HLabel 2050 4550 0    50   Input ~ 0
+PMIC_SCL
+Text HLabel 7850 2350 2    50   Input ~ 0
+SENSE0
+Text HLabel 7850 2450 2    50   Input ~ 0
+SENSE1
+Text HLabel 7850 2550 2    50   Input ~ 0
+SENSE2
+$Comp
+L Device:R R32
+U 1 1 5CB4F0D5
+P 2600 4150
+F 0 "R32" H 2670 4196 50  0000 L CNN
+F 1 "2k2" H 2670 4105 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 2530 4150 50  0001 C CNN
+F 3 "~" H 2600 4150 50  0001 C CNN
+	1    2600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5CB4F1FF
+P 2450 4150
+F 0 "R27" H 2250 4200 50  0000 L CNN
+F 1 "2k2" H 2250 4100 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 2380 4150 50  0001 C CNN
+F 3 "~" H 2450 4150 50  0001 C CNN
+	1    2450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5CB4F676
+P 2150 1650
+F 0 "C12" H 2265 1696 50  0000 L CNN
+F 1 "4u7" H 2265 1605 50  0000 L CNN
+F 2 "pkl_dipol:C_0603" H 2188 1500 50  0001 C CNN
+F 3 "~" H 2150 1650 50  0001 C CNN
+	1    2150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C46
+U 1 1 5CB4F6ED
+P 2500 1650
+F 0 "C46" H 2615 1696 50  0000 L CNN
+F 1 "100n" H 2615 1605 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 2538 1500 50  0001 C CNN
+F 3 "~" H 2500 1650 50  0001 C CNN
+	1    2500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C47
+U 1 1 5CB4FE13
+P 3950 1650
+F 0 "C47" H 4065 1696 50  0000 L CNN
+F 1 "4u7" H 4065 1605 50  0000 L CNN
+F 2 "pkl_dipol:C_0603" H 3988 1500 50  0001 C CNN
+F 3 "~" H 3950 1650 50  0001 C CNN
+	1    3950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C50
+U 1 1 5CB4FE19
+P 4300 1650
+F 0 "C50" H 4415 1696 50  0000 L CNN
+F 1 "100n" H 4415 1605 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 4338 1500 50  0001 C CNN
+F 3 "~" H 4300 1650 50  0001 C CNN
+	1    4300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1400 2150 1400
+Wire Wire Line
+	2500 1500 2500 1400
+Connection ~ 2500 1400
+Wire Wire Line
+	2500 1400 2950 1400
+Wire Wire Line
+	2150 1500 2150 1400
+Connection ~ 2150 1400
+Wire Wire Line
+	2150 1400 2500 1400
+Wire Wire Line
+	2150 1800 2150 1900
+Wire Wire Line
+	2500 1800 2500 1900
+Wire Wire Line
+	2500 1900 2150 1900
+Connection ~ 2150 1900
+Wire Wire Line
+	2150 1900 2150 1950
+Wire Wire Line
+	3400 1400 3950 1400
+Wire Wire Line
+	3950 1400 3950 1500
+Wire Wire Line
+	3950 1400 4300 1400
+Wire Wire Line
+	4300 1400 4300 1500
+Connection ~ 3950 1400
+Wire Wire Line
+	4300 1800 4300 1900
+Wire Wire Line
+	4300 1900 3950 1900
+Wire Wire Line
+	3950 1900 3950 1800
+Wire Wire Line
+	3950 1900 3950 1950
+Connection ~ 3950 1900
+$Comp
+L gkl_power:GND #PWR0108
+U 1 1 5CB5121E
+P 2150 1950
+F 0 "#PWR0108" H 2150 1700 50  0001 C CNN
+F 1 "GND" H 2153 1824 50  0000 C CNN
+F 2 "" H 2050 1600 50  0001 C CNN
+F 3 "" H 2150 1950 50  0001 C CNN
+	1    2150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_power:GND #PWR0218
+U 1 1 5CB51242
+P 3950 1950
+F 0 "#PWR0218" H 3950 1700 50  0001 C CNN
+F 1 "GND" H 3953 1824 50  0000 C CNN
+F 2 "" H 3850 1600 50  0001 C CNN
+F 3 "" H 3950 1950 50  0001 C CNN
+	1    3950 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2450 3750 2200
+Wire Wire Line
+	3750 2200 4700 2200
+Wire Wire Line
+	4700 2200 4700 1400
+Wire Wire Line
+	4700 1400 4300 1400
+Connection ~ 4300 1400
+Wire Wire Line
+	3650 2450 3650 1800
+Wire Wire Line
+	3650 1800 2950 1800
+Wire Wire Line
+	2950 1800 2950 1400
+Connection ~ 2950 1400
+Wire Wire Line
+	2950 1400 3200 1400
+Text Label 2650 1400 0    50   ~ 0
+VCC
+Text Label 4500 1400 0    50   ~ 0
+AVCC
+Text Label 2700 3800 0    50   ~ 0
+VCC
+Wire Wire Line
+	2450 4000 2450 3800
+Wire Wire Line
+	2450 3800 2600 3800
+Wire Wire Line
+	2600 4000 2600 3800
+Connection ~ 2600 3800
+Wire Wire Line
+	2600 3800 2700 3800
+Wire Wire Line
+	2600 4300 2600 4450
+Connection ~ 2600 4450
+Wire Wire Line
+	2050 4550 2450 4550
+Wire Wire Line
+	2050 4450 2600 4450
+Wire Wire Line
+	2450 4300 2450 4550
+Connection ~ 2450 4550
+Wire Wire Line
+	2450 4550 3050 4550
+$Comp
+L Device:R R34
+U 1 1 5CB55D73
+P 5950 4650
+F 0 "R34" H 6020 4696 50  0000 L CNN
+F 1 "2k2" H 6020 4605 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 5880 4650 50  0001 C CNN
+F 3 "~" H 5950 4650 50  0001 C CNN
+	1    5950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 5CB55D79
+P 5800 4650
+F 0 "R33" H 5600 4700 50  0000 L CNN
+F 1 "2k2" H 5600 4600 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 5730 4650 50  0001 C CNN
+F 3 "~" H 5800 4650 50  0001 C CNN
+	1    5800 4650
+	1    0    0    -1  
+$EndComp
+Text Label 6050 4300 0    50   ~ 0
+VCC
+Wire Wire Line
+	5800 4500 5800 4300
+Wire Wire Line
+	5800 4300 5950 4300
+Wire Wire Line
+	5950 4500 5950 4300
+Connection ~ 5950 4300
+Wire Wire Line
+	5950 4300 6050 4300
+Wire Wire Line
+	5950 4800 5950 4950
+Wire Wire Line
+	5800 4800 5800 5050
+Wire Wire Line
+	5500 4050 5500 4950
+Wire Wire Line
+	5500 4950 5950 4950
+Wire Wire Line
+	4250 4050 5500 4050
+Wire Wire Line
+	6150 4950 5950 4950
+Connection ~ 5950 4950
+Wire Wire Line
+	6150 5050 5800 5050
+Wire Wire Line
+	5800 5050 5400 5050
+Wire Wire Line
+	5400 5050 5400 4150
+Wire Wire Line
+	4250 4150 5400 4150
+Connection ~ 5800 5050
+$Comp
+L Device:R R51
+U 1 1 5CCBDA0F
+P 7700 2800
+F 0 "R51" H 7770 2846 50  0000 L CNN
+F 1 "2k2" H 7770 2755 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 7630 2800 50  0001 C CNN
+F 3 "~" H 7700 2800 50  0001 C CNN
+	1    7700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R52
+U 1 1 5CCBDAB7
+P 7700 3200
+F 0 "R52" H 7770 3246 50  0000 L CNN
+F 1 "2k2" H 7770 3155 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 7630 3200 50  0001 C CNN
+F 3 "~" H 7700 3200 50  0001 C CNN
+	1    7700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C63
+U 1 1 5CCBDB25
+P 7450 3200
+F 0 "C63" H 7250 3300 50  0000 L CNN
+F 1 "10n" H 7250 3100 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 7488 3050 50  0001 C CNN
+F 3 "~" H 7450 3200 50  0001 C CNN
+	1    7450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3350 7450 3400
+Wire Wire Line
+	7700 3350 7700 3400
+Wire Wire Line
+	7700 3400 7450 3400
+Connection ~ 7450 3400
+Wire Wire Line
+	7450 3400 7450 3500
+Wire Wire Line
+	7700 3050 7700 3000
+Wire Wire Line
+	7450 3050 7450 3000
+Wire Wire Line
+	7450 3000 7700 3000
+Connection ~ 7700 3000
+Wire Wire Line
+	7700 3000 7700 2950
+Wire Wire Line
+	7700 2650 7700 2550
+Wire Wire Line
+	7700 2550 7850 2550
+$Comp
+L gkl_power:GND #PWR0249
+U 1 1 5CCC21D6
+P 7450 3500
+F 0 "#PWR0249" H 7450 3250 50  0001 C CNN
+F 1 "GND" H 7453 3374 50  0000 C CNN
+F 2 "" H 7350 3150 50  0001 C CNN
+F 3 "" H 7450 3500 50  0001 C CNN
+	1    7450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3000 7450 3000
+Connection ~ 7450 3000
+$Comp
+L Device:R R49
+U 1 1 5CCC33EF
+P 6950 2800
+F 0 "R49" H 7020 2846 50  0000 L CNN
+F 1 "2k2" H 7020 2755 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 6880 2800 50  0001 C CNN
+F 3 "~" H 6950 2800 50  0001 C CNN
+	1    6950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R50
+U 1 1 5CCC33F5
+P 6950 3200
+F 0 "R50" H 7020 3246 50  0000 L CNN
+F 1 "2k2" H 7020 3155 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 6880 3200 50  0001 C CNN
+F 3 "~" H 6950 3200 50  0001 C CNN
+	1    6950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C62
+U 1 1 5CCC33FB
+P 6700 3200
+F 0 "C62" H 6500 3300 50  0000 L CNN
+F 1 "10n" H 6500 3100 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 6738 3050 50  0001 C CNN
+F 3 "~" H 6700 3200 50  0001 C CNN
+	1    6700 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3350 6700 3400
+Wire Wire Line
+	6950 3350 6950 3400
+Wire Wire Line
+	6950 3400 6700 3400
+Connection ~ 6700 3400
+Wire Wire Line
+	6700 3400 6700 3500
+Wire Wire Line
+	6950 3050 6950 3000
+Wire Wire Line
+	6700 3050 6700 3000
+Wire Wire Line
+	6700 3000 6950 3000
+Connection ~ 6950 3000
+Wire Wire Line
+	6950 3000 6950 2950
+$Comp
+L gkl_power:GND #PWR0250
+U 1 1 5CCC340D
+P 6700 3500
+F 0 "#PWR0250" H 6700 3250 50  0001 C CNN
+F 1 "GND" H 6703 3374 50  0000 C CNN
+F 2 "" H 6600 3150 50  0001 C CNN
+F 3 "" H 6700 3500 50  0001 C CNN
+	1    6700 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3000 6700 3000
+Connection ~ 6700 3000
+Wire Wire Line
+	4250 3850 7200 3850
+Wire Wire Line
+	7200 3000 7200 3850
+Wire Wire Line
+	6450 3000 6450 3750
+$Comp
+L Device:R R47
+U 1 1 5CCD07FC
+P 6200 2800
+F 0 "R47" H 6270 2846 50  0000 L CNN
+F 1 "2k2" H 6270 2755 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 6130 2800 50  0001 C CNN
+F 3 "~" H 6200 2800 50  0001 C CNN
+	1    6200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R48
+U 1 1 5CCD0802
+P 6200 3200
+F 0 "R48" H 6270 3246 50  0000 L CNN
+F 1 "2k2" H 6270 3155 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 6130 3200 50  0001 C CNN
+F 3 "~" H 6200 3200 50  0001 C CNN
+	1    6200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C61
+U 1 1 5CCD0808
+P 5950 3200
+F 0 "C61" H 5750 3300 50  0000 L CNN
+F 1 "10n" H 5750 3100 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 5988 3050 50  0001 C CNN
+F 3 "~" H 5950 3200 50  0001 C CNN
+	1    5950 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3350 5950 3400
+Wire Wire Line
+	6200 3350 6200 3400
+Wire Wire Line
+	6200 3400 5950 3400
+Connection ~ 5950 3400
+Wire Wire Line
+	5950 3400 5950 3500
+Wire Wire Line
+	6200 3050 6200 3000
+Wire Wire Line
+	5950 3050 5950 3000
+Wire Wire Line
+	5950 3000 6200 3000
+Connection ~ 6200 3000
+Wire Wire Line
+	6200 3000 6200 2950
+$Comp
+L gkl_power:GND #PWR0251
+U 1 1 5CCD0819
+P 5950 3500
+F 0 "#PWR0251" H 5950 3250 50  0001 C CNN
+F 1 "GND" H 5953 3374 50  0000 C CNN
+F 2 "" H 5850 3150 50  0001 C CNN
+F 3 "" H 5950 3500 50  0001 C CNN
+	1    5950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3000 5950 3000
+Connection ~ 5950 3000
+Wire Wire Line
+	6950 2450 6950 2650
+Wire Wire Line
+	6950 2450 7850 2450
+Wire Wire Line
+	6200 2350 7850 2350
+Wire Wire Line
+	6200 2350 6200 2650
+Wire Wire Line
+	4250 3750 6450 3750
+Wire Wire Line
+	5700 3650 5700 3000
+Wire Wire Line
+	4250 3650 5700 3650
+Text GLabel 4250 2750 2    60   Input ~ 0
+LED_VCCIO
+Text GLabel 4250 2850 2    60   Input ~ 0
+LED_ERR
 $EndSCHEMATC
