@@ -57,6 +57,7 @@ F3 "syzygySCL" I L 7200 1750 50
 F4 "syzygySDA" I L 7200 1850 50 
 F5 "pmicSCL" I R 8300 1750 50 
 F6 "pmicSDA" I R 8300 1850 50 
+F7 "EN" I R 8300 1650 50 
 $EndSheet
 $Sheet
 S 7200 2800 1100 450 
@@ -68,6 +69,7 @@ F3 "syzygySCL" I L 7200 3000 50
 F4 "syzygySDA" I L 7200 3100 50 
 F5 "pmicSCL" I R 8300 3000 50 
 F6 "pmicSDA" I R 8300 3100 50 
+F7 "EN" I R 8300 2900 50 
 $EndSheet
 $Sheet
 S 7200 3950 1100 450 
@@ -79,6 +81,7 @@ F3 "syzygySCL" I L 7200 4150 50
 F4 "syzygySDA" I L 7200 4250 50 
 F5 "pmicSCL" I R 8300 4150 50 
 F6 "pmicSDA" I R 8300 4250 50 
+F7 "EN" I R 8300 4050 50 
 $EndSheet
 Wire Wire Line
 	7200 4150 7100 4150

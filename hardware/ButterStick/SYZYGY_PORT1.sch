@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 13
+Sheet 9 13
 Title ""
 Date ""
 Rev ""
@@ -76,6 +76,7 @@ F37 "PMIC_SDA" I R 8150 2900 50
 F38 "PMIC_ADR0" I R 8150 3100 50 
 F39 "VCCIO" I R 8150 2300 50 
 F40 "R_GA" I R 8150 3200 50 
+F41 "PMIC_EN" I R 8150 2400 50 
 $EndSheet
 Wire Wire Line
 	6500 2300 6050 2300
@@ -398,4 +399,8 @@ Text HLabel 8550 2800 2    50   Input ~ 0
 pmicSCL
 Text HLabel 8550 2900 2    50   Input ~ 0
 pmicSDA
+Wire Wire Line
+	8150 2400 8550 2400
+Text HLabel 8550 2400 2    50   Input ~ 0
+EN
 $EndSCHEMATC
