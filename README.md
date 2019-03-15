@@ -18,6 +18,11 @@
 * JTAG on GH SM06
 * 1x LED
 * 3x Stardard SYZYGY compatible connectors
+* Power:
+  * 3.3V/3A
+  * 5V/2A  
+  * Adjustable VCCIO 1.2V-3.3V/150mA (per bank)
 
 
-![alt-text](documentation/images/proto_top_layer.png "Layout in progress")
+![alt-text](documentation/images/ButterStick-Front.png "Top Render")
+![alt-text](documentation/images/ButterStick-Back.png "Bot Render")
