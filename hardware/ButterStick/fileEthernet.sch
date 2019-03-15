@@ -24,6 +24,7 @@ F 2 "Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm" H 5350 5550 60  0001 C CNN
 F 3 "" H 5350 5550 60  0001 C CNN
 F 4 "KSZ9031RNXCA" H 0   0   50  0001 C CNN "PN"
 F 5 "576-4040-ND" H 0   0   50  0001 C CNN "SN-DK"
+F 6 "Microchip Technology" H 0   0   50  0001 C CNN "MFG"
 	1    5350 3400
 	1    0    0    -1  
 $EndComp
@@ -37,6 +38,7 @@ F 2 "Oscillators:Oscillator_SMD_SeikoEpson_SG210-4pin_2.5x2.0mm" H 7350 1400 50 
 F 3 "~" H 7350 1400 50  0001 C CNN
 F 4 "CX2520DB25000D0FLJC1" H 0   0   50  0001 C CNN "PN"
 F 5 "1253-1723-1-ND" H 0   0   50  0001 C CNN "SN-DK"
+F 6 "Kyocera International Inc. Electronic Components" H 0   0   50  0001 C CNN "MFG"
 	1    7350 1400
 	1    0    0    -1  
 $EndComp

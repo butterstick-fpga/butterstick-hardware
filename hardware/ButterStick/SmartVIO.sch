@@ -22,6 +22,8 @@ F 0 "U19" H 3200 5400 50  0000 C CNN
 F 1 "ATmega328PB-MU" H 4200 5400 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 3650 3950 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf" H 3650 3950 50  0001 C CNN
+F 4 "Microchip Technology" H 0   0   50  0001 C CNN "MFG"
+F 5 "ATMEGA328PB-MUR" H 0   0   50  0001 C CNN "PN"
 	1    3650 3950
 	1    0    0    -1  
 $EndComp
@@ -563,4 +565,163 @@ Text GLabel 4250 2750 2    60   Input ~ 0
 LED_VCCIO
 Text GLabel 4250 2850 2    60   Input ~ 0
 LED_ERR
+Text HLabel 4250 4950 2    50   Input ~ 0
+EN0
+Text HLabel 4250 5050 2    50   Input ~ 0
+EN1
+Text HLabel 4250 5150 2    50   Input ~ 0
+EN2
+$Comp
+L Device:C C71
+U 1 1 5CF01D14
+P 2700 3000
+F 0 "C71" H 2815 3046 50  0000 L CNN
+F 1 "100n" H 2815 2955 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 2738 2850 50  0001 C CNN
+F 3 "~" H 2700 3000 50  0001 C CNN
+	1    2700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_power:GND #PWR0269
+U 1 1 5CF01D9A
+P 2700 3250
+F 0 "#PWR0269" H 2700 3000 50  0001 C CNN
+F 1 "GND" H 2703 3124 50  0000 C CNN
+F 2 "" H 2600 2900 50  0001 C CNN
+F 3 "" H 2700 3250 50  0001 C CNN
+	1    2700 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3250 2700 3150
+Wire Wire Line
+	2700 2850 2700 2750
+Wire Wire Line
+	2700 2750 3050 2750
+$Comp
+L Device:Resonator Y2
+U 1 1 5CF061F0
+P 5300 2700
+F 0 "Y2" H 5300 2948 50  0000 C CNN
+F 1 "Resonator" H 5300 2857 50  0000 C CNN
+F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm" H 5275 2700 50  0001 C CNN
+F 3 "~" H 5275 2700 50  0001 C CNN
+F 4 "Murata Electronics North America" H 5300 2700 50  0001 C CNN "MFG"
+F 5 "CSTCE8M00G52-R0" H 5300 2700 50  0001 C CNN "PN"
+	1    5300 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3350 5050 3350
+Wire Wire Line
+	5050 3350 5050 2700
+Wire Wire Line
+	5050 2700 5150 2700
+Wire Wire Line
+	5450 2700 5550 2700
+Wire Wire Line
+	5550 2700 5550 3450
+Wire Wire Line
+	5550 3450 4250 3450
+Wire Wire Line
+	5300 2900 5300 3000
+$Comp
+L gkl_power:GND #PWR0270
+U 1 1 5CF0D6F1
+P 5300 3000
+F 0 "#PWR0270" H 5300 2750 50  0001 C CNN
+F 1 "GND" H 5303 2874 50  0000 C CNN
+F 2 "" H 5200 2650 50  0001 C CNN
+F 3 "" H 5300 3000 50  0001 C CNN
+	1    5300 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3250 4600 3250
+Text Label 4600 3250 2    50   ~ 0
+SCK
+Wire Wire Line
+	4250 3150 4600 3150
+Text Label 4600 3150 2    50   ~ 0
+MISO
+Wire Wire Line
+	4250 3050 4600 3050
+Text Label 4600 3050 2    50   ~ 0
+MOSI
+Wire Wire Line
+	4250 4250 4600 4250
+Text Label 4600 4250 2    50   ~ 0
+RESET
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J7
+U 1 1 5CF73B2A
+P 9650 4000
+F 0 "J7" H 9700 4317 50  0000 C CNN
+F 1 "TagConnect" H 9700 4226 50  0000 C CNN
+F 2 "pkl_tag_connect:TC2030-NL_SMALL" H 9650 4000 50  0001 C CNN
+F 3 "~" H 9650 4000 50  0001 C CNN
+	1    9650 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3900 9000 3900
+Wire Wire Line
+	9450 4000 9000 4000
+Wire Wire Line
+	9450 4100 9000 4100
+Wire Wire Line
+	10100 3900 9950 3900
+Wire Wire Line
+	10400 4000 9950 4000
+Wire Wire Line
+	10100 4100 9950 4100
+Wire Wire Line
+	10100 3900 10100 3750
+Wire Wire Line
+	10100 4100 10100 4250
+$Comp
+L gkl_power:GND #PWR0271
+U 1 1 5CF85B49
+P 10100 4250
+F 0 "#PWR0271" H 10100 4000 50  0001 C CNN
+F 1 "GND" H 10103 4124 50  0000 C CNN
+F 2 "" H 10000 3900 50  0001 C CNN
+F 3 "" H 10100 4250 50  0001 C CNN
+	1    10100 4250
+	1    0    0    -1  
+$EndComp
+Text Label 10100 3750 0    50   ~ 0
+VCC
+Text Label 9000 4100 0    50   ~ 0
+RESET
+Text Label 9000 4000 0    50   ~ 0
+SCK
+Text Label 9000 3900 0    50   ~ 0
+MISO
+Text Label 10400 4000 2    50   ~ 0
+MOSI
+Text Label 9350 3400 2    50   ~ 0
+RESET
+Wire Wire Line
+	9350 3400 9650 3400
+Wire Wire Line
+	9650 3400 9650 3050
+$Comp
+L Device:R R60
+U 1 1 5CF89112
+P 9650 2900
+F 0 "R60" H 9720 2946 50  0000 L CNN
+F 1 "2k2" H 9720 2855 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" V 9580 2900 50  0001 C CNN
+F 3 "~" H 9650 2900 50  0001 C CNN
+	1    9650 2900
+	1    0    0    -1  
+$EndComp
+Text Label 9750 2550 0    50   ~ 0
+VCC
+Wire Wire Line
+	9650 2750 9650 2550
+Wire Wire Line
+	9650 2550 9750 2550
 $EndSCHEMATC

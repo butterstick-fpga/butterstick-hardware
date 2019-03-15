@@ -556,6 +556,8 @@ F 0 "U20" V 6350 3850 50  0000 R CNN
 F 1 "PUSB3FR6" V 6250 3850 50  0000 R CNN
 F 2 "gkl_housings_son:XSON7" H 5950 3900 50  0001 C CNN
 F 3 "" H 5950 3900 50  0001 C CNN
+F 4 "Nexperia USA Inc." H 0   0   50  0001 C CNN "MFG"
+F 5 "PUSB3FR6Z" H 0   0   50  0001 C CNN "PN"
 	1    5950 3500
 	0    -1   1    0   
 $EndComp
