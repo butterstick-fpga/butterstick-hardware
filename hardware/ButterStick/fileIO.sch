@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
 LIBS:ButterStick-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 13
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 2 13
+Title "ButterStick"
+Date "2019-03-19"
+Rev "r0_1"
+Comp "GsD"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -321,6 +321,8 @@ F 0 "D1" H 3150 2465 50  0000 C CNN
 F 1 "pkl_LED" H 3150 2374 50  0000 C CNN
 F 2 "pkl_dipol:D_0603" H 3150 2250 60  0001 C CNN
 F 3 "" H 3150 2250 60  0000 C CNN
+F 4 "Lite-On Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "LTST-C190GKT" H 0   0   50  0001 C CNN "PN"
 	1    3150 2250
 	1    0    0    -1  
 $EndComp
@@ -332,6 +334,8 @@ F 0 "D2" H 3150 2815 50  0000 C CNN
 F 1 "pkl_LED" H 3150 2724 50  0000 C CNN
 F 2 "pkl_dipol:D_0603" H 3150 2600 60  0001 C CNN
 F 3 "" H 3150 2600 60  0000 C CNN
+F 4 "Lite-On Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "LTST-C190GKT" H 0   0   50  0001 C CNN "PN"
 	1    3150 2600
 	1    0    0    -1  
 $EndComp
@@ -343,6 +347,8 @@ F 0 "D3" H 3150 3165 50  0000 C CNN
 F 1 "pkl_LED" H 3150 3074 50  0000 C CNN
 F 2 "pkl_dipol:D_0603" H 3150 2950 60  0001 C CNN
 F 3 "" H 3150 2950 60  0000 C CNN
+F 4 "Lite-On Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "LTST-C190GKT" H 0   0   50  0001 C CNN "PN"
 	1    3150 2950
 	1    0    0    -1  
 $EndComp
@@ -354,6 +360,8 @@ F 0 "D4" H 3150 3515 50  0000 C CNN
 F 1 "pkl_LED" H 3150 3424 50  0000 C CNN
 F 2 "pkl_dipol:D_0603" H 3150 3300 60  0001 C CNN
 F 3 "" H 3150 3300 60  0000 C CNN
+F 4 "Lite-On Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "LTST-C190GKT" H 0   0   50  0001 C CNN "PN"
 	1    3150 3300
 	1    0    0    -1  
 $EndComp
@@ -365,6 +373,8 @@ F 0 "D5" H 3150 3865 50  0000 C CNN
 F 1 "pkl_LED" H 3150 3774 50  0000 C CNN
 F 2 "pkl_dipol:D_0603" H 3150 3650 60  0001 C CNN
 F 3 "" H 3150 3650 60  0000 C CNN
+F 4 "Lite-On Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "LTST-C190GKT" H 0   0   50  0001 C CNN "PN"
 	1    3150 3650
 	1    0    0    -1  
 $EndComp
@@ -376,6 +386,8 @@ F 0 "D6" H 3150 4215 50  0000 C CNN
 F 1 "pkl_LED" H 3150 4124 50  0000 C CNN
 F 2 "pkl_dipol:D_0603" H 3150 4000 60  0001 C CNN
 F 3 "" H 3150 4000 60  0000 C CNN
+F 4 "Lite-On Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "LTST-C190GKT" H 0   0   50  0001 C CNN "PN"
 	1    3150 4000
 	1    0    0    -1  
 $EndComp
@@ -387,6 +399,8 @@ F 0 "D7" H 3150 4565 50  0000 C CNN
 F 1 "pkl_LED" H 3150 4474 50  0000 C CNN
 F 2 "pkl_dipol:D_0603" H 3150 4350 60  0001 C CNN
 F 3 "" H 3150 4350 60  0000 C CNN
+F 4 "Lite-On Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "LTST-C190GKT" H 0   0   50  0001 C CNN "PN"
 	1    3150 4350
 	1    0    0    -1  
 $EndComp
@@ -398,6 +412,8 @@ F 0 "D8" H 3150 4915 50  0000 C CNN
 F 1 "pkl_LED" H 3150 4824 50  0000 C CNN
 F 2 "pkl_dipol:D_0603" H 3150 4700 60  0001 C CNN
 F 3 "" H 3150 4700 60  0000 C CNN
+F 4 "Lite-On Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "LTST-C190GKT" H 0   0   50  0001 C CNN "PN"
 	1    3150 4700
 	1    0    0    -1  
 $EndComp
@@ -409,6 +425,8 @@ F 0 "D9" H 3150 5265 50  0000 C CNN
 F 1 "pkl_LED" H 3150 5174 50  0000 C CNN
 F 2 "pkl_dipol:D_0603" H 3150 5050 60  0001 C CNN
 F 3 "" H 3150 5050 60  0000 C CNN
+F 4 "Lite-On Inc." H 0   0   50  0001 C CNN "Mfg"
+F 5 "LTST-C190GKT" H 0   0   50  0001 C CNN "PN"
 	1    3150 5050
 	1    0    0    -1  
 $EndComp

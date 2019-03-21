@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
 LIBS:ButterStick-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 13
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 7 13
+Title "ButterStick"
+Date "2019-03-19"
+Rev "r0_1"
+Comp "GsD"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -347,9 +347,12 @@ P 8400 3650
 AR Path="/5C80F1A0/5C996E36" Ref="R?"  Part="1" 
 AR Path="/5C80F19D/5C996E36" Ref="R26"  Part="1" 
 F 0 "R26" H 8470 3696 50  0000 L CNN
-F 1 "R" H 8470 3605 50  0000 L CNN
+F 1 "84k5" H 8470 3605 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 8330 3650 50  0001 C CNN
 F 3 "~" H 8400 3650 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402FT84K5" H 0   0   50  0001 C CNN "PN"
+F 6 "1%" H 0   0   50  0001 C CNN "Tol"
 	1    8400 3650
 	1    0    0    -1  
 $EndComp

@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
 LIBS:ButterStick-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 13
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 4 13
+Title "ButterStick"
+Date "2019-03-19"
+Rev "r0_1"
+Comp "GsD"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -43,9 +43,11 @@ L Device:Ferrite_Bead_Small FB1
 U 1 1 5C9D6656
 P 1800 1400
 F 0 "FB1" V 1563 1400 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 1654 1400 50  0000 C CNN
+F 1 "600R" V 1654 1400 50  0000 C CNN
 F 2 "pkl_dipol:L_0402" V 1730 1400 50  0001 C CNN
 F 3 "~" H 1800 1400 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CIM05U601NC" H 0   0   50  0001 C CNN "PN"
 	1    1800 1400
 	0    1    1    0   
 $EndComp
@@ -54,9 +56,11 @@ L Device:Ferrite_Bead_Small FB2
 U 1 1 5C9D66B1
 P 3300 1400
 F 0 "FB2" V 3063 1400 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 3154 1400 50  0000 C CNN
+F 1 "600R" V 3154 1400 50  0000 C CNN
 F 2 "pkl_dipol:L_0402" V 3230 1400 50  0001 C CNN
 F 3 "~" H 3300 1400 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CIM05U601NC" H 0   0   50  0001 C CNN "PN"
 	1    3300 1400
 	0    1    1    0   
 $EndComp
@@ -87,10 +91,6 @@ Text Label 4400 4150 0    50   ~ 0
 SCL0
 Wire Wire Line
 	3050 4450 2600 4450
-Text Label 2750 4450 0    50   ~ 0
-SDA1
-Text Label 2750 4550 0    50   ~ 0
-SCL1
 Wire Wire Line
 	4250 4450 5000 4450
 Wire Wire Line
@@ -105,10 +105,6 @@ Text HLabel 6150 4950 2    50   Input ~ 0
 SYZYGY_SDA
 Text HLabel 6150 5050 2    50   Input ~ 0
 SYZYGY_SCL
-Text HLabel 2050 4450 0    50   Input ~ 0
-PMIC_SDA
-Text HLabel 2050 4550 0    50   Input ~ 0
-PMIC_SCL
 Text HLabel 7850 2350 2    50   Input ~ 0
 SENSE0
 Text HLabel 7850 2450 2    50   Input ~ 0
@@ -123,6 +119,8 @@ F 0 "R32" H 2670 4196 50  0000 L CNN
 F 1 "2k2" H 2670 4105 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 2530 4150 50  0001 C CNN
 F 3 "~" H 2600 4150 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402FT2K20" H 0   0   50  0001 C CNN "PN"
 	1    2600 4150
 	1    0    0    -1  
 $EndComp
@@ -134,6 +132,8 @@ F 0 "R27" H 2250 4200 50  0000 L CNN
 F 1 "2k2" H 2250 4100 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 2380 4150 50  0001 C CNN
 F 3 "~" H 2450 4150 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402FT2K20" H 0   0   50  0001 C CNN "PN"
 	1    2450 4150
 	1    0    0    -1  
 $EndComp
@@ -142,9 +142,11 @@ L Device:C C12
 U 1 1 5CB4F676
 P 2150 1650
 F 0 "C12" H 2265 1696 50  0000 L CNN
-F 1 "4u7" H 2265 1605 50  0000 L CNN
+F 1 "4.7uF" H 2265 1605 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 2188 1500 50  0001 C CNN
 F 3 "~" H 2150 1650 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL10A475KP8NNNC" H 0   0   50  0001 C CNN "PN"
 	1    2150 1650
 	1    0    0    -1  
 $EndComp
@@ -153,9 +155,11 @@ L Device:C C46
 U 1 1 5CB4F6ED
 P 2500 1650
 F 0 "C46" H 2615 1696 50  0000 L CNN
-F 1 "100n" H 2615 1605 50  0000 L CNN
+F 1 "100nF" H 2615 1605 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 2538 1500 50  0001 C CNN
 F 3 "~" H 2500 1650 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    2500 1650
 	1    0    0    -1  
 $EndComp
@@ -164,9 +168,11 @@ L Device:C C47
 U 1 1 5CB4FE13
 P 3950 1650
 F 0 "C47" H 4065 1696 50  0000 L CNN
-F 1 "4u7" H 4065 1605 50  0000 L CNN
+F 1 "4.7uF" H 4065 1605 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 3988 1500 50  0001 C CNN
 F 3 "~" H 3950 1650 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL10A475KP8NNNC" H 0   0   50  0001 C CNN "PN"
 	1    3950 1650
 	1    0    0    -1  
 $EndComp
@@ -175,9 +181,11 @@ L Device:C C50
 U 1 1 5CB4FE19
 P 4300 1650
 F 0 "C50" H 4415 1696 50  0000 L CNN
-F 1 "100n" H 4415 1605 50  0000 L CNN
+F 1 "100nF" H 4415 1605 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 4338 1500 50  0001 C CNN
 F 3 "~" H 4300 1650 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    4300 1650
 	1    0    0    -1  
 $EndComp
@@ -279,10 +287,6 @@ Wire Wire Line
 	2600 4300 2600 4450
 Connection ~ 2600 4450
 Wire Wire Line
-	2050 4550 2450 4550
-Wire Wire Line
-	2050 4450 2600 4450
-Wire Wire Line
 	2450 4300 2450 4550
 Connection ~ 2450 4550
 Wire Wire Line
@@ -295,6 +299,8 @@ F 0 "R34" H 6020 4696 50  0000 L CNN
 F 1 "2k2" H 6020 4605 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 5880 4650 50  0001 C CNN
 F 3 "~" H 5950 4650 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402FT2K20" H 0   0   50  0001 C CNN "PN"
 	1    5950 4650
 	1    0    0    -1  
 $EndComp
@@ -306,6 +312,8 @@ F 0 "R33" H 5600 4700 50  0000 L CNN
 F 1 "2k2" H 5600 4600 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 5730 4650 50  0001 C CNN
 F 3 "~" H 5800 4650 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402FT2K20" H 0   0   50  0001 C CNN "PN"
 	1    5800 4650
 	1    0    0    -1  
 $EndComp
@@ -350,6 +358,8 @@ F 0 "R51" H 7770 2846 50  0000 L CNN
 F 1 "2k2" H 7770 2755 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 7630 2800 50  0001 C CNN
 F 3 "~" H 7700 2800 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402FT2K20" H 0   0   50  0001 C CNN "PN"
 	1    7700 2800
 	1    0    0    -1  
 $EndComp
@@ -361,6 +371,8 @@ F 0 "R52" H 7770 3246 50  0000 L CNN
 F 1 "2k2" H 7770 3155 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 7630 3200 50  0001 C CNN
 F 3 "~" H 7700 3200 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402FT2K20" H 0   0   50  0001 C CNN "PN"
 	1    7700 3200
 	1    0    0    -1  
 $EndComp
@@ -369,9 +381,11 @@ L Device:C C63
 U 1 1 5CCBDB25
 P 7450 3200
 F 0 "C63" H 7250 3300 50  0000 L CNN
-F 1 "10n" H 7250 3100 50  0000 L CNN
+F 1 "10nF" H 7250 3100 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 7488 3050 50  0001 C CNN
 F 3 "~" H 7450 3200 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B103KB5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    7450 3200
 	1    0    0    -1  
 $EndComp
@@ -419,6 +433,8 @@ F 0 "R49" H 7020 2846 50  0000 L CNN
 F 1 "2k2" H 7020 2755 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 6880 2800 50  0001 C CNN
 F 3 "~" H 6950 2800 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402FT2K20" H 0   0   50  0001 C CNN "PN"
 	1    6950 2800
 	1    0    0    -1  
 $EndComp
@@ -430,6 +446,8 @@ F 0 "R50" H 7020 3246 50  0000 L CNN
 F 1 "2k2" H 7020 3155 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 6880 3200 50  0001 C CNN
 F 3 "~" H 6950 3200 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402FT2K20" H 0   0   50  0001 C CNN "PN"
 	1    6950 3200
 	1    0    0    -1  
 $EndComp
@@ -438,9 +456,11 @@ L Device:C C62
 U 1 1 5CCC33FB
 P 6700 3200
 F 0 "C62" H 6500 3300 50  0000 L CNN
-F 1 "10n" H 6500 3100 50  0000 L CNN
+F 1 "10nF" H 6500 3100 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 6738 3050 50  0001 C CNN
 F 3 "~" H 6700 3200 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B103KB5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    6700 3200
 	1    0    0    -1  
 $EndComp
@@ -490,6 +510,8 @@ F 0 "R47" H 6270 2846 50  0000 L CNN
 F 1 "2k2" H 6270 2755 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 6130 2800 50  0001 C CNN
 F 3 "~" H 6200 2800 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402FT2K20" H 0   0   50  0001 C CNN "PN"
 	1    6200 2800
 	1    0    0    -1  
 $EndComp
@@ -501,6 +523,8 @@ F 0 "R48" H 6270 3246 50  0000 L CNN
 F 1 "2k2" H 6270 3155 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 6130 3200 50  0001 C CNN
 F 3 "~" H 6200 3200 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402FT2K20" H 0   0   50  0001 C CNN "PN"
 	1    6200 3200
 	1    0    0    -1  
 $EndComp
@@ -509,9 +533,11 @@ L Device:C C61
 U 1 1 5CCD0808
 P 5950 3200
 F 0 "C61" H 5750 3300 50  0000 L CNN
-F 1 "10n" H 5750 3100 50  0000 L CNN
+F 1 "10nF" H 5750 3100 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 5988 3050 50  0001 C CNN
 F 3 "~" H 5950 3200 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B103KB5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    5950 3200
 	1    0    0    -1  
 $EndComp
@@ -576,9 +602,11 @@ L Device:C C71
 U 1 1 5CF01D14
 P 2700 3000
 F 0 "C71" H 2815 3046 50  0000 L CNN
-F 1 "100n" H 2815 2955 50  0000 L CNN
+F 1 "100nF" H 2815 2955 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 2738 2850 50  0001 C CNN
 F 3 "~" H 2700 3000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    2700 3000
 	1    0    0    -1  
 $EndComp
@@ -715,6 +743,8 @@ F 0 "R60" H 9720 2946 50  0000 L CNN
 F 1 "2k2" H 9720 2855 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 9580 2900 50  0001 C CNN
 F 3 "~" H 9650 2900 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402FT2K20" H 0   0   50  0001 C CNN "PN"
 	1    9650 2900
 	1    0    0    -1  
 $EndComp
@@ -724,4 +754,16 @@ Wire Wire Line
 	9650 2750 9650 2550
 Wire Wire Line
 	9650 2550 9750 2550
+Wire Wire Line
+	2050 4450 2600 4450
+Wire Wire Line
+	2050 4550 2450 4550
+Text HLabel 2050 4550 0    50   Input ~ 0
+PMIC_SCL
+Text HLabel 2050 4450 0    50   Input ~ 0
+PMIC_SDA
+Text Label 2750 4550 0    50   ~ 0
+SCL1
+Text Label 2750 4450 0    50   ~ 0
+SDA1
 $EndSCHEMATC

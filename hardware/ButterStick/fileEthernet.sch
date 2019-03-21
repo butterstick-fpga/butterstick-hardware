@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
 LIBS:ButterStick-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 13
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 3 13
+Title "ButterStick"
+Date "2019-03-19"
+Rev "r0_1"
+Comp "GsD"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -50,6 +50,8 @@ F 0 "C36" H 6800 1200 50  0000 L CNN
 F 1 "22pF" H 6800 1100 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 7138 1000 50  0001 C CNN
 F 3 "~" H 7100 1150 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05C220JB5NNWC" H 0   0   50  0001 C CNN "PN"
 	1    7100 1150
 	1    0    0    -1  
 $EndComp
@@ -61,6 +63,8 @@ F 0 "C37" H 7715 1196 50  0000 L CNN
 F 1 "22pF" H 7715 1105 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 7638 1000 50  0001 C CNN
 F 3 "~" H 7600 1150 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05C220JB5NNWC" H 0   0   50  0001 C CNN "PN"
 	1    7600 1150
 	1    0    0    -1  
 $EndComp
@@ -274,9 +278,11 @@ L Device:C C25
 U 1 1 5BA10E0A
 P 2700 7000
 F 0 "C25" H 2750 7100 50  0000 L CNN
-F 1 "100n" H 2750 6900 50  0000 L CNN
+F 1 "100nF" H 2750 6900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 2738 6850 50  0001 C CNN
 F 3 "~" H 2700 7000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    2700 7000
 	1    0    0    -1  
 $EndComp
@@ -311,9 +317,11 @@ L Device:C C28
 U 1 1 5BA131B0
 P 3050 7000
 F 0 "C28" H 3100 7100 50  0000 L CNN
-F 1 "100n" H 3100 6900 50  0000 L CNN
+F 1 "100nF" H 3100 6900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 3088 6850 50  0001 C CNN
 F 3 "~" H 3050 7000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    3050 7000
 	1    0    0    -1  
 $EndComp
@@ -348,9 +356,11 @@ L Device:C C30
 U 1 1 5BA13B60
 P 3400 7000
 F 0 "C30" H 3450 7100 50  0000 L CNN
-F 1 "100n" H 3450 6900 50  0000 L CNN
+F 1 "100nF" H 3450 6900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 3438 6850 50  0001 C CNN
 F 3 "~" H 3400 7000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    3400 7000
 	1    0    0    -1  
 $EndComp
@@ -385,9 +395,11 @@ L Device:C C32
 U 1 1 5BA1462C
 P 3700 7000
 F 0 "C32" H 3750 7100 50  0000 L CNN
-F 1 "100n" H 3750 6900 50  0000 L CNN
+F 1 "100nF" H 3750 6900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 3738 6850 50  0001 C CNN
 F 3 "~" H 3700 7000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    3700 7000
 	1    0    0    -1  
 $EndComp
@@ -422,9 +434,11 @@ L Device:C C34
 U 1 1 5BA151D6
 P 4000 7000
 F 0 "C34" H 4050 7100 50  0000 L CNN
-F 1 "100n" H 4050 6900 50  0000 L CNN
+F 1 "100nF" H 4050 6900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 4038 6850 50  0001 C CNN
 F 3 "~" H 4000 7000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    4000 7000
 	1    0    0    -1  
 $EndComp
@@ -459,9 +473,11 @@ L Device:C C26
 U 1 1 5BA15EA0
 P 4400 7000
 F 0 "C26" H 4450 7100 50  0000 L CNN
-F 1 "100n" H 4450 6900 50  0000 L CNN
+F 1 "100nF" H 4450 6900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 4438 6850 50  0001 C CNN
 F 3 "~" H 4400 7000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    4400 7000
 	1    0    0    -1  
 $EndComp
@@ -496,9 +512,11 @@ L Device:C C27
 U 1 1 5BA16CE6
 P 4700 7000
 F 0 "C27" H 4750 7100 50  0000 L CNN
-F 1 "100n" H 4750 6900 50  0000 L CNN
+F 1 "100nF" H 4750 6900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 4738 6850 50  0001 C CNN
 F 3 "~" H 4700 7000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    4700 7000
 	1    0    0    -1  
 $EndComp
@@ -533,9 +551,11 @@ L Device:C C29
 U 1 1 5BA17C2D
 P 5000 7000
 F 0 "C29" H 5050 7100 50  0000 L CNN
-F 1 "100n" H 5050 6900 50  0000 L CNN
+F 1 "100nF" H 5050 6900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 5038 6850 50  0001 C CNN
 F 3 "~" H 5000 7000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    5000 7000
 	1    0    0    -1  
 $EndComp
@@ -570,9 +590,11 @@ L Device:C C31
 U 1 1 5BA17C41
 P 5300 7000
 F 0 "C31" H 5350 7100 50  0000 L CNN
-F 1 "100n" H 5350 6900 50  0000 L CNN
+F 1 "100nF" H 5350 6900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 5338 6850 50  0001 C CNN
 F 3 "~" H 5300 7000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    5300 7000
 	1    0    0    -1  
 $EndComp
@@ -607,9 +629,11 @@ L Device:C C33
 U 1 1 5BA18E0C
 P 5600 7000
 F 0 "C33" H 5650 7100 50  0000 L CNN
-F 1 "100n" H 5650 6900 50  0000 L CNN
+F 1 "100nF" H 5650 6900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 5638 6850 50  0001 C CNN
 F 3 "~" H 5600 7000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    5600 7000
 	1    0    0    -1  
 $EndComp
@@ -644,9 +668,11 @@ L Device:C C35
 U 1 1 5BA18E20
 P 5900 7000
 F 0 "C35" H 5950 7100 50  0000 L CNN
-F 1 "100n" H 5950 6900 50  0000 L CNN
+F 1 "100nF" H 5950 6900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 5938 6850 50  0001 C CNN
 F 3 "~" H 5900 7000 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H 0   0   50  0001 C CNN "PN"
 	1    5900 7000
 	1    0    0    -1  
 $EndComp
@@ -1134,6 +1160,8 @@ F 1 "600R" V 2804 2950 50  0000 C CNN
 F 2 "pkl_dipol:L_0402" V 2880 2950 50  0001 C CNN
 F 3 "~" H 2950 2950 50  0001 C CNN
 F 4 "490-1006-1-ND" H 0   0   50  0001 C CNN "SN-DK"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
+F 6 "CIM05U601NC" H 0   0   50  0001 C CNN "PN"
 	1    2950 2950
 	0    1    1    0   
 $EndComp
@@ -1158,6 +1186,7 @@ F 2 "pkl_dipol:C_0603" H 3338 2550 50  0001 C CNN
 F 3 "~" H 3300 2700 50  0001 C CNN
 F 4 "CL10A475KP8NNNC" H 0   0   50  0001 C CNN "PN"
 F 5 "1276-1044-1-ND" H 0   0   50  0001 C CNN "SN-DK"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
 	1    3300 2700
 	1    0    0    -1  
 $EndComp
@@ -1490,6 +1519,7 @@ F 2 "pkl_dipol:C_0603" H 1088 1200 50  0001 C CNN
 F 3 "~" H 1050 1350 50  0001 C CNN
 F 4 "CL10A475KP8NNNC" H 0   0   50  0001 C CNN "PN"
 F 5 "1276-1044-1-ND" H 0   0   50  0001 C CNN "SN-DK"
+F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
 	1    1050 1350
 	1    0    0    -1  
 $EndComp
@@ -1503,8 +1533,8 @@ F 0 "C55" H 3165 1846 50  0000 L CNN
 F 1 "10uF" H 3165 1755 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 3088 1650 50  0001 C CNN
 F 3 "~" H 3050 1800 50  0001 C CNN
-F 4 "C1608X5R1A106K080AC" H 0   0   50  0001 C CNN "PN"
-F 5 "445-7486-1-ND" H 0   0   50  0001 C CNN "SN-DK"
+F 4 "445-7486-1-ND" H 0   0   50  0001 C CNN "SN-DK"
+F 5 "CL10A106MP8NNNC" H 0   0   50  0001 C CNN "PN"
 	1    3050 1800
 	1    0    0    -1  
 $EndComp

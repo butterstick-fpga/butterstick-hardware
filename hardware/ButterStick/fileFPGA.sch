@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
 LIBS:ButterStick-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 13
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "ButterStick"
+Date "2019-03-19"
+Rev "r0_1"
+Comp "GsD"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -60,7 +60,7 @@ F 1 "ASDMB" H 5650 6200 50  0000 L CNN
 F 2 "Oscillators:Oscillator_SMD_SeikoEpson_SG210-4pin_2.5x2.0mm" H 6100 5650 50  0001 C CNN
 F 3 "http://www.abracon.com/Oscillators/ASV.pdf" H 5300 6000 50  0001 C CNN
 F 4 " 1473-30509-1-ND " H -3000 150 50  0001 C CNN "SN-DK"
-F 5 "SIT8008BI-73-18S-25.000000G" H -3000 150 50  0001 C CNN "PN"
+F 5 "SIT8008BI-72-18N-25.000000G" H -3000 150 50  0001 C CNN "PN"
 F 6 "SiTIME" H 0   0   50  0001 C CNN "MFG"
 	1    5400 6000
 	1    0    0    -1  
@@ -76,7 +76,8 @@ F 1 "10k" H 9120 3305 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" V 8980 3350 50  0001 C CNN
 F 3 "" H 9050 3350 50  0001 C CNN
 F 4 "P10KDECT-ND" H -1200 800 50  0001 C CNN "SN-DK"
-F 5 "ERA-2AED103X" H -1200 800 50  0001 C CNN "PN"
+F 5 "RMCF0402FT10K0" H -1200 800 50  0001 C CNN "PN"
+F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
 	1    9050 3350
 	-1   0    0    -1  
 $EndComp
@@ -339,6 +340,8 @@ F 0 "R29" V 8800 5200 50  0000 C CNN
 F 1 "0R" V 8800 5400 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" V 8830 5300 50  0001 C CNN
 F 3 "~" H 8900 5300 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402ZT0R00" H 0   0   50  0001 C CNN "PN"
 	1    8900 5300
 	0    1    1    0   
 $EndComp
@@ -350,6 +353,8 @@ F 0 "R30" V 8800 5400 50  0000 C CNN
 F 1 "0R" V 8800 5600 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" V 8830 5500 50  0001 C CNN
 F 3 "~" H 8900 5500 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402ZT0R00" H 0   0   50  0001 C CNN "PN"
 	1    8900 5500
 	0    1    1    0   
 $EndComp
@@ -361,6 +366,8 @@ F 0 "R31" V 8800 5600 50  0000 C CNN
 F 1 "0R" V 8800 5800 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" V 8830 5700 50  0001 C CNN
 F 3 "~" H 8900 5700 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402ZT0R00" H 0   0   50  0001 C CNN "PN"
 	1    8900 5700
 	0    1    1    0   
 $EndComp
@@ -412,6 +419,8 @@ F 0 "R54" V 8800 5800 50  0000 C CNN
 F 1 "0R" V 8800 6000 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" V 8830 5900 50  0001 C CNN
 F 3 "~" H 8900 5900 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402ZT0R00" H 0   0   50  0001 C CNN "PN"
 	1    8900 5900
 	0    1    1    0   
 $EndComp
@@ -456,6 +465,8 @@ F 0 "R55" V 8800 6000 50  0000 C CNN
 F 1 "0R" V 8800 6200 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" V 8830 6100 50  0001 C CNN
 F 3 "~" H 8900 6100 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402ZT0R00" H 0   0   50  0001 C CNN "PN"
 	1    8900 6100
 	0    1    1    0   
 $EndComp
@@ -482,6 +493,8 @@ F 0 "R53" V 8800 5000 50  0000 C CNN
 F 1 "0R" V 8800 5200 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" V 8830 5100 50  0001 C CNN
 F 3 "~" H 8900 5100 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
+F 5 "RMCF0402ZT0R00" H 0   0   50  0001 C CNN "PN"
 	1    8900 5100
 	0    1    1    0   
 $EndComp

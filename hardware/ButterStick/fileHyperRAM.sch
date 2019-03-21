@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
 LIBS:ButterStick-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 13
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 13 13
+Title "ButterStick"
+Date "2019-03-19"
+Rev "r0_1"
+Comp "GsD"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -34,6 +34,7 @@ F 2 "bosonFrameGrabber:BGA_24" H 8450 3600 60  0001 C CNN
 F 3 "" H 8450 3600 60  0001 C CNN
 F 4 "706-1548-ND" H 500 -1250 50  0001 C CNN "SN-DK"
 F 5 "IS66WVH16M8ALL-166B1LI" H 500 -1250 50  0001 C CNN "PN"
+F 6 "ISSI, Integrated Silicon Solution Inc" H 0   0   50  0001 C CNN "Mfg"
 	1    8450 2650
 	1    0    0    -1  
 $EndComp
@@ -95,11 +96,12 @@ L gkl_mem:AT25SF081 U6
 U 1 1 5ABD9FA9
 P 4000 6350
 F 0 "U6" H 4000 6791 60  0000 C CNN
-F 1 "MX25R1635" H 4000 6685 60  0000 C CNN
+F 1 "S25FL127S" H 4000 6685 60  0000 C CNN
 F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 4000 6800 60  0001 C CNN
 F 3 "" H 4000 6800 60  0001 C CNN
 F 4 "1092-1178-1-ND" H -150 2400 50  0001 C CNN "SN-DK"
-F 5 "MX25R1635FZUIH0" H -150 2400 50  0001 C CNN "PN"
+F 5 "S25FL127SABMFI101" H -150 2400 50  0001 C CNN "PN"
+F 6 "Cypress Semiconductor Corp" H 0   0   50  0001 C CNN "Mfg"
 	1    4000 6350
 	1    0    0    -1  
 $EndComp
@@ -185,6 +187,7 @@ F 2 "bosonFrameGrabber:BGA_24" H 8400 5550 60  0001 C CNN
 F 3 "" H 8400 5550 60  0001 C CNN
 F 4 "706-1548-ND" H 450 700 50  0001 C CNN "SN-DK"
 F 5 "IS66WVH16M8ALL-166B1LI" H 450 700 50  0001 C CNN "PN"
+F 6 "ISSI, Integrated Silicon Solution Inc" H 0   0   50  0001 C CNN "Mfg"
 	1    8400 4600
 	1    0    0    -1  
 $EndComp
