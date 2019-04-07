@@ -5,7 +5,7 @@
 	Still in active Development (Use stuff here if you want, but there is no support.)
 
 
-![alt-text](documentation/images/render_001.jpg "Layout in progress")
+![alt-text](documentation/images/photo_001.jpg "Board")
 
 ## Hardware
 
@@ -24,5 +24,12 @@
   * Adjustable VCCIO 1.2V-3.3V/150mA (per bank)
 
 
+![alt-text](documentation/images/render_001.jpg "Board")
 ![alt-text](documentation/images/ButterStick-Front.png "Top Render")
 ![alt-text](documentation/images/ButterStick-Back.png "Bot Render")
+
+
+## r0_1 Errata
+
+ * SYZYGY port 1 & 3 are not horizontally aligned
+ * Resistor values for OV/UV protection circuit.
