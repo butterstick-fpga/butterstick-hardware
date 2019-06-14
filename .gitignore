@@ -50,3 +50,13 @@ archiv
 *.xml
 # *.zip
 *~
+
+build
+__pycache__
+
+.vscode
+*.o
+*.d
+*.bin
+*.elf
+*.hex
