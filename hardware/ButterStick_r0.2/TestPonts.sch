@@ -1,0 +1,401 @@
+EESchema Schematic File Version 4
+LIBS:ButterStick-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 15 15
+Title "ButterStick"
+Date "2019-06-14"
+Rev "r0.2"
+Comp "GsD"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:TestPoint_Flag TP1
+U 1 1 5D128042
+P 2100 1400
+F 0 "TP1" H 2360 1494 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 2360 1403 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2300 1400 50  0001 C CNN
+F 3 "~" H 2300 1400 50  0001 C CNN
+F 4 "DNP" H 2100 1400 50  0001 C CNN "PN"
+	1    2100 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 1400 0    50   Input ~ 0
+PCLKT1_0
+Wire Wire Line
+	1900 1400 2100 1400
+Text GLabel 1900 1950 0    50   Input ~ 0
+HB0_DQ0
+Wire Wire Line
+	1900 1950 2100 1950
+Text GLabel 1900 2150 0    50   Input ~ 0
+HB0_CK
+Wire Wire Line
+	1900 2150 2100 2150
+$Comp
+L Connector:TestPoint_Flag TP2
+U 1 1 5D1290EB
+P 2100 1950
+F 0 "TP2" H 2360 2044 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 2360 1953 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2300 1950 50  0001 C CNN
+F 3 "~" H 2300 1950 50  0001 C CNN
+F 4 "DNP" H 2100 1950 50  0001 C CNN "PN"
+	1    2100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Flag TP3
+U 1 1 5D1295C2
+P 2100 2150
+F 0 "TP3" H 2360 2244 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 2360 2153 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2300 2150 50  0001 C CNN
+F 3 "~" H 2300 2150 50  0001 C CNN
+F 4 "DNP" H 2100 2150 50  0001 C CNN "PN"
+	1    2100 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 2350 0    50   Input ~ 0
+HB0_RWDS
+Wire Wire Line
+	1900 2350 2100 2350
+$Comp
+L Connector:TestPoint_Flag TP4
+U 1 1 5D1299B4
+P 2100 2350
+F 0 "TP4" H 2360 2444 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 2360 2353 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2300 2350 50  0001 C CNN
+F 3 "~" H 2300 2350 50  0001 C CNN
+F 4 "DNP" H 2100 2350 50  0001 C CNN "PN"
+	1    2100 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 2800 0    50   Input ~ 0
+HB1_DQ0
+Wire Wire Line
+	1900 2800 2100 2800
+Text GLabel 1900 3000 0    50   Input ~ 0
+HB1_CK
+Wire Wire Line
+	1900 3000 2100 3000
+$Comp
+L Connector:TestPoint_Flag TP5
+U 1 1 5D129E1A
+P 2100 2800
+F 0 "TP5" H 2360 2894 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 2360 2803 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2300 2800 50  0001 C CNN
+F 3 "~" H 2300 2800 50  0001 C CNN
+F 4 "DNP" H 2100 2800 50  0001 C CNN "PN"
+	1    2100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Flag TP6
+U 1 1 5D129E25
+P 2100 3000
+F 0 "TP6" H 2360 3094 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 2360 3003 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2300 3000 50  0001 C CNN
+F 3 "~" H 2300 3000 50  0001 C CNN
+F 4 "DNP" H 2100 3000 50  0001 C CNN "PN"
+	1    2100 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 3200 0    50   Input ~ 0
+HB1_RWDS
+Wire Wire Line
+	1900 3200 2100 3200
+$Comp
+L Connector:TestPoint_Flag TP7
+U 1 1 5D129E32
+P 2100 3200
+F 0 "TP7" H 2360 3294 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 2360 3203 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2300 3200 50  0001 C CNN
+F 3 "~" H 2300 3200 50  0001 C CNN
+F 4 "DNP" H 2100 3200 50  0001 C CNN "PN"
+	1    2100 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5350 1300 0    50   Input ~ 0
+ETH_TXD0
+Text GLabel 5350 1500 0    50   Input ~ 0
+ETH_TXD1
+Text GLabel 5350 1700 0    50   Input ~ 0
+ETH_TXD2
+Text GLabel 5350 1900 0    50   Input ~ 0
+ETH_TXD3
+Text GLabel 5350 2300 0    50   Input ~ 0
+ETH_MDC
+Text GLabel 5350 2500 0    50   Input ~ 0
+ETH_MDIO
+Text GLabel 5350 2100 0    50   Input ~ 0
+ETH_RST
+Text GLabel 5350 2700 0    50   Input ~ 0
+ETH_RXD0
+Text GLabel 5350 2900 0    50   Input ~ 0
+ETH_RXD1
+Text GLabel 5350 3100 0    50   Input ~ 0
+ETH_RXD2
+Text GLabel 5350 3300 0    50   Input ~ 0
+ETH_RXD3
+Text GLabel 5350 3500 0    50   Input ~ 0
+ETH_TX_CTRL
+Text GLabel 5350 3700 0    50   Input ~ 0
+ETH_TX_CLK
+Text GLabel 5350 3900 0    50   Input ~ 0
+ETH_RX_CTRL
+Text GLabel 5350 4100 0    50   Input ~ 0
+ETH_RX_CLK
+Text GLabel 5350 4300 0    50   Input ~ 0
+ETH_INT
+Text GLabel 5350 4500 0    50   Input ~ 0
+ETH_CLK125
+$Comp
+L Connector:TestPoint_Flag TP14
+U 1 1 5D2686E7
+P 5550 1300
+F 0 "TP14" H 5810 1394 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 1303 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 1300 50  0001 C CNN
+F 3 "~" H 5750 1300 50  0001 C CNN
+F 4 "DNP" H 5550 1300 50  0001 C CNN "PN"
+	1    5550 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1300 5550 1300
+$Comp
+L Connector:TestPoint_Flag TP15
+U 1 1 5D268D2B
+P 5550 1500
+F 0 "TP15" H 5810 1594 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 1503 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 1500 50  0001 C CNN
+F 3 "~" H 5750 1500 50  0001 C CNN
+F 4 "DNP" H 5550 1500 50  0001 C CNN "PN"
+	1    5550 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1500 5550 1500
+$Comp
+L Connector:TestPoint_Flag TP16
+U 1 1 5D2691DF
+P 5550 1700
+F 0 "TP16" H 5810 1794 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 1703 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 1700 50  0001 C CNN
+F 3 "~" H 5750 1700 50  0001 C CNN
+F 4 "DNP" H 5550 1700 50  0001 C CNN "PN"
+	1    5550 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1700 5550 1700
+$Comp
+L Connector:TestPoint_Flag TP17
+U 1 1 5D2691EB
+P 5550 1900
+F 0 "TP17" H 5810 1994 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 1903 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 1900 50  0001 C CNN
+F 3 "~" H 5750 1900 50  0001 C CNN
+F 4 "DNP" H 5550 1900 50  0001 C CNN "PN"
+	1    5550 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1900 5550 1900
+$Comp
+L Connector:TestPoint_Flag TP18
+U 1 1 5D269AEC
+P 5550 2100
+F 0 "TP18" H 5810 2194 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 2103 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 2100 50  0001 C CNN
+F 3 "~" H 5750 2100 50  0001 C CNN
+F 4 "DNP" H 5550 2100 50  0001 C CNN "PN"
+	1    5550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2100 5550 2100
+$Comp
+L Connector:TestPoint_Flag TP19
+U 1 1 5D269AF8
+P 5550 2300
+F 0 "TP19" H 5810 2394 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 2303 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 2300 50  0001 C CNN
+F 3 "~" H 5750 2300 50  0001 C CNN
+F 4 "DNP" H 5550 2300 50  0001 C CNN "PN"
+	1    5550 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2300 5550 2300
+$Comp
+L Connector:TestPoint_Flag TP20
+U 1 1 5D269B04
+P 5550 2500
+F 0 "TP20" H 5810 2594 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 2503 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 2500 50  0001 C CNN
+F 3 "~" H 5750 2500 50  0001 C CNN
+F 4 "DNP" H 5550 2500 50  0001 C CNN "PN"
+	1    5550 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2500 5550 2500
+$Comp
+L Connector:TestPoint_Flag TP21
+U 1 1 5D269B10
+P 5550 2700
+F 0 "TP21" H 5810 2794 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 2703 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 2700 50  0001 C CNN
+F 3 "~" H 5750 2700 50  0001 C CNN
+F 4 "DNP" H 5550 2700 50  0001 C CNN "PN"
+	1    5550 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2700 5550 2700
+$Comp
+L Connector:TestPoint_Flag TP22
+U 1 1 5D26B013
+P 5550 2900
+F 0 "TP22" H 5810 2994 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 2903 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 2900 50  0001 C CNN
+F 3 "~" H 5750 2900 50  0001 C CNN
+F 4 "DNP" H 5550 2900 50  0001 C CNN "PN"
+	1    5550 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2900 5550 2900
+$Comp
+L Connector:TestPoint_Flag TP23
+U 1 1 5D26B01F
+P 5550 3100
+F 0 "TP23" H 5810 3194 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 3103 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 3100 50  0001 C CNN
+F 3 "~" H 5750 3100 50  0001 C CNN
+F 4 "DNP" H 5550 3100 50  0001 C CNN "PN"
+	1    5550 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3100 5550 3100
+$Comp
+L Connector:TestPoint_Flag TP24
+U 1 1 5D26B02B
+P 5550 3300
+F 0 "TP24" H 5810 3394 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 3303 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 3300 50  0001 C CNN
+F 3 "~" H 5750 3300 50  0001 C CNN
+F 4 "DNP" H 5550 3300 50  0001 C CNN "PN"
+	1    5550 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3300 5550 3300
+$Comp
+L Connector:TestPoint_Flag TP25
+U 1 1 5D26B037
+P 5550 3500
+F 0 "TP25" H 5810 3594 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 3503 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 3500 50  0001 C CNN
+F 3 "~" H 5750 3500 50  0001 C CNN
+F 4 "DNP" H 5550 3500 50  0001 C CNN "PN"
+	1    5550 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3500 5550 3500
+$Comp
+L Connector:TestPoint_Flag TP26
+U 1 1 5D26B043
+P 5550 3700
+F 0 "TP26" H 5810 3794 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 3703 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 3700 50  0001 C CNN
+F 3 "~" H 5750 3700 50  0001 C CNN
+F 4 "DNP" H 5550 3700 50  0001 C CNN "PN"
+	1    5550 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3700 5550 3700
+$Comp
+L Connector:TestPoint_Flag TP27
+U 1 1 5D26B04F
+P 5550 3900
+F 0 "TP27" H 5810 3994 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 3903 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 3900 50  0001 C CNN
+F 3 "~" H 5750 3900 50  0001 C CNN
+F 4 "DNP" H 5550 3900 50  0001 C CNN "PN"
+	1    5550 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3900 5550 3900
+$Comp
+L Connector:TestPoint_Flag TP28
+U 1 1 5D26B05B
+P 5550 4100
+F 0 "TP28" H 5810 4194 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 4103 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 4100 50  0001 C CNN
+F 3 "~" H 5750 4100 50  0001 C CNN
+F 4 "DNP" H 5550 4100 50  0001 C CNN "PN"
+	1    5550 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4100 5550 4100
+$Comp
+L Connector:TestPoint_Flag TP29
+U 1 1 5D26B067
+P 5550 4300
+F 0 "TP29" H 5810 4394 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 4303 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 4300 50  0001 C CNN
+F 3 "~" H 5750 4300 50  0001 C CNN
+F 4 "DNP" H 5550 4300 50  0001 C CNN "PN"
+	1    5550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4300 5550 4300
+$Comp
+L Connector:TestPoint_Flag TP30
+U 1 1 5D26EEDA
+P 5550 4500
+F 0 "TP30" H 5810 4594 50  0000 L CNN
+F 1 "SMD_TESTPONT" H 5810 4503 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 4500 50  0001 C CNN
+F 3 "~" H 5750 4500 50  0001 C CNN
+F 4 "DNP" H 5550 4500 50  0001 C CNN "PN"
+	1    5550 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4500 5550 4500
+$EndSCHEMATC
