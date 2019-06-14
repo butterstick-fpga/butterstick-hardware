@@ -4875,7 +4875,7 @@
     (pad 1 thru_hole circle (at -2.06 -3.05 90) (size 2.7 2.7) (drill 1.6) (layers *.Cu *.Mask)
       (net 62 "Net-(CON1-Pad1)"))
     (model /home/greg/projects/ButterStick/lib/gkl/packages3d/gkl_conn.3dshapes/JD1-0001NL.step
-      (offset (xyz 13.3 -10.6 -3.3))
+      (offset (xyz 13.6 -10.55 -3.3))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 90 180))
     )
