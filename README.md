@@ -10,14 +10,15 @@
 ## Hardware
 
 * ECP5 
-* Dual 8MB/16MB HyperRAM. high density, low pin count.
-* 16MB QSPI Memory
+* Gigabit Ethernet
+* 256Mbit PSRAM (Dual HyperRAM upto 166MHz)
+* 128Mbit QSPI FLASH Memory (Bitstream + User storage)
 * MicroSD socket
 * TCXO Oscillator
-* JST GH SM06 locking Data/Power connector (low current)
-* JTAG on GH SM06
-* 1x LED
+* JST GH SM06 locking JTAG port
+* 5x USER controlable LEDs
 * 3x Stardard SYZYGY compatible connectors
+* Smart VCCIO controller to support SZYZGY DNA
 * Power:
   * 3.3V/3A
   * 5V/2A  
@@ -27,9 +28,3 @@
 ![alt-text](documentation/images/render_001.jpg "Board")
 ![alt-text](documentation/images/ButterStick-Front.png "Top Render")
 ![alt-text](documentation/images/ButterStick-Back.png "Bot Render")
-
-
-## r0_1 Errata
-
- * SYZYGY port 1 & 3 are not horizontally aligned
- * Resistor values for OV/UV protection circuit.
