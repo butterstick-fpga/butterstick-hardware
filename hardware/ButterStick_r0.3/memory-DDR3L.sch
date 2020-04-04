@@ -1,0 +1,834 @@
+EESchema Schematic File Version 5
+EELAYER 33 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 15
+Title "ButterStick"
+Date "2019-06-14"
+Rev "r0.2"
+Comp "GsD"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 4550 2000
+Entry Wire Line
+	4550 2450 4650 2550
+Entry Wire Line
+	4550 2550 4650 2650
+Entry Wire Line
+	4550 2650 4650 2750
+Entry Wire Line
+	4550 2750 4650 2850
+Entry Wire Line
+	4550 2850 4650 2950
+Entry Wire Line
+	4550 2950 4650 3050
+Entry Wire Line
+	4550 3050 4650 3150
+Entry Wire Line
+	4550 3150 4650 3250
+Entry Wire Line
+	4550 3250 4650 3350
+Entry Wire Line
+	4550 3350 4650 3450
+Entry Wire Line
+	4550 3450 4650 3550
+Entry Wire Line
+	4550 3550 4650 3650
+Entry Wire Line
+	4550 3650 4650 3750
+Entry Wire Line
+	4550 3750 4650 3850
+Entry Wire Line
+	4550 3850 4650 3950
+Entry Wire Line
+	4550 3950 4650 4050
+Entry Wire Line
+	4550 4150 4650 4250
+Entry Wire Line
+	4550 4250 4650 4350
+Entry Wire Line
+	4550 4350 4650 4450
+Entry Wire Line
+	4550 4550 4650 4650
+Entry Wire Line
+	4550 4650 4650 4750
+Entry Wire Line
+	4550 4750 4650 4850
+Entry Wire Line
+	4550 4850 4650 4950
+Entry Wire Line
+	4550 4950 4650 5050
+Entry Wire Line
+	4550 5050 4650 5150
+Entry Wire Line
+	4550 5150 4650 5250
+Entry Wire Line
+	4550 5350 4650 5450
+Entry Wire Line
+	4550 5450 4650 5550
+Entry Wire Line
+	4550 5550 4650 5650
+Entry Wire Line
+	4550 5650 4650 5750
+Entry Wire Line
+	6700 3500 6600 3400
+Entry Wire Line
+	6700 3600 6600 3500
+Entry Wire Line
+	6700 3700 6600 3600
+Entry Wire Line
+	6700 3800 6600 3700
+Entry Wire Line
+	6700 3900 6600 3800
+Entry Wire Line
+	6700 4000 6600 3900
+Entry Wire Line
+	6700 4100 6600 4000
+Entry Wire Line
+	6700 4200 6600 4100
+Entry Wire Line
+	6700 4400 6600 4300
+Entry Wire Line
+	6700 4500 6600 4400
+Entry Wire Line
+	6700 4600 6600 4500
+Entry Wire Line
+	6700 4700 6600 4600
+Entry Wire Line
+	6700 4800 6600 4700
+Entry Wire Line
+	6700 4900 6600 4800
+Entry Wire Line
+	6700 5000 6600 4900
+Entry Wire Line
+	6700 5100 6600 5000
+Entry Wire Line
+	6700 5500 6600 5400
+Entry Wire Line
+	6700 5600 6600 5500
+Entry Wire Line
+	6700 5750 6600 5650
+Entry Wire Line
+	6700 5850 6600 5750
+Entry Wire Line
+	7500 2450 7600 2550
+Entry Wire Line
+	7500 2550 7600 2650
+Entry Wire Line
+	7500 2650 7600 2750
+Entry Wire Line
+	7500 2750 7600 2850
+Entry Wire Line
+	7500 2850 7600 2950
+Entry Wire Line
+	7500 2950 7600 3050
+Entry Wire Line
+	7500 3050 7600 3150
+Entry Wire Line
+	7500 3150 7600 3250
+Entry Wire Line
+	7500 3250 7600 3350
+Entry Wire Line
+	7500 3350 7600 3450
+Entry Wire Line
+	7500 3450 7600 3550
+Entry Wire Line
+	7500 3550 7600 3650
+Entry Wire Line
+	7500 3650 7600 3750
+Entry Wire Line
+	7500 3750 7600 3850
+Entry Wire Line
+	7500 3850 7600 3950
+Entry Wire Line
+	7500 3950 7600 4050
+Entry Wire Line
+	7500 4150 7600 4250
+Entry Wire Line
+	7500 4250 7600 4350
+Entry Wire Line
+	7500 4350 7600 4450
+Entry Wire Line
+	7500 4550 7600 4650
+Entry Wire Line
+	7500 4650 7600 4750
+Entry Wire Line
+	7500 4750 7600 4850
+Entry Wire Line
+	7500 4850 7600 4950
+Entry Wire Line
+	7500 4950 7600 5050
+Entry Wire Line
+	7500 5050 7600 5150
+Entry Wire Line
+	7500 5150 7600 5250
+Entry Wire Line
+	7500 5350 7600 5450
+Entry Wire Line
+	7500 5450 7600 5550
+Entry Wire Line
+	7500 5550 7600 5650
+Entry Wire Line
+	7500 5650 7600 5750
+Entry Wire Line
+	9650 3500 9550 3400
+Entry Wire Line
+	9650 3600 9550 3500
+Entry Wire Line
+	9650 3700 9550 3600
+Entry Wire Line
+	9650 3800 9550 3700
+Entry Wire Line
+	9650 3900 9550 3800
+Entry Wire Line
+	9650 4000 9550 3900
+Entry Wire Line
+	9650 4100 9550 4000
+Entry Wire Line
+	9650 4200 9550 4100
+Entry Wire Line
+	9650 4400 9550 4300
+Entry Wire Line
+	9650 4500 9550 4400
+Entry Wire Line
+	9650 4600 9550 4500
+Entry Wire Line
+	9650 4700 9550 4600
+Entry Wire Line
+	9650 4800 9550 4700
+Entry Wire Line
+	9650 4900 9550 4800
+Entry Wire Line
+	9650 5000 9550 4900
+Entry Wire Line
+	9650 5100 9550 5000
+Entry Wire Line
+	9650 5500 9550 5400
+Entry Wire Line
+	9650 5600 9550 5500
+Entry Wire Line
+	9650 5750 9550 5650
+Entry Wire Line
+	9650 5850 9550 5750
+Wire Wire Line
+	-2300 7350 -2200 7350
+Wire Wire Line
+	-2300 7450 -2300 7350
+Wire Wire Line
+	-1100 7050 -1000 7050
+Wire Wire Line
+	-1000 7050 -1000 6950
+Wire Wire Line
+	4650 2550 4950 2550
+Wire Wire Line
+	4650 2650 4950 2650
+Wire Wire Line
+	4650 2750 4950 2750
+Wire Wire Line
+	4650 2850 4950 2850
+Wire Wire Line
+	4650 2950 4950 2950
+Wire Wire Line
+	4650 3050 4950 3050
+Wire Wire Line
+	4650 3150 4950 3150
+Wire Wire Line
+	4650 3250 4950 3250
+Wire Wire Line
+	4650 3350 4950 3350
+Wire Wire Line
+	4650 3450 4950 3450
+Wire Wire Line
+	4650 3550 4950 3550
+Wire Wire Line
+	4650 3650 4950 3650
+Wire Wire Line
+	4650 3750 4950 3750
+Wire Wire Line
+	4650 3850 4950 3850
+Wire Wire Line
+	4650 3950 4950 3950
+Wire Wire Line
+	4650 4050 4950 4050
+Wire Wire Line
+	4650 4250 4950 4250
+Wire Wire Line
+	4650 4350 4950 4350
+Wire Wire Line
+	4650 4450 4950 4450
+Wire Wire Line
+	4650 4650 4950 4650
+Wire Wire Line
+	4650 4750 4950 4750
+Wire Wire Line
+	4650 4850 4950 4850
+Wire Wire Line
+	4650 4950 4950 4950
+Wire Wire Line
+	4650 5050 4950 5050
+Wire Wire Line
+	4650 5150 4950 5150
+Wire Wire Line
+	4650 5250 4950 5250
+Wire Wire Line
+	4650 5450 4950 5450
+Wire Wire Line
+	4650 5550 4950 5550
+Wire Wire Line
+	4650 5650 4950 5650
+Wire Wire Line
+	4650 5750 4950 5750
+Wire Wire Line
+	6300 3400 6600 3400
+Wire Wire Line
+	6300 3500 6600 3500
+Wire Wire Line
+	6300 3600 6600 3600
+Wire Wire Line
+	6300 3700 6600 3700
+Wire Wire Line
+	6300 3800 6600 3800
+Wire Wire Line
+	6300 3900 6600 3900
+Wire Wire Line
+	6300 4000 6600 4000
+Wire Wire Line
+	6300 4100 6600 4100
+Wire Wire Line
+	6300 4300 6600 4300
+Wire Wire Line
+	6300 4400 6600 4400
+Wire Wire Line
+	6300 4500 6600 4500
+Wire Wire Line
+	6300 4600 6600 4600
+Wire Wire Line
+	6300 4700 6600 4700
+Wire Wire Line
+	6300 4800 6600 4800
+Wire Wire Line
+	6300 4900 6600 4900
+Wire Wire Line
+	6300 5000 6600 5000
+Wire Wire Line
+	6300 5400 6600 5400
+Wire Wire Line
+	6300 5500 6600 5500
+Wire Wire Line
+	6300 5650 6600 5650
+Wire Wire Line
+	6300 5750 6600 5750
+Wire Wire Line
+	7600 2550 7900 2550
+Wire Wire Line
+	7600 2650 7900 2650
+Wire Wire Line
+	7600 2750 7900 2750
+Wire Wire Line
+	7600 2850 7900 2850
+Wire Wire Line
+	7600 2950 7900 2950
+Wire Wire Line
+	7600 3050 7900 3050
+Wire Wire Line
+	7600 3150 7900 3150
+Wire Wire Line
+	7600 3250 7900 3250
+Wire Wire Line
+	7600 3350 7900 3350
+Wire Wire Line
+	7600 3450 7900 3450
+Wire Wire Line
+	7600 3550 7900 3550
+Wire Wire Line
+	7600 3650 7900 3650
+Wire Wire Line
+	7600 3750 7900 3750
+Wire Wire Line
+	7600 3850 7900 3850
+Wire Wire Line
+	7600 3950 7900 3950
+Wire Wire Line
+	7600 4050 7900 4050
+Wire Wire Line
+	7600 4250 7900 4250
+Wire Wire Line
+	7600 4350 7900 4350
+Wire Wire Line
+	7600 4450 7900 4450
+Wire Wire Line
+	7600 4650 7900 4650
+Wire Wire Line
+	7600 4750 7900 4750
+Wire Wire Line
+	7600 4850 7900 4850
+Wire Wire Line
+	7600 4950 7900 4950
+Wire Wire Line
+	7600 5050 7900 5050
+Wire Wire Line
+	7600 5150 7900 5150
+Wire Wire Line
+	7600 5250 7900 5250
+Wire Wire Line
+	7600 5450 7900 5450
+Wire Wire Line
+	7600 5550 7900 5550
+Wire Wire Line
+	7600 5650 7900 5650
+Wire Wire Line
+	7600 5750 7900 5750
+Wire Wire Line
+	9250 3400 9550 3400
+Wire Wire Line
+	9250 3500 9550 3500
+Wire Wire Line
+	9250 3600 9550 3600
+Wire Wire Line
+	9250 3700 9550 3700
+Wire Wire Line
+	9250 3800 9550 3800
+Wire Wire Line
+	9250 3900 9550 3900
+Wire Wire Line
+	9250 4000 9550 4000
+Wire Wire Line
+	9250 4100 9550 4100
+Wire Wire Line
+	9250 4300 9550 4300
+Wire Wire Line
+	9250 4400 9550 4400
+Wire Wire Line
+	9250 4500 9550 4500
+Wire Wire Line
+	9250 4600 9550 4600
+Wire Wire Line
+	9250 4700 9550 4700
+Wire Wire Line
+	9250 4800 9550 4800
+Wire Wire Line
+	9250 4900 9550 4900
+Wire Wire Line
+	9250 5000 9550 5000
+Wire Wire Line
+	9250 5400 9550 5400
+Wire Wire Line
+	9250 5500 9550 5500
+Wire Wire Line
+	9250 5650 9550 5650
+Wire Wire Line
+	9250 5750 9550 5750
+Wire Bus Line
+	3050 2000 4550 2000
+Wire Bus Line
+	3050 6050 6700 6050
+Wire Bus Line
+	3050 6150 9650 6150
+Wire Bus Line
+	4550 2000 4550 2450
+Wire Bus Line
+	4550 2000 7500 2000
+Wire Bus Line
+	4550 2450 4550 2650
+Wire Bus Line
+	4550 2650 4550 2850
+Wire Bus Line
+	4550 2850 4550 3050
+Wire Bus Line
+	4550 3050 4550 3250
+Wire Bus Line
+	4550 3250 4550 3450
+Wire Bus Line
+	4550 3450 4550 3650
+Wire Bus Line
+	4550 3650 4550 3750
+Wire Bus Line
+	4550 3750 4550 3950
+Wire Bus Line
+	4550 3950 4550 4250
+Wire Bus Line
+	4550 4250 4550 4550
+Wire Bus Line
+	4550 4550 4550 4750
+Wire Bus Line
+	4550 4750 4550 4950
+Wire Bus Line
+	4550 4950 4550 5150
+Wire Bus Line
+	4550 5150 4550 5450
+Wire Bus Line
+	4550 5450 4550 5650
+Wire Bus Line
+	6700 3500 6700 3700
+Wire Bus Line
+	6700 3700 6700 3900
+Wire Bus Line
+	6700 3900 6700 4000
+Wire Bus Line
+	6700 4000 6700 4200
+Wire Bus Line
+	6700 4200 6700 4500
+Wire Bus Line
+	6700 4500 6700 4600
+Wire Bus Line
+	6700 4600 6700 4800
+Wire Bus Line
+	6700 4800 6700 4900
+Wire Bus Line
+	6700 4900 6700 5100
+Wire Bus Line
+	6700 5100 6700 5600
+Wire Bus Line
+	6700 5600 6700 5850
+Wire Bus Line
+	6700 5850 6700 6050
+Wire Bus Line
+	7500 2000 7500 2550
+Wire Bus Line
+	7500 2550 7500 2750
+Wire Bus Line
+	7500 2750 7500 2950
+Wire Bus Line
+	7500 2950 7500 3150
+Wire Bus Line
+	7500 3150 7500 3350
+Wire Bus Line
+	7500 3350 7500 3450
+Wire Bus Line
+	7500 3450 7500 3650
+Wire Bus Line
+	7500 3650 7500 3750
+Wire Bus Line
+	7500 3750 7500 3950
+Wire Bus Line
+	7500 3950 7500 4250
+Wire Bus Line
+	7500 4250 7500 4550
+Wire Bus Line
+	7500 4550 7500 4750
+Wire Bus Line
+	7500 4750 7500 4950
+Wire Bus Line
+	7500 4950 7500 5050
+Wire Bus Line
+	7500 5050 7500 5350
+Wire Bus Line
+	7500 5350 7500 5550
+Wire Bus Line
+	7500 5550 7500 5650
+Wire Bus Line
+	9650 3500 9650 3600
+Wire Bus Line
+	9650 3600 9650 3800
+Wire Bus Line
+	9650 3800 9650 4000
+Wire Bus Line
+	9650 4000 9650 4200
+Wire Bus Line
+	9650 4200 9650 4500
+Wire Bus Line
+	9650 4500 9650 4700
+Wire Bus Line
+	9650 4700 9650 4900
+Wire Bus Line
+	9650 4900 9650 5100
+Wire Bus Line
+	9650 5100 9650 5600
+Wire Bus Line
+	9650 5600 9650 5850
+Wire Bus Line
+	9650 5850 9650 6150
+Text Label 4650 2550 0    50   ~ 0
+ADR0
+Text Label 4650 2650 0    50   ~ 0
+ADR1
+Text Label 4650 2750 0    50   ~ 0
+ADR2
+Text Label 4650 2850 0    50   ~ 0
+ADR3
+Text Label 4650 2950 0    50   ~ 0
+ADR4
+Text Label 4650 3050 0    50   ~ 0
+ADR5
+Text Label 4650 3150 0    50   ~ 0
+ADR6
+Text Label 4650 3250 0    50   ~ 0
+ADR7
+Text Label 4650 3350 0    50   ~ 0
+ADR8
+Text Label 4650 3450 0    50   ~ 0
+ADR9
+Text Label 4650 3550 0    50   ~ 0
+ADR10
+Text Label 4650 3650 0    50   ~ 0
+ADR11
+Text Label 4650 3750 0    50   ~ 0
+ADR12
+Text Label 4650 3850 0    50   ~ 0
+ADR13
+Text Label 4650 3950 0    50   ~ 0
+ADR14
+Text Label 4650 4050 0    50   ~ 0
+ADR15
+Text Label 4650 4250 0    50   ~ 0
+BA0
+Text Label 4650 4350 0    50   ~ 0
+BA1
+Text Label 4650 4450 0    50   ~ 0
+BA2
+Text Label 4650 4650 0    50   ~ 0
+LDM
+Text Label 4650 4750 0    50   ~ 0
+ODT
+Text Label 4650 4850 0    50   ~ 0
+RAS
+Text Label 4650 4950 0    50   ~ 0
+CAS
+Text Label 4650 5050 0    50   ~ 0
+WE
+Text Label 4650 5150 0    50   ~ 0
+RESET
+Text Label 4650 5250 0    50   ~ 0
+UDM
+Text Label 4650 5450 0    50   ~ 0
+CS
+Text Label 4650 5550 0    50   ~ 0
+CK_P
+Text Label 4650 5650 0    50   ~ 0
+CK_N
+Text Label 4650 5750 0    50   ~ 0
+CKE
+Text Label 4700 6050 0    50   ~ 0
+{DRAM_DAT0}
+Text Label 5350 2000 2    50   ~ 0
+{DRAM_CTRL}
+Text Label 6600 3400 2    50   ~ 0
+DQ0
+Text Label 6600 3500 2    50   ~ 0
+DQ1
+Text Label 6600 3600 2    50   ~ 0
+DQ2
+Text Label 6600 3700 2    50   ~ 0
+DQ3
+Text Label 6600 3800 2    50   ~ 0
+DQ4
+Text Label 6600 3900 2    50   ~ 0
+DQ5
+Text Label 6600 4000 2    50   ~ 0
+DQ6
+Text Label 6600 4100 2    50   ~ 0
+DQ7
+Text Label 6600 4300 2    50   ~ 0
+DQ8
+Text Label 6600 4400 2    50   ~ 0
+DQ9
+Text Label 6600 4500 2    50   ~ 0
+DQ10
+Text Label 6600 4600 2    50   ~ 0
+DQ11
+Text Label 6600 4700 2    50   ~ 0
+DQ12
+Text Label 6600 4800 2    50   ~ 0
+DQ13
+Text Label 6600 4900 2    50   ~ 0
+DQ14
+Text Label 6600 5000 2    50   ~ 0
+DQ15
+Text Label 6600 5400 2    50   ~ 0
+LDQS_P
+Text Label 6600 5500 2    50   ~ 0
+LDQS_N
+Text Label 6600 5650 2    50   ~ 0
+UDQS_P
+Text Label 6600 5750 2    50   ~ 0
+UDQS_N
+Text Label 7600 2550 0    50   ~ 0
+ADR0
+Text Label 7600 2650 0    50   ~ 0
+ADR1
+Text Label 7600 2750 0    50   ~ 0
+ADR2
+Text Label 7600 2850 0    50   ~ 0
+ADR3
+Text Label 7600 2950 0    50   ~ 0
+ADR4
+Text Label 7600 3050 0    50   ~ 0
+ADR5
+Text Label 7600 3150 0    50   ~ 0
+ADR6
+Text Label 7600 3250 0    50   ~ 0
+ADR7
+Text Label 7600 3350 0    50   ~ 0
+ADR8
+Text Label 7600 3450 0    50   ~ 0
+ADR9
+Text Label 7600 3550 0    50   ~ 0
+ADR10
+Text Label 7600 3650 0    50   ~ 0
+ADR11
+Text Label 7600 3750 0    50   ~ 0
+ADR12
+Text Label 7600 3850 0    50   ~ 0
+ADR13
+Text Label 7600 3950 0    50   ~ 0
+ADR14
+Text Label 7600 4050 0    50   ~ 0
+ADR15
+Text Label 7600 4250 0    50   ~ 0
+BA0
+Text Label 7600 4350 0    50   ~ 0
+BA1
+Text Label 7600 4450 0    50   ~ 0
+BA2
+Text Label 7600 4650 0    50   ~ 0
+LDM
+Text Label 7600 4750 0    50   ~ 0
+ODT
+Text Label 7600 4850 0    50   ~ 0
+RAS
+Text Label 7600 4950 0    50   ~ 0
+CAS
+Text Label 7600 5050 0    50   ~ 0
+WE
+Text Label 7600 5150 0    50   ~ 0
+RESET
+Text Label 7600 5250 0    50   ~ 0
+UDM
+Text Label 7600 5450 0    50   ~ 0
+CS
+Text Label 7600 5550 0    50   ~ 0
+CK_P
+Text Label 7600 5650 0    50   ~ 0
+CK_N
+Text Label 7600 5750 0    50   ~ 0
+CKE
+Text Label 7650 6150 0    50   ~ 0
+{DRAM_DAT1}
+Text Label 9550 3400 2    50   ~ 0
+DQ16
+Text Label 9550 3500 2    50   ~ 0
+DQ17
+Text Label 9550 3600 2    50   ~ 0
+DQ18
+Text Label 9550 3700 2    50   ~ 0
+DQ19
+Text Label 9550 3800 2    50   ~ 0
+DQ20
+Text Label 9550 3900 2    50   ~ 0
+DQ21
+Text Label 9550 4000 2    50   ~ 0
+DQ22
+Text Label 9550 4100 2    50   ~ 0
+DQ23
+Text Label 9550 4300 2    50   ~ 0
+DQ24
+Text Label 9550 4400 2    50   ~ 0
+DQ25
+Text Label 9550 4500 2    50   ~ 0
+DQ26
+Text Label 9550 4600 2    50   ~ 0
+DQ27
+Text Label 9550 4700 2    50   ~ 0
+DQ28
+Text Label 9550 4800 2    50   ~ 0
+DQ29
+Text Label 9550 4900 2    50   ~ 0
+DQ30
+Text Label 9550 5000 2    50   ~ 0
+DQ31
+Text Label 9550 5400 2    50   ~ 0
+LDQS_P
+Text Label 9550 5500 2    50   ~ 0
+LDQS_N
+Text Label 9550 5650 2    50   ~ 0
+UDQS_P
+Text Label 9550 5750 2    50   ~ 0
+UDQS_N
+Text GLabel -2200 7050 0    60   Input ~ 0
+SPI_CONFIG_SS
+Text GLabel -2200 7150 0    60   Input ~ 0
+SPI_CONFIG_MISO
+Text GLabel -2200 7250 0    60   Input ~ 0
+QSPI_D2
+Text GLabel -1100 7150 2    60   Input ~ 0
+QSPI_D3
+Text GLabel -1100 7250 2    60   Input ~ 0
+SPI_CONFIG_SCK
+Text GLabel -1100 7350 2    60   Input ~ 0
+SPI_CONFIG_MOSI
+Text GLabel 6300 2550 2    50   UnSpc ~ 0
+P_1.35_DRAM
+Text HLabel 3050 2000 0    50   BiDi ~ 10
+{DRAM_CTRL}
+Text HLabel 3050 6050 0    50   UnSpc ~ 10
+{DRAM_DAT0}
+Text HLabel 3050 6150 0    50   UnSpc ~ 10
+{DRAM_DAT1}
+$Comp
+L gkl_power:GND #PWR04
+U 1 1 5ABD9FB0
+P -2300 7450
+F 0 "#PWR04" H -2300 7200 50  0001 C CNN
+F 1 "GND" H -2297 7324 50  0000 C CNN
+F 2 "" H -2400 7100 50  0001 C CNN
+F 3 "" H -2300 7450 50  0001 C CNN
+	1    -2300 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_power:+3V3 #PWR05
+U 1 1 5ABD9FB6
+P -1000 6950
+F 0 "#PWR05" H -1000 6800 50  0001 C CNN
+F 1 "+3V3" V -996 7056 50  0000 L CNN
+F 2 "" H -1000 6950 50  0001 C CNN
+F 3 "" H -1000 6950 50  0001 C CNN
+	1    -1000 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_mem:AT25SF081 U6
+U 1 1 5ABD9FA9
+P -1650 7200
+F 0 "U6" H -1650 7641 60  0000 C CNN
+F 1 "S25FL127S" H -1650 7535 60  0000 C CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H -1650 7650 60  0001 C CNN
+F 3 "" H -1650 7650 60  0001 C CNN
+F 4 "1092-1178-1-ND" H -5800 3250 50  0001 C CNN "SN-DK"
+F 5 "S25FL127SABMFI101" H -5800 3250 50  0001 C CNN "PN"
+F 6 "Cypress Semiconductor Corp" H -5650 850 50  0001 C CNN "Mfg"
+	1    -1650 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_mem:MT41K64M16TW-107_J-TR U4
+U 1 1 5E57D9A3
+P 5600 3750
+F 0 "U4" H 5625 5217 50  0000 C CNN
+F 1 "MT41K64M16TW-107_J-TR" H 5625 5127 50  0000 C CNN
+F 2 "Package_BGA:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm" H 5650 5250 50  0001 C CNN
+F 3 "" H 5650 5250 50  0001 C CNN
+	1    5600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_mem:MT41K64M16TW-107_J-TR U5
+U 1 1 5E593D5D
+P 8550 3750
+F 0 "U5" H 8575 5217 50  0000 C CNN
+F 1 "MT41K64M16TW-107_J-TR" H 8575 5127 50  0000 C CNN
+F 2 "Package_BGA:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm" H 8600 5250 50  0001 C CNN
+F 3 "" H 8600 5250 50  0001 C CNN
+	1    8550 3750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
