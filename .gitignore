@@ -60,3 +60,5 @@ __pycache__
 *.bin
 *.elf
 *.hex
+
+*.sch-bak
