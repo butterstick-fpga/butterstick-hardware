@@ -3,7 +3,7 @@ EELAYER 33 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 15
+Sheet 7 16
 Title "ButterStick"
 Date "2019-06-14"
 Rev "r0.2"
@@ -18,70 +18,6 @@ Comment7 ""
 Comment8 ""
 Comment9 ""
 $EndDescr
-Wire Wire Line
-	4600 2600 5250 2600
-Wire Wire Line
-	4600 2700 5250 2700
-Wire Wire Line
-	4600 2800 5250 2800
-Wire Wire Line
-	4600 2900 5250 2900
-Wire Wire Line
-	4600 3000 5250 3000
-Wire Wire Line
-	4600 3100 5250 3100
-Wire Wire Line
-	4600 3200 5050 3200
-Wire Wire Line
-	4600 3300 5050 3300
-Wire Wire Line
-	4600 3400 5250 3400
-Wire Wire Line
-	4600 3500 5250 3500
-Wire Wire Line
-	4600 3600 5250 3600
-Wire Wire Line
-	4600 3700 5250 3700
-Wire Wire Line
-	4600 3800 5250 3800
-Wire Wire Line
-	4600 3900 5250 3900
-Wire Wire Line
-	4600 4000 5250 4000
-Wire Wire Line
-	4600 4100 5250 4100
-Wire Wire Line
-	4600 4200 5050 4200
-Wire Wire Line
-	4600 4300 5050 4300
-Wire Wire Line
-	4600 4400 5050 4400
-Wire Wire Line
-	4600 4500 5050 4500
-Wire Wire Line
-	4600 4600 5050 4600
-Wire Wire Line
-	4600 4700 5050 4700
-Wire Wire Line
-	4600 4800 5050 4800
-Wire Wire Line
-	4600 4900 5050 4900
-Wire Wire Line
-	4600 5000 5050 5000
-Wire Wire Line
-	4600 5100 5050 5100
-Wire Wire Line
-	4600 5200 5250 5200
-Wire Wire Line
-	4600 5300 5250 5300
-Wire Wire Line
-	4600 5400 5550 5400
-Wire Wire Line
-	4600 5500 5550 5500
-Wire Wire Line
-	4600 5600 5550 5600
-Wire Wire Line
-	4600 5700 5550 5700
 Wire Wire Line
 	7000 2500 6550 2500
 Wire Wire Line
@@ -164,72 +100,8 @@ Wire Wire Line
 	8650 3400 8900 3400
 Wire Wire Line
 	8900 3400 8900 3700
-Text Notes 3550 2400 0    50   ~ 0
-BANK2 - 1V8
-Text Label 5050 3200 2    50   ~ 0
-S25
-Text Label 5050 3300 2    50   ~ 0
-S17
-Text Label 5050 4200 2    50   ~ 0
-S20
-Text Label 5050 4300 2    50   ~ 0
-S24
-Text Label 5050 4400 2    50   ~ 0
-S26
-Text Label 5050 4500 2    50   ~ 0
-S27
-Text Label 5050 4600 2    50   ~ 0
-S22
-Text Label 5050 4700 2    50   ~ 0
-S19
-Text Label 5050 4800 2    50   ~ 0
-S23
-Text Label 5050 4900 2    50   ~ 0
-S18
-Text Label 5050 5000 2    50   ~ 0
-S21
-Text Label 5050 5100 2    50   ~ 0
-S16
-Text Label 5250 2600 2    50   ~ 0
-D6_P
-Text Label 5250 2700 2    50   ~ 0
-D6_N
-Text Label 5250 2800 2    50   ~ 0
-D7_P
-Text Label 5250 2900 2    50   ~ 0
-D7_N
-Text Label 5250 3000 2    50   ~ 0
-D4_P
-Text Label 5250 3100 2    50   ~ 0
-D4_N
-Text Label 5250 3400 2    50   ~ 0
-D2_P
-Text Label 5250 3500 2    50   ~ 0
-D2_N
-Text Label 5250 3600 2    50   ~ 0
-D3_P
-Text Label 5250 3700 2    50   ~ 0
-D3_N
-Text Label 5250 3800 2    50   ~ 0
-D0_P
-Text Label 5250 3900 2    50   ~ 0
-D0_N
-Text Label 5250 4000 2    50   ~ 0
-D1_P
-Text Label 5250 4100 2    50   ~ 0
-D1_N
-Text Label 5250 5200 2    50   ~ 0
-D5_P
-Text Label 5250 5300 2    50   ~ 0
-D5_N
-Text Label 5550 5400 2    50   ~ 0
-C2P_CLK_P
-Text Label 5550 5500 2    50   ~ 0
-C2P_CLK_N
-Text Label 5550 5600 2    50   ~ 0
-P2C_CLK_P
-Text Label 5550 5700 2    50   ~ 0
-P2C_CLK_N
+Text Notes 4800 2150 2    50   ~ 0
+TODO SYZYGY BUS
 Text Label 6350 5400 0    50   ~ 0
 P2C_CLK_P
 Text Label 6350 5500 0    50   ~ 0
@@ -338,29 +210,13 @@ AR Path="/5C80F1A0/5C99D18A" Ref="R?"  Part="1"
 AR Path="/5C80F19A/5C99D18A" Ref="R25"  Part="1" 
 F 0 "R25" H 8970 3896 50  0000 L CNN
 F 1 "210k" H 8970 3805 50  0000 L CNN
-F 2 "pkl_dipol:R_0402" V 8830 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8830 3850 50  0001 C CNN
 F 3 "~" H 8900 3850 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
 F 5 "RMCF0402FT210K" H 0   0   50  0001 C CNN "PN"
 F 6 "1%" H 0   0   50  0001 C CNN "Tol"
 	1    8900 3850
 	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_lattice:ECP5U25-BG381 U?
-U 3 1 5C80F1CC
-P 4600 2600
-AR Path="/5AB8ACB7/5C80F1CC" Ref="U?"  Part="3" 
-AR Path="/5C80F19A/5C80F1CC" Ref="U3"  Part="3" 
-F 0 "U3" H 5700 2800 60  0000 L CNN
-F 1 "ECP5U25" H 4800 2800 60  0000 L CNN
-F 2 "gkl_housings_bga:caBGA_381_17x17" H 4600 2600 50  0001 C CNN
-F 3 "" H 4600 2600 50  0001 C CNN
-F 4 " 220-2052-ND " H -1650 1750 50  0001 C CNN "SN-DK"
-F 5 "LFE5U-45F-8BG381C" H -1650 1750 50  0001 C CNN "PN"
-F 6 "Lattice" H -1650 1750 50  0001 C CNN "Mfg"
-	3    4600 2600
-	-1   0    0    -1  
 $EndComp
 $Sheet
 S 7000 2400 1650 3400
