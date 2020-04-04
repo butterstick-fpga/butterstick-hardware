@@ -2,8 +2,15 @@
 
 ## A simple FPGA board for experiments with high speed LVDS interfaces. 3 Standard connectors with an onboard GigE link.
 
-	Still in active Development (Use stuff here if you want, but there is no support.)
+	Still in active Development (Use stuff here if you want, but there is limited support.)
 
+
+## Latest Revision: 
+* __Stable:__ [ButterStick r0.2](hardware/ButterStick_r0.2/)
+* _In Development:_ _[ButterStick r0.3](hardware/ButterStick_r0.3/)_
+
+Previous Revisions:
+* [ButterStick r0.1](hardware/ButterStick_r0.1/)
 
 ![alt-text](documentation/images/photo_001.jpg "Board")
 
