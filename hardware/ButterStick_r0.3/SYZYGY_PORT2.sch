@@ -3,7 +3,7 @@ EELAYER 33 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 16
+Sheet 9 20
 Title "ButterStick"
 Date "2019-06-14"
 Rev "r0.2"
@@ -314,20 +314,6 @@ F 1 "GND" H 8953 3724 50  0000 C CNN
 F 2 "" H 8850 3500 50  0001 C CNN
 F 3 "" H 8950 3850 50  0001 C CNN
 	1    8950 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R28
-U 1 1 5C986FFC
-P 8950 3700
-F 0 "R28" H 9020 3746 50  0000 L CNN
-F 1 "49k9" H 9020 3655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8880 3700 50  0001 C CNN
-F 3 "~" H 8950 3700 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
-F 5 "RMCF0402FT49K9" H 0   0   50  0001 C CNN "PN"
-F 6 "1%" H 0   0   50  0001 C CNN "Tol"
-	1    8950 3700
 	1    0    0    -1  
 $EndComp
 $Comp
