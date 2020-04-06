@@ -3,7 +3,7 @@ EELAYER 33 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 20
+Sheet 4 18
 Title "ButterStick"
 Date "2019-06-14"
 Rev "r0.2"
@@ -22,51 +22,30 @@ Connection ~ 750  4250
 Connection ~ 750  4650
 Connection ~ 1100 4250
 Connection ~ 1100 4650
-Connection ~ 1650 1100
-Connection ~ 1650 1600
-Connection ~ 1650 2000
-Connection ~ 1650 2450
 Connection ~ 1800 4050
 Connection ~ 1800 4250
 Connection ~ 1800 4800
-Connection ~ 2200 1100
-Connection ~ 2300 1100
 Connection ~ 2950 4400
 Connection ~ 2950 5000
 Connection ~ 2950 5150
 Connection ~ 3350 3950
 Connection ~ 3350 4700
-Connection ~ 3650 1100
 Connection ~ 3950 5600
 Connection ~ 3950 6000
 Connection ~ 3950 6500
 Connection ~ 3950 6900
-Connection ~ 4150 2600
-Connection ~ 4150 2700
-Connection ~ 4150 3150
-Connection ~ 4150 3250
 Connection ~ 4300 5600
 Connection ~ 4300 6000
 Connection ~ 4300 6500
 Connection ~ 4300 6900
-Connection ~ 4650 1450
 Connection ~ 4650 5600
 Connection ~ 4650 6000
 Connection ~ 4650 6500
 Connection ~ 4650 6900
-Connection ~ 4700 2600
-Connection ~ 4700 3050
-Connection ~ 4950 1450
-Connection ~ 5000 2600
 Connection ~ 5000 5600
 Connection ~ 5000 6000
 Connection ~ 5000 6500
 Connection ~ 5000 6900
-Connection ~ 5300 1450
-Connection ~ 5600 2600
-Connection ~ 5650 1450
-Connection ~ 5750 3300
-Connection ~ 5750 3400
 Connection ~ 6250 4750
 Connection ~ 6250 5150
 Connection ~ 6250 5750
@@ -77,24 +56,12 @@ Connection ~ 6600 5750
 Connection ~ 6600 6150
 Connection ~ 6950 4750
 Connection ~ 6950 5150
-Connection ~ 7000 1450
-Connection ~ 7000 2600
-Connection ~ 7200 1450
-Connection ~ 7450 1450
-Connection ~ 7800 2600
 Connection ~ 7850 5700
 Connection ~ 7850 6100
-Connection ~ 7950 1150
-Connection ~ 8100 2600
-Connection ~ 8100 3050
 Connection ~ 8200 5700
 Connection ~ 8200 6100
 Connection ~ 8550 5700
 Connection ~ 8550 6100
-Connection ~ 8650 2600
-Connection ~ 8650 2700
-Connection ~ 8650 3150
-Connection ~ 8650 3250
 Connection ~ 9700 5450
 Connection ~ 9700 5850
 Connection ~ 9700 6350
@@ -124,35 +91,9 @@ Wire Wire Line
 Wire Wire Line
 	1100 4650 1450 4650
 Wire Wire Line
-	1150 1100 1650 1100
-Wire Wire Line
-	1150 1200 1300 1200
-Wire Wire Line
-	1300 1200 1300 2350
-Wire Wire Line
 	1450 4250 1450 4300
 Wire Wire Line
 	1450 4650 1450 4600
-Wire Wire Line
-	1650 1100 2200 1100
-Wire Wire Line
-	1650 1250 1650 1100
-Wire Wire Line
-	1650 1600 1650 1550
-Wire Wire Line
-	1650 1650 1650 1600
-Wire Wire Line
-	1650 2000 1650 1950
-Wire Wire Line
-	1650 2000 2100 2000
-Wire Wire Line
-	1650 2050 1650 2000
-Wire Wire Line
-	1650 2350 1650 2450
-Wire Wire Line
-	1650 2450 1650 2550
-Wire Wire Line
-	1650 2450 2200 2450
 Wire Wire Line
 	1800 4050 1800 3950
 Wire Wire Line
@@ -170,30 +111,6 @@ Wire Wire Line
 Wire Wire Line
 	1950 5000 1800 5000
 Wire Wire Line
-	2000 1200 2000 1600
-Wire Wire Line
-	2000 1600 1650 1600
-Wire Wire Line
-	2100 1300 2450 1300
-Wire Wire Line
-	2100 2000 2100 1300
-Wire Wire Line
-	2200 750  2200 1100
-Wire Wire Line
-	2200 1100 2300 1100
-Wire Wire Line
-	2200 1400 2200 2450
-Wire Wire Line
-	2300 1100 2300 1700
-Wire Wire Line
-	2300 1100 2450 1100
-Wire Wire Line
-	2300 1700 2750 1700
-Wire Wire Line
-	2450 1200 2000 1200
-Wire Wire Line
-	2450 1400 2200 1400
-Wire Wire Line
 	2850 4050 3100 4050
 Wire Wire Line
 	2850 4250 2950 4250
@@ -210,8 +127,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 5150 2950 5300
 Wire Wire Line
-	3050 1700 3450 1700
-Wire Wire Line
 	3100 3950 3350 3950
 Wire Wire Line
 	3100 4050 3100 3950
@@ -219,8 +134,6 @@ Wire Wire Line
 	3100 4700 3350 4700
 Wire Wire Line
 	3100 4800 3100 4700
-Wire Wire Line
-	3350 1200 3550 1200
 Wire Wire Line
 	3350 3950 3350 3900
 Wire Wire Line
@@ -237,46 +150,6 @@ Wire Wire Line
 	3350 5050 3350 5150
 Wire Wire Line
 	3350 5150 2950 5150
-Wire Wire Line
-	3450 1400 3350 1400
-Wire Wire Line
-	3450 1700 3450 1400
-Wire Wire Line
-	3550 1200 3550 1900
-Wire Wire Line
-	3550 1900 4650 1900
-Wire Wire Line
-	3650 1100 3350 1100
-Wire Wire Line
-	3650 1800 3650 1100
-Wire Wire Line
-	3650 1800 4150 1800
-Wire Wire Line
-	3650 2600 3650 2300
-Wire Wire Line
-	3750 750  2200 750 
-Wire Wire Line
-	3750 1250 3750 750 
-Wire Wire Line
-	3850 900  3850 1100
-Wire Wire Line
-	3850 1100 3650 1100
-Wire Wire Line
-	3850 1350 4450 1350
-Wire Wire Line
-	3850 1450 3850 1350
-Wire Wire Line
-	3900 1250 3750 1250
-Wire Wire Line
-	3900 1450 3850 1450
-Wire Wire Line
-	3900 2700 4150 2700
-Wire Wire Line
-	3900 2800 3900 2700
-Wire Wire Line
-	3900 3100 3900 3150
-Wire Wire Line
-	3900 3150 4150 3150
 Wire Wire Line
 	3950 5600 3950 5550
 Wire Wire Line
@@ -302,30 +175,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 6950 3950 6900
 Wire Wire Line
-	4150 900  3850 900 
-Wire Wire Line
-	4150 950  4150 900 
-Wire Wire Line
-	4150 1750 4150 1800
-Wire Wire Line
-	4150 2600 3650 2600
-Wire Wire Line
-	4150 2600 4700 2600
-Wire Wire Line
-	4150 2700 4150 2600
-Wire Wire Line
-	4150 2800 4150 2700
-Wire Wire Line
-	4150 3150 4150 3100
-Wire Wire Line
-	4150 3250 4150 3150
-Wire Wire Line
-	4150 3250 5650 3250
-Wire Wire Line
-	4150 3350 4150 3250
-Wire Wire Line
-	4150 3650 4150 3750
-Wire Wire Line
 	4300 5600 4300 5650
 Wire Wire Line
 	4300 5600 4650 5600
@@ -341,14 +190,6 @@ Wire Wire Line
 	4300 6900 4300 6850
 Wire Wire Line
 	4300 6900 4650 6900
-Wire Wire Line
-	4450 1250 4400 1250
-Wire Wire Line
-	4450 1350 4450 1250
-Wire Wire Line
-	4650 1450 4400 1450
-Wire Wire Line
-	4650 1900 4650 1450
 Wire Wire Line
 	4650 5600 4650 5650
 Wire Wire Line
@@ -366,26 +207,6 @@ Wire Wire Line
 Wire Wire Line
 	4650 6900 5000 6900
 Wire Wire Line
-	4700 2600 5000 2600
-Wire Wire Line
-	4700 2650 4700 2600
-Wire Wire Line
-	4700 2950 4700 3050
-Wire Wire Line
-	4700 3050 4700 3750
-Wire Wire Line
-	4950 1450 4650 1450
-Wire Wire Line
-	4950 2100 4950 1450
-Wire Wire Line
-	5000 2600 5200 2600
-Wire Wire Line
-	5000 2650 5000 2600
-Wire Wire Line
-	5000 2950 5000 3050
-Wire Wire Line
-	5000 3050 4700 3050
-Wire Wire Line
 	5000 5600 5000 5650
 Wire Wire Line
 	5000 5600 5350 5600
@@ -402,16 +223,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 6900 5350 6900
 Wire Wire Line
-	5300 1450 4950 1450
-Wire Wire Line
-	5300 1550 5300 1450
-Wire Wire Line
-	5300 1900 5300 1850
-Wire Wire Line
-	5350 3000 5350 3350
-Wire Wire Line
-	5350 3750 5350 3650
-Wire Wire Line
 	5350 5600 5350 5650
 Wire Wire Line
 	5350 6000 5350 5950
@@ -419,44 +230,6 @@ Wire Wire Line
 	5350 6500 5350 6550
 Wire Wire Line
 	5350 6900 5350 6850
-Wire Wire Line
-	5600 2200 5600 2250
-Wire Wire Line
-	5600 2600 5400 2600
-Wire Wire Line
-	5600 2600 5600 2550
-Wire Wire Line
-	5650 1450 5300 1450
-Wire Wire Line
-	5650 1550 5650 1450
-Wire Wire Line
-	5650 1900 5650 1850
-Wire Wire Line
-	5650 3100 5850 3100
-Wire Wire Line
-	5650 3250 5650 3100
-Wire Wire Line
-	5750 2800 5750 3300
-Wire Wire Line
-	5750 3300 5750 3400
-Wire Wire Line
-	5750 3400 5750 3550
-Wire Wire Line
-	5850 2100 4950 2100
-Wire Wire Line
-	5850 2200 5600 2200
-Wire Wire Line
-	5850 2600 5600 2600
-Wire Wire Line
-	5850 2800 5750 2800
-Wire Wire Line
-	5850 2900 5500 2900
-Wire Wire Line
-	5850 3000 5350 3000
-Wire Wire Line
-	5850 3300 5750 3300
-Wire Wire Line
-	5850 3400 5750 3400
 Wire Wire Line
 	6250 4750 6250 4700
 Wire Wire Line
@@ -498,20 +271,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 6150 6950 6150
 Wire Wire Line
-	6850 2100 7200 2100
-Wire Wire Line
-	6850 2200 7000 2200
-Wire Wire Line
-	6850 2600 7000 2600
-Wire Wire Line
-	6850 2800 7250 2800
-Wire Wire Line
-	6850 2900 7400 2900
-Wire Wire Line
-	6850 3000 7450 3000
-Wire Wire Line
-	6850 3100 7150 3100
-Wire Wire Line
 	6950 4750 6950 4800
 Wire Wire Line
 	6950 4750 7300 4750
@@ -524,57 +283,9 @@ Wire Wire Line
 Wire Wire Line
 	6950 6150 6950 6100
 Wire Wire Line
-	7000 1150 7000 1450
-Wire Wire Line
-	7000 1450 5650 1450
-Wire Wire Line
-	7000 2200 7000 2250
-Wire Wire Line
-	7000 2600 7000 2550
-Wire Wire Line
-	7000 3300 6850 3300
-Wire Wire Line
-	7000 3400 7000 3300
-Wire Wire Line
-	7000 3800 7000 3700
-Wire Wire Line
-	7150 3100 7150 3250
-Wire Wire Line
-	7200 1450 7000 1450
-Wire Wire Line
-	7200 1450 7450 1450
-Wire Wire Line
-	7200 2100 7200 1450
-Wire Wire Line
-	7250 2800 7250 3800
-Wire Wire Line
 	7300 4750 7300 4800
 Wire Wire Line
 	7300 5150 7300 5100
-Wire Wire Line
-	7400 2600 7000 2600
-Wire Wire Line
-	7450 1450 7750 1450
-Wire Wire Line
-	7450 1550 7450 1450
-Wire Wire Line
-	7450 1900 7450 1850
-Wire Wire Line
-	7450 3000 7450 3400
-Wire Wire Line
-	7450 3800 7450 3700
-Wire Wire Line
-	7750 1550 7750 1450
-Wire Wire Line
-	7750 1900 7750 1850
-Wire Wire Line
-	7800 2600 7600 2600
-Wire Wire Line
-	7800 2650 7800 2600
-Wire Wire Line
-	7800 2950 7800 3050
-Wire Wire Line
-	7800 3050 8100 3050
 Wire Wire Line
 	7850 5700 7850 5650
 Wire Wire Line
@@ -588,24 +299,6 @@ Wire Wire Line
 Wire Wire Line
 	7850 6150 7850 6100
 Wire Wire Line
-	7950 1150 7000 1150
-Wire Wire Line
-	7950 1300 7950 1150
-Wire Wire Line
-	8100 2600 7800 2600
-Wire Wire Line
-	8100 2600 8650 2600
-Wire Wire Line
-	8100 2650 8100 2600
-Wire Wire Line
-	8100 2950 8100 3050
-Wire Wire Line
-	8100 3050 8100 3800
-Wire Wire Line
-	8150 1150 7950 1150
-Wire Wire Line
-	8150 1300 7950 1300
-Wire Wire Line
 	8200 5700 8200 5750
 Wire Wire Line
 	8200 5700 8550 5700
@@ -613,10 +306,6 @@ Wire Wire Line
 	8200 6100 8200 6050
 Wire Wire Line
 	8200 6100 8550 6100
-Wire Wire Line
-	8450 1150 8700 1150
-Wire Wire Line
-	8450 1300 8700 1300
 Wire Wire Line
 	8550 5700 8550 5750
 Wire Wire Line
@@ -626,35 +315,9 @@ Wire Wire Line
 Wire Wire Line
 	8550 6100 8900 6100
 Wire Wire Line
-	8650 2600 9150 2600
-Wire Wire Line
-	8650 2700 8650 2600
-Wire Wire Line
-	8650 2800 8650 2700
-Wire Wire Line
-	8650 3150 8650 3100
-Wire Wire Line
-	8650 3250 7150 3250
-Wire Wire Line
-	8650 3250 8650 3150
-Wire Wire Line
-	8650 3350 8650 3250
-Wire Wire Line
-	8650 3650 8650 3750
-Wire Wire Line
-	8900 2700 8650 2700
-Wire Wire Line
-	8900 2800 8900 2700
-Wire Wire Line
-	8900 3100 8900 3150
-Wire Wire Line
-	8900 3150 8650 3150
-Wire Wire Line
 	8900 5700 8900 5750
 Wire Wire Line
 	8900 6100 8900 6050
-Wire Wire Line
-	9150 2600 9150 2400
 Wire Wire Line
 	9700 5450 9700 5400
 Wire Wire Line
@@ -715,40 +378,6 @@ Wire Wire Line
 	10700 4350 10700 4150
 Wire Wire Line
 	10700 4850 10700 4650
-Text Label 5500 2900 0    50   ~ 0
-EN1
-Text Label 7400 2900 0    50   ~ 0
-EN2
-Text Label 8700 1150 0    50   ~ 0
-EN1
-Text Label 8700 1300 0    50   ~ 0
-EN2
-$Comp
-L Device:L_Small L2
-U 1 1 5CB966B9
-P 5300 2600
-F 0 "L2" V 5485 2600 50  0000 C CNN
-F 1 "2.2uH" V 5394 2600 50  0000 C CNN
-F 2 "Inductor_SMD:L_Taiyo-Yuden_MD-5050" H 5300 2600 50  0001 C CNN
-F 3 "~" H 5300 2600 50  0001 C CNN
-F 4 "Taiyo Yuden" H 0   0   50  0001 C CNN "MFG"
-F 5 "NR5040T2R2N" H 0   0   50  0001 C CNN "PN"
-	1    5300 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:L_Small L4
-U 1 1 5CB9A53E
-P 7500 2600
-F 0 "L4" V 7685 2600 50  0000 C CNN
-F 1 "2.2uH" V 7594 2600 50  0000 C CNN
-F 2 "Inductor_SMD:L_Taiyo-Yuden_MD-5050" H 7500 2600 50  0001 C CNN
-F 3 "~" H 7500 2600 50  0001 C CNN
-F 4 "Taiyo Yuden" H 0   0   50  0001 C CNN "MFG"
-F 5 "NR5040T2R2N" H 0   0   50  0001 C CNN "PN"
-	1    7500 2600
-	0    -1   -1   0   
-$EndComp
 $Comp
 L gkl_power:GND #PWR?
 U 1 1 5CD186CC
@@ -760,28 +389,6 @@ F 1 "GND" H 753 4574 50  0000 C CNN
 F 2 "" H 650 4350 50  0001 C CNN
 F 3 "" H 750 4700 50  0001 C CNN
 	1    750  4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0263
-U 1 1 5CEBCDC3
-P 1300 2350
-F 0 "#PWR0263" H 1300 2100 50  0001 C CNN
-F 1 "GND" H 1303 2224 50  0000 C CNN
-F 2 "" H 1200 2000 50  0001 C CNN
-F 3 "" H 1300 2350 50  0001 C CNN
-	1    1300 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0262
-U 1 1 5CEBCD4E
-P 1650 2550
-F 0 "#PWR0262" H 1650 2300 50  0001 C CNN
-F 1 "GND" H 1653 2424 50  0000 C CNN
-F 2 "" H 1550 2200 50  0001 C CNN
-F 3 "" H 1650 2550 50  0001 C CNN
-	1    1650 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -824,72 +431,6 @@ F 3 "" H 3950 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gkl_power:GND #PWR0242
-U 1 1 5CBFA247
-P 4150 3750
-F 0 "#PWR0242" H 4150 3500 50  0001 C CNN
-F 1 "GND" H 4153 3624 50  0000 C CNN
-F 2 "" H 4050 3400 50  0001 C CNN
-F 3 "" H 4150 3750 50  0001 C CNN
-	1    4150 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0221
-U 1 1 5CBBBB0D
-P 4700 3750
-F 0 "#PWR0221" H 4700 3500 50  0001 C CNN
-F 1 "GND" H 4703 3624 50  0000 C CNN
-F 2 "" H 4600 3400 50  0001 C CNN
-F 3 "" H 4700 3750 50  0001 C CNN
-	1    4700 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0260
-U 1 1 5CDE51FB
-P 5300 1900
-F 0 "#PWR0260" H 5300 1650 50  0001 C CNN
-F 1 "GND" H 5303 1774 50  0000 C CNN
-F 2 "" H 5200 1550 50  0001 C CNN
-F 3 "" H 5300 1900 50  0001 C CNN
-	1    5300 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0243
-U 1 1 5CC5C7EC
-P 5350 3750
-F 0 "#PWR0243" H 5350 3500 50  0001 C CNN
-F 1 "GND" H 5353 3624 50  0000 C CNN
-F 2 "" H 5250 3400 50  0001 C CNN
-F 3 "" H 5350 3750 50  0001 C CNN
-	1    5350 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0261
-U 1 1 5CDE5270
-P 5650 1900
-F 0 "#PWR0261" H 5650 1650 50  0001 C CNN
-F 1 "GND" H 5653 1774 50  0000 C CNN
-F 2 "" H 5550 1550 50  0001 C CNN
-F 3 "" H 5650 1900 50  0001 C CNN
-	1    5650 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0219
-U 1 1 5CB8B59A
-P 5750 3550
-F 0 "#PWR0219" H 5750 3300 50  0001 C CNN
-F 1 "GND" H 5753 3424 50  0000 C CNN
-F 2 "" H 5650 3200 50  0001 C CNN
-F 3 "" H 5750 3550 50  0001 C CNN
-	1    5750 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L gkl_power:GND #PWR?
 U 1 1 5BBEAFDE
 P 6250 5200
@@ -916,61 +457,6 @@ F 3 "" H 6250 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gkl_power:GND #PWR0220
-U 1 1 5CB8C8C1
-P 7000 3800
-F 0 "#PWR0220" H 7000 3550 50  0001 C CNN
-F 1 "GND" H 7003 3674 50  0000 C CNN
-F 2 "" H 6900 3450 50  0001 C CNN
-F 3 "" H 7000 3800 50  0001 C CNN
-	1    7000 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0245
-U 1 1 5CC732C1
-P 7250 3800
-F 0 "#PWR0245" H 7250 3550 50  0001 C CNN
-F 1 "GND" H 7253 3674 50  0000 C CNN
-F 2 "" H 7150 3450 50  0001 C CNN
-F 3 "" H 7250 3800 50  0001 C CNN
-	1    7250 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0267
-U 1 1 5CF123EF
-P 7450 1900
-F 0 "#PWR0267" H 7450 1650 50  0001 C CNN
-F 1 "GND" H 7453 1774 50  0000 C CNN
-F 2 "" H 7350 1550 50  0001 C CNN
-F 3 "" H 7450 1900 50  0001 C CNN
-	1    7450 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0244
-U 1 1 5CC641A7
-P 7450 3800
-F 0 "#PWR0244" H 7450 3550 50  0001 C CNN
-F 1 "GND" H 7453 3674 50  0000 C CNN
-F 2 "" H 7350 3450 50  0001 C CNN
-F 3 "" H 7450 3800 50  0001 C CNN
-	1    7450 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0268
-U 1 1 5CF256AE
-P 7750 1900
-F 0 "#PWR0268" H 7750 1650 50  0001 C CNN
-F 1 "GND" H 7753 1774 50  0000 C CNN
-F 2 "" H 7650 1550 50  0001 C CNN
-F 3 "" H 7750 1900 50  0001 C CNN
-	1    7750 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L gkl_power:GND #PWR?
 U 1 1 5BBEAFAD
 P 7850 6150
@@ -982,28 +468,6 @@ F 2 "" H 7750 5800 50  0001 C CNN
 F 3 "" H 7850 6150 50  0001 C CNN
 	1    7850 6150
 	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0222
-U 1 1 5CBBBC39
-P 8100 3800
-F 0 "#PWR0222" H 8100 3550 50  0001 C CNN
-F 1 "GND" H 8103 3674 50  0000 C CNN
-F 2 "" H 8000 3450 50  0001 C CNN
-F 3 "" H 8100 3800 50  0001 C CNN
-	1    8100 3800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0246
-U 1 1 5CC7B73E
-P 8650 3750
-F 0 "#PWR0246" H 8650 3500 50  0001 C CNN
-F 1 "GND" H 8653 3624 50  0000 C CNN
-F 2 "" H 8550 3400 50  0001 C CNN
-F 3 "" H 8650 3750 50  0001 C CNN
-	1    8650 3750
-	-1   0    0    -1  
 $EndComp
 $Comp
 L gkl_power:GND #PWR?
@@ -1123,17 +587,6 @@ F 3 "" H 3350 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gkl_power:+5V #PWR0247
-U 1 1 5CCBAB55
-P 3650 2300
-F 0 "#PWR0247" H 3650 2150 50  0001 C CNN
-F 1 "+5V" H 3653 2451 50  0000 C CNN
-F 2 "" H 3650 2300 50  0001 C CNN
-F 3 "" H 3650 2300 50  0001 C CNN
-	1    3650 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L gkl_power:+1V1 #PWR?
 U 1 1 5D010E60
 P 3950 5550
@@ -1199,17 +652,6 @@ F 3 "" H 7850 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gkl_power:+3V3 #PWR0248
-U 1 1 5CCBACFE
-P 9150 2400
-F 0 "#PWR0248" H 9150 2250 50  0001 C CNN
-F 1 "+3V3" H 9153 2551 50  0000 C CNN
-F 2 "" H 9150 2400 50  0001 C CNN
-F 3 "" H 9150 2400 50  0001 C CNN
-	1    9150 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L gkl_power:+3V3 #PWR?
 U 1 1 5BBEB089
 P 9700 5400
@@ -1272,149 +714,6 @@ F 1 "+3V3" H 10703 4301 50  0000 C CNN
 F 2 "" H 10700 4150 50  0001 C CNN
 F 3 "" H 10700 4150 50  0001 C CNN
 	1    10700 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R56
-U 1 1 5CD25772
-P 1650 1400
-F 0 "R56" H 1581 1354 50  0000 R CNN
-F 1 "150k" H 1581 1445 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1580 1400 50  0001 C CNN
-F 3 "~" H 1650 1400 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
-F 5 "RMCF0402FT150K" H 0   0   50  0001 C CNN "PN"
-	1    1650 1400
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R57
-U 1 1 5CD52827
-P 1650 1800
-F 0 "R57" H 1581 1754 50  0000 R CNN
-F 1 "150k" H 1581 1845 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1580 1800 50  0001 C CNN
-F 3 "~" H 1650 1800 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
-F 5 "RMCF0402FT150K" H 0   0   50  0001 C CNN "PN"
-	1    1650 1800
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R58
-U 1 1 5CD528A3
-P 1650 2200
-F 0 "R58" H 1581 2154 50  0000 R CNN
-F 1 "5.1M" H 1581 2245 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1580 2200 50  0001 C CNN
-F 3 "~" H 1650 2200 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
-F 5 "RMCF0402FT5M10" H 0   0   50  0001 C CNN "PN"
-	1    1650 2200
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R59
-U 1 1 5CD68A79
-P 2900 1700
-F 0 "R59" V 2800 1800 50  0000 C CNN
-F 1 "510k" V 2800 1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 2830 1700 50  0001 C CNN
-F 3 "~" H 2900 1700 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
-F 5 "RMCF0402FT510K" H 0   0   50  0001 C CNN "PN"
-	1    2900 1700
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R43
-U 1 1 5CBD6E81
-P 4150 2950
-F 0 "R43" H 4220 2996 50  0000 L CNN
-F 1 "124k" H 4220 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4080 2950 50  0001 C CNN
-F 3 "~" H 4150 2950 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
-F 5 "RMCF0402FT124K" H 0   0   50  0001 C CNN "PN"
-	1    4150 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R44
-U 1 1 5CBD6FDB
-P 4150 3500
-F 0 "R44" H 4220 3546 50  0000 L CNN
-F 1 "22.1k" H 4220 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4080 3500 50  0001 C CNN
-F 3 "~" H 4150 3500 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
-F 5 "RMCF0402FT22K1" H 0   0   50  0001 C CNN "PN"
-	1    4150 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R61
-U 1 1 5C8641F5
-P 8300 1150
-F 0 "R61" V 8400 1100 50  0000 R CNN
-F 1 "10k" V 8400 1300 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8230 1150 50  0001 C CNN
-F 3 "~" H 8300 1150 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
-F 5 "RMCF0402FT10K0" H 0   0   50  0001 C CNN "PN"
-	1    8300 1150
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:R R62
-U 1 1 5C88BD7C
-P 8300 1300
-F 0 "R62" V 8200 1200 50  0000 R CNN
-F 1 "10k" V 8200 1500 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8230 1300 50  0001 C CNN
-F 3 "~" H 8300 1300 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
-F 5 "RMCF0402FT10K0" H 0   0   50  0001 C CNN "PN"
-	1    8300 1300
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:R R45
-U 1 1 5CC7B71F
-P 8650 2950
-F 0 "R45" H 8850 3000 50  0000 R CNN
-F 1 "73.2k" H 8950 2900 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8580 2950 50  0001 C CNN
-F 3 "~" H 8650 2950 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
-F 5 "RMCF0402FT73K2" H 0   0   50  0001 C CNN "PN"
-	1    8650 2950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R46
-U 1 1 5CC7B725
-P 8650 3500
-F 0 "R46" H 8750 3550 50  0000 L CNN
-F 1 "22.1k" H 8720 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8580 3500 50  0001 C CNN
-F 3 "~" H 8650 3500 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg"
-F 5 "RMCF0402FT22K1" H 0   0   50  0001 C CNN "PN"
-	1    8650 3500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J6
-U 1 1 5CD51281
-P 950 1100
-F 0 "J6" H 850 1300 50  0000 C CNN
-F 1 "JST_PA" H 850 1200 50  0000 C CNN
-F 2 "gkl_conn:SB02B-PASK-2" H 950 1100 50  0001 C CNN
-F 3 "~" H 950 1100 50  0001 C CNN
-F 4 "JST Sales America Inc." H 0   0   50  0001 C CNN "Mfg"
-F 5 "S02B-PASK-2(LF)(SN)" H 0   0   50  0001 C CNN "PN"
-	1    950  1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1495,21 +794,6 @@ F 4 "445-13185-1-ND" H -250 -1200 50  0001 C CNN "SN-DK"
 F 5 "CL05A105KP5NNNC" H -250 -1200 50  0001 C CNN "PN"
 F 6 "Samsung Electro-Mechanics" H -100 -1050 50  0001 C CNN "Mfg"
 	1    3350 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CBD703F
-P 3900 2950
-AR Path="/5ABC9A87/5CBD703F" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CBD703F" Ref="C57"  Part="1" 
-F 0 "C57" H 3750 3050 50  0000 L CNN
-F 1 "10pF" H 3600 2850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3938 2800 50  0001 C CNN
-F 3 "" H 3900 2950 50  0001 C CNN
-F 4 "1276-1002-1-ND" H -600 -4000 50  0001 C CNN "SN-DK"
-F 5 "CL05C100JB5NNNC" H 0   0   50  0001 C CNN "PN"
-	1    3900 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1610,36 +894,6 @@ F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 5CBA6493
-P 4700 2800
-AR Path="/5ABC9A87/5CBA6493" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CBA6493" Ref="C52"  Part="1" 
-F 0 "C52" H 4750 2900 50  0000 L CNN
-F 1 "22uF" H 4750 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 2650 50  0001 C CNN
-F 3 "" H 4700 2800 50  0001 C CNN
-F 4 "1276-1002-1-ND" H 200 -4150 50  0001 C CNN "SN-DK"
-F 5 "CL21A226MOCLRNC" H 0   0   50  0001 C CNN "PN"
-	1    4700 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CBA6419
-P 5000 2800
-AR Path="/5ABC9A87/5CBA6419" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CBA6419" Ref="C53"  Part="1" 
-F 0 "C53" H 5050 2900 50  0000 L CNN
-F 1 "22uF" H 5050 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5038 2650 50  0001 C CNN
-F 3 "" H 5000 2800 50  0001 C CNN
-F 4 "1276-1002-1-ND" H 500 -4150 50  0001 C CNN "SN-DK"
-F 5 "CL21A226MOCLRNC" H 0   0   50  0001 C CNN "PN"
-	1    5000 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
 U 1 1 5D010E6C
 P 5000 5800
 AR Path="/5ABC9A87/5D010E6C" Ref="C?"  Part="1" 
@@ -1668,36 +922,6 @@ F 4 "1276-1002-1-ND" H -550 -250 50  0001 C CNN "SN-DK"
 F 5 "CL05B104KP5NNNC" H -550 -250 50  0001 C CNN "PN"
 F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
 	1    5000 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CDE4C5A
-P 5300 1700
-AR Path="/5ABC9A87/5CDE4C5A" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CDE4C5A" Ref="C67"  Part="1" 
-F 0 "C67" H 5350 1800 50  0000 L CNN
-F 1 "10uF" H 5350 1600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5338 1550 50  0001 C CNN
-F 3 "" H 5300 1700 50  0001 C CNN
-F 4 "CL21A106KAFN3NE" H 0   0   50  0001 C CNN "PN"
-	1    5300 1700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CC1BE34
-P 5350 3500
-AR Path="/5ABC9A87/5CC1BE34" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CC1BE34" Ref="C58"  Part="1" 
-F 0 "C58" H 5400 3600 50  0000 L CNN
-F 1 "10nF" H 5400 3400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5388 3350 50  0001 C CNN
-F 3 "" H 5350 3500 50  0001 C CNN
-F 4 "1276-1002-1-ND" H 850 -3450 50  0001 C CNN "SN-DK"
-F 5 "CL05B103KP5NNNC" H 850 -3450 50  0001 C CNN "PN"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
-	1    5350 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1731,36 +955,6 @@ F 5 "CL05B104KP5NNNC" H -550 -250 50  0001 C CNN "PN"
 F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
 	1    5350 6700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CB7A496
-P 5600 2400
-AR Path="/5ABC9A87/5CB7A496" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CB7A496" Ref="C48"  Part="1" 
-F 0 "C48" H 5650 2500 50  0000 L CNN
-F 1 "100nF" H 5650 2300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5638 2250 50  0001 C CNN
-F 3 "" H 5600 2400 50  0001 C CNN
-F 4 "1276-1002-1-ND" H 1100 -4550 50  0001 C CNN "SN-DK"
-F 5 "CL05B104KP5NNNC" H 1100 -4550 50  0001 C CNN "PN"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
-	1    5600 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CDE4D0A
-P 5650 1700
-AR Path="/5ABC9A87/5CDE4D0A" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CDE4D0A" Ref="C68"  Part="1" 
-F 0 "C68" H 5700 1800 50  0000 L CNN
-F 1 "100nF" H 5700 1600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 1550 50  0001 C CNN
-F 3 "" H 5650 1700 50  0001 C CNN
-F 4 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "PN"
-	1    5650 1700
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
@@ -1860,38 +1054,6 @@ F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 5CB7A5AC
-P 7000 2400
-AR Path="/5ABC9A87/5CB7A5AC" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CB7A5AC" Ref="C49"  Part="1" 
-F 0 "C49" H 7050 2500 50  0000 L CNN
-F 1 "100nF" H 7050 2300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7038 2250 50  0001 C CNN
-F 3 "" H 7000 2400 50  0001 C CNN
-F 4 "1276-1002-1-ND" H 2500 -4550 50  0001 C CNN "SN-DK"
-F 5 "CL05B104KP5NNNC" H 2500 -4550 50  0001 C CNN "PN"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
-	1    7000 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CB8C7D3
-P 7000 3550
-AR Path="/5ABC9A87/5CB8C7D3" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CB8C7D3" Ref="C51"  Part="1" 
-F 0 "C51" H 7050 3650 50  0000 L CNN
-F 1 "1uF" H 7050 3450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7038 3400 50  0001 C CNN
-F 3 "" H 7000 3550 50  0001 C CNN
-F 4 "1276-1002-1-ND" H 2500 -3400 50  0001 C CNN "SN-DK"
-F 5 "CL05A105KP5NNNC" H 2500 -3400 50  0001 C CNN "PN"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
-	1    7000 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
 U 1 1 5D1E889E
 P 7300 4950
 AR Path="/5ABC9A87/5D1E889E" Ref="C?"  Part="1" 
@@ -1908,65 +1070,6 @@ F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 5CF123E9
-P 7450 1700
-AR Path="/5ABC9A87/5CF123E9" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CF123E9" Ref="C69"  Part="1" 
-F 0 "C69" H 7500 1800 50  0000 L CNN
-F 1 "10uF" H 7500 1600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7488 1550 50  0001 C CNN
-F 3 "" H 7450 1700 50  0001 C CNN
-F 4 "CL21A106KAFN3NE" H 0   0   50  0001 C CNN "PN"
-	1    7450 1700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CC641A1
-P 7450 3550
-AR Path="/5ABC9A87/5CC641A1" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CC641A1" Ref="C59"  Part="1" 
-F 0 "C59" H 7500 3650 50  0000 L CNN
-F 1 "10nF" H 7500 3450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7488 3400 50  0001 C CNN
-F 3 "" H 7450 3550 50  0001 C CNN
-F 4 "1276-1002-1-ND" H 2950 -3400 50  0001 C CNN "SN-DK"
-F 5 "CL05B103KP5NNNC" H 2950 -3400 50  0001 C CNN "PN"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
-	1    7450 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CF256A8
-P 7750 1700
-AR Path="/5ABC9A87/5CF256A8" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CF256A8" Ref="C70"  Part="1" 
-F 0 "C70" H 7800 1800 50  0000 L CNN
-F 1 "10uF" H 7800 1600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7788 1550 50  0001 C CNN
-F 3 "" H 7750 1700 50  0001 C CNN
-F 4 "CL21A106KAFN3NE" H 0   0   50  0001 C CNN "PN"
-	1    7750 1700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CBBBC1F
-P 7800 2800
-AR Path="/5ABC9A87/5CBBBC1F" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CBBBC1F" Ref="C54"  Part="1" 
-F 0 "C54" H 7850 2900 50  0000 L CNN
-F 1 "22uF" H 7850 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7838 2650 50  0001 C CNN
-F 3 "" H 7800 2800 50  0001 C CNN
-F 4 "1276-1002-1-ND" H 3300 -4150 50  0001 C CNN "SN-DK"
-F 5 "CL21A226MOCLRNC" H 0   0   50  0001 C CNN "PN"
-	1    7800 2800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
 U 1 1 5BBEAEF1
 P 7850 5900
 AR Path="/5ABC9A87/5BBEAEF1" Ref="C?"  Part="1" 
@@ -1980,21 +1083,6 @@ F 5 "CL05B104KP5NNNC" H 3350 950 50  0001 C CNN "PN"
 F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
 	1    7850 5900
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CBBBC27
-P 8100 2800
-AR Path="/5ABC9A87/5CBBBC27" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CBBBC27" Ref="C56"  Part="1" 
-F 0 "C56" H 8150 2900 50  0000 L CNN
-F 1 "22uF" H 8150 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8138 2650 50  0001 C CNN
-F 3 "" H 8100 2800 50  0001 C CNN
-F 4 "1276-1002-1-ND" H 3600 -4150 50  0001 C CNN "SN-DK"
-F 5 "CL21A226MOCLRNC" H 0   0   50  0001 C CNN "PN"
-	1    8100 2800
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
@@ -2027,21 +1115,6 @@ F 5 "CL05B104KP5NNNC" H 3350 950 50  0001 C CNN "PN"
 F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg"
 	1    8550 5900
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CC7B72D
-P 8900 2950
-AR Path="/5ABC9A87/5CC7B72D" Ref="C?"  Part="1" 
-AR Path="/5BBD18EA/5CC7B72D" Ref="C60"  Part="1" 
-F 0 "C60" H 8750 3050 50  0000 L CNN
-F 1 "10pF" H 8600 2850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8938 2800 50  0001 C CNN
-F 3 "" H 8900 2950 50  0001 C CNN
-F 4 "1276-1002-1-ND" H 4400 -4000 50  0001 C CNN "SN-DK"
-F 5 "CL05C100JB5NNNC" H 0   0   50  0001 C CNN "PN"
-	1    8900 2950
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
@@ -2230,45 +1303,6 @@ F 4 " TLV73318PDQNT " H 2400 4900 50  0001 C CNN "PN"
 F 5 " 296-38538-1-ND " H 2400 4900 50  0001 C CNN "SN-DK"
 F 6 "Texas Instruments" H -350 -1200 50  0001 C CNN "Mfg"
 	1    2400 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_mosfet:AON7804 U22
-U 1 1 5CDADFBF
-P 4150 1350
-F 0 "U22" V 3750 1450 50  0000 C CNN
-F 1 "AON7804" V 3850 1550 50  0000 C CNN
-F 2 "gkl_housings_dfn:DFN3X3_8L_EP2_P" H 3700 1550 50  0001 C CNN
-F 3 "" H 3700 1550 50  0001 C CNN
-F 4 "Alpha & Omega Semiconductor Inc." H 4150 1350 50  0001 C CNN "MFG"
-F 5 "AON7804" H 4150 1350 50  0001 C CNN "PN"
-	1    4150 1350
-	0    1    -1   0   
-$EndComp
-$Comp
-L gkl_pmic:LTC4367 U21
-U 1 1 5CD254F1
-P 2900 1250
-F 0 "U21" H 2900 1669 50  0000 C CNN
-F 1 "LTC4367" H 2900 1578 50  0000 C CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 2900 1550 50  0001 C CNN
-F 3 "" H 2900 1550 50  0001 C CNN
-F 4 "Linear Technology/Analog Devices" H 2900 1250 50  0001 C CNN "MFG"
-F 5 "LTC4367IMS8-1#PBF" H 2900 1250 50  0001 C CNN "PN"
-	1    2900 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_pmic:TPS542951 U15
-U 1 1 5CB635BF
-P 6350 2400
-F 0 "U15" H 6350 2969 50  0000 C CNN
-F 1 "TPS542951" H 6350 2878 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm_ThermalVias" H 6350 2850 50  0001 C CNN
-F 3 "" H 6350 2850 50  0001 C CNN
-F 4 "Texas Instruments" H 6350 2400 50  0001 C CNN "MFG"
-F 5 "TPS542951RSAR" H 6350 2400 50  0001 C CNN "PN"
-	1    6350 2400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

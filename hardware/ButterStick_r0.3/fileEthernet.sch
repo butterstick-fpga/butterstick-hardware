@@ -3,7 +3,7 @@ EELAYER 33 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 20
+Sheet 17 18
 Title "ButterStick"
 Date "2019-06-14"
 Rev "r0.2"
@@ -18,15 +18,15 @@ Comment7 ""
 Comment8 ""
 Comment9 ""
 $EndDescr
-Connection ~ 650  -1350
-Connection ~ 1050 -1350
-Connection ~ 1050 -950
-Connection ~ 1050 -850
-Connection ~ 3900 3600
-Connection ~ 2350 -850
-Connection ~ 4250 3600
-Connection ~ 2650 -850
-Connection ~ 4600 3600
+Connection ~ 1200 -1300
+Connection ~ 1600 -1300
+Connection ~ 1600 -900
+Connection ~ 1600 -800
+Connection ~ 3900 3500
+Connection ~ 2900 -800
+Connection ~ 4250 3500
+Connection ~ 3200 -800
+Connection ~ 4600 3500
 Connection ~ 5250 1700
 Connection ~ 5250 2000
 Connection ~ 5250 2100
@@ -37,184 +37,328 @@ Connection ~ 5250 2900
 Connection ~ 5250 3000
 Connection ~ 5250 3100
 Connection ~ 5250 6000
-Connection ~ -1750 6450
-Connection ~ -1750 6850
-Connection ~ -1750 6950
-Connection ~ -1750 7050
-Connection ~ -1750 7150
-Connection ~ -1750 7250
-Connection ~ -650 6800
-Connection ~ -650 6900
-Connection ~ -650 7000
-Connection ~ -650 7100
-Connection ~ -650 7200
-Connection ~ 8250 1450
-Connection ~ 8750 1450
 Connection ~ 14450 3800
-Connection ~ 6600 -1400
-Connection ~ 6900 -1500
-Connection ~ 7200 -1600
-Connection ~ 6000 -3000
-Connection ~ 7500 -2100
-Connection ~ 7800 -2000
-Connection ~ 6900 -2300
-Connection ~ 7200 -2200
-Connection ~ 6300 -1300
 Connection ~ 9450 2450
 Connection ~ 8050 4250
 Connection ~ 9000 4000
 Connection ~ 8050 3650
 Connection ~ 8200 3750
+Connection ~ 2850 2850
+Connection ~ 3300 3600
+Connection ~ 2450 4700
+Connection ~ 2450 4600
+Connection ~ 2450 4500
+Connection ~ 2450 4250
+Connection ~ 2450 3750
+Connection ~ 2450 3850
+Connection ~ 2450 3950
+Connection ~ 2450 4050
+Connection ~ 2450 4150
+Connection ~ 2450 2850
+Connection ~ 3550 4600
+Connection ~ 3550 4150
+Connection ~ 3550 3950
+Connection ~ 3550 4250
+Connection ~ 3550 4050
+Connection ~ 3550 4500
+Connection ~ 3550 4700
+Connection ~ 3550 3850
+Connection ~ 4400 3600
+Connection ~ 3550 4800
+Connection ~ 8350 2050
+Connection ~ 8850 2050
 NoConn ~ 7650 3950
 NoConn ~ 7650 4050
 Entry Wire Line
-	4750 3900 4850 3800
+	2850 3500 2750 3600
 Entry Wire Line
-	4750 4000 4850 3900
+	3000 3500 2900 3600
 Entry Wire Line
-	4750 4100 4850 4000
+	3200 3750 3300 3850
 Entry Wire Line
-	4750 4300 4850 4200
+	3200 3850 3300 3950
 Entry Wire Line
-	4750 4400 4850 4300
+	3200 3950 3300 4050
 Entry Wire Line
-	4750 4500 4850 4400
+	3200 4050 3300 4150
 Entry Wire Line
-	4750 4600 4850 4500
+	3200 4150 3300 4250
+Entry Wire Line
+	3200 4250 3300 4350
+Entry Wire Line
+	3300 4400 3200 4500
+Entry Wire Line
+	3300 4500 3200 4600
+Entry Wire Line
+	3300 4600 3200 4700
+Entry Wire Line
+	3300 4700 3200 4800
+Entry Wire Line
+	4300 3750 4400 3850
+Entry Wire Line
+	4300 3850 4400 3950
+Entry Wire Line
+	4300 3950 4400 4050
+Entry Wire Line
+	4300 4050 4400 4150
+Entry Wire Line
+	4300 4150 4400 4250
+Entry Wire Line
+	4300 4250 4400 4350
+Entry Wire Line
+	4400 4400 4300 4500
+Entry Wire Line
+	4400 4500 4300 4600
+Entry Wire Line
+	4400 4600 4300 4700
+Entry Wire Line
+	4400 4700 4300 4800
+Entry Wire Line
+	4850 3800 4750 3700
+Entry Wire Line
+	4850 3900 4750 3800
+Entry Wire Line
+	4850 4000 4750 3900
+Entry Wire Line
+	4850 4200 4750 4100
+Entry Wire Line
+	4850 4300 4750 4200
+Entry Wire Line
+	4850 4400 4750 4300
+Entry Wire Line
+	4850 4500 4750 4400
+Entry Wire Line
+	4850 4700 4750 4600
+Entry Wire Line
+	4850 4800 4750 4700
+Entry Wire Line
+	4850 4900 4750 4800
+Entry Wire Line
+	4850 5000 4750 4900
+Entry Wire Line
+	4850 5200 4750 5100
+Entry Wire Line
+	4850 5300 4750 5200
+Entry Wire Line
+	4850 5400 4750 5300
+Entry Wire Line
+	4850 5500 4750 5400
+Entry Wire Line
+	4850 5600 4750 5500
+Entry Wire Line
+	4850 5700 4750 5600
 Wire Wire Line
-	-1900 6450 -1750 6450
+	1000 -1300 1000 -1400
 Wire Wire Line
-	-1900 6550 -1750 6550
+	1200 -1300 1000 -1300
 Wire Wire Line
-	-1900 6750 -1750 6750
+	1200 -1150 1200 -1300
 Wire Wire Line
-	-1900 6850 -1750 6850
+	1200 -750 1200 -850
 Wire Wire Line
-	-1900 6950 -1750 6950
+	1600 -1300 1200 -1300
 Wire Wire Line
-	-1900 7050 -1750 7050
+	1600 -1200 1600 -1300
 Wire Wire Line
-	-1900 7150 -1750 7150
+	1600 -1000 1600 -900
 Wire Wire Line
-	-1900 7250 -1750 7250
+	1600 -900 1600 -800
 Wire Wire Line
-	-1750 6450 -1750 6350
+	1600 -800 1600 -550
 Wire Wire Line
-	-1750 6550 -1750 6450
+	1700 -1300 1600 -1300
 Wire Wire Line
-	-1750 6750 -1750 6850
+	1700 -1200 1600 -1200
 Wire Wire Line
-	-1750 6850 -1750 6950
+	1700 -1000 1600 -1000
 Wire Wire Line
-	-1750 6950 -1750 7050
+	1700 -900 1600 -900
 Wire Wire Line
-	-1750 7050 -1750 7150
+	1700 -800 1600 -800
 Wire Wire Line
-	-1750 7150 -1750 7250
+	2450 2800 2450 2850
 Wire Wire Line
-	-1750 7250 -1750 7350
+	2450 2850 2450 3750
 Wire Wire Line
-	-800 6700 -650 6700
+	2450 2850 2850 2850
 Wire Wire Line
-	-800 6800 -650 6800
+	2450 3750 2450 3850
 Wire Wire Line
-	-800 6900 -650 6900
+	2450 3750 2550 3750
 Wire Wire Line
-	-800 7000 -650 7000
+	2450 3850 2450 3950
 Wire Wire Line
-	-800 7100 -650 7100
+	2450 3850 2550 3850
 Wire Wire Line
-	-800 7200 -650 7200
+	2450 3950 2450 4050
 Wire Wire Line
-	-650 6700 -650 6800
+	2450 3950 2550 3950
 Wire Wire Line
-	-650 6800 -650 6900
+	2450 4050 2450 4150
 Wire Wire Line
-	-650 6900 -650 7000
+	2450 4050 2550 4050
 Wire Wire Line
-	-650 7000 -650 7100
+	2450 4150 2450 4250
 Wire Wire Line
-	-650 7100 -650 7200
+	2450 4150 2550 4150
 Wire Wire Line
-	-650 7200 -650 7400
+	2450 4250 2450 4500
 Wire Wire Line
-	450  -1350 450  -1450
+	2450 4250 2550 4250
 Wire Wire Line
-	650  -1350 450  -1350
+	2450 4500 2450 4600
 Wire Wire Line
-	650  -1200 650  -1350
+	2450 4500 2550 4500
 Wire Wire Line
-	650  -800 650  -900
+	2450 4600 2450 4700
 Wire Wire Line
-	1050 -1350 650  -1350
+	2450 4600 2550 4600
 Wire Wire Line
-	1050 -1250 1050 -1350
+	2450 4700 2450 4800
 Wire Wire Line
-	1050 -1050 1050 -950
+	2450 4700 2550 4700
 Wire Wire Line
-	1050 -950 1050 -850
+	2550 4800 2450 4800
 Wire Wire Line
-	1050 -850 1050 -600
+	2800 -1300 2900 -1300
 Wire Wire Line
-	1150 -1350 1050 -1350
+	2800 -1200 2900 -1200
 Wire Wire Line
-	1150 -1250 1050 -1250
+	2800 -900 2900 -900
 Wire Wire Line
-	1150 -1050 1050 -1050
+	2800 -800 2900 -800
 Wire Wire Line
-	1150 -950 1050 -950
+	2850 2850 2850 2950
 Wire Wire Line
-	1150 -850 1050 -850
+	2850 2850 3000 2850
 Wire Wire Line
-	2250 -1350 2350 -1350
+	2850 3500 2850 3250
 Wire Wire Line
-	2250 -1250 2350 -1250
+	2900 -1200 2900 -1300
 Wire Wire Line
-	2250 -950 2350 -950
+	2900 -900 2900 -800
 Wire Wire Line
-	2250 -850 2350 -850
+	2900 -800 3200 -800
 Wire Wire Line
-	2350 -1250 2350 -1350
+	3000 2850 3000 2950
 Wire Wire Line
-	2350 -950 2350 -850
+	3000 3500 3000 3250
 Wire Wire Line
-	2350 -850 2650 -850
+	3200 -950 3200 -800
 Wire Wire Line
-	2650 -1000 2650 -850
+	3200 -700 3200 -800
 Wire Wire Line
-	2650 -750 2650 -850
+	3200 -300 3200 -400
 Wire Wire Line
-	2650 -350 2650 -450
+	3200 3750 2850 3750
+Wire Wire Line
+	3200 3850 2850 3850
+Wire Wire Line
+	3200 3950 2850 3950
+Wire Wire Line
+	3200 4050 2850 4050
+Wire Wire Line
+	3200 4150 2850 4150
+Wire Wire Line
+	3200 4250 2850 4250
+Wire Wire Line
+	3200 4500 2850 4500
+Wire Wire Line
+	3200 4600 2850 4600
+Wire Wire Line
+	3200 4700 2850 4700
+Wire Wire Line
+	3200 4800 2850 4800
 Wire Wire Line
 	3400 7000 3400 7100
 Wire Wire Line
 	3400 7500 3400 7400
 Wire Wire Line
-	3700 3600 3900 3600
+	3550 3750 3550 3850
+Wire Wire Line
+	3550 3750 3650 3750
+Wire Wire Line
+	3550 3850 3550 3950
+Wire Wire Line
+	3550 3850 3650 3850
+Wire Wire Line
+	3550 3950 3550 4050
+Wire Wire Line
+	3550 3950 3650 3950
+Wire Wire Line
+	3550 4050 3550 4150
+Wire Wire Line
+	3550 4050 3650 4050
+Wire Wire Line
+	3550 4150 3550 4250
+Wire Wire Line
+	3550 4150 3650 4150
+Wire Wire Line
+	3550 4250 3550 4500
+Wire Wire Line
+	3550 4250 3650 4250
+Wire Wire Line
+	3550 4500 3550 4600
+Wire Wire Line
+	3550 4500 3650 4500
+Wire Wire Line
+	3550 4600 3550 4700
+Wire Wire Line
+	3550 4600 3650 4600
+Wire Wire Line
+	3550 4700 3550 4800
+Wire Wire Line
+	3550 4700 3650 4700
+Wire Wire Line
+	3550 4800 3550 4900
+Wire Wire Line
+	3650 4800 3550 4800
+Wire Wire Line
+	3700 3500 3900 3500
 Wire Wire Line
 	3750 7000 3750 7100
 Wire Wire Line
 	3750 7500 3750 7400
 Wire Wire Line
-	3900 3500 3900 3600
+	3900 3400 3900 3500
 Wire Wire Line
-	3900 3600 4250 3600
+	3900 3500 4250 3500
 Wire Wire Line
 	4100 7000 4100 7100
 Wire Wire Line
 	4100 7500 4100 7400
 Wire Wire Line
-	4250 3500 4250 3600
+	4250 3400 4250 3500
 Wire Wire Line
-	4250 3600 4600 3600
+	4250 3500 4600 3500
+Wire Wire Line
+	4300 3750 3950 3750
+Wire Wire Line
+	4300 3850 3950 3850
+Wire Wire Line
+	4300 3950 3950 3950
+Wire Wire Line
+	4300 4050 3950 4050
+Wire Wire Line
+	4300 4150 3950 4150
+Wire Wire Line
+	4300 4250 3950 4250
+Wire Wire Line
+	4300 4500 3950 4500
+Wire Wire Line
+	4300 4600 3950 4600
+Wire Wire Line
+	4300 4700 3950 4700
+Wire Wire Line
+	4300 4800 3950 4800
 Wire Wire Line
 	4400 7000 4400 7100
 Wire Wire Line
 	4400 7500 4400 7400
 Wire Wire Line
-	4600 3600 4600 3500
+	4600 3500 4600 3400
 Wire Wire Line
-	4600 3600 5350 3600
+	4600 3500 4900 3500
 Wire Wire Line
 	4700 7000 4700 7100
 Wire Wire Line
@@ -233,6 +377,30 @@ Wire Wire Line
 	4850 4400 5350 4400
 Wire Wire Line
 	4850 4500 5350 4500
+Wire Wire Line
+	4850 4700 5350 4700
+Wire Wire Line
+	4850 4800 5350 4800
+Wire Wire Line
+	4850 4900 5350 4900
+Wire Wire Line
+	4850 5000 5350 5000
+Wire Wire Line
+	4850 5200 5350 5200
+Wire Wire Line
+	4850 5300 5350 5300
+Wire Wire Line
+	4850 5400 5350 5400
+Wire Wire Line
+	4850 5500 5350 5500
+Wire Wire Line
+	4850 5600 5350 5600
+Wire Wire Line
+	4850 5700 5350 5700
+Wire Wire Line
+	4900 3500 4900 3600
+Wire Wire Line
+	4900 3600 5350 3600
 Wire Wire Line
 	5100 7000 5100 7100
 Wire Wire Line
@@ -306,67 +474,27 @@ Wire Wire Line
 Wire Wire Line
 	5700 7500 5700 7400
 Wire Wire Line
-	5800 -3200 8350 -3200
-Wire Wire Line
-	5800 -3000 6000 -3000
-Wire Wire Line
-	5800 -1400 6600 -1400
-Wire Wire Line
-	6000 -3300 6000 -3000
-Wire Wire Line
-	6000 -3000 8350 -3000
-Wire Wire Line
 	6000 7000 6000 7100
 Wire Wire Line
 	6000 7500 6000 7400
-Wire Wire Line
-	6300 -3300 6300 -1300
-Wire Wire Line
-	6300 -1300 5800 -1300
-Wire Wire Line
-	6300 -1300 8350 -1300
 Wire Wire Line
 	6300 7000 6300 7100
 Wire Wire Line
 	6300 7500 6300 7400
 Wire Wire Line
-	6600 -1400 6600 -3300
-Wire Wire Line
 	6600 7000 6600 7100
 Wire Wire Line
 	6600 7500 6600 7400
 Wire Wire Line
-	6900 -3300 6900 -2300
+	7650 1700 8850 1700
 Wire Wire Line
-	6900 -2300 5800 -2300
-Wire Wire Line
-	6900 -1500 5800 -1500
-Wire Wire Line
-	6900 -1250 6900 -1500
-Wire Wire Line
-	7200 -3300 7200 -2200
-Wire Wire Line
-	7200 -2200 5800 -2200
-Wire Wire Line
-	7200 -1600 5800 -1600
-Wire Wire Line
-	7200 -1250 7200 -1600
-Wire Wire Line
-	7500 -3300 7500 -2100
-Wire Wire Line
-	7500 -2100 5800 -2100
-Wire Wire Line
-	7650 1800 8750 1800
+	7650 1800 8350 1800
 Wire Wire Line
 	7650 2400 7800 2400
 Wire Wire Line
 	7650 3650 8050 3650
 Wire Wire Line
 	7650 3750 8200 3750
-Wire Wire Line
-	7800 -3300 7800 -2000
-Wire Wire Line
-	7800 -2000 5800 -2000
 Wire Wire Line
 	7800 2400 7800 2550
 Wire Wire Line
@@ -392,47 +520,15 @@ Wire Wire Line
 Wire Wire Line
 	8200 4250 8200 4200
 Wire Wire Line
-	8250 1350 8250 1450
+	8350 1800 8350 2050
 Wire Wire Line
-	8250 1450 8250 1700
+	8350 2050 8350 2150
 Wire Wire Line
-	8250 1700 7650 1700
+	8500 2050 8350 2050
 Wire Wire Line
-	8350 -3100 5800 -3100
+	8600 1950 8600 1900
 Wire Wire Line
-	8350 -2800 5800 -2800
-Wire Wire Line
-	8350 -2700 5800 -2700
-Wire Wire Line
-	8350 -2600 5800 -2600
-Wire Wire Line
-	8350 -2500 5800 -2500
-Wire Wire Line
-	8350 -2300 6900 -2300
-Wire Wire Line
-	8350 -2200 7200 -2200
-Wire Wire Line
-	8350 -2100 7500 -2100
-Wire Wire Line
-	8350 -2000 7800 -2000
-Wire Wire Line
-	8350 -1800 5800 -1800
-Wire Wire Line
-	8350 -1700 5800 -1700
-Wire Wire Line
-	8350 -1600 7200 -1600
-Wire Wire Line
-	8350 -1500 6900 -1500
-Wire Wire Line
-	8350 -1400 6600 -1400
-Wire Wire Line
-	8400 1450 8250 1450
-Wire Wire Line
-	8500 1050 8500 1350
-Wire Wire Line
-	8500 1550 8500 1600
-Wire Wire Line
-	8600 1450 8750 1450
+	8600 2450 8600 2150
 Wire Wire Line
 	8600 3200 8600 3250
 Wire Wire Line
@@ -442,9 +538,11 @@ Wire Wire Line
 Wire Wire Line
 	8600 4000 9000 4000
 Wire Wire Line
-	8750 1450 8750 1350
+	8700 2050 8850 2050
 Wire Wire Line
-	8750 1800 8750 1450
+	8850 1700 8850 2050
+Wire Wire Line
+	8850 2150 8850 2050
 Wire Wire Line
 	9000 3400 9000 3550
 Wire Wire Line
@@ -550,21 +648,133 @@ Wire Wire Line
 Wire Wire Line
 	15000 6150 15150 6150
 Wire Bus Line
-	1050 3800 4750 3800
+	1200 3600 2750 3600
 Wire Bus Line
-	4750 3800 4750 4000
+	2750 3600 3300 3600
 Wire Bus Line
-	4750 4000 4750 4300
+	3300 3600 3300 3950
 Wire Bus Line
-	4750 4300 4750 4500
+	3300 3600 4400 3600
 Wire Bus Line
-	4750 4500 4750 5700
-Text Notes -1000 6500 2    50   ~ 0
-Unpopulated \nStrap Options
-Text Notes 8150 2750 0    50   ~ 0
+	3300 3950 3300 4150
+Wire Bus Line
+	3300 4150 3300 4350
+Wire Bus Line
+	3300 4350 3300 4500
+Wire Bus Line
+	3300 4500 3300 4700
+Wire Bus Line
+	4400 3600 4400 3850
+Wire Bus Line
+	4400 3600 4750 3600
+Wire Bus Line
+	4400 3850 4400 4050
+Wire Bus Line
+	4400 4050 4400 4250
+Wire Bus Line
+	4400 4250 4400 4350
+Wire Bus Line
+	4400 4350 4400 4500
+Wire Bus Line
+	4400 4500 4400 4700
+Wire Bus Line
+	4750 3600 4750 3700
+Wire Bus Line
+	4750 3700 4750 3900
+Wire Bus Line
+	4750 3900 4750 4200
+Wire Bus Line
+	4750 4200 4750 4400
+Wire Bus Line
+	4750 4400 4750 4700
+Wire Bus Line
+	4750 4700 4750 4800
+Wire Bus Line
+	4750 4800 4750 5100
+Wire Bus Line
+	4750 5100 4750 5200
+Wire Bus Line
+	4750 5200 4750 5400
+Wire Bus Line
+	4750 5400 4750 5600
+Wire Notes Line
+	2350 3650 2350 5100
+Wire Notes Line
+	2350 3650 4500 3650
+Wire Notes Line
+	2350 5100 4500 5100
+Wire Notes Line
+	2550 3900 2850 4000
+Wire Notes Line
+	2550 4000 2850 4100
+Wire Notes Line
+	3650 3700 3950 3800
+Wire Notes Line
+	3650 3800 3950 3900
+Wire Notes Line
+	3650 4100 3950 4200
+Wire Notes Line
+	3650 4200 3950 4300
+Wire Notes Line
+	3650 4450 3950 4550
+Wire Notes Line
+	3650 4550 3950 4650
+Wire Notes Line
+	3650 4650 3950 4750
+Wire Notes Line
+	3650 4750 3950 4850
+Wire Notes Line
+	4500 5100 4500 3650
+Text Notes 3300 5000 2    67   ~ 0
+Strap Options
+Text Notes 7900 2900 0    50   ~ 0
 1%
-Text Notes 8900 1650 0    50   ~ 0
+Text Notes 8900 2150 0    50   ~ 0
 50ppm\n
+Text Label 2850 3500 1    50   ~ 0
+RESET
+Text Label 3000 3500 1    50   ~ 0
+MDIO
+Text Label 3200 3750 2    50   ~ 0
+CLK125
+Text Label 3200 3850 2    50   ~ 0
+INT
+Text Label 3200 3950 2    50   ~ 0
+RX_CLK
+Text Label 3200 4050 2    50   ~ 0
+RX_CTRL
+Text Label 3200 4150 2    50   ~ 0
+TX_CLK
+Text Label 3200 4250 2    50   ~ 0
+TX_CTRL
+Text Label 3200 4500 2    50   ~ 0
+RX3
+Text Label 3200 4600 2    50   ~ 0
+RX2
+Text Label 3200 4700 2    50   ~ 0
+RX1
+Text Label 3200 4800 2    50   ~ 0
+RX0
+Text Label 4300 3750 2    50   ~ 0
+CLK125
+Text Label 4300 3850 2    50   ~ 0
+INT
+Text Label 4300 3950 2    50   ~ 0
+RX_CLK
+Text Label 4300 4050 2    50   ~ 0
+RX_CTRL
+Text Label 4300 4150 2    50   ~ 0
+TX_CLK
+Text Label 4300 4250 2    50   ~ 0
+TX_CTRL
+Text Label 4300 4500 2    50   ~ 0
+RX3
+Text Label 4300 4600 2    50   ~ 0
+RX2
+Text Label 4300 4700 2    50   ~ 0
+RX1
+Text Label 4300 4800 2    50   ~ 0
+RX0
 Text Label 4850 3800 0    50   ~ 0
 RESET
 Text Label 4850 3900 0    50   ~ 0
@@ -579,6 +789,26 @@ Text Label 4850 4400 0    50   ~ 0
 TX2
 Text Label 4850 4500 0    50   ~ 0
 TX3
+Text Label 4850 4700 0    50   ~ 0
+RX0
+Text Label 4850 4800 0    50   ~ 0
+RX1
+Text Label 4850 4900 0    50   ~ 0
+RX2
+Text Label 4850 5000 0    50   ~ 0
+RX3
+Text Label 4850 5200 0    50   ~ 0
+TX_CTRL
+Text Label 4850 5300 0    50   ~ 0
+TX_CLK
+Text Label 4850 5400 0    50   ~ 0
+RX_CTRL
+Text Label 4850 5500 0    50   ~ 0
+RX_CLK
+Text Label 4850 5600 0    50   ~ 0
+INT
+Text Label 4850 5700 0    50   ~ 0
+CLK125
 Text Label 12850 4400 0    50   ~ 0
 ETH_A_P
 Text Label 12850 4500 0    50   ~ 0
@@ -599,146 +829,51 @@ Text Label 14800 4550 2    50   ~ 0
 LED2
 Text Label 14800 4750 2    50   ~ 0
 LED1
-Text GLabel -2200 6450 0    50   Input ~ 0
-ETH_RX_CTRL
-Text GLabel -2200 6550 0    50   Input ~ 0
-ETH_RX_CLK
-Text GLabel -2200 6750 0    50   Input ~ 0
-ETH_CLK125
-Text GLabel -2200 6850 0    50   Input ~ 0
-ETH_RXD0
-Text GLabel -2200 6950 0    50   Input ~ 0
-ETH_RXD1
-Text GLabel -2200 7050 0    50   Input ~ 0
-ETH_RXD2
-Text GLabel -2200 7150 0    50   Input ~ 0
-ETH_RXD3
-Text GLabel -2200 7250 0    50   Input ~ 0
-ETH_INT
-Text GLabel -1100 6700 0    50   Input ~ 0
-ETH_TX_CLK
-Text GLabel -1100 6800 0    50   Input ~ 0
-ETH_TX_CTRL
-Text GLabel -1100 6900 0    50   Input ~ 0
-ETH_TXD0
-Text GLabel -1100 7000 0    50   Input ~ 0
-ETH_TXD1
-Text GLabel -1100 7100 0    50   Input ~ 0
-ETH_TXD2
-Text GLabel -1100 7200 0    50   Input ~ 0
-ETH_TXD3
-Text GLabel 5800 -3200 0    50   Input ~ 0
-ETH_RST
-Text GLabel 5800 -3100 0    50   Input ~ 0
-ETH_MDC
-Text GLabel 5800 -3000 0    50   Input ~ 0
-ETH_MDIO
-Text GLabel 5800 -2800 0    50   Input ~ 0
-ETH_TXD0
-Text GLabel 5800 -2700 0    50   Input ~ 0
-ETH_TXD1
-Text GLabel 5800 -2600 0    50   Input ~ 0
-ETH_TXD2
-Text GLabel 5800 -2500 0    50   Input ~ 0
-ETH_TXD3
-Text GLabel 5800 -2300 0    50   Input ~ 0
-ETH_RXD0
-Text GLabel 5800 -2200 0    50   Input ~ 0
-ETH_RXD1
-Text GLabel 5800 -2100 0    50   Input ~ 0
-ETH_RXD2
-Text GLabel 5800 -2000 0    50   Input ~ 0
-ETH_RXD3
-Text GLabel 5800 -1800 0    50   Input ~ 0
-ETH_TX_CTRL
-Text GLabel 5800 -1700 0    50   Input ~ 0
-ETH_TX_CLK
-Text GLabel 5800 -1600 0    50   Input ~ 0
-ETH_RX_CTRL
-Text GLabel 5800 -1500 0    50   Input ~ 0
-ETH_RX_CLK
-Text GLabel 5800 -1400 0    50   Input ~ 0
-ETH_INT
-Text GLabel 5800 -1300 0    50   Input ~ 0
-ETH_CLK125
-Text HLabel 1050 3800 0    50   Input ~ 0
+Text HLabel 1200 3600 0    50   Input ~ 0
 {RGMII}
-$Comp
-L gkl_power:GND #PWR0299
-U 1 1 5D1031DA
-P -1750 7350
-AR Path="/5BA0BA35/5D1031DA" Ref="#PWR0299"  Part="1" 
-AR Path="/5D1031DA" Ref="#PWR0299"  Part="1" 
-AR Path="/5D1031DA" Ref="#PWR0299"  Part="1" 
-AR Path="/5EA08A40/5D1031DA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0299" H -1750 7100 50  0001 C CNN
-F 1 "GND" H -1747 7224 50  0000 C CNN
-F 2 "" H -1850 7000 50  0001 C CNN
-F 3 "" H -1750 7350 50  0001 C CNN
-	1    -1750 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR0301
-U 1 1 5D1517B6
-P -650 7400
-AR Path="/5BA0BA35/5D1517B6" Ref="#PWR0301"  Part="1" 
-AR Path="/5D1517B6" Ref="#PWR0301"  Part="1" 
-AR Path="/5D1517B6" Ref="#PWR0301"  Part="1" 
-AR Path="/5EA08A40/5D1517B6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0301" H -650 7150 50  0001 C CNN
-F 1 "GND" H -647 7274 50  0000 C CNN
-F 2 "" H -750 7050 50  0001 C CNN
-F 3 "" H -650 7400 50  0001 C CNN
-	1    -650 7400
-	1    0    0    -1  
-$EndComp
 $Comp
 L gkl_power:GND #PWR?
 U 1 1 5BC31FD0
-P 650 -800
+P 1200 -750
 AR Path="/5BBD18EA/5BC31FD0" Ref="#PWR?"  Part="1" 
 AR Path="/5BA0BA35/5BC31FD0" Ref="#PWR0136"  Part="1" 
 AR Path="/5BC31FD0" Ref="#PWR0136"  Part="1" 
-AR Path="/5BC31FD0" Ref="#PWR0136"  Part="1" 
 AR Path="/5EA08A40/5BC31FD0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0136" H 650 -1050 50  0001 C CNN
-F 1 "GND" H 653 -926 50  0000 C CNN
-F 2 "" H 550 -1150 50  0001 C CNN
-F 3 "" H 650 -800 50  0001 C CNN
-	1    650  -800
+F 0 "#PWR0136" H 1200 -1000 50  0001 C CNN
+F 1 "GND" H 1203 -876 50  0000 C CNN
+F 2 "" H 1100 -1100 50  0001 C CNN
+F 3 "" H 1200 -750 50  0001 C CNN
+	1    1200 -750
 	1    0    0    -1  
 $EndComp
 $Comp
 L gkl_power:GND #PWR?
 U 1 1 5BC31FD6
-P 1050 -600
+P 1600 -550
 AR Path="/5BBD18EA/5BC31FD6" Ref="#PWR?"  Part="1" 
 AR Path="/5BA0BA35/5BC31FD6" Ref="#PWR0180"  Part="1" 
 AR Path="/5BC31FD6" Ref="#PWR0180"  Part="1" 
-AR Path="/5BC31FD6" Ref="#PWR0180"  Part="1" 
 AR Path="/5EA08A40/5BC31FD6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0180" H 1050 -850 50  0001 C CNN
-F 1 "GND" H 1053 -726 50  0000 C CNN
-F 2 "" H 950 -950 50  0001 C CNN
-F 3 "" H 1050 -600 50  0001 C CNN
-	1    1050 -600
+F 0 "#PWR0180" H 1600 -800 50  0001 C CNN
+F 1 "GND" H 1603 -676 50  0000 C CNN
+F 2 "" H 1500 -900 50  0001 C CNN
+F 3 "" H 1600 -550 50  0001 C CNN
+	1    1600 -550
 	1    0    0    -1  
 $EndComp
 $Comp
 L gkl_power:GND #PWR?
 U 1 1 5BC31FDC
-P 2650 -350
+P 3200 -300
 AR Path="/5BBD18EA/5BC31FDC" Ref="#PWR?"  Part="1" 
 AR Path="/5BA0BA35/5BC31FDC" Ref="#PWR0192"  Part="1" 
 AR Path="/5BC31FDC" Ref="#PWR0192"  Part="1" 
-AR Path="/5BC31FDC" Ref="#PWR0192"  Part="1" 
 AR Path="/5EA08A40/5BC31FDC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0192" H 2650 -600 50  0001 C CNN
-F 1 "GND" H 2653 -476 50  0000 C CNN
-F 2 "" H 2550 -700 50  0001 C CNN
-F 3 "" H 2650 -350 50  0001 C CNN
-	1    2650 -350
+F 0 "#PWR0192" H 3200 -550 50  0001 C CNN
+F 1 "GND" H 3203 -426 50  0000 C CNN
+F 2 "" H 3100 -650 50  0001 C CNN
+F 3 "" H 3200 -300 50  0001 C CNN
+	1    3200 -300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -746,7 +881,6 @@ L gkl_power:GND #PWR0147
 U 1 1 5BA10E76
 P 3400 7500
 AR Path="/5BA0BA35/5BA10E76" Ref="#PWR0147"  Part="1" 
-AR Path="/5BA10E76" Ref="#PWR0147"  Part="1" 
 AR Path="/5BA10E76" Ref="#PWR0147"  Part="1" 
 AR Path="/5EA08A40/5BA10E76" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0147" H 3400 7250 50  0001 C CNN
@@ -757,11 +891,24 @@ F 3 "" H 3400 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L gkl_power:GND #PWR0131
+U 1 1 5E9C305C
+P 3550 4900
+AR Path="/5BA0BA35/5E9C305C" Ref="#PWR0131"  Part="1" 
+AR Path="/5E9C305C" Ref="#PWR?"  Part="1" 
+AR Path="/5EA08A40/5E9C305C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0131" H 3550 4650 50  0001 C CNN
+F 1 "GND" H 3553 4774 50  0000 C CNN
+F 2 "" H 3450 4550 50  0001 C CNN
+F 3 "" H 3550 4900 50  0001 C CNN
+	1    3550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
 L gkl_power:GND #PWR0149
 U 1 1 5BA131B6
 P 3750 7500
 AR Path="/5BA0BA35/5BA131B6" Ref="#PWR0149"  Part="1" 
-AR Path="/5BA131B6" Ref="#PWR0149"  Part="1" 
 AR Path="/5BA131B6" Ref="#PWR0149"  Part="1" 
 AR Path="/5EA08A40/5BA131B6" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0149" H 3750 7250 50  0001 C CNN
@@ -774,17 +921,16 @@ $EndComp
 $Comp
 L gkl_power:GND #PWR?
 U 1 1 5CF4408F
-P 3900 3200
+P 3900 3100
 AR Path="/5ABC9A87/5CF4408F" Ref="#PWR?"  Part="1" 
 AR Path="/5BA0BA35/5CF4408F" Ref="#PWR0272"  Part="1" 
 AR Path="/5CF4408F" Ref="#PWR0272"  Part="1" 
-AR Path="/5CF4408F" Ref="#PWR0272"  Part="1" 
 AR Path="/5EA08A40/5CF4408F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0272" H 3900 2950 50  0001 C CNN
-F 1 "GND" H 3903 3074 50  0000 C CNN
-F 2 "" H 3800 2850 50  0001 C CNN
-F 3 "" H 3900 3200 50  0001 C CNN
-	1    3900 3200
+F 0 "#PWR0272" H 3900 2850 50  0001 C CNN
+F 1 "GND" H 3903 2974 50  0000 C CNN
+F 2 "" H 3800 2750 50  0001 C CNN
+F 3 "" H 3900 3100 50  0001 C CNN
+	1    3900 3100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -792,7 +938,6 @@ L gkl_power:GND #PWR0151
 U 1 1 5BA13B66
 P 4100 7500
 AR Path="/5BA0BA35/5BA13B66" Ref="#PWR0151"  Part="1" 
-AR Path="/5BA13B66" Ref="#PWR0151"  Part="1" 
 AR Path="/5BA13B66" Ref="#PWR0151"  Part="1" 
 AR Path="/5EA08A40/5BA13B66" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0151" H 4100 7250 50  0001 C CNN
@@ -805,17 +950,16 @@ $EndComp
 $Comp
 L gkl_power:GND #PWR?
 U 1 1 5CF43DD5
-P 4250 3200
+P 4250 3100
 AR Path="/5ABC9A87/5CF43DD5" Ref="#PWR?"  Part="1" 
 AR Path="/5BA0BA35/5CF43DD5" Ref="#PWR0230"  Part="1" 
 AR Path="/5CF43DD5" Ref="#PWR0230"  Part="1" 
-AR Path="/5CF43DD5" Ref="#PWR0230"  Part="1" 
 AR Path="/5EA08A40/5CF43DD5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0230" H 4250 2950 50  0001 C CNN
-F 1 "GND" H 4253 3074 50  0000 C CNN
-F 2 "" H 4150 2850 50  0001 C CNN
-F 3 "" H 4250 3200 50  0001 C CNN
-	1    4250 3200
+F 0 "#PWR0230" H 4250 2850 50  0001 C CNN
+F 1 "GND" H 4253 2974 50  0000 C CNN
+F 2 "" H 4150 2750 50  0001 C CNN
+F 3 "" H 4250 3100 50  0001 C CNN
+	1    4250 3100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -823,7 +967,6 @@ L gkl_power:GND #PWR0153
 U 1 1 5BA14632
 P 4400 7500
 AR Path="/5BA0BA35/5BA14632" Ref="#PWR0153"  Part="1" 
-AR Path="/5BA14632" Ref="#PWR0153"  Part="1" 
 AR Path="/5BA14632" Ref="#PWR0153"  Part="1" 
 AR Path="/5EA08A40/5BA14632" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0153" H 4400 7250 50  0001 C CNN
@@ -836,17 +979,16 @@ $EndComp
 $Comp
 L gkl_power:GND #PWR?
 U 1 1 5BC4A45D
-P 4600 3200
+P 4600 3100
 AR Path="/5ABC9A87/5BC4A45D" Ref="#PWR?"  Part="1" 
 AR Path="/5BA0BA35/5BC4A45D" Ref="#PWR0171"  Part="1" 
 AR Path="/5BC4A45D" Ref="#PWR0171"  Part="1" 
-AR Path="/5BC4A45D" Ref="#PWR0171"  Part="1" 
 AR Path="/5EA08A40/5BC4A45D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0171" H 4600 2950 50  0001 C CNN
-F 1 "GND" H 4603 3074 50  0000 C CNN
-F 2 "" H 4500 2850 50  0001 C CNN
-F 3 "" H 4600 3200 50  0001 C CNN
-	1    4600 3200
+F 0 "#PWR0171" H 4600 2850 50  0001 C CNN
+F 1 "GND" H 4603 2974 50  0000 C CNN
+F 2 "" H 4500 2750 50  0001 C CNN
+F 3 "" H 4600 3100 50  0001 C CNN
+	1    4600 3100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -854,7 +996,6 @@ L gkl_power:GND #PWR0155
 U 1 1 5BA151DC
 P 4700 7500
 AR Path="/5BA0BA35/5BA151DC" Ref="#PWR0155"  Part="1" 
-AR Path="/5BA151DC" Ref="#PWR0155"  Part="1" 
 AR Path="/5BA151DC" Ref="#PWR0155"  Part="1" 
 AR Path="/5EA08A40/5BA151DC" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0155" H 4700 7250 50  0001 C CNN
@@ -870,7 +1011,6 @@ U 1 1 5BA15EA6
 P 5100 7500
 AR Path="/5BA0BA35/5BA15EA6" Ref="#PWR0157"  Part="1" 
 AR Path="/5BA15EA6" Ref="#PWR0157"  Part="1" 
-AR Path="/5BA15EA6" Ref="#PWR0157"  Part="1" 
 AR Path="/5EA08A40/5BA15EA6" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0157" H 5100 7250 50  0001 C CNN
 F 1 "GND" H 5103 7374 50  0000 C CNN
@@ -884,7 +1024,6 @@ L gkl_power:GND #PWR0169
 U 1 1 5BA20879
 P 5250 6100
 AR Path="/5BA0BA35/5BA20879" Ref="#PWR0169"  Part="1" 
-AR Path="/5BA20879" Ref="#PWR0169"  Part="1" 
 AR Path="/5BA20879" Ref="#PWR0169"  Part="1" 
 AR Path="/5EA08A40/5BA20879" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0169" H 5250 5850 50  0001 C CNN
@@ -900,7 +1039,6 @@ U 1 1 5BA16CEC
 P 5400 7500
 AR Path="/5BA0BA35/5BA16CEC" Ref="#PWR0159"  Part="1" 
 AR Path="/5BA16CEC" Ref="#PWR0159"  Part="1" 
-AR Path="/5BA16CEC" Ref="#PWR0159"  Part="1" 
 AR Path="/5EA08A40/5BA16CEC" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0159" H 5400 7250 50  0001 C CNN
 F 1 "GND" H 5403 7374 50  0000 C CNN
@@ -914,7 +1052,6 @@ L gkl_power:GND #PWR0161
 U 1 1 5BA17C33
 P 5700 7500
 AR Path="/5BA0BA35/5BA17C33" Ref="#PWR0161"  Part="1" 
-AR Path="/5BA17C33" Ref="#PWR0161"  Part="1" 
 AR Path="/5BA17C33" Ref="#PWR0161"  Part="1" 
 AR Path="/5EA08A40/5BA17C33" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0161" H 5700 7250 50  0001 C CNN
@@ -930,7 +1067,6 @@ U 1 1 5BA17C47
 P 6000 7500
 AR Path="/5BA0BA35/5BA17C47" Ref="#PWR0163"  Part="1" 
 AR Path="/5BA17C47" Ref="#PWR0163"  Part="1" 
-AR Path="/5BA17C47" Ref="#PWR0163"  Part="1" 
 AR Path="/5EA08A40/5BA17C47" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0163" H 6000 7250 50  0001 C CNN
 F 1 "GND" H 6003 7374 50  0000 C CNN
@@ -944,7 +1080,6 @@ L gkl_power:GND #PWR0165
 U 1 1 5BA18E12
 P 6300 7500
 AR Path="/5BA0BA35/5BA18E12" Ref="#PWR0165"  Part="1" 
-AR Path="/5BA18E12" Ref="#PWR0165"  Part="1" 
 AR Path="/5BA18E12" Ref="#PWR0165"  Part="1" 
 AR Path="/5EA08A40/5BA18E12" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0165" H 6300 7250 50  0001 C CNN
@@ -960,7 +1095,6 @@ U 1 1 5BA18E26
 P 6600 7500
 AR Path="/5BA0BA35/5BA18E26" Ref="#PWR0167"  Part="1" 
 AR Path="/5BA18E26" Ref="#PWR0167"  Part="1" 
-AR Path="/5BA18E26" Ref="#PWR0167"  Part="1" 
 AR Path="/5EA08A40/5BA18E26" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0167" H 6600 7250 50  0001 C CNN
 F 1 "GND" H 6603 7374 50  0000 C CNN
@@ -970,41 +1104,10 @@ F 3 "" H 6600 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gkl_power:GND #PWR?
-U 1 1 5E9FF260
-P 6900 -950
-AR Path="/5E9FF260" Ref="#PWR?"  Part="1" 
-AR Path="/5E9FF260" Ref="#PWR?"  Part="1" 
-AR Path="/5EA08A40/5E9FF260" Ref="#PWR?"  Part="1" 
-AR Path="/5BA0BA35/5E9FF260" Ref="#PWR0336"  Part="1" 
-F 0 "#PWR0336" H 6900 -1200 50  0001 C CNN
-F 1 "GND" H 6903 -1076 50  0000 C CNN
-F 2 "" H 6800 -1300 50  0001 C CNN
-F 3 "" H 6900 -950 50  0001 C CNN
-	1    6900 -950
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:GND #PWR?
-U 1 1 5E9FF26C
-P 7200 -950
-AR Path="/5E9FF26C" Ref="#PWR?"  Part="1" 
-AR Path="/5E9FF26C" Ref="#PWR?"  Part="1" 
-AR Path="/5EA08A40/5E9FF26C" Ref="#PWR?"  Part="1" 
-AR Path="/5BA0BA35/5E9FF26C" Ref="#PWR0335"  Part="1" 
-F 0 "#PWR0335" H 7200 -1200 50  0001 C CNN
-F 1 "GND" H 7203 -1076 50  0000 C CNN
-F 2 "" H 7100 -1300 50  0001 C CNN
-F 3 "" H 7200 -950 50  0001 C CNN
-	1    7200 -950
-	1    0    0    -1  
-$EndComp
-$Comp
 L gkl_power:GND #PWR0142
 U 1 1 5BA0C553
 P 7800 2950
 AR Path="/5BA0BA35/5BA0C553" Ref="#PWR0142"  Part="1" 
-AR Path="/5BA0C553" Ref="#PWR0142"  Part="1" 
 AR Path="/5BA0C553" Ref="#PWR0142"  Part="1" 
 AR Path="/5EA08A40/5BA0C553" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0142" H 7800 2700 50  0001 C CNN
@@ -1020,7 +1123,6 @@ U 1 1 5BC137A2
 P 8050 4300
 AR Path="/5BA0BA35/5BC137A2" Ref="#PWR0195"  Part="1" 
 AR Path="/5BC137A2" Ref="#PWR0195"  Part="1" 
-AR Path="/5BC137A2" Ref="#PWR0195"  Part="1" 
 AR Path="/5EA08A40/5BC137A2" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0195" H 8050 4050 50  0001 C CNN
 F 1 "GND" H 8053 4174 50  0000 C CNN
@@ -1030,71 +1132,66 @@ F 3 "" H 8050 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gkl_power:GND #PWR0101
-U 1 1 5BA0BC70
-P 8250 1050
-AR Path="/5BA0BA35/5BA0BC70" Ref="#PWR0101"  Part="1" 
-AR Path="/5BA0BC70" Ref="#PWR0101"  Part="1" 
-AR Path="/5BA0BC70" Ref="#PWR0101"  Part="1" 
-AR Path="/5EA08A40/5BA0BC70" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0101" H 8250 800 50  0001 C CNN
-F 1 "GND" H 8254 923 50  0000 C CNN
-F 2 "" H 8150 700 50  0001 C CNN
-F 3 "" H 8250 1050 50  0001 C CNN
-	1    8250 1050
+L gkl_power:GND #PWR0102
+U 1 1 5BA0BC92
+P 8350 2450
+AR Path="/5BA0BA35/5BA0BC92" Ref="#PWR0102"  Part="1" 
+AR Path="/5BA0BC92" Ref="#PWR0102"  Part="1" 
+AR Path="/5EA08A40/5BA0BC92" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0102" H 8350 2200 50  0001 C CNN
+F 1 "GND" H 8354 2323 50  0000 C CNN
+F 2 "" H 8250 2100 50  0001 C CNN
+F 3 "" H 8350 2450 50  0001 C CNN
+	1    8350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_power:GND #PWR0141
+U 1 1 5BA0BDC1
+P 8600 1900
+AR Path="/5BA0BA35/5BA0BDC1" Ref="#PWR0141"  Part="1" 
+AR Path="/5BA0BDC1" Ref="#PWR0141"  Part="1" 
+AR Path="/5EA08A40/5BA0BDC1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0141" H 8600 1650 50  0001 C CNN
+F 1 "GND" H 8603 1774 50  0000 C CNN
+F 2 "" H 8500 1550 50  0001 C CNN
+F 3 "" H 8600 1900 50  0001 C CNN
+	1    8600 1900
 	-1   0    0    1   
 $EndComp
 $Comp
 L gkl_power:GND #PWR0103
 U 1 1 5BA0BCA5
-P 8500 1050
+P 8600 2450
 AR Path="/5BA0BA35/5BA0BCA5" Ref="#PWR0103"  Part="1" 
 AR Path="/5BA0BCA5" Ref="#PWR0103"  Part="1" 
-AR Path="/5BA0BCA5" Ref="#PWR0103"  Part="1" 
 AR Path="/5EA08A40/5BA0BCA5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0103" H 8500 800 50  0001 C CNN
-F 1 "GND" H 8504 923 50  0000 C CNN
-F 2 "" H 8400 700 50  0001 C CNN
-F 3 "" H 8500 1050 50  0001 C CNN
-	1    8500 1050
-	-1   0    0    1   
-$EndComp
-$Comp
-L gkl_power:GND #PWR0141
-U 1 1 5BA0BDC1
-P 8500 1600
-AR Path="/5BA0BA35/5BA0BDC1" Ref="#PWR0141"  Part="1" 
-AR Path="/5BA0BDC1" Ref="#PWR0141"  Part="1" 
-AR Path="/5BA0BDC1" Ref="#PWR0141"  Part="1" 
-AR Path="/5EA08A40/5BA0BDC1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0141" H 8500 1350 50  0001 C CNN
-F 1 "GND" H 8503 1474 50  0000 C CNN
-F 2 "" H 8400 1250 50  0001 C CNN
-F 3 "" H 8500 1600 50  0001 C CNN
-	1    8500 1600
+F 0 "#PWR0103" H 8600 2200 50  0001 C CNN
+F 1 "GND" H 8604 2323 50  0000 C CNN
+F 2 "" H 8500 2100 50  0001 C CNN
+F 3 "" H 8600 2450 50  0001 C CNN
+	1    8600 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L gkl_power:GND #PWR0102
-U 1 1 5BA0BC92
-P 8750 1050
-AR Path="/5BA0BA35/5BA0BC92" Ref="#PWR0102"  Part="1" 
-AR Path="/5BA0BC92" Ref="#PWR0102"  Part="1" 
-AR Path="/5BA0BC92" Ref="#PWR0102"  Part="1" 
-AR Path="/5EA08A40/5BA0BC92" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0102" H 8750 800 50  0001 C CNN
-F 1 "GND" H 8754 923 50  0000 C CNN
-F 2 "" H 8650 700 50  0001 C CNN
-F 3 "" H 8750 1050 50  0001 C CNN
-	1    8750 1050
-	-1   0    0    1   
+L gkl_power:GND #PWR0101
+U 1 1 5BA0BC70
+P 8850 2450
+AR Path="/5BA0BA35/5BA0BC70" Ref="#PWR0101"  Part="1" 
+AR Path="/5BA0BC70" Ref="#PWR0101"  Part="1" 
+AR Path="/5EA08A40/5BA0BC70" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 8850 2200 50  0001 C CNN
+F 1 "GND" H 8854 2323 50  0000 C CNN
+F 2 "" H 8750 2100 50  0001 C CNN
+F 3 "" H 8850 2450 50  0001 C CNN
+	1    8850 2450
+	1    0    0    -1  
 $EndComp
 $Comp
 L gkl_power:GND #PWR0334
 U 1 1 5EA953D5
 P 9000 4050
 AR Path="/5BA0BA35/5EA953D5" Ref="#PWR0334"  Part="1" 
-AR Path="/5EA953D5" Ref="#PWR?"  Part="1" 
 AR Path="/5EA953D5" Ref="#PWR?"  Part="1" 
 AR Path="/5EA08A40/5EA953D5" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0334" H 9000 3800 50  0001 C CNN
@@ -1110,7 +1207,6 @@ U 1 1 5EA734AD
 P 9600 4800
 AR Path="/5BA0BA35/5EA734AD" Ref="#PWR0345"  Part="1" 
 AR Path="/5EA734AD" Ref="#PWR?"  Part="1" 
-AR Path="/5EA734AD" Ref="#PWR?"  Part="1" 
 AR Path="/5EA08A40/5EA734AD" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0345" H 9600 4550 50  0001 C CNN
 F 1 "GND" H 9603 4674 50  0000 C CNN
@@ -1124,7 +1220,6 @@ L gkl_power:GND #PWR0344
 U 1 1 5EA734B3
 P 10150 4800
 AR Path="/5BA0BA35/5EA734B3" Ref="#PWR0344"  Part="1" 
-AR Path="/5EA734B3" Ref="#PWR?"  Part="1" 
 AR Path="/5EA734B3" Ref="#PWR?"  Part="1" 
 AR Path="/5EA08A40/5EA734B3" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0344" H 10150 4550 50  0001 C CNN
@@ -1140,7 +1235,6 @@ U 1 1 5E097FA9
 P 14600 6150
 AR Path="/5BA0BA35/5E097FA9" Ref="#PWR0124"  Part="1" 
 AR Path="/5E097FA9" Ref="#PWR0124"  Part="1" 
-AR Path="/5E097FA9" Ref="#PWR0124"  Part="1" 
 AR Path="/5EA08A40/5E097FA9" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0124" H 14600 5900 50  0001 C CNN
 F 1 "GND" H 14603 6024 50  0000 C CNN
@@ -1155,7 +1249,6 @@ U 1 1 5BC7F3D1
 P 15150 6150
 AR Path="/5BA0BA35/5BC7F3D1" Ref="#PWR0205"  Part="1" 
 AR Path="/5BC7F3D1" Ref="#PWR0205"  Part="1" 
-AR Path="/5BC7F3D1" Ref="#PWR0205"  Part="1" 
 AR Path="/5EA08A40/5BC7F3D1" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0205" H 15150 5900 50  0001 C CNN
 F 1 "GND" H 15153 6024 50  0000 C CNN
@@ -1165,49 +1258,46 @@ F 3 "" H 15150 6150 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L gkl_power:+1V8 #PWR0300
-U 1 1 5D1035A8
-P -1750 6350
-AR Path="/5BA0BA35/5D1035A8" Ref="#PWR0300"  Part="1" 
-AR Path="/5D1035A8" Ref="#PWR0300"  Part="1" 
-AR Path="/5D1035A8" Ref="#PWR0300"  Part="1" 
-AR Path="/5EA08A40/5D1035A8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0300" H -1750 6200 50  0001 C CNN
-F 1 "+1V8" H -1747 6501 50  0000 C CNN
-F 2 "" H -1750 6350 50  0001 C CNN
-F 3 "" H -1750 6350 50  0001 C CNN
-	1    -1750 6350
-	1    0    0    -1  
-$EndComp
-$Comp
 L gkl_power:+5V #PWR?
 U 1 1 5BC31FEA
-P 450 -1450
+P 1000 -1400
 AR Path="/5BBD18EA/5BC31FEA" Ref="#PWR?"  Part="1" 
 AR Path="/5BA0BA35/5BC31FEA" Ref="#PWR0193"  Part="1" 
 AR Path="/5BC31FEA" Ref="#PWR0193"  Part="1" 
-AR Path="/5BC31FEA" Ref="#PWR0193"  Part="1" 
 AR Path="/5EA08A40/5BC31FEA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0193" H 450 -1600 50  0001 C CNN
-F 1 "+5V" H 453 -1299 50  0000 C CNN
-F 2 "" H 450 -1450 50  0001 C CNN
-F 3 "" H 450 -1450 50  0001 C CNN
-	1    450  -1450
+F 0 "#PWR0193" H 1000 -1550 50  0001 C CNN
+F 1 "+5V" H 1003 -1249 50  0000 C CNN
+F 2 "" H 1000 -1400 50  0001 C CNN
+F 3 "" H 1000 -1400 50  0001 C CNN
+	1    1000 -1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_power:+1V8 #PWR0130
+U 1 1 5E9BB0A5
+P 2450 2800
+AR Path="/5BA0BA35/5E9BB0A5" Ref="#PWR0130"  Part="1" 
+AR Path="/5E9BB0A5" Ref="#PWR?"  Part="1" 
+AR Path="/5EA08A40/5E9BB0A5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0130" H 2450 2650 50  0001 C CNN
+F 1 "+1V8" V 2454 2906 50  0000 L CNN
+F 2 "" H 2450 2800 50  0001 C CNN
+F 3 "" H 2450 2800 50  0001 C CNN
+	1    2450 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L gkl_power:+1V2 #PWR0194
 U 1 1 5BC520C6
-P 2650 -1000
+P 3200 -950
 AR Path="/5BA0BA35/5BC520C6" Ref="#PWR0194"  Part="1" 
 AR Path="/5BC520C6" Ref="#PWR0194"  Part="1" 
-AR Path="/5BC520C6" Ref="#PWR0194"  Part="1" 
 AR Path="/5EA08A40/5BC520C6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0194" H 2650 -1150 50  0001 C CNN
-F 1 "+1V2" V 2654 -894 50  0000 L CNN
-F 2 "" H 2650 -1000 50  0001 C CNN
-F 3 "" H 2650 -1000 50  0001 C CNN
-	1    2650 -1000
+F 0 "#PWR0194" H 3200 -1100 50  0001 C CNN
+F 1 "+1V2" V 3204 -844 50  0000 L CNN
+F 2 "" H 3200 -950 50  0001 C CNN
+F 3 "" H 3200 -950 50  0001 C CNN
+	1    3200 -950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1215,7 +1305,6 @@ L gkl_power:+3V3 #PWR0148
 U 1 1 5BA10EA5
 P 3400 7000
 AR Path="/5BA0BA35/5BA10EA5" Ref="#PWR0148"  Part="1" 
-AR Path="/5BA10EA5" Ref="#PWR0148"  Part="1" 
 AR Path="/5BA10EA5" Ref="#PWR0148"  Part="1" 
 AR Path="/5EA08A40/5BA10EA5" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0148" H 3400 6850 50  0001 C CNN
@@ -1228,16 +1317,15 @@ $EndComp
 $Comp
 L gkl_power:+1V2 #PWR0170
 U 1 1 5BC49919
-P 3500 3600
+P 3500 3500
 AR Path="/5BA0BA35/5BC49919" Ref="#PWR0170"  Part="1" 
 AR Path="/5BC49919" Ref="#PWR0170"  Part="1" 
-AR Path="/5BC49919" Ref="#PWR0170"  Part="1" 
 AR Path="/5EA08A40/5BC49919" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0170" H 3500 3450 50  0001 C CNN
-F 1 "+1V2" V 3504 3706 50  0000 L CNN
-F 2 "" H 3500 3600 50  0001 C CNN
-F 3 "" H 3500 3600 50  0001 C CNN
-	1    3500 3600
+F 0 "#PWR0170" H 3500 3350 50  0001 C CNN
+F 1 "+1V2" V 3504 3606 50  0000 L CNN
+F 2 "" H 3500 3500 50  0001 C CNN
+F 3 "" H 3500 3500 50  0001 C CNN
+	1    3500 3500
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1245,7 +1333,6 @@ L gkl_power:+3V3 #PWR0150
 U 1 1 5BA131BC
 P 3750 7000
 AR Path="/5BA0BA35/5BA131BC" Ref="#PWR0150"  Part="1" 
-AR Path="/5BA131BC" Ref="#PWR0150"  Part="1" 
 AR Path="/5BA131BC" Ref="#PWR0150"  Part="1" 
 AR Path="/5EA08A40/5BA131BC" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0150" H 3750 6850 50  0001 C CNN
@@ -1261,7 +1348,6 @@ U 1 1 5BA145EE
 P 4100 7000
 AR Path="/5BA0BA35/5BA145EE" Ref="#PWR0152"  Part="1" 
 AR Path="/5BA145EE" Ref="#PWR0152"  Part="1" 
-AR Path="/5BA145EE" Ref="#PWR0152"  Part="1" 
 AR Path="/5EA08A40/5BA145EE" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0152" H 4100 6850 50  0001 C CNN
 F 1 "+1V8" H 4103 7151 50  0000 C CNN
@@ -1275,7 +1361,6 @@ L gkl_power:+1V8 #PWR0154
 U 1 1 5BA1463A
 P 4400 7000
 AR Path="/5BA0BA35/5BA1463A" Ref="#PWR0154"  Part="1" 
-AR Path="/5BA1463A" Ref="#PWR0154"  Part="1" 
 AR Path="/5BA1463A" Ref="#PWR0154"  Part="1" 
 AR Path="/5EA08A40/5BA1463A" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0154" H 4400 6850 50  0001 C CNN
@@ -1291,7 +1376,6 @@ U 1 1 5BA151E4
 P 4700 7000
 AR Path="/5BA0BA35/5BA151E4" Ref="#PWR0156"  Part="1" 
 AR Path="/5BA151E4" Ref="#PWR0156"  Part="1" 
-AR Path="/5BA151E4" Ref="#PWR0156"  Part="1" 
 AR Path="/5EA08A40/5BA151E4" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0156" H 4700 6850 50  0001 C CNN
 F 1 "+1V8" H 4703 7151 50  0000 C CNN
@@ -1305,7 +1389,6 @@ L gkl_power:+1V2 #PWR0158
 U 1 1 5BA16C5E
 P 5100 7000
 AR Path="/5BA0BA35/5BA16C5E" Ref="#PWR0158"  Part="1" 
-AR Path="/5BA16C5E" Ref="#PWR0158"  Part="1" 
 AR Path="/5BA16C5E" Ref="#PWR0158"  Part="1" 
 AR Path="/5EA08A40/5BA16C5E" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0158" H 5100 6850 50  0001 C CNN
@@ -1321,7 +1404,6 @@ U 1 1 5BA0FA9A
 P 5150 1700
 AR Path="/5BA0BA35/5BA0FA9A" Ref="#PWR0146"  Part="1" 
 AR Path="/5BA0FA9A" Ref="#PWR0146"  Part="1" 
-AR Path="/5BA0FA9A" Ref="#PWR0146"  Part="1" 
 AR Path="/5EA08A40/5BA0FA9A" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0146" H 5150 1550 50  0001 C CNN
 F 1 "+3V3" V 5154 1806 50  0000 L CNN
@@ -1335,7 +1417,6 @@ L gkl_power:+1V8 #PWR0145
 U 1 1 5BA0E5F6
 P 5150 2000
 AR Path="/5BA0BA35/5BA0E5F6" Ref="#PWR0145"  Part="1" 
-AR Path="/5BA0E5F6" Ref="#PWR0145"  Part="1" 
 AR Path="/5BA0E5F6" Ref="#PWR0145"  Part="1" 
 AR Path="/5EA08A40/5BA0E5F6" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0145" H 5150 1850 50  0001 C CNN
@@ -1351,7 +1432,6 @@ U 1 1 5BA0D54B
 P 5150 2400
 AR Path="/5BA0BA35/5BA0D54B" Ref="#PWR0144"  Part="1" 
 AR Path="/5BA0D54B" Ref="#PWR0144"  Part="1" 
-AR Path="/5BA0D54B" Ref="#PWR0144"  Part="1" 
 AR Path="/5EA08A40/5BA0D54B" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0144" H 5150 2250 50  0001 C CNN
 F 1 "+1V2" V 5154 2506 50  0000 L CNN
@@ -1365,7 +1445,6 @@ L gkl_power:+1V2 #PWR0143
 U 1 1 5BA0CA6A
 P 5150 2700
 AR Path="/5BA0BA35/5BA0CA6A" Ref="#PWR0143"  Part="1" 
-AR Path="/5BA0CA6A" Ref="#PWR0143"  Part="1" 
 AR Path="/5BA0CA6A" Ref="#PWR0143"  Part="1" 
 AR Path="/5EA08A40/5BA0CA6A" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0143" H 5150 2550 50  0001 C CNN
@@ -1381,7 +1460,6 @@ U 1 1 5BA16CF4
 P 5400 7000
 AR Path="/5BA0BA35/5BA16CF4" Ref="#PWR0160"  Part="1" 
 AR Path="/5BA16CF4" Ref="#PWR0160"  Part="1" 
-AR Path="/5BA16CF4" Ref="#PWR0160"  Part="1" 
 AR Path="/5EA08A40/5BA16CF4" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0160" H 5400 6850 50  0001 C CNN
 F 1 "+1V2" H 5403 7151 50  0000 C CNN
@@ -1396,7 +1474,6 @@ U 1 1 5BA17C3B
 P 5700 7000
 AR Path="/5BA0BA35/5BA17C3B" Ref="#PWR0162"  Part="1" 
 AR Path="/5BA17C3B" Ref="#PWR0162"  Part="1" 
-AR Path="/5BA17C3B" Ref="#PWR0162"  Part="1" 
 AR Path="/5EA08A40/5BA17C3B" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0162" H 5700 6850 50  0001 C CNN
 F 1 "+1V2" H 5703 7151 50  0000 C CNN
@@ -1406,26 +1483,10 @@ F 3 "" H 5700 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gkl_power:+1V8 #PWR?
-U 1 1 5E9FF200
-P 6000 -3600
-AR Path="/5E9FF200" Ref="#PWR?"  Part="1" 
-AR Path="/5E9FF200" Ref="#PWR?"  Part="1" 
-AR Path="/5EA08A40/5E9FF200" Ref="#PWR?"  Part="1" 
-AR Path="/5BA0BA35/5E9FF200" Ref="#PWR0337"  Part="1" 
-F 0 "#PWR0337" H 6000 -3750 50  0001 C CNN
-F 1 "+1V8" H 5900 -3450 50  0000 L CNN
-F 2 "" H 6000 -3600 50  0001 C CNN
-F 3 "" H 6000 -3600 50  0001 C CNN
-	1    6000 -3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L gkl_power:+1V2 #PWR0164
 U 1 1 5BA17C4F
 P 6000 7000
 AR Path="/5BA0BA35/5BA17C4F" Ref="#PWR0164"  Part="1" 
-AR Path="/5BA17C4F" Ref="#PWR0164"  Part="1" 
 AR Path="/5BA17C4F" Ref="#PWR0164"  Part="1" 
 AR Path="/5EA08A40/5BA17C4F" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0164" H 6000 6850 50  0001 C CNN
@@ -1436,26 +1497,10 @@ F 3 "" H 6000 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gkl_power:+1V8 #PWR?
-U 1 1 5E9FF20C
-P 6300 -3600
-AR Path="/5E9FF20C" Ref="#PWR?"  Part="1" 
-AR Path="/5E9FF20C" Ref="#PWR?"  Part="1" 
-AR Path="/5EA08A40/5E9FF20C" Ref="#PWR?"  Part="1" 
-AR Path="/5BA0BA35/5E9FF20C" Ref="#PWR0339"  Part="1" 
-F 0 "#PWR0339" H 6300 -3750 50  0001 C CNN
-F 1 "+1V8" H 6200 -3450 50  0000 L CNN
-F 2 "" H 6300 -3600 50  0001 C CNN
-F 3 "" H 6300 -3600 50  0001 C CNN
-	1    6300 -3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L gkl_power:+1V2 #PWR0166
 U 1 1 5BA18E1A
 P 6300 7000
 AR Path="/5BA0BA35/5BA18E1A" Ref="#PWR0166"  Part="1" 
-AR Path="/5BA18E1A" Ref="#PWR0166"  Part="1" 
 AR Path="/5BA18E1A" Ref="#PWR0166"  Part="1" 
 AR Path="/5EA08A40/5BA18E1A" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0166" H 6300 6850 50  0001 C CNN
@@ -1466,26 +1511,10 @@ F 3 "" H 6300 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gkl_power:+1V8 #PWR?
-U 1 1 5E9FF218
-P 6600 -3600
-AR Path="/5E9FF218" Ref="#PWR?"  Part="1" 
-AR Path="/5E9FF218" Ref="#PWR?"  Part="1" 
-AR Path="/5EA08A40/5E9FF218" Ref="#PWR?"  Part="1" 
-AR Path="/5BA0BA35/5E9FF218" Ref="#PWR0338"  Part="1" 
-F 0 "#PWR0338" H 6600 -3750 50  0001 C CNN
-F 1 "+1V8" H 6500 -3450 50  0000 L CNN
-F 2 "" H 6600 -3600 50  0001 C CNN
-F 3 "" H 6600 -3600 50  0001 C CNN
-	1    6600 -3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L gkl_power:+1V2 #PWR0168
 U 1 1 5BA18E2E
 P 6600 7000
 AR Path="/5BA0BA35/5BA18E2E" Ref="#PWR0168"  Part="1" 
-AR Path="/5BA18E2E" Ref="#PWR0168"  Part="1" 
 AR Path="/5BA18E2E" Ref="#PWR0168"  Part="1" 
 AR Path="/5EA08A40/5BA18E2E" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0168" H 6600 6850 50  0001 C CNN
@@ -1496,71 +1525,10 @@ F 3 "" H 6600 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gkl_power:+1V8 #PWR?
-U 1 1 5E9FF224
-P 6900 -3600
-AR Path="/5E9FF224" Ref="#PWR?"  Part="1" 
-AR Path="/5E9FF224" Ref="#PWR?"  Part="1" 
-AR Path="/5EA08A40/5E9FF224" Ref="#PWR?"  Part="1" 
-AR Path="/5BA0BA35/5E9FF224" Ref="#PWR0340"  Part="1" 
-F 0 "#PWR0340" H 6900 -3750 50  0001 C CNN
-F 1 "+1V8" H 6800 -3450 50  0000 L CNN
-F 2 "" H 6900 -3600 50  0001 C CNN
-F 3 "" H 6900 -3600 50  0001 C CNN
-	1    6900 -3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:+1V8 #PWR?
-U 1 1 5E9FF230
-P 7200 -3600
-AR Path="/5E9FF230" Ref="#PWR?"  Part="1" 
-AR Path="/5E9FF230" Ref="#PWR?"  Part="1" 
-AR Path="/5EA08A40/5E9FF230" Ref="#PWR?"  Part="1" 
-AR Path="/5BA0BA35/5E9FF230" Ref="#PWR0343"  Part="1" 
-F 0 "#PWR0343" H 7200 -3750 50  0001 C CNN
-F 1 "+1V8" H 7100 -3450 50  0000 L CNN
-F 2 "" H 7200 -3600 50  0001 C CNN
-F 3 "" H 7200 -3600 50  0001 C CNN
-	1    7200 -3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:+1V8 #PWR?
-U 1 1 5E9FF23C
-P 7500 -3600
-AR Path="/5E9FF23C" Ref="#PWR?"  Part="1" 
-AR Path="/5E9FF23C" Ref="#PWR?"  Part="1" 
-AR Path="/5EA08A40/5E9FF23C" Ref="#PWR?"  Part="1" 
-AR Path="/5BA0BA35/5E9FF23C" Ref="#PWR0341"  Part="1" 
-F 0 "#PWR0341" H 7500 -3750 50  0001 C CNN
-F 1 "+1V8" H 7400 -3450 50  0000 L CNN
-F 2 "" H 7500 -3600 50  0001 C CNN
-F 3 "" H 7500 -3600 50  0001 C CNN
-	1    7500 -3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L gkl_power:+1V8 #PWR?
-U 1 1 5E9FF248
-P 7800 -3600
-AR Path="/5E9FF248" Ref="#PWR?"  Part="1" 
-AR Path="/5E9FF248" Ref="#PWR?"  Part="1" 
-AR Path="/5EA08A40/5E9FF248" Ref="#PWR?"  Part="1" 
-AR Path="/5BA0BA35/5E9FF248" Ref="#PWR0342"  Part="1" 
-F 0 "#PWR0342" H 7800 -3750 50  0001 C CNN
-F 1 "+1V8" H 7700 -3450 50  0000 L CNN
-F 2 "" H 7800 -3600 50  0001 C CNN
-F 3 "" H 7800 -3600 50  0001 C CNN
-	1    7800 -3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L gkl_power:+3V3 #PWR0333
 U 1 1 5EA74A78
 P 9450 2350
 AR Path="/5BA0BA35/5EA74A78" Ref="#PWR0333"  Part="1" 
-AR Path="/5EA74A78" Ref="#PWR?"  Part="1" 
 AR Path="/5EA74A78" Ref="#PWR?"  Part="1" 
 AR Path="/5EA08A40/5EA74A78" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0333" H 9450 2200 50  0001 C CNN
@@ -1576,7 +1544,6 @@ U 1 1 5BD26698
 P 14450 3700
 AR Path="/5BA0BA35/5BD26698" Ref="#PWR0210"  Part="1" 
 AR Path="/5BD26698" Ref="#PWR0210"  Part="1" 
-AR Path="/5BD26698" Ref="#PWR0210"  Part="1" 
 AR Path="/5EA08A40/5BD26698" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0210" H 14450 3550 50  0001 C CNN
 F 1 "+3V3" H 14400 3850 50  0000 L CNN
@@ -1586,388 +1553,338 @@ F 3 "" H 14450 3700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
+L Device:R R34
+U 1 1 5E9B5128
+P 2700 3750
+AR Path="/5BA0BA35/5E9B5128" Ref="R34"  Part="1" 
+AR Path="/5E9B5128" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9B5128" Ref="R?"  Part="1" 
+F 0 "R34" H 2750 3800 50  0001 L CNN
+F 1 "DNP" H 2750 3700 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 3750 50  0001 C CNN
+F 3 "~" H 2700 3750 50  0001 C CNN
+F 4 "DNP" H -2600 -3000 50  0001 C CNN "PN"
+	1    2700 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 5E9B512F
+P 2700 3850
+AR Path="/5BA0BA35/5E9B512F" Ref="R36"  Part="1" 
+AR Path="/5E9B512F" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9B512F" Ref="R?"  Part="1" 
+F 0 "R36" H 2750 3900 50  0001 L CNN
+F 1 "DNP" H 2750 3800 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 3850 50  0001 C CNN
+F 3 "~" H 2700 3850 50  0001 C CNN
+F 4 "DNP" H -2600 -3100 50  0001 C CNN "PN"
+	1    2700 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 5E9B5136
+P 2700 3950
+AR Path="/5BA0BA35/5E9B5136" Ref="R37"  Part="1" 
+AR Path="/5E9B5136" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9B5136" Ref="R?"  Part="1" 
+F 0 "R37" H 2750 4000 50  0001 L CNN
+F 1 "DNP" H 2750 3900 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 3950 50  0001 C CNN
+F 3 "~" H 2700 3950 50  0001 C CNN
+F 4 "DNP" H -2600 -3100 50  0001 C CNN "PN"
+	1    2700 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 5E9B513D
+P 2700 4050
+AR Path="/5BA0BA35/5E9B513D" Ref="R38"  Part="1" 
+AR Path="/5E9B513D" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9B513D" Ref="R?"  Part="1" 
+F 0 "R38" H 2750 4100 50  0001 L CNN
+F 1 "DNP" H 2750 4000 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 4050 50  0001 C CNN
+F 3 "~" H 2700 4050 50  0001 C CNN
+F 4 "DNP" H -2600 -3100 50  0001 C CNN "PN"
+	1    2700 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 5E9B5144
+P 2700 4150
+AR Path="/5BA0BA35/5E9B5144" Ref="R39"  Part="1" 
+AR Path="/5E9B5144" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9B5144" Ref="R?"  Part="1" 
+F 0 "R39" H 2750 4200 50  0001 L CNN
+F 1 "DNP" H 2750 4100 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 4150 50  0001 C CNN
+F 3 "~" H 2700 4150 50  0001 C CNN
+F 4 "DNP" H -2600 -3100 50  0001 C CNN "PN"
+	1    2700 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R40
+U 1 1 5E9B514B
+P 2700 4250
+AR Path="/5BA0BA35/5E9B514B" Ref="R40"  Part="1" 
+AR Path="/5E9B514B" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9B514B" Ref="R?"  Part="1" 
+F 0 "R40" H 2750 4300 50  0001 L CNN
+F 1 "DNP" H 2750 4200 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 4250 50  0001 C CNN
+F 3 "~" H 2700 4250 50  0001 C CNN
+F 4 "DNP" H -2600 -3100 50  0001 C CNN "PN"
+	1    2700 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R41
+U 1 1 5E9B5161
+P 2700 4500
+AR Path="/5BA0BA35/5E9B5161" Ref="R41"  Part="1" 
+AR Path="/5E9B5161" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9B5161" Ref="R?"  Part="1" 
+F 0 "R41" H 2750 4550 50  0001 L CNN
+F 1 "DNP" H 2750 4450 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 4500 50  0001 C CNN
+F 3 "~" H 2700 4500 50  0001 C CNN
+F 4 "DNP" H -2600 -2250 50  0001 C CNN "PN"
+	1    2700 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R42
+U 1 1 5E9B5174
+P 2700 4600
+AR Path="/5BA0BA35/5E9B5174" Ref="R42"  Part="1" 
+AR Path="/5E9B5174" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9B5174" Ref="R?"  Part="1" 
+F 0 "R42" H 2750 4650 50  0001 L CNN
+F 1 "DNP" H 2750 4550 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 4600 50  0001 C CNN
+F 3 "~" H 2700 4600 50  0001 C CNN
+F 4 "DNP" H -2600 -2350 50  0001 C CNN "PN"
+	1    2700 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R43
+U 1 1 5E9B5183
+P 2700 4700
+AR Path="/5BA0BA35/5E9B5183" Ref="R43"  Part="1" 
+AR Path="/5E9B5183" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9B5183" Ref="R?"  Part="1" 
+F 0 "R43" H 2750 4750 50  0001 L CNN
+F 1 "DNP" H 2750 4650 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 4700 50  0001 C CNN
+F 3 "~" H 2700 4700 50  0001 C CNN
+F 4 "DNP" H -2600 -2350 50  0001 C CNN "PN"
+	1    2700 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R44
+U 1 1 5E9B516C
+P 2700 4800
+AR Path="/5BA0BA35/5E9B516C" Ref="R44"  Part="1" 
+AR Path="/5E9B516C" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9B516C" Ref="R?"  Part="1" 
+F 0 "R44" H 2750 4850 50  0001 L CNN
+F 1 "DNP" H 2750 4750 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 4800 50  0001 C CNN
+F 3 "~" H 2700 4800 50  0001 C CNN
+F 4 "DNP" H -2600 -2350 50  0001 C CNN "PN"
+	1    2700 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R45
+U 1 1 5E9A1159
+P 2850 3100
+AR Path="/5BA0BA35/5E9A1159" Ref="R45"  Part="1" 
+AR Path="/5E9A1159" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9A1159" Ref="R?"  Part="1" 
+F 0 "R45" H 2900 3150 50  0000 L CNN
+F 1 "1K5" H 2900 3050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2780 3100 50  0001 C CNN
+F 3 "~" H 2850 3100 50  0001 C CNN
+	1    2850 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R46
+U 1 1 5E9B12DA
+P 3000 3100
+AR Path="/5BA0BA35/5E9B12DA" Ref="R46"  Part="1" 
+AR Path="/5E9B12DA" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9B12DA" Ref="R?"  Part="1" 
+F 0 "R46" H 3050 3150 50  0000 L CNN
+F 1 "1K5" H 3050 3050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2930 3100 50  0001 C CNN
+F 3 "~" H 3000 3100 50  0001 C CNN
+	1    3000 3100
+	1    0    0    1   
+$EndComp
+$Comp
 L Device:R R48
-U 1 1 5D0C9B9C
-P -2050 6450
-AR Path="/5BA0BA35/5D0C9B9C" Ref="R48"  Part="1" 
-AR Path="/5D0C9B9C" Ref="R48"  Part="1" 
-AR Path="/5D0C9B9C" Ref="R48"  Part="1" 
-AR Path="/5EA08A40/5D0C9B9C" Ref="R?"  Part="1" 
-F 0 "R48" H -2000 6500 50  0001 L CNN
-F 1 "DNP" H -2000 6400 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -2120 6450 50  0001 C CNN
-F 3 "~" H -2050 6450 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -2050 6450
+U 1 1 5E9BE879
+P 3800 3750
+AR Path="/5BA0BA35/5E9BE879" Ref="R48"  Part="1" 
+AR Path="/5E9BE879" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9BE879" Ref="R?"  Part="1" 
+F 0 "R48" H 3850 3800 50  0001 L CNN
+F 1 "DNP" H 3850 3700 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 3750 50  0001 C CNN
+F 3 "~" H 3800 3750 50  0001 C CNN
+F 4 "DNP" H -1500 -3000 50  0001 C CNN "PN"
+	1    3800 3750
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R49
-U 1 1 5D0C9963
-P -2050 6550
-AR Path="/5BA0BA35/5D0C9963" Ref="R49"  Part="1" 
-AR Path="/5D0C9963" Ref="R49"  Part="1" 
-AR Path="/5D0C9963" Ref="R49"  Part="1" 
-AR Path="/5EA08A40/5D0C9963" Ref="R?"  Part="1" 
-F 0 "R49" H -2000 6600 50  0001 L CNN
-F 1 "DNP" H -2000 6500 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -2120 6550 50  0001 C CNN
-F 3 "~" H -2050 6550 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -2050 6550
+U 1 1 5E9BE895
+P 3800 3850
+AR Path="/5BA0BA35/5E9BE895" Ref="R49"  Part="1" 
+AR Path="/5E9BE895" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9BE895" Ref="R?"  Part="1" 
+F 0 "R49" H 3850 3900 50  0001 L CNN
+F 1 "DNP" H 3850 3800 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 3850 50  0001 C CNN
+F 3 "~" H 3800 3850 50  0001 C CNN
+F 4 "DNP" H -1500 -3100 50  0001 C CNN "PN"
+	1    3800 3850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R50
-U 1 1 5D0C9750
-P -2050 6750
-AR Path="/5BA0BA35/5D0C9750" Ref="R50"  Part="1" 
-AR Path="/5D0C9750" Ref="R50"  Part="1" 
-AR Path="/5D0C9750" Ref="R50"  Part="1" 
-AR Path="/5EA08A40/5D0C9750" Ref="R?"  Part="1" 
-F 0 "R50" H -2000 6800 50  0001 L CNN
-F 1 "DNP" H -2000 6700 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -2120 6750 50  0001 C CNN
-F 3 "~" H -2050 6750 50  0001 C CNN
-F 4 "DNP" H -7350 0   50  0001 C CNN "PN"
-	1    -2050 6750
+U 1 1 5E9BE885
+P 3800 3950
+AR Path="/5BA0BA35/5E9BE885" Ref="R50"  Part="1" 
+AR Path="/5E9BE885" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9BE885" Ref="R?"  Part="1" 
+F 0 "R50" H 3850 4000 50  0001 L CNN
+F 1 "DNP" H 3850 3900 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 3950 50  0001 C CNN
+F 3 "~" H 3800 3950 50  0001 C CNN
+F 4 "DNP" H -1500 -3100 50  0001 C CNN "PN"
+	1    3800 3950
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R51
-U 1 1 5D0C7AD7
-P -2050 6850
-AR Path="/5BA0BA35/5D0C7AD7" Ref="R51"  Part="1" 
-AR Path="/5D0C7AD7" Ref="R51"  Part="1" 
-AR Path="/5D0C7AD7" Ref="R51"  Part="1" 
-AR Path="/5EA08A40/5D0C7AD7" Ref="R?"  Part="1" 
-F 0 "R51" H -2000 6900 50  0001 L CNN
-F 1 "DNP" H -2000 6800 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -2120 6850 50  0001 C CNN
-F 3 "~" H -2050 6850 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -2050 6850
+U 1 1 5E9BE865
+P 3800 4050
+AR Path="/5BA0BA35/5E9BE865" Ref="R51"  Part="1" 
+AR Path="/5E9BE865" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9BE865" Ref="R?"  Part="1" 
+F 0 "R51" H 3850 4100 50  0001 L CNN
+F 1 "DNP" H 3850 4000 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 4050 50  0001 C CNN
+F 3 "~" H 3800 4050 50  0001 C CNN
+F 4 "DNP" H -1500 -3100 50  0001 C CNN "PN"
+	1    3800 4050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R52
-U 1 1 5D0C8C63
-P -2050 6950
-AR Path="/5BA0BA35/5D0C8C63" Ref="R52"  Part="1" 
-AR Path="/5D0C8C63" Ref="R52"  Part="1" 
-AR Path="/5D0C8C63" Ref="R52"  Part="1" 
-AR Path="/5EA08A40/5D0C8C63" Ref="R?"  Part="1" 
-F 0 "R52" H -2000 7000 50  0001 L CNN
-F 1 "DNP" H -2000 6900 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -2120 6950 50  0001 C CNN
-F 3 "~" H -2050 6950 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -2050 6950
+U 1 1 5E9BE88D
+P 3800 4150
+AR Path="/5BA0BA35/5E9BE88D" Ref="R52"  Part="1" 
+AR Path="/5E9BE88D" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9BE88D" Ref="R?"  Part="1" 
+F 0 "R52" H 3850 4200 50  0001 L CNN
+F 1 "DNP" H 3850 4100 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 4150 50  0001 C CNN
+F 3 "~" H 3800 4150 50  0001 C CNN
+F 4 "DNP" H -1500 -3100 50  0001 C CNN "PN"
+	1    3800 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R53
+U 1 1 5E9BE835
+P 3800 4250
+AR Path="/5BA0BA35/5E9BE835" Ref="R53"  Part="1" 
+AR Path="/5E9BE835" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9BE835" Ref="R?"  Part="1" 
+F 0 "R53" H 3850 4300 50  0001 L CNN
+F 1 "DNP" H 3850 4200 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 4250 50  0001 C CNN
+F 3 "~" H 3800 4250 50  0001 C CNN
+F 4 "DNP" H -1500 -3100 50  0001 C CNN "PN"
+	1    3800 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R54
+U 1 1 5E9BE85B
+P 3800 4500
+AR Path="/5BA0BA35/5E9BE85B" Ref="R54"  Part="1" 
+AR Path="/5E9BE85B" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9BE85B" Ref="R?"  Part="1" 
+F 0 "R54" H 3850 4550 50  0001 L CNN
+F 1 "DNP" H 3850 4450 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 4500 50  0001 C CNN
+F 3 "~" H 3800 4500 50  0001 C CNN
+F 4 "DNP" H -1500 -2250 50  0001 C CNN "PN"
+	1    3800 4500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R55
-U 1 1 5D0C8F0C
-P -2050 7050
-AR Path="/5BA0BA35/5D0C8F0C" Ref="R55"  Part="1" 
-AR Path="/5D0C8F0C" Ref="R55"  Part="1" 
-AR Path="/5D0C8F0C" Ref="R55"  Part="1" 
-AR Path="/5EA08A40/5D0C8F0C" Ref="R?"  Part="1" 
-F 0 "R55" H -2000 7100 50  0001 L CNN
-F 1 "DNP" H -2000 7000 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -2120 7050 50  0001 C CNN
-F 3 "~" H -2050 7050 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -2050 7050
+U 1 1 5E9BE8A2
+P 3800 4600
+AR Path="/5BA0BA35/5E9BE8A2" Ref="R55"  Part="1" 
+AR Path="/5E9BE8A2" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9BE8A2" Ref="R?"  Part="1" 
+F 0 "R55" H 3850 4650 50  0001 L CNN
+F 1 "DNP" H 3850 4550 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 4600 50  0001 C CNN
+F 3 "~" H 3800 4600 50  0001 C CNN
+F 4 "DNP" H -1500 -2350 50  0001 C CNN "PN"
+	1    3800 4600
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R64
-U 1 1 5D0C90F1
-P -2050 7150
-AR Path="/5BA0BA35/5D0C90F1" Ref="R64"  Part="1" 
-AR Path="/5D0C90F1" Ref="R64"  Part="1" 
-AR Path="/5D0C90F1" Ref="R64"  Part="1" 
-AR Path="/5EA08A40/5D0C90F1" Ref="R?"  Part="1" 
-F 0 "R64" H -2000 7200 50  0001 L CNN
-F 1 "DNP" H -2000 7100 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -2120 7150 50  0001 C CNN
-F 3 "~" H -2050 7150 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -2050 7150
+L Device:R R56
+U 1 1 5E9BE854
+P 3800 4700
+AR Path="/5BA0BA35/5E9BE854" Ref="R56"  Part="1" 
+AR Path="/5E9BE854" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9BE854" Ref="R?"  Part="1" 
+F 0 "R56" H 3850 4750 50  0001 L CNN
+F 1 "DNP" H 3850 4650 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 4700 50  0001 C CNN
+F 3 "~" H 3800 4700 50  0001 C CNN
+F 4 "DNP" H -1500 -2350 50  0001 C CNN "PN"
+	1    3800 4700
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R65
-U 1 1 5D0C95A3
-P -2050 7250
-AR Path="/5BA0BA35/5D0C95A3" Ref="R65"  Part="1" 
-AR Path="/5D0C95A3" Ref="R65"  Part="1" 
-AR Path="/5D0C95A3" Ref="R65"  Part="1" 
-AR Path="/5EA08A40/5D0C95A3" Ref="R?"  Part="1" 
-F 0 "R65" H -2000 7300 50  0001 L CNN
-F 1 "DNP" H -2000 7200 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -2120 7250 50  0001 C CNN
-F 3 "~" H -2050 7250 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -2050 7250
+L Device:R R57
+U 1 1 5E9BE83C
+P 3800 4800
+AR Path="/5BA0BA35/5E9BE83C" Ref="R57"  Part="1" 
+AR Path="/5E9BE83C" Ref="R?"  Part="1" 
+AR Path="/5EA08A40/5E9BE83C" Ref="R?"  Part="1" 
+F 0 "R57" H 3850 4850 50  0001 L CNN
+F 1 "DNP" H 3850 4750 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 4800 50  0001 C CNN
+F 3 "~" H 3800 4800 50  0001 C CNN
+F 4 "DNP" H -1500 -2350 50  0001 C CNN "PN"
+	1    3800 4800
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R67
-U 1 1 5D1712F8
-P -950 6700
-AR Path="/5BA0BA35/5D1712F8" Ref="R67"  Part="1" 
-AR Path="/5D1712F8" Ref="R67"  Part="1" 
-AR Path="/5D1712F8" Ref="R67"  Part="1" 
-AR Path="/5EA08A40/5D1712F8" Ref="R?"  Part="1" 
-F 0 "R67" H -900 6750 50  0001 L CNN
-F 1 "DNP" H -900 6650 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -1020 6700 50  0001 C CNN
-F 3 "~" H -950 6700 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -950 6700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R68
-U 1 1 5D163738
-P -950 6800
-AR Path="/5BA0BA35/5D163738" Ref="R68"  Part="1" 
-AR Path="/5D163738" Ref="R68"  Part="1" 
-AR Path="/5D163738" Ref="R68"  Part="1" 
-AR Path="/5EA08A40/5D163738" Ref="R?"  Part="1" 
-F 0 "R68" H -900 6850 50  0001 L CNN
-F 1 "DNP" H -900 6750 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -1020 6800 50  0001 C CNN
-F 3 "~" H -950 6800 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -950 6800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R69
-U 1 1 5D151774
-P -950 6900
-AR Path="/5BA0BA35/5D151774" Ref="R69"  Part="1" 
-AR Path="/5D151774" Ref="R69"  Part="1" 
-AR Path="/5D151774" Ref="R69"  Part="1" 
-AR Path="/5EA08A40/5D151774" Ref="R?"  Part="1" 
-F 0 "R69" H -900 6950 50  0001 L CNN
-F 1 "DNP" H -900 6850 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -1020 6900 50  0001 C CNN
-F 3 "~" H -950 6900 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -950 6900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R70
-U 1 1 5D15177F
-P -950 7000
-AR Path="/5BA0BA35/5D15177F" Ref="R70"  Part="1" 
-AR Path="/5D15177F" Ref="R70"  Part="1" 
-AR Path="/5D15177F" Ref="R70"  Part="1" 
-AR Path="/5EA08A40/5D15177F" Ref="R?"  Part="1" 
-F 0 "R70" H -900 7050 50  0001 L CNN
-F 1 "DNP" H -900 6950 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -1020 7000 50  0001 C CNN
-F 3 "~" H -950 7000 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -950 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R71
-U 1 1 5D15178A
-P -950 7100
-AR Path="/5BA0BA35/5D15178A" Ref="R71"  Part="1" 
-AR Path="/5D15178A" Ref="R71"  Part="1" 
-AR Path="/5D15178A" Ref="R71"  Part="1" 
-AR Path="/5EA08A40/5D15178A" Ref="R?"  Part="1" 
-F 0 "R71" H -900 7150 50  0001 L CNN
-F 1 "DNP" H -900 7050 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -1020 7100 50  0001 C CNN
-F 3 "~" H -950 7100 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -950 7100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R72
-U 1 1 5D151795
-P -950 7200
-AR Path="/5BA0BA35/5D151795" Ref="R72"  Part="1" 
-AR Path="/5D151795" Ref="R72"  Part="1" 
-AR Path="/5D151795" Ref="R72"  Part="1" 
-AR Path="/5EA08A40/5D151795" Ref="R?"  Part="1" 
-F 0 "R72" H -900 7250 50  0001 L CNN
-F 1 "DNP" H -900 7150 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -1020 7200 50  0001 C CNN
-F 3 "~" H -950 7200 50  0001 C CNN
-F 4 "DNP" H -7350 -100 50  0001 C CNN "PN"
-	1    -950 7200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R34
-U 1 1 5E9FF301
-P 6000 -3450
-AR Path="/5BA0BA35/5E9FF301" Ref="R34"  Part="1" 
-AR Path="/5E9FF301" Ref="R?"  Part="1" 
-AR Path="/5E9FF301" Ref="R?"  Part="1" 
-AR Path="/5EA08A40/5E9FF301" Ref="R?"  Part="1" 
-F 0 "R34" H 6050 -3400 50  0000 L CNN
-F 1 "1k5" H 6050 -3500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5930 -3450 50  0001 C CNN
-F 3 "~" H 6000 -3450 50  0001 C CNN
-F 4 "RC0402FR-071K5L" H 3800 -6950 50  0001 C CNN "PN"
-F 5 "311-1.50KLRCT-ND" H 3800 -6950 50  0001 C CNN "SN-DK"
-	1    6000 -3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R60
-U 1 1 5E9FF2A4
-P 6300 -3450
-AR Path="/5BA0BA35/5E9FF2A4" Ref="R60"  Part="1" 
-AR Path="/5E9FF2A4" Ref="R?"  Part="1" 
-AR Path="/5E9FF2A4" Ref="R?"  Part="1" 
-AR Path="/5EA08A40/5E9FF2A4" Ref="R?"  Part="1" 
-F 0 "R60" H 6350 -3400 50  0000 L CNN
-F 1 "1k5" H 6350 -3500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6230 -3450 50  0001 C CNN
-F 3 "~" H 6300 -3450 50  0001 C CNN
-F 4 "RC0402FR-071K5L" H 4100 -6950 50  0001 C CNN "PN"
-F 5 "311-1.50KLRCT-ND" H 4100 -6950 50  0001 C CNN "SN-DK"
-	1    6300 -3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R77
-U 1 1 5E9FF2B3
-P 6600 -3450
-AR Path="/5BA0BA35/5E9FF2B3" Ref="R77"  Part="1" 
-AR Path="/5E9FF2B3" Ref="R?"  Part="1" 
-AR Path="/5E9FF2B3" Ref="R?"  Part="1" 
-AR Path="/5EA08A40/5E9FF2B3" Ref="R?"  Part="1" 
-F 0 "R77" H 6650 -3400 50  0000 L CNN
-F 1 "1k5" H 6650 -3500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6530 -3450 50  0001 C CNN
-F 3 "~" H 6600 -3450 50  0001 C CNN
-F 4 "RC0402FR-071K5L" H 4400 -6950 50  0001 C CNN "PN"
-F 5 "311-1.50KLRCT-ND" H 4400 -6950 50  0001 C CNN "SN-DK"
-	1    6600 -3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R78
-U 1 1 5E9FF2C2
-P 6900 -3450
-AR Path="/5BA0BA35/5E9FF2C2" Ref="R78"  Part="1" 
-AR Path="/5E9FF2C2" Ref="R?"  Part="1" 
-AR Path="/5E9FF2C2" Ref="R?"  Part="1" 
-AR Path="/5EA08A40/5E9FF2C2" Ref="R?"  Part="1" 
-F 0 "R78" H 6950 -3400 50  0000 L CNN
-F 1 "1k5" H 6950 -3500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6830 -3450 50  0001 C CNN
-F 3 "~" H 6900 -3450 50  0001 C CNN
-F 4 "RC0402FR-071K5L" H 4400 -6950 50  0001 C CNN "PN"
-F 5 "311-1.50KLRCT-ND" H 4400 -6950 50  0001 C CNN "SN-DK"
-	1    6900 -3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R79
-U 1 1 5E9FF278
-P 6900 -1100
-AR Path="/5BA0BA35/5E9FF278" Ref="R79"  Part="1" 
-AR Path="/5E9FF278" Ref="R?"  Part="1" 
-AR Path="/5E9FF278" Ref="R?"  Part="1" 
-AR Path="/5EA08A40/5E9FF278" Ref="R?"  Part="1" 
-F 0 "R79" H 6950 -1050 50  0000 L CNN
-F 1 "1k5" H 6950 -1150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6830 -1100 50  0001 C CNN
-F 3 "~" H 6900 -1100 50  0001 C CNN
-F 4 "RC0402FR-071K5L" H 4400 -6950 50  0001 C CNN "PN"
-F 5 "311-1.50KLRCT-ND" H 4400 -6950 50  0001 C CNN "SN-DK"
-	1    6900 -1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R80
-U 1 1 5E9FF2D1
-P 7200 -3450
-AR Path="/5BA0BA35/5E9FF2D1" Ref="R80"  Part="1" 
-AR Path="/5E9FF2D1" Ref="R?"  Part="1" 
-AR Path="/5E9FF2D1" Ref="R?"  Part="1" 
-AR Path="/5EA08A40/5E9FF2D1" Ref="R?"  Part="1" 
-F 0 "R80" H 7250 -3400 50  0000 L CNN
-F 1 "1k5" H 7250 -3500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7130 -3450 50  0001 C CNN
-F 3 "~" H 7200 -3450 50  0001 C CNN
-F 4 "RC0402FR-071K5L" H 4400 -6950 50  0001 C CNN "PN"
-F 5 "311-1.50KLRCT-ND" H 4400 -6950 50  0001 C CNN "SN-DK"
-	1    7200 -3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R81
-U 1 1 5E9FF287
-P 7200 -1100
-AR Path="/5BA0BA35/5E9FF287" Ref="R81"  Part="1" 
-AR Path="/5E9FF287" Ref="R?"  Part="1" 
-AR Path="/5E9FF287" Ref="R?"  Part="1" 
-AR Path="/5EA08A40/5E9FF287" Ref="R?"  Part="1" 
-F 0 "R81" H 7250 -1050 50  0000 L CNN
-F 1 "1k5" H 7250 -1150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7130 -1100 50  0001 C CNN
-F 3 "~" H 7200 -1100 50  0001 C CNN
-F 4 "RC0402FR-071K5L" H 4400 -6950 50  0001 C CNN "PN"
-F 5 "311-1.50KLRCT-ND" H 4400 -6950 50  0001 C CNN "SN-DK"
-	1    7200 -1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R82
-U 1 1 5E9FF2E0
-P 7500 -3450
-AR Path="/5BA0BA35/5E9FF2E0" Ref="R82"  Part="1" 
-AR Path="/5E9FF2E0" Ref="R?"  Part="1" 
-AR Path="/5E9FF2E0" Ref="R?"  Part="1" 
-AR Path="/5EA08A40/5E9FF2E0" Ref="R?"  Part="1" 
-F 0 "R82" H 7550 -3400 50  0000 L CNN
-F 1 "1k5" H 7550 -3500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7430 -3450 50  0001 C CNN
-F 3 "~" H 7500 -3450 50  0001 C CNN
-F 4 "RC0402FR-071K5L" H 4400 -6950 50  0001 C CNN "PN"
-F 5 "311-1.50KLRCT-ND" H 4400 -6950 50  0001 C CNN "SN-DK"
-	1    7500 -3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R83
-U 1 1 5E9FF2EF
-P 7800 -3450
-AR Path="/5BA0BA35/5E9FF2EF" Ref="R83"  Part="1" 
-AR Path="/5E9FF2EF" Ref="R?"  Part="1" 
-AR Path="/5E9FF2EF" Ref="R?"  Part="1" 
-AR Path="/5EA08A40/5E9FF2EF" Ref="R?"  Part="1" 
-F 0 "R83" H 7850 -3400 50  0000 L CNN
-F 1 "1k5" H 7850 -3500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7730 -3450 50  0001 C CNN
-F 3 "~" H 7800 -3450 50  0001 C CNN
-F 4 "RC0402FR-071K5L" H 4400 -6950 50  0001 C CNN "PN"
-F 5 "311-1.50KLRCT-ND" H 4400 -6950 50  0001 C CNN "SN-DK"
-	1    7800 -3450
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R19
 U 1 1 5BA0C319
 P 7800 2700
 AR Path="/5BA0BA35/5BA0C319" Ref="R19"  Part="1" 
-AR Path="/5BA0C319" Ref="R19"  Part="1" 
 AR Path="/5BA0C319" Ref="R19"  Part="1" 
 AR Path="/5EA08A40/5BA0C319" Ref="R?"  Part="1" 
 F 0 "R19" H 7870 2746 50  0000 L CNN
@@ -1985,7 +1902,6 @@ U 1 1 5BC13646
 P 8050 4050
 AR Path="/5BA0BA35/5BC13646" Ref="R15"  Part="1" 
 AR Path="/5BC13646" Ref="R15"  Part="1" 
-AR Path="/5BC13646" Ref="R15"  Part="1" 
 AR Path="/5EA08A40/5BC13646" Ref="R?"  Part="1" 
 F 0 "R15" H 8120 4095 50  0000 L CNN
 F 1 "1k5" H 8120 4005 50  0000 L CNN
@@ -2001,7 +1917,6 @@ L Device:R R24
 U 1 1 5BC18E79
 P 8200 4050
 AR Path="/5BA0BA35/5BC18E79" Ref="R24"  Part="1" 
-AR Path="/5BC18E79" Ref="R24"  Part="1" 
 AR Path="/5BC18E79" Ref="R24"  Part="1" 
 AR Path="/5EA08A40/5BC18E79" Ref="R?"  Part="1" 
 F 0 "R24" H 8130 4095 50  0000 R CNN
@@ -2019,7 +1934,6 @@ U 1 1 5EA74A7F
 P 9450 2700
 AR Path="/5BA0BA35/5EA74A7F" Ref="R84"  Part="1" 
 AR Path="/5EA74A7F" Ref="R?"  Part="1" 
-AR Path="/5EA74A7F" Ref="R?"  Part="1" 
 AR Path="/5EA08A40/5EA74A7F" Ref="R?"  Part="1" 
 F 0 "R84" H 9550 2650 50  0000 L CNN
 F 1 "220R" H 9500 2750 50  0000 L CNN
@@ -2035,7 +1949,6 @@ L Device:R R85
 U 1 1 5EA74A86
 P 9550 2700
 AR Path="/5BA0BA35/5EA74A86" Ref="R85"  Part="1" 
-AR Path="/5EA74A86" Ref="R?"  Part="1" 
 AR Path="/5EA74A86" Ref="R?"  Part="1" 
 AR Path="/5EA08A40/5EA74A86" Ref="R?"  Part="1" 
 F 0 "R85" H 9650 2750 50  0000 L CNN
@@ -2053,7 +1966,6 @@ U 1 1 5BD25E82
 P 14450 4050
 AR Path="/5BA0BA35/5BD25E82" Ref="R20"  Part="1" 
 AR Path="/5BD25E82" Ref="R20"  Part="1" 
-AR Path="/5BD25E82" Ref="R20"  Part="1" 
 AR Path="/5EA08A40/5BD25E82" Ref="R?"  Part="1" 
 F 0 "R20" H 14550 4000 50  0000 L CNN
 F 1 "220R" H 14500 4100 50  0000 L CNN
@@ -2070,7 +1982,6 @@ U 1 1 5BD25E08
 P 14550 4050
 AR Path="/5BA0BA35/5BD25E08" Ref="R21"  Part="1" 
 AR Path="/5BD25E08" Ref="R21"  Part="1" 
-AR Path="/5BD25E08" Ref="R21"  Part="1" 
 AR Path="/5EA08A40/5BD25E08" Ref="R?"  Part="1" 
 F 0 "R21" H 14650 4100 50  0000 L CNN
 F 1 "220R" H 14600 4000 50  0000 L CNN
@@ -2084,19 +1995,18 @@ $EndComp
 $Comp
 L Device:Ferrite_Bead_Small L1
 U 1 1 5BC43C55
-P 3600 3600
+P 3600 3500
 AR Path="/5BA0BA35/5BC43C55" Ref="L1"  Part="1" 
 AR Path="/5BC43C55" Ref="L1"  Part="1" 
-AR Path="/5BC43C55" Ref="L1"  Part="1" 
 AR Path="/5EA08A40/5BC43C55" Ref="L?"  Part="1" 
-F 0 "L1" V 3363 3600 50  0000 C CNN
-F 1 "600R" V 3454 3600 50  0000 C CNN
-F 2 "pkl_dipol:L_0402" V 3530 3600 50  0001 C CNN
-F 3 "~" H 3600 3600 50  0001 C CNN
-F 4 "490-1006-1-ND" H 650 650 50  0001 C CNN "SN-DK"
-F 5 "Samsung Electro-Mechanics" H 650 650 50  0001 C CNN "Mfg"
-F 6 "CIM05U601NC" H 650 650 50  0001 C CNN "PN"
-	1    3600 3600
+F 0 "L1" V 3363 3500 50  0000 C CNN
+F 1 "600R" V 3454 3500 50  0000 C CNN
+F 2 "pkl_dipol:L_0402" V 3530 3500 50  0001 C CNN
+F 3 "~" H 3600 3500 50  0001 C CNN
+F 4 "490-1006-1-ND" H 650 550 50  0001 C CNN "SN-DK"
+F 5 "Samsung Electro-Mechanics" H 650 550 50  0001 C CNN "Mfg"
+F 6 "CIM05U601NC" H 650 550 50  0001 C CNN "PN"
+	1    3600 3500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2104,7 +2014,6 @@ L Device:Ferrite_Bead_Small L5
 U 1 1 5EA734BA
 P 9900 4800
 AR Path="/5BA0BA35/5EA734BA" Ref="L5"  Part="1" 
-AR Path="/5EA734BA" Ref="L?"  Part="1" 
 AR Path="/5EA734BA" Ref="L?"  Part="1" 
 AR Path="/5EA08A40/5EA734BA" Ref="L?"  Part="1" 
 F 0 "L5" V 9663 4800 50  0000 C CNN
@@ -2122,7 +2031,6 @@ U 1 1 5BC6B979
 P 14900 6150
 AR Path="/5BA0BA35/5BC6B979" Ref="L3"  Part="1" 
 AR Path="/5BC6B979" Ref="L3"  Part="1" 
-AR Path="/5BC6B979" Ref="L3"  Part="1" 
 AR Path="/5EA08A40/5BC6B979" Ref="L?"  Part="1" 
 F 0 "L3" V 14663 6150 50  0000 C CNN
 F 1 "600R" V 14754 6150 50  0000 C CNN
@@ -2136,57 +2044,53 @@ $EndComp
 $Comp
 L Device:Crystal_GND24_Small Y1
 U 1 1 5BA0BB12
-P 8500 1450
-AR Path="/5BA0BB12" Ref="Y1"  Part="1" 
+P 8600 2050
 AR Path="/5BA0BA35/5BA0BB12" Ref="Y1"  Part="1" 
 AR Path="/5BA0BB12" Ref="Y1"  Part="1" 
-AR Path="/5BA0BB12" Ref="Y1"  Part="1" 
 AR Path="/5EA08A40/5BA0BB12" Ref="Y?"  Part="1" 
-F 0 "Y1" H 8900 1500 50  0000 L CNN
-F 1 "25Mhz" H 8900 1400 50  0000 L CNN
-F 2 "Oscillators:Oscillator_SMD_SeikoEpson_SG210-4pin_2.5x2.0mm" H 8500 1450 50  0001 C CNN
-F 3 "~" H 8500 1450 50  0001 C CNN
-F 4 "CX2520DB25000D0FLJC1" H 1150 50  50  0001 C CNN "PN"
-F 5 "1253-1723-1-ND" H 1150 50  50  0001 C CNN "SN-DK"
-F 6 "Kyocera International Inc. Electronic Components" H 1150 50  50  0001 C CNN "MFG"
-	1    8500 1450
-	1    0    0    -1  
+F 0 "Y1" H 8200 1950 50  0000 L CNN
+F 1 "25Mhz" H 8050 2050 50  0000 L CNN
+F 2 "Oscillators:Oscillator_SMD_SeikoEpson_SG210-4pin_2.5x2.0mm" H 8600 2050 50  0001 C CNN
+F 3 "~" H 8600 2050 50  0001 C CNN
+F 4 "CX2520DB25000D0FLJC1" H 1250 650 50  0001 C CNN "PN"
+F 5 "1253-1723-1-ND" H 1250 650 50  0001 C CNN "SN-DK"
+F 6 "Kyocera International Inc. Electronic Components" H 1250 650 50  0001 C CNN "MFG"
+	1    8600 2050
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5BC31FC2
-P 650 -1050
+P 1200 -1000
 AR Path="/5BBD18EA/5BC31FC2" Ref="C?"  Part="1" 
 AR Path="/5BA0BA35/5BC31FC2" Ref="C40"  Part="1" 
 AR Path="/5BC31FC2" Ref="C40"  Part="1" 
-AR Path="/5BC31FC2" Ref="C40"  Part="1" 
 AR Path="/5EA08A40/5BC31FC2" Ref="C?"  Part="1" 
-F 0 "C40" H 765 -1004 50  0000 L CNN
-F 1 "4.7uF" H 765 -1095 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 688 -1200 50  0001 C CNN
-F 3 "~" H 650 -1050 50  0001 C CNN
-F 4 "CL10A475KP8NNNC" H -400 -2400 50  0001 C CNN "PN"
-F 5 "1276-1044-1-ND" H -400 -2400 50  0001 C CNN "SN-DK"
-F 6 "Samsung Electro-Mechanics" H -400 -2400 50  0001 C CNN "Mfg"
-	1    650  -1050
+F 0 "C40" H 1315 -954 50  0000 L CNN
+F 1 "4.7uF" H 1315 -1045 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1238 -1150 50  0001 C CNN
+F 3 "~" H 1200 -1000 50  0001 C CNN
+F 4 "CL10A475KP8NNNC" H 150 -2350 50  0001 C CNN "PN"
+F 5 "1276-1044-1-ND" H 150 -2350 50  0001 C CNN "SN-DK"
+F 6 "Samsung Electro-Mechanics" H 150 -2350 50  0001 C CNN "Mfg"
+	1    1200 -1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5BC31FC9
-P 2650 -600
+P 3200 -550
 AR Path="/5BBD18EA/5BC31FC9" Ref="C?"  Part="1" 
 AR Path="/5BA0BA35/5BC31FC9" Ref="C55"  Part="1" 
 AR Path="/5BC31FC9" Ref="C55"  Part="1" 
-AR Path="/5BC31FC9" Ref="C55"  Part="1" 
 AR Path="/5EA08A40/5BC31FC9" Ref="C?"  Part="1" 
-F 0 "C55" H 2765 -554 50  0000 L CNN
-F 1 "10uF" H 2765 -645 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2688 -750 50  0001 C CNN
-F 3 "~" H 2650 -600 50  0001 C CNN
-F 4 "445-7486-1-ND" H -400 -2400 50  0001 C CNN "SN-DK"
-F 5 "CL10A106MP8NNNC" H -400 -2400 50  0001 C CNN "PN"
-	1    2650 -600
+F 0 "C55" H 3315 -504 50  0000 L CNN
+F 1 "10uF" H 3315 -595 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3238 -700 50  0001 C CNN
+F 3 "~" H 3200 -550 50  0001 C CNN
+F 4 "445-7486-1-ND" H 150 -2350 50  0001 C CNN "SN-DK"
+F 5 "CL10A106MP8NNNC" H 150 -2350 50  0001 C CNN "PN"
+	1    3200 -550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2194,7 +2098,6 @@ L Device:C C25
 U 1 1 5BA10E0A
 P 3400 7250
 AR Path="/5BA0BA35/5BA10E0A" Ref="C25"  Part="1" 
-AR Path="/5BA10E0A" Ref="C25"  Part="1" 
 AR Path="/5BA10E0A" Ref="C25"  Part="1" 
 AR Path="/5EA08A40/5BA10E0A" Ref="C?"  Part="1" 
 F 0 "C25" H 3450 7350 50  0000 L CNN
@@ -2212,7 +2115,6 @@ U 1 1 5BA131B0
 P 3750 7250
 AR Path="/5BA0BA35/5BA131B0" Ref="C28"  Part="1" 
 AR Path="/5BA131B0" Ref="C28"  Part="1" 
-AR Path="/5BA131B0" Ref="C28"  Part="1" 
 AR Path="/5EA08A40/5BA131B0" Ref="C?"  Part="1" 
 F 0 "C28" H 3800 7350 50  0000 L CNN
 F 1 "100nF" H 3800 7150 50  0000 L CNN
@@ -2226,18 +2128,17 @@ $EndComp
 $Comp
 L Device:C C5
 U 1 1 5CF2E441
-P 3900 3350
+P 3900 3250
 AR Path="/5BA0BA35/5CF2E441" Ref="C5"  Part="1" 
 AR Path="/5CF2E441" Ref="C5"  Part="1" 
-AR Path="/5CF2E441" Ref="C5"  Part="1" 
 AR Path="/5EA08A40/5CF2E441" Ref="C?"  Part="1" 
-F 0 "C5" H 3950 3450 50  0000 L CNN
-F 1 "1nF" H 3950 3250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3938 3200 50  0001 C CNN
-F 3 "~" H 3900 3350 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H -2000 -3650 50  0001 C CNN "Mfg"
-F 5 "CL05B102KP5NNNC" H -2000 -3650 50  0001 C CNN "PN"
-	1    3900 3350
+F 0 "C5" H 3950 3350 50  0000 L CNN
+F 1 "1nF" H 3950 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3938 3100 50  0001 C CNN
+F 3 "~" H 3900 3250 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H -2000 -3750 50  0001 C CNN "Mfg"
+F 5 "CL05B102KP5NNNC" H -2000 -3750 50  0001 C CNN "PN"
+	1    3900 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2245,7 +2146,6 @@ L Device:C C30
 U 1 1 5BA13B60
 P 4100 7250
 AR Path="/5BA0BA35/5BA13B60" Ref="C30"  Part="1" 
-AR Path="/5BA13B60" Ref="C30"  Part="1" 
 AR Path="/5BA13B60" Ref="C30"  Part="1" 
 AR Path="/5EA08A40/5BA13B60" Ref="C?"  Part="1" 
 F 0 "C30" H 4150 7350 50  0000 L CNN
@@ -2260,18 +2160,17 @@ $EndComp
 $Comp
 L Device:C C72
 U 1 1 5CF2DE05
-P 4250 3350
+P 4250 3250
 AR Path="/5BA0BA35/5CF2DE05" Ref="C72"  Part="1" 
 AR Path="/5CF2DE05" Ref="C72"  Part="1" 
-AR Path="/5CF2DE05" Ref="C72"  Part="1" 
 AR Path="/5EA08A40/5CF2DE05" Ref="C?"  Part="1" 
-F 0 "C72" H 4300 3450 50  0000 L CNN
-F 1 "100nF" H 4300 3250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4288 3200 50  0001 C CNN
-F 3 "~" H 4250 3350 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H -1650 -3650 50  0001 C CNN "Mfg"
-F 5 "CL05B104KP5NNNC" H -1650 -3650 50  0001 C CNN "PN"
-	1    4250 3350
+F 0 "C72" H 4300 3350 50  0000 L CNN
+F 1 "100nF" H 4300 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4288 3100 50  0001 C CNN
+F 3 "~" H 4250 3250 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H -1650 -3750 50  0001 C CNN "Mfg"
+F 5 "CL05B104KP5NNNC" H -1650 -3750 50  0001 C CNN "PN"
+	1    4250 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2279,7 +2178,6 @@ L Device:C C32
 U 1 1 5BA1462C
 P 4400 7250
 AR Path="/5BA0BA35/5BA1462C" Ref="C32"  Part="1" 
-AR Path="/5BA1462C" Ref="C32"  Part="1" 
 AR Path="/5BA1462C" Ref="C32"  Part="1" 
 AR Path="/5EA08A40/5BA1462C" Ref="C?"  Part="1" 
 F 0 "C32" H 4450 7350 50  0000 L CNN
@@ -2294,19 +2192,18 @@ $EndComp
 $Comp
 L Device:C C41
 U 1 1 5BC49F84
-P 4600 3350
+P 4600 3250
 AR Path="/5BA0BA35/5BC49F84" Ref="C41"  Part="1" 
 AR Path="/5BC49F84" Ref="C41"  Part="1" 
-AR Path="/5BC49F84" Ref="C41"  Part="1" 
 AR Path="/5EA08A40/5BC49F84" Ref="C?"  Part="1" 
-F 0 "C41" H 4650 3450 50  0000 L CNN
-F 1 "4.7uF" H 4650 3250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4638 3200 50  0001 C CNN
-F 3 "~" H 4600 3350 50  0001 C CNN
-F 4 "CL10A475KP8NNNC" H 1300 650 50  0001 C CNN "PN"
-F 5 "1276-1044-1-ND" H 1300 650 50  0001 C CNN "SN-DK"
-F 6 "Samsung Electro-Mechanics" H 1300 650 50  0001 C CNN "Mfg"
-	1    4600 3350
+F 0 "C41" H 4650 3350 50  0000 L CNN
+F 1 "4.7uF" H 4650 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4638 3100 50  0001 C CNN
+F 3 "~" H 4600 3250 50  0001 C CNN
+F 4 "CL10A475KP8NNNC" H 1300 550 50  0001 C CNN "PN"
+F 5 "1276-1044-1-ND" H 1300 550 50  0001 C CNN "SN-DK"
+F 6 "Samsung Electro-Mechanics" H 1300 550 50  0001 C CNN "Mfg"
+	1    4600 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2314,7 +2211,6 @@ L Device:C C34
 U 1 1 5BA151D6
 P 4700 7250
 AR Path="/5BA0BA35/5BA151D6" Ref="C34"  Part="1" 
-AR Path="/5BA151D6" Ref="C34"  Part="1" 
 AR Path="/5BA151D6" Ref="C34"  Part="1" 
 AR Path="/5EA08A40/5BA151D6" Ref="C?"  Part="1" 
 F 0 "C34" H 4750 7350 50  0000 L CNN
@@ -2332,7 +2228,6 @@ U 1 1 5BA15EA0
 P 5100 7250
 AR Path="/5BA0BA35/5BA15EA0" Ref="C26"  Part="1" 
 AR Path="/5BA15EA0" Ref="C26"  Part="1" 
-AR Path="/5BA15EA0" Ref="C26"  Part="1" 
 AR Path="/5EA08A40/5BA15EA0" Ref="C?"  Part="1" 
 F 0 "C26" H 5150 7350 50  0000 L CNN
 F 1 "100nF" H 5150 7150 50  0000 L CNN
@@ -2348,7 +2243,6 @@ L Device:C C27
 U 1 1 5BA16CE6
 P 5400 7250
 AR Path="/5BA0BA35/5BA16CE6" Ref="C27"  Part="1" 
-AR Path="/5BA16CE6" Ref="C27"  Part="1" 
 AR Path="/5BA16CE6" Ref="C27"  Part="1" 
 AR Path="/5EA08A40/5BA16CE6" Ref="C?"  Part="1" 
 F 0 "C27" H 5450 7350 50  0000 L CNN
@@ -2366,7 +2260,6 @@ U 1 1 5BA17C2D
 P 5700 7250
 AR Path="/5BA0BA35/5BA17C2D" Ref="C29"  Part="1" 
 AR Path="/5BA17C2D" Ref="C29"  Part="1" 
-AR Path="/5BA17C2D" Ref="C29"  Part="1" 
 AR Path="/5EA08A40/5BA17C2D" Ref="C?"  Part="1" 
 F 0 "C29" H 5750 7350 50  0000 L CNN
 F 1 "100nF" H 5750 7150 50  0000 L CNN
@@ -2382,7 +2275,6 @@ L Device:C C31
 U 1 1 5BA17C41
 P 6000 7250
 AR Path="/5BA0BA35/5BA17C41" Ref="C31"  Part="1" 
-AR Path="/5BA17C41" Ref="C31"  Part="1" 
 AR Path="/5BA17C41" Ref="C31"  Part="1" 
 AR Path="/5EA08A40/5BA17C41" Ref="C?"  Part="1" 
 F 0 "C31" H 6050 7350 50  0000 L CNN
@@ -2400,7 +2292,6 @@ U 1 1 5BA18E0C
 P 6300 7250
 AR Path="/5BA0BA35/5BA18E0C" Ref="C33"  Part="1" 
 AR Path="/5BA18E0C" Ref="C33"  Part="1" 
-AR Path="/5BA18E0C" Ref="C33"  Part="1" 
 AR Path="/5EA08A40/5BA18E0C" Ref="C?"  Part="1" 
 F 0 "C33" H 6350 7350 50  0000 L CNN
 F 1 "100nF" H 6350 7150 50  0000 L CNN
@@ -2417,7 +2308,6 @@ U 1 1 5BA18E20
 P 6600 7250
 AR Path="/5BA0BA35/5BA18E20" Ref="C35"  Part="1" 
 AR Path="/5BA18E20" Ref="C35"  Part="1" 
-AR Path="/5BA18E20" Ref="C35"  Part="1" 
 AR Path="/5EA08A40/5BA18E20" Ref="C?"  Part="1" 
 F 0 "C35" H 6650 7350 50  0000 L CNN
 F 1 "100nF" H 6650 7150 50  0000 L CNN
@@ -2429,38 +2319,36 @@ F 5 "CL05B104KP5NNNC" H 700 250 50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C36
-U 1 1 5BA0BB59
-P 8250 1200
-AR Path="/5BA0BA35/5BA0BB59" Ref="C36"  Part="1" 
-AR Path="/5BA0BB59" Ref="C36"  Part="1" 
-AR Path="/5BA0BB59" Ref="C36"  Part="1" 
-AR Path="/5EA08A40/5BA0BB59" Ref="C?"  Part="1" 
-F 0 "C36" H 7950 1250 50  0000 L CNN
-F 1 "22pF" H 7950 1150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8288 1050 50  0001 C CNN
-F 3 "~" H 8250 1200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 1150 50  50  0001 C CNN "Mfg"
-F 5 "CL05C220JB5NNWC" H 1150 50  50  0001 C CNN "PN"
-	1    8250 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C37
 U 1 1 5BA0BBA3
-P 8750 1200
+P 8350 2300
 AR Path="/5BA0BA35/5BA0BBA3" Ref="C37"  Part="1" 
 AR Path="/5BA0BBA3" Ref="C37"  Part="1" 
-AR Path="/5BA0BBA3" Ref="C37"  Part="1" 
 AR Path="/5EA08A40/5BA0BBA3" Ref="C?"  Part="1" 
-F 0 "C37" H 8865 1246 50  0000 L CNN
-F 1 "22pF" H 8865 1155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8788 1050 50  0001 C CNN
-F 3 "~" H 8750 1200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 1150 50  50  0001 C CNN "Mfg"
-F 5 "CL05C220JB5NNWC" H 1150 50  50  0001 C CNN "PN"
-	1    8750 1200
-	1    0    0    -1  
+F 0 "C37" H 8465 2346 50  0000 L CNN
+F 1 "22pF" H 8465 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8388 2150 50  0001 C CNN
+F 3 "~" H 8350 2300 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 750 1150 50  0001 C CNN "Mfg"
+F 5 "CL05C220JB5NNWC" H 750 1150 50  0001 C CNN "PN"
+	1    8350 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C36
+U 1 1 5BA0BB59
+P 8850 2300
+AR Path="/5BA0BA35/5BA0BB59" Ref="C36"  Part="1" 
+AR Path="/5BA0BB59" Ref="C36"  Part="1" 
+AR Path="/5EA08A40/5BA0BB59" Ref="C?"  Part="1" 
+F 0 "C36" H 8550 2350 50  0000 L CNN
+F 1 "22pF" H 8550 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8888 2150 50  0001 C CNN
+F 3 "~" H 8850 2300 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 1750 1150 50  0001 C CNN "Mfg"
+F 5 "CL05C220JB5NNWC" H 1750 1150 50  0001 C CNN "PN"
+	1    8850 2300
+	-1   0    0    1   
 $EndComp
 $Comp
 L gkl_misc:PMBT3904MB Q7
@@ -2490,7 +2378,6 @@ U 1 1 5EA72074
 P 10200 3950
 AR Path="/5BA0BA35/5EA72074" Ref="CON2"  Part="1" 
 AR Path="/5EA72074" Ref="CON?"  Part="1" 
-AR Path="/5EA72074" Ref="CON?"  Part="1" 
 AR Path="/5EA08A40/5EA72074" Ref="CON?"  Part="1" 
 F 0 "CON2" H 10632 3946 50  0000 L CNN
 F 1 "JD1_0001NL" H 10632 3855 50  0000 L CNN
@@ -2507,7 +2394,6 @@ U 1 1 5BB82A42
 P 15200 5300
 AR Path="/5BA0BA35/5BB82A42" Ref="CON1"  Part="1" 
 AR Path="/5BB82A42" Ref="CON1"  Part="1" 
-AR Path="/5BB82A42" Ref="CON1"  Part="1" 
 AR Path="/5EA08A40/5BB82A42" Ref="CON?"  Part="1" 
 F 0 "CON1" H 15632 5296 50  0000 L CNN
 F 1 "JD1_0001NL" H 15632 5205 50  0000 L CNN
@@ -2523,7 +2409,6 @@ L gkl_microchip:KSZ9031 U11
 U 1 1 5BA0BA4C
 P 6500 3450
 AR Path="/5BA0BA35/5BA0BA4C" Ref="U11"  Part="1" 
-AR Path="/5BA0BA4C" Ref="U11"  Part="1" 
 AR Path="/5BA0BA4C" Ref="U11"  Part="1" 
 AR Path="/5EA08A40/5BA0BA4C" Ref="U?"  Part="1" 
 F 0 "U11" H 6500 5541 60  0000 C CNN

@@ -1,24 +1,27 @@
 # ButterStrick r0.3 HW TODO
 
-- [ ] New Logo
+- [x] New Logo
 - [x] SYZYGY Transceiver
     - [x] Symbol
     - [x] Footprint
 - [ ] ECP5 Symbol changes
-    - [ ] Add Transceiver pins
-    - [ ] Relocate VCCIO pins to each bank
-    - [ ] Add Info in schematic about pad layouts
+    - [x] Add Transceiver pins
+    - [x] Relocate VCCIO pins to each bank
+    - [x] Add info in schematic about pad layouts
 
-- [ ] Basic Board layout
+- [x] Basic Board layout
+    - [x] DDR3
+    - [x] ECP5
+    - [x] SYZYGY Transceiver port
+    - [x] SYZYGY standard ports
+
+- [ ] Plan out Schematics
+    - [x] Add RGB LEDs
+    - [ ] USB PHY
+    - [x] VCCIO power
+        - [x] DACs/Buffers
     - [ ] DDR3
-    - [ ] ECP5
-    - [ ] SYZYGY Transceiver port
-    - [ ] SYZYGY standard ports
-
-
-- [ ] Add RGB LEDs
-- [ ] USB PHY
-- [ ] VCCIO power
-    - [ ] DACs/Buffers
+    - [ ] SYZYGY
+    - [ ] Transceivers
 
     

@@ -1,0 +1,45 @@
+EESchema Schematic File Version 5
+EELAYER 33 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 16 18
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L ECP5UM5G-85Pinout:ECP5UM5G_85_CABGA381 U2
+U 2 1 5E943748
+P 3500 2950
+F 0 "U2" H 4931 2109 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA381" H 4931 2003 60  0000 L CNN
+F 2 "gkl_housings_bga:caBGA_381_17x17" H 3650 3000 60  0001 R CNN
+F 3 "" H 3650 2800 60  0001 R CNN
+F 4 "ECP5UM5G_85" H 3650 2900 60  0001 R CNN "manf#"
+	2    3500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ECP5UM5G-85Pinout:ECP5UM5G_85_CABGA381 U2
+U 3 1 5E956B05
+P 5900 2800
+F 0 "U2" H 7431 1659 60  0000 L CNN
+F 1 "ECP5UM5G_85_CABGA381" H 7431 1553 60  0000 L CNN
+F 2 "gkl_housings_bga:caBGA_381_17x17" H 6050 2850 60  0001 R CNN
+F 3 "" H 6050 2650 60  0001 R CNN
+F 4 "ECP5UM5G_85" H 6050 2750 60  0001 R CNN "manf#"
+	3    5900 2800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
