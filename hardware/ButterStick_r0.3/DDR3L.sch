@@ -3,7 +3,7 @@ EELAYER 33 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 18
+Sheet 15 20
 Title ""
 Date ""
 Rev ""
@@ -74,8 +74,6 @@ Entry Wire Line
 Entry Wire Line
 	4350 5200 4450 5300
 Entry Wire Line
-	4350 5400 4450 5500
-Entry Wire Line
 	4350 5500 4450 5600
 Entry Wire Line
 	4350 5600 4450 5700
@@ -121,6 +119,8 @@ Entry Wire Line
 	6500 5800 6400 5700
 Entry Wire Line
 	6500 5900 6400 5800
+Wire Wire Line
+	3200 5450 4550 5450
 Wire Wire Line
 	4450 2600 4750 2600
 Wire Wire Line
@@ -174,13 +174,15 @@ Wire Wire Line
 Wire Wire Line
 	4450 5300 4750 5300
 Wire Wire Line
-	4450 5500 4750 5500
-Wire Wire Line
 	4450 5600 4750 5600
 Wire Wire Line
 	4450 5700 4750 5700
 Wire Wire Line
 	4450 5800 4750 5800
+Wire Wire Line
+	4550 5450 4650 5500
+Wire Wire Line
+	4650 5500 4750 5500
 Wire Wire Line
 	6100 2600 6200 2600
 Wire Wire Line
@@ -254,17 +256,19 @@ Wire Bus Line
 Wire Bus Line
 	4350 2200 4350 2600
 Wire Bus Line
-	4350 2600 4350 2800
+	4350 2600 4350 2700
 Wire Bus Line
-	4350 2800 4350 2900
+	4350 2700 4350 2900
 Wire Bus Line
 	4350 2900 4350 3100
 Wire Bus Line
-	4350 3100 4350 3300
+	4350 3100 4350 3200
 Wire Bus Line
-	4350 3300 4350 3500
+	4350 3200 4350 3400
 Wire Bus Line
-	4350 3500 4350 3700
+	4350 3400 4350 3600
+Wire Bus Line
+	4350 3600 4350 3700
 Wire Bus Line
 	4350 3700 4350 3900
 Wire Bus Line
@@ -280,9 +284,9 @@ Wire Bus Line
 Wire Bus Line
 	4350 5000 4350 5200
 Wire Bus Line
-	4350 5200 4350 5500
+	4350 5200 4350 5600
 Wire Bus Line
-	4350 5500 4350 5700
+	4350 5600 4350 5700
 Wire Bus Line
 	6500 3550 6500 3750
 Wire Bus Line
@@ -300,15 +304,11 @@ Wire Bus Line
 Wire Bus Line
 	6500 4950 6500 5150
 Wire Bus Line
-	6500 5150 6500 5550
+	6500 5150 6500 5650
 Wire Bus Line
-	6500 5550 6500 5800
+	6500 5650 6500 5900
 Wire Bus Line
-	6500 5800 6500 6100
-Text Label 3950 2200 2    50   ~ 0
-{DRAM_CTRL}
-Text Label 3950 6100 2    50   ~ 0
-{DRAM_DAT0}
+	6500 5900 6500 6100
 Text Label 4450 2600 0    50   ~ 0
 A0
 Text Label 4450 2700 0    50   ~ 0
@@ -361,14 +361,14 @@ Text Label 4450 5200 0    50   ~ 0
 RESET
 Text Label 4450 5300 0    50   ~ 0
 UDM
-Text Label 4450 5500 0    50   ~ 0
-CS
 Text Label 4450 5600 0    50   ~ 0
 CK_P
 Text Label 4450 5700 0    50   ~ 0
 CK_N
 Text Label 4450 5800 0    50   ~ 0
 CKE
+Text Label 4500 5450 0    50   ~ 0
+CS
 Text Label 6400 3450 2    50   ~ 0
 DQ0
 Text Label 6400 3550 2    50   ~ 0
@@ -411,10 +411,12 @@ Text Label 6400 5800 2    50   ~ 0
 UDQS_N
 Text GLabel 5200 1400 0    50   UnSpc ~ 0
 P_1.35_DRAM
+Text HLabel 3200 5450 0    50   Input ~ 0
+DRAM_CS
 Text HLabel 3300 2200 0    50   Input ~ 10
-DRAM{DRAM_CTRL}
+{DRAM_CTRL}
 Text HLabel 3300 6100 0    50   Input ~ 10
-DRAM{DRAM_DAT0}
+{DRAM_DAT}
 $Comp
 L power:GND #PWR0108
 U 1 1 5E919612

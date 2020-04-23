@@ -3,7 +3,7 @@ EELAYER 33 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 18
+Sheet 19 20
 Title "ButterStick"
 Date "2019-06-14"
 Rev "r0.2"
@@ -306,27 +306,89 @@ Wire Bus Line
 Wire Bus Line
 	9000 4600 9000 4800
 Wire Bus Line
-	9000 4800 9000 5000
+	9000 4800 9000 4900
 Wire Bus Line
-	9000 5000 9000 5200
+	9000 4900 9000 5100
+Wire Bus Line
+	9000 5100 9000 5200
 Wire Bus Line
 	9000 5200 9000 5400
 Wire Bus Line
 	9000 5400 9000 6050
 Text Notes 3700 1600 0    50   ~ 0
 Max power dissipation\n400mW
-Text Label 1750 3900 0    50   ~ 0
-{I2C}
-Text Label 1750 4000 0    50   ~ 0
-{SYZYGY_TXR4}
 Text Label 4800 1850 0    50   ~ 0
 VOUT
 Text Label 6450 3700 0    50   ~ 0
 SCL
 Text Label 6450 3800 0    50   ~ 0
 SDA
+Text Label 6600 3900 0    50   ~ 0
+RX0_P
+Text Label 6600 4000 0    50   ~ 0
+RX0_N
+Text Label 6600 4100 0    50   ~ 0
+RX1_P
+Text Label 6600 4200 0    50   ~ 0
+RX1_N
+Text Label 6600 4300 0    50   ~ 0
+REFCLK_P
+Text Label 6600 4400 0    50   ~ 0
+REFCLK_N
+Text Label 6600 4500 0    50   ~ 0
+S2
+Text Label 6600 4600 0    50   ~ 0
+S4
+Text Label 6600 4700 0    50   ~ 0
+S6
+Text Label 6600 4800 0    50   ~ 0
+S8
+Text Label 6600 4900 0    50   ~ 0
+RX3_P
+Text Label 6600 5000 0    50   ~ 0
+RX3_N
+Text Label 6600 5100 0    50   ~ 0
+RX4_P
+Text Label 6600 5200 0    50   ~ 0
+RX4_N
+Text Label 6600 5300 0    50   ~ 0
+P2C_CLK_P
+Text Label 6600 5400 0    50   ~ 0
+P2C_CLK_N
 Text Label 6700 5700 0    50   ~ 0
 VIO1
+Text Label 8900 3900 2    50   ~ 0
+TX0_P
+Text Label 8900 4000 2    50   ~ 0
+TX0_N
+Text Label 8900 4100 2    50   ~ 0
+TX1_P
+Text Label 8900 4200 2    50   ~ 0
+TX1_N
+Text Label 8900 4300 2    50   ~ 0
+S0
+Text Label 8900 4400 2    50   ~ 0
+S1
+Text Label 8900 4500 2    50   ~ 0
+S3
+Text Label 8900 4600 2    50   ~ 0
+S5
+Text Label 8900 4700 2    50   ~ 0
+S7
+Text Label 8900 4800 2    50   ~ 0
+S9
+Text Label 8900 4900 2    50   ~ 0
+TX3_P
+Text Label 8900 5000 2    50   ~ 0
+TX3_N
+Text Label 8900 5100 2    50   ~ 0
+TX4_P
+Text Label 8900 5200 2    50   ~ 0
+TX4_N
+Text Label 8900 5300 2    50   ~ 0
+C2P_CLK_P
+Text Label 8900 5400 2    50   ~ 0
+C2P_CLK_N
 Text HLabel 1400 2150 0    50   Input ~ 0
 VCCIO_PDM
 Text HLabel 1400 3900 0    50   Input ~ 0
