@@ -1,6 +1,6 @@
 (kicad_sch (version 20200512) (host eeschema "5.99.0-unknown-c8476d6~101~ubuntu18.04.1")
 
-  (page 11 20)
+  (page 1 20)
 
   (paper "A4")
 
@@ -877,9 +877,9 @@
   (bus (pts (xy 106.68 78.74) (xy 106.68 83.82)))
   (bus (pts (xy 106.68 83.82) (xy 106.68 88.9)))
   (bus (pts (xy 106.68 88.9) (xy 106.68 93.98)))
-  (bus (pts (xy 106.68 93.98) (xy 106.68 96.52)))
-  (bus (pts (xy 106.68 96.52) (xy 106.68 101.6)))
-  (bus (pts (xy 106.68 101.6) (xy 106.68 106.68)))
+  (bus (pts (xy 106.68 93.98) (xy 106.68 99.06)))
+  (bus (pts (xy 106.68 99.06) (xy 106.68 104.14)))
+  (bus (pts (xy 106.68 104.14) (xy 106.68 106.68)))
   (bus (pts (xy 106.68 106.68) (xy 106.68 111.76)))
   (bus (pts (xy 106.68 111.76) (xy 106.68 116.84)))
   (bus (pts (xy 106.68 116.84) (xy 106.68 121.92)))
@@ -892,7 +892,7 @@
   (bus (pts (xy 106.68 149.86) (xy 106.68 152.4)))
 
   (text "PIC Differential Mappings\n - PIOA/B : Transmit/Receive\n - PIOC/D : Receive"
-    (at 148.59 63.5 0)
+    (at 144.78 58.42 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
 
@@ -1000,12 +1000,12 @@
     (effects (font (size 1.27 1.27)) (justify right))
   )
 
-  (symbol (lib_id "gkl_lattice:ECP5UM5G_85_CABGA381") (at 119.38 71.12 0) (unit 6)
-    (uuid "2d1b2b4c-183a-4b46-9884-ffbfcc43f754")
-    (property "Reference" "U2" (id 0) (at 165.8874 100.1014 0)
+  (symbol (lib_id "gkl_lattice:ECP5UM5G_85_CABGA381") (at 119.38 71.12 0) (unit 7)
+    (uuid "0a446d15-191d-408e-bf03-dc9f7d5646ef")
+    (property "Reference" "U2" (id 0) (at 127 62.23 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "ECP5UM5G_85_CABGA381" (id 1) (at 165.8874 102.7938 0)
+    (property "Value" "ECP5UM5G_85_CABGA381" (id 1) (at 125.73 66.04 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "gkl_housings_bga:caBGA_381_17x17" (id 2) (at 123.19 69.85 0)

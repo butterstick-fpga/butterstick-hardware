@@ -1,4 +1,4 @@
-update=Tue 26 May 2020 17:21:10 ACST
+update=Tue 26 May 2020 22:36:38 ACST
 version=1
 last_client=kicad
 [general]
@@ -33,16 +33,16 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
-[ModEditFrame]
-version=1
 [LibeditFrame]
 version=1
 [PcbFrame]
 version=1
 [SchematicFrame]
 version=1
+[ModEditFrame]
+version=1
 [sheetnames]
-1=50924ef6-9b3b-42f1-a844-c353d8e874c8:
+1=c8458cac-0633-46a3-855d-cf0871f96950:
 2=7330da6e-779b-47e1-9f19-f2748ab2d0de:USB-PHY
 3=8f8777ba-89bc-4499-bd4b-cc705875169a:GIGABIT-0
 4=b1562ce7-230b-4ebc-b1fe-3f1f6b1116a2:sheetIO
@@ -160,7 +160,7 @@ ViaDiameter2=0.45
 ViaDrill2=0.2
 ViaDiameter3=0.53
 ViaDrill3=0.25
-dPairWidth1=0.1
+dPairWidth1=0.2
 dPairGap1=0.1
 dPairViaGap1=0.25
 SilkLineWidth=0.15
@@ -194,7 +194,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.035
 SolderMaskMinWidth=0
 SolderPasteClearance=-0.035
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -370,7 +370,7 @@ ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.1
+dPairWidth=0.2
 dPairGap=0.1
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
@@ -403,7 +403,7 @@ ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.1
+dPairWidth=0.15
 dPairGap=0.2032
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]

@@ -1,6 +1,6 @@
 (kicad_sch (version 20200512) (host eeschema "5.99.0-unknown-c8476d6~101~ubuntu18.04.1")
 
-  (page 13 20)
+  (page 1 20)
 
   (paper "A4")
 
@@ -47,6 +47,8 @@
   )
 
   (sheet (at 87.63 115.57) (size 45.72 29.21)
+    (stroke (width 0.1524) (color 132 0 132 1))
+    (fill (color 255 255 255 1.0000))
     (uuid 3fb004e8-3d03-4814-9e49-7690a14dd4d7)
     (property "Sheet name" "DDR3L" (id 0) (at 87.63 114.9345 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -66,6 +68,8 @@
   )
 
   (sheet (at 87.63 81.28) (size 45.72 29.21)
+    (stroke (width 0.1524) (color 132 0 132 1))
+    (fill (color 255 255 255 1.0000))
     (uuid ab00729b-e68f-45fe-a8b8-66d90dcbc74c)
     (property "Sheet name" "DDR3L1" (id 0) (at 87.63 80.6445 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))

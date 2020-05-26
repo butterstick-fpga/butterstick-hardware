@@ -1,6 +1,6 @@
 (kicad_sch (version 20200512) (host eeschema "5.99.0-unknown-c8476d6~101~ubuntu18.04.1")
 
-  (page 4 20)
+  (page 1 20)
 
   (paper "A4")
 
@@ -215,8 +215,8 @@
   (bus (pts (xy 76.2 38.1) (xy 86.36 38.1)))
   (bus (pts (xy 76.2 40.64) (xy 76.2 38.1)))
   (bus (pts (xy 76.2 40.64) (xy 78.74 40.64)))
-  (bus (pts (xy 78.74 40.64) (xy 78.74 45.72)))
-  (bus (pts (xy 78.74 45.72) (xy 78.74 54.61)))
+  (bus (pts (xy 78.74 40.64) (xy 78.74 43.18)))
+  (bus (pts (xy 78.74 43.18) (xy 78.74 54.61)))
   (bus (pts (xy 78.74 54.61) (xy 78.74 59.69)))
   (bus (pts (xy 78.74 59.69) (xy 78.74 62.23)))
   (bus (pts (xy 86.36 38.1) (xy 86.36 40.64)))
