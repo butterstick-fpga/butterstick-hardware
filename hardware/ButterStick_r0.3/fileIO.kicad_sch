@@ -215,8 +215,8 @@
   (bus (pts (xy 76.2 38.1) (xy 86.36 38.1)))
   (bus (pts (xy 76.2 40.64) (xy 76.2 38.1)))
   (bus (pts (xy 76.2 40.64) (xy 78.74 40.64)))
-  (bus (pts (xy 78.74 40.64) (xy 78.74 45.72)))
-  (bus (pts (xy 78.74 45.72) (xy 78.74 54.61)))
+  (bus (pts (xy 78.74 40.64) (xy 78.74 43.18)))
+  (bus (pts (xy 78.74 43.18) (xy 78.74 54.61)))
   (bus (pts (xy 78.74 54.61) (xy 78.74 59.69)))
   (bus (pts (xy 78.74 59.69) (xy 78.74 62.23)))
   (bus (pts (xy 86.36 38.1) (xy 86.36 40.64)))
@@ -367,6 +367,8 @@
   )
 
   (sheet (at 90.17 38.1) (size 33.02 12.7)
+    (stroke (width 0.1524) (color 132 0 132 1))
+    (fill (color 255 255 255 1.0000))
     (uuid e9da2530-7480-4a54-9270-e231ee404f91)
     (property "Sheet name" "IO-LEDS" (id 0) (at 90.17 37.4645 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -389,6 +391,8 @@
   )
 
   (sheet (at 90.17 54.61) (size 33.02 12.7)
+    (stroke (width 0.1524) (color 132 0 132 1))
+    (fill (color 255 255 255 1.0000))
     (uuid d6193ac4-64c5-43b6-9044-59ddc91b28ca)
     (property "Sheet name" "IO-LEDS1" (id 0) (at 90.17 53.9745 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
