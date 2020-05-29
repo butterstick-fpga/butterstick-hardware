@@ -1,6 +1,6 @@
 (kicad_sch (version 20200512) (host eeschema "5.99.0-unknown-711fc99~101~ubuntu18.04.1")
 
-  (page 1 20)
+  (page 11 19)
 
   (paper "A4")
 
@@ -803,6 +803,9 @@
   )
 
 
+  (no_connect (at 77.47 137.16))
+  (no_connect (at 77.47 139.7))
+
   (bus_entry (at 62.23 72.39) (size 2.54 -2.54))
   (bus_entry (at 62.23 74.93) (size 2.54 -2.54))
   (bus_entry (at 62.23 77.47) (size 2.54 -2.54))
@@ -841,8 +844,9 @@
   (wire (pts (xy 77.47 129.54) (xy 64.77 129.54)))
   (wire (pts (xy 77.47 132.08) (xy 64.77 132.08)))
   (bus (pts (xy 50.8 139.7) (xy 62.23 139.7)))
-  (bus (pts (xy 62.23 72.39) (xy 62.23 77.47)))
-  (bus (pts (xy 62.23 77.47) (xy 62.23 85.09)))
+  (bus (pts (xy 62.23 72.39) (xy 62.23 74.93)))
+  (bus (pts (xy 62.23 74.93) (xy 62.23 80.01)))
+  (bus (pts (xy 62.23 80.01) (xy 62.23 85.09)))
   (bus (pts (xy 62.23 85.09) (xy 62.23 90.17)))
   (bus (pts (xy 62.23 90.17) (xy 62.23 97.79)))
   (bus (pts (xy 62.23 97.79) (xy 62.23 114.3)))

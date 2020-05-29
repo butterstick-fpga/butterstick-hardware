@@ -1,4 +1,4 @@
-update=Fri 29 May 2020 12:39:10 ACST
+update=Sat 30 May 2020 00:49:40 ACST
 version=1
 last_client=kicad
 [general]
@@ -42,26 +42,25 @@ version=1
 [ModEditFrame]
 version=1
 [sheetnames]
-1=c58cc9ee-1ff3-4f5d-ba83-91f8a49a4143:
+1=ec1ef267-10a2-4bc7-804e-ff9a901a5bd6:
 2=7330da6e-779b-47e1-9f19-f2748ab2d0de:USB-PHY
 3=8f8777ba-89bc-4499-bd4b-cc705875169a:GIGABIT-0
 4=b1562ce7-230b-4ebc-b1fe-3f1f6b1116a2:sheetIO
 5=e9da2530-7480-4a54-9270-e231ee404f91:IO-LEDS
-6=d6193ac4-64c5-43b6-9044-59ddc91b28ca:IO-LEDS1
-7=143efee5-76ce-4cba-84a0-fbafa001f7dd:FPGA-MISC
-8=a7f6503e-b9b1-41c4-ac57-101ceffc7fcf:sheetFPGA
-9=dc960bdd-c4aa-462f-bd9c-0fa3eceead4a:FPGA-DDR3L
-10=2f1910da-2fc7-4091-a23a-39e4aea531ec:FPGA-SYZYGY0
-11=489eb976-0485-4c9b-bfa4-d45e3a2e9193:FPGA-SYZYGY1
-12=e305807b-8c5d-4944-81e1-dba2062590e6:FPGA-5G
-13=8c5c97be-ac2a-423b-b313-79cf2d3690d4:Memory-DDR3L
-14=ab00729b-e68f-45fe-a8b8-66d90dcbc74c:DDR3L1
-15=3fb004e8-3d03-4814-9e49-7690a14dd4d7:DDR3L
-16=f499de26-e362-4144-b063-0a3987ad82af:SYZYGY-0-STD
-17=357bf771-b16c-4f0a-af73-ab292e65f90c:SYZYGY-1-STD
-18=c4946e89-4f01-488f-97cf-74ab48a51cbc:SYZYGY-2-TXR4
-19=332c0c52-6236-4f8b-b699-76c0954c70c8:TestPoints
-20=f9addc60-22bd-459e-944d-bb7e5f89424d:sheetPower
+6=143efee5-76ce-4cba-84a0-fbafa001f7dd:FPGA-MISC
+7=a7f6503e-b9b1-41c4-ac57-101ceffc7fcf:sheetFPGA
+8=dc960bdd-c4aa-462f-bd9c-0fa3eceead4a:FPGA-DDR3L
+9=2f1910da-2fc7-4091-a23a-39e4aea531ec:FPGA-SYZYGY0
+10=489eb976-0485-4c9b-bfa4-d45e3a2e9193:FPGA-SYZYGY1
+11=e305807b-8c5d-4944-81e1-dba2062590e6:FPGA-5G
+12=8c5c97be-ac2a-423b-b313-79cf2d3690d4:Memory-DDR3L
+13=ab00729b-e68f-45fe-a8b8-66d90dcbc74c:DDR3L1
+14=3fb004e8-3d03-4814-9e49-7690a14dd4d7:DDR3L
+15=f499de26-e362-4144-b063-0a3987ad82af:SYZYGY-0-STD
+16=357bf771-b16c-4f0a-af73-ab292e65f90c:SYZYGY-1-STD
+17=c4946e89-4f01-488f-97cf-74ab48a51cbc:SYZYGY-2-TXR4
+18=332c0c52-6236-4f8b-b699-76c0954c70c8:TestPoints
+19=f9addc60-22bd-459e-944d-bb7e5f89424d:sheetPower
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -370,7 +369,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.08895
+Clearance=0.1524
 TrackWidth=0.12
 ViaDiameter=0.45
 ViaDrill=0.2
