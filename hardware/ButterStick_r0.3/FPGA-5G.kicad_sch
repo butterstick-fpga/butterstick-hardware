@@ -1,6 +1,6 @@
 (kicad_sch (version 20200512) (host eeschema "5.99.0-unknown-711fc99~101~ubuntu18.04.1")
 
-  (page 11 19)
+  (page 1 19)
 
   (paper "A4")
 
@@ -846,14 +846,14 @@
   (bus (pts (xy 50.8 139.7) (xy 62.23 139.7)))
   (bus (pts (xy 62.23 72.39) (xy 62.23 74.93)))
   (bus (pts (xy 62.23 74.93) (xy 62.23 80.01)))
-  (bus (pts (xy 62.23 80.01) (xy 62.23 85.09)))
-  (bus (pts (xy 62.23 85.09) (xy 62.23 90.17)))
-  (bus (pts (xy 62.23 90.17) (xy 62.23 97.79)))
-  (bus (pts (xy 62.23 97.79) (xy 62.23 114.3)))
-  (bus (pts (xy 62.23 114.3) (xy 62.23 119.38)))
-  (bus (pts (xy 62.23 119.38) (xy 62.23 127)))
-  (bus (pts (xy 62.23 127) (xy 62.23 132.08)))
-  (bus (pts (xy 62.23 132.08) (xy 62.23 139.7)))
+  (bus (pts (xy 62.23 80.01) (xy 62.23 87.63)))
+  (bus (pts (xy 62.23 87.63) (xy 62.23 92.71)))
+  (bus (pts (xy 62.23 92.71) (xy 62.23 100.33)))
+  (bus (pts (xy 62.23 100.33) (xy 62.23 116.84)))
+  (bus (pts (xy 62.23 116.84) (xy 62.23 121.92)))
+  (bus (pts (xy 62.23 121.92) (xy 62.23 129.54)))
+  (bus (pts (xy 62.23 129.54) (xy 62.23 134.62)))
+  (bus (pts (xy 62.23 134.62) (xy 62.23 139.7)))
 
   (label "RX0_P" (at 64.77 69.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -916,7 +916,7 @@
 
   (symbol (lib_id "gkl_lattice:ECP5UM5G_85_CABGA381") (at 77.47 72.39 0) (unit 10)
     (uuid "c93fe196-747a-468e-af0f-9ebed1b7d4a9")
-    (property "Reference" "U2" (id 0) (at 83.82 62.23 0)
+    (property "Reference" "U4" (id 0) (at 83.82 62.23 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "ECP5UM5G_85_CABGA381" (id 1) (at 83.82 64.77 0)
@@ -935,7 +935,7 @@
 
   (symbol (lib_id "gkl_lattice:ECP5UM5G_85_CABGA381") (at 77.47 114.3 0) (unit 11)
     (uuid "d80afce3-de3f-4edc-977f-5dfa706f6519")
-    (property "Reference" "U2" (id 0) (at 83.82 104.14 0)
+    (property "Reference" "U4" (id 0) (at 83.82 104.14 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "ECP5UM5G_85_CABGA381" (id 1) (at 83.82 106.68 0)

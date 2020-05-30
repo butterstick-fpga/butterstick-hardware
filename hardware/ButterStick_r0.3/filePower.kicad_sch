@@ -400,7 +400,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 19.05 119.38 0) (unit 1)
     (uuid "7130371d-ebae-448b-acbd-385dd5b9ded1")
-    (property "Reference" "#PWR0217" (id 0) (at 19.05 125.73 0)
+    (property "Reference" "#PWR0130" (id 0) (at 19.05 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 19.1262 122.5804 0))
@@ -414,7 +414,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 74.93 134.62 0) (unit 1)
     (uuid "eb724e1e-835a-45b9-b247-999ef0593135")
-    (property "Reference" "#PWR0111" (id 0) (at 74.93 140.97 0)
+    (property "Reference" "#PWR0132" (id 0) (at 74.93 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 75.0062 137.8204 0))
@@ -428,7 +428,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 100.33 153.67 0) (unit 1)
     (uuid "be390fab-7c0b-421b-939b-c5c06505e3b8")
-    (property "Reference" "#PWR0278" (id 0) (at 100.33 160.02 0)
+    (property "Reference" "#PWR0136" (id 0) (at 100.33 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 100.4062 156.8704 0))
@@ -442,7 +442,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 100.33 176.53 0) (unit 1)
     (uuid "049fdb74-1306-4de0-bc57-8e68d9267d04")
-    (property "Reference" "#PWR0235" (id 0) (at 100.33 182.88 0)
+    (property "Reference" "#PWR0138" (id 0) (at 100.33 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 100.4062 179.7304 0))
@@ -456,7 +456,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 158.75 132.08 0) (unit 1)
     (uuid "59593027-bc36-4a45-87f5-d263d939e58a")
-    (property "Reference" "#PWR0233" (id 0) (at 158.75 138.43 0)
+    (property "Reference" "#PWR0140" (id 0) (at 158.75 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 158.8262 135.2804 0))
@@ -470,7 +470,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 158.75 157.48 0) (unit 1)
     (uuid "98e1ffc0-b23d-4dea-8218-a258fddc9722")
-    (property "Reference" "#PWR0249" (id 0) (at 158.75 163.83 0)
+    (property "Reference" "#PWR0142" (id 0) (at 158.75 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 158.8262 160.6804 0))
@@ -484,7 +484,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 199.39 156.21 0) (unit 1)
     (uuid "f074bb6a-02b7-40a0-88bc-1b1fa6ecc2e3")
-    (property "Reference" "#PWR0232" (id 0) (at 199.39 162.56 0)
+    (property "Reference" "#PWR0144" (id 0) (at 199.39 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 199.4662 159.4104 0))
@@ -498,7 +498,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 246.38 149.86 0) (unit 1)
     (uuid "851c8c88-c322-403a-b15e-8ee1bd731017")
-    (property "Reference" "#PWR0237" (id 0) (at 246.38 156.21 0)
+    (property "Reference" "#PWR0146" (id 0) (at 246.38 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 246.4562 153.0604 0))
@@ -512,7 +512,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 246.38 172.72 0) (unit 1)
     (uuid "5e511e72-afb4-4dca-8147-839dc81b3780")
-    (property "Reference" "#PWR0297" (id 0) (at 246.38 179.07 0)
+    (property "Reference" "#PWR0148" (id 0) (at 246.38 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 246.4562 175.9204 0))
@@ -526,7 +526,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 251.46 123.19 0) (unit 1)
     (uuid "e27b8e76-b6c9-415d-8e8a-8ea591cd18e2")
-    (property "Reference" "#PWR0116" (id 0) (at 251.46 129.54 0)
+    (property "Reference" "#PWR0150" (id 0) (at 251.46 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 251.5362 126.3904 0))
@@ -540,7 +540,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 261.62 123.19 0) (unit 1)
     (uuid "24bcf536-6acc-4e21-8713-0886e6024d96")
-    (property "Reference" "#PWR0112" (id 0) (at 261.62 129.54 0)
+    (property "Reference" "#PWR0152" (id 0) (at 261.62 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 261.6962 126.3904 0))
@@ -554,7 +554,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 271.78 123.19 0) (unit 1)
     (uuid "b9f6611a-9c7c-41fa-b8c5-bc5d427ea4ee")
-    (property "Reference" "#PWR0113" (id 0) (at 271.78 129.54 0)
+    (property "Reference" "#PWR0154" (id 0) (at 271.78 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 271.8562 126.3904 0))
@@ -568,7 +568,7 @@
 
   (symbol (lib_id "gkl_power:+3V3") (at 19.05 106.68 0) (unit 1)
     (uuid "67a24f35-b153-492d-b9a6-18c7ead13e44")
-    (property "Reference" "#PWR0259" (id 0) (at 19.05 110.49 0)
+    (property "Reference" "#PWR0129" (id 0) (at 19.05 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 19.1262 102.8446 0))
@@ -582,7 +582,7 @@
 
   (symbol (lib_id "gkl_power:+3V3") (at 45.72 100.33 0) (unit 1)
     (uuid "2556f9b8-35ec-4ddb-a928-8a775ee6b0de")
-    (property "Reference" "#PWR0118" (id 0) (at 45.72 104.14 0)
+    (property "Reference" "#PWR0131" (id 0) (at 45.72 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 45.7962 96.4946 0))
@@ -596,7 +596,7 @@
 
   (symbol (lib_id "gkl_power:+2V5") (at 85.09 99.06 0) (unit 1)
     (uuid "77d93dbf-8f7f-410b-9943-96df5e8757e6")
-    (property "Reference" "#PWR0109" (id 0) (at 85.09 102.87 0)
+    (property "Reference" "#PWR0133" (id 0) (at 85.09 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (id 1) (at 85.1662 95.2246 0))
@@ -610,7 +610,7 @@
 
   (symbol (lib_id "gkl_power:+1V8") (at 85.09 116.84 0) (unit 1)
     (uuid "90853f3c-067c-4b16-8dff-e05bccf57800")
-    (property "Reference" "#PWR0110" (id 0) (at 85.09 120.65 0)
+    (property "Reference" "#PWR0134" (id 0) (at 85.09 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (id 1) (at 85.1662 113.0046 0))
@@ -624,7 +624,7 @@
 
   (symbol (lib_id "gkl_power:+1V1") (at 100.33 140.97 0) (unit 1)
     (uuid "ca6e38bb-9d9a-4064-868c-80499fc24e21")
-    (property "Reference" "#PWR0279" (id 0) (at 100.33 144.78 0)
+    (property "Reference" "#PWR0135" (id 0) (at 100.33 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V1" (id 1) (at 100.4062 137.1346 0))
@@ -638,7 +638,7 @@
 
   (symbol (lib_id "gkl_power:+1V1") (at 100.33 163.83 0) (unit 1)
     (uuid "b37d3c6f-de8a-455f-bc8c-8d6d82f24916")
-    (property "Reference" "#PWR0236" (id 0) (at 100.33 167.64 0)
+    (property "Reference" "#PWR0137" (id 0) (at 100.33 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V1" (id 1) (at 100.4062 159.9946 0))
@@ -652,7 +652,7 @@
 
   (symbol (lib_id "gkl_power:+1V8") (at 158.75 119.38 0) (unit 1)
     (uuid "a6724313-b85a-4eb7-adad-17fbb7f1bd83")
-    (property "Reference" "#PWR0234" (id 0) (at 158.75 123.19 0)
+    (property "Reference" "#PWR0139" (id 0) (at 158.75 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (id 1) (at 158.8262 115.5446 0))
@@ -666,7 +666,7 @@
 
   (symbol (lib_id "gkl_power:+1V8") (at 158.75 144.78 0) (unit 1)
     (uuid "649bd8f0-3cad-4944-884f-4c78057898c3")
-    (property "Reference" "#PWR0250" (id 0) (at 158.75 148.59 0)
+    (property "Reference" "#PWR0141" (id 0) (at 158.75 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (id 1) (at 158.8262 140.9446 0))
@@ -680,7 +680,7 @@
 
   (symbol (lib_id "gkl_power:+2V5") (at 199.39 143.51 0) (unit 1)
     (uuid "9499a2bb-81d0-42bd-9eba-35b9886cad24")
-    (property "Reference" "#PWR0231" (id 0) (at 199.39 147.32 0)
+    (property "Reference" "#PWR0143" (id 0) (at 199.39 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (id 1) (at 199.4662 139.6746 0))
@@ -694,7 +694,7 @@
 
   (symbol (lib_id "gkl_power:+3V3") (at 246.38 137.16 0) (unit 1)
     (uuid "7b37997b-fa17-4bc8-9d8c-d852f3ed295a")
-    (property "Reference" "#PWR0238" (id 0) (at 246.38 140.97 0)
+    (property "Reference" "#PWR0145" (id 0) (at 246.38 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 246.4562 133.3246 0))
@@ -708,7 +708,7 @@
 
   (symbol (lib_id "gkl_power:+3V3") (at 246.38 160.02 0) (unit 1)
     (uuid "6c3d25b6-2c6c-4797-9bf2-e95f911ca0d6")
-    (property "Reference" "#PWR0298" (id 0) (at 246.38 163.83 0)
+    (property "Reference" "#PWR0147" (id 0) (at 246.38 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 246.4562 156.1846 0))
@@ -722,7 +722,7 @@
 
   (symbol (lib_id "gkl_power:+3V3") (at 251.46 105.41 0) (unit 1)
     (uuid "b1f7a9c0-60fa-45b9-8bb8-7e1d091a9877")
-    (property "Reference" "#PWR0117" (id 0) (at 251.46 109.22 0)
+    (property "Reference" "#PWR0149" (id 0) (at 251.46 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 251.5362 101.5746 0))
@@ -736,7 +736,7 @@
 
   (symbol (lib_id "gkl_power:+3V3") (at 261.62 105.41 0) (unit 1)
     (uuid "6c9a0929-0f80-417d-8397-f14c73158fdc")
-    (property "Reference" "#PWR0115" (id 0) (at 261.62 109.22 0)
+    (property "Reference" "#PWR0151" (id 0) (at 261.62 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 261.6962 101.5746 0))
@@ -750,7 +750,7 @@
 
   (symbol (lib_id "gkl_power:+3V3") (at 271.78 105.41 0) (unit 1)
     (uuid "c34a62f5-073b-4f83-826a-2cdbbcc55224")
-    (property "Reference" "#PWR0114" (id 0) (at 271.78 109.22 0)
+    (property "Reference" "#PWR0153" (id 0) (at 271.78 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 271.8562 101.5746 0))
@@ -764,7 +764,7 @@
 
   (symbol (lib_id "Device:C") (at 19.05 113.03 0) (unit 1)
     (uuid "f1b05406-6f0d-431b-84a8-5c31d056b14f")
-    (property "Reference" "C64" (id 0) (at 20.32 110.49 0)
+    (property "Reference" "C51" (id 0) (at 20.32 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 20.32 115.57 0)
@@ -789,7 +789,7 @@
 
   (symbol (lib_id "Device:C") (at 27.94 113.03 0) (unit 1)
     (uuid "2e98876c-8b4e-43d7-832b-681b5dd211a0")
-    (property "Reference" "C65" (id 0) (at 29.21 110.49 0)
+    (property "Reference" "C52" (id 0) (at 29.21 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 29.21 115.57 0)
@@ -814,7 +814,7 @@
 
   (symbol (lib_id "Device:C") (at 36.83 113.03 0) (unit 1)
     (uuid "cd115dc0-8a56-4ad7-97fe-1ae8497818d7")
-    (property "Reference" "C66" (id 0) (at 38.1 110.49 0)
+    (property "Reference" "C53" (id 0) (at 38.1 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 38.1 115.57 0)
@@ -839,7 +839,7 @@
 
   (symbol (lib_id "Device:C") (at 85.09 105.41 0) (unit 1)
     (uuid "485b452c-29df-49bf-9553-b8b12b1adbb6")
-    (property "Reference" "C3" (id 0) (at 88.011 104.2416 0)
+    (property "Reference" "C54" (id 0) (at 88.011 104.2416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (id 1) (at 88.011 106.553 0)
@@ -864,7 +864,7 @@
 
   (symbol (lib_id "Device:C") (at 85.09 124.46 0) (unit 1)
     (uuid "bad40b90-8684-4575-924d-8df93426b693")
-    (property "Reference" "C4" (id 0) (at 88.011 123.2916 0)
+    (property "Reference" "C55" (id 0) (at 88.011 123.2916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (id 1) (at 88.011 125.603 0)
@@ -889,7 +889,7 @@
 
   (symbol (lib_id "Device:C") (at 100.33 147.32 0) (unit 1)
     (uuid "3e3f57fa-022f-419b-a57b-2ef395da6295")
-    (property "Reference" "C75" (id 0) (at 101.6 144.78 0)
+    (property "Reference" "C56" (id 0) (at 101.6 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (id 1) (at 101.6 149.86 0)
@@ -914,7 +914,7 @@
 
   (symbol (lib_id "Device:C") (at 100.33 170.18 0) (unit 1)
     (uuid "57a389c8-ee51-4ec1-8cd2-2f3079bec06c")
-    (property "Reference" "C6" (id 0) (at 101.6 167.64 0)
+    (property "Reference" "C57" (id 0) (at 101.6 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 101.6 172.72 0)
@@ -939,7 +939,7 @@
 
   (symbol (lib_id "Device:C") (at 109.22 147.32 0) (unit 1)
     (uuid "770936e7-9540-4b08-888a-eeffd69f37aa")
-    (property "Reference" "C76" (id 0) (at 110.49 144.78 0)
+    (property "Reference" "C58" (id 0) (at 110.49 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (id 1) (at 110.49 149.86 0)
@@ -964,7 +964,7 @@
 
   (symbol (lib_id "Device:C") (at 109.22 170.18 0) (unit 1)
     (uuid "3720f0b5-e0a3-4e41-8324-79cb703d97b0")
-    (property "Reference" "C7" (id 0) (at 110.49 167.64 0)
+    (property "Reference" "C59" (id 0) (at 110.49 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 110.49 172.72 0)
@@ -989,7 +989,7 @@
 
   (symbol (lib_id "Device:C") (at 118.11 147.32 0) (unit 1)
     (uuid "d934a281-cc05-4a26-8f0d-460f34e8ae63")
-    (property "Reference" "C77" (id 0) (at 119.38 144.78 0)
+    (property "Reference" "C60" (id 0) (at 119.38 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (id 1) (at 119.38 149.86 0)
@@ -1014,7 +1014,7 @@
 
   (symbol (lib_id "Device:C") (at 118.11 170.18 0) (unit 1)
     (uuid "e5208ec5-9f1f-4127-b108-8366208749c6")
-    (property "Reference" "C8" (id 0) (at 119.38 167.64 0)
+    (property "Reference" "C61" (id 0) (at 119.38 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 119.38 172.72 0)
@@ -1039,7 +1039,7 @@
 
   (symbol (lib_id "Device:C") (at 127 147.32 0) (unit 1)
     (uuid "79b95c28-4ad3-4dd8-821a-af286adae042")
-    (property "Reference" "C78" (id 0) (at 128.27 144.78 0)
+    (property "Reference" "C62" (id 0) (at 128.27 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (id 1) (at 128.27 149.86 0)
@@ -1064,7 +1064,7 @@
 
   (symbol (lib_id "Device:C") (at 127 170.18 0) (unit 1)
     (uuid "f56ca109-b858-450b-95cc-f3fbac5c8cd8")
-    (property "Reference" "C9" (id 0) (at 128.27 167.64 0)
+    (property "Reference" "C63" (id 0) (at 128.27 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 128.27 172.72 0)
@@ -1089,7 +1089,7 @@
 
   (symbol (lib_id "Device:C") (at 135.89 147.32 0) (unit 1)
     (uuid "0316f60d-1791-4aef-9c5f-7b37c7623567")
-    (property "Reference" "C79" (id 0) (at 137.16 144.78 0)
+    (property "Reference" "C64" (id 0) (at 137.16 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (id 1) (at 137.16 149.86 0)
@@ -1114,7 +1114,7 @@
 
   (symbol (lib_id "Device:C") (at 135.89 170.18 0) (unit 1)
     (uuid "512e7bbd-2578-4ea5-8470-3adb5a469999")
-    (property "Reference" "C10" (id 0) (at 137.16 167.64 0)
+    (property "Reference" "C65" (id 0) (at 137.16 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 137.16 172.72 0)
@@ -1139,7 +1139,7 @@
 
   (symbol (lib_id "Device:C") (at 158.75 125.73 0) (unit 1)
     (uuid "474f78f1-1e4a-4d49-8e72-e82a78f58d7d")
-    (property "Reference" "C15" (id 0) (at 160.02 123.19 0)
+    (property "Reference" "C66" (id 0) (at 160.02 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 160.02 128.27 0)
@@ -1164,7 +1164,7 @@
 
   (symbol (lib_id "Device:C") (at 158.75 151.13 0) (unit 1)
     (uuid "41dfc02e-8fd6-424a-b276-5926a7dc5adc")
-    (property "Reference" "C61" (id 0) (at 160.02 148.59 0)
+    (property "Reference" "C67" (id 0) (at 160.02 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (id 1) (at 160.02 153.67 0)
@@ -1189,7 +1189,7 @@
 
   (symbol (lib_id "Device:C") (at 167.64 125.73 0) (unit 1)
     (uuid "f83ab233-dca9-4d5c-bd06-83e43952a64c")
-    (property "Reference" "C16" (id 0) (at 168.91 123.19 0)
+    (property "Reference" "C68" (id 0) (at 168.91 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 168.91 128.27 0)
@@ -1214,7 +1214,7 @@
 
   (symbol (lib_id "Device:C") (at 167.64 151.13 0) (unit 1)
     (uuid "00393902-671f-46e5-ac89-bfb7a8852343")
-    (property "Reference" "C62" (id 0) (at 168.91 148.59 0)
+    (property "Reference" "C69" (id 0) (at 168.91 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (id 1) (at 168.91 153.67 0)
@@ -1239,7 +1239,7 @@
 
   (symbol (lib_id "Device:C") (at 176.53 125.73 0) (unit 1)
     (uuid "5a50b3ad-10e2-4c8c-99d9-2fa8c00831c1")
-    (property "Reference" "C17" (id 0) (at 177.8 123.19 0)
+    (property "Reference" "C70" (id 0) (at 177.8 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 177.8 128.27 0)
@@ -1264,7 +1264,7 @@
 
   (symbol (lib_id "Device:C") (at 176.53 151.13 0) (unit 1)
     (uuid "4ade5547-f71f-4943-a84a-bcf9f8fe6858")
-    (property "Reference" "C63" (id 0) (at 177.8 148.59 0)
+    (property "Reference" "C71" (id 0) (at 177.8 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (id 1) (at 177.8 153.67 0)
@@ -1289,7 +1289,7 @@
 
   (symbol (lib_id "Device:C") (at 185.42 125.73 0) (unit 1)
     (uuid "bcc0230b-ebbb-4a63-94a4-6f2f1907f8ce")
-    (property "Reference" "C92" (id 0) (at 186.69 123.19 0)
+    (property "Reference" "C72" (id 0) (at 186.69 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 186.69 128.27 0)
@@ -1314,7 +1314,7 @@
 
   (symbol (lib_id "Device:C") (at 199.39 149.86 0) (unit 1)
     (uuid "cbb2a584-4d5e-4915-8af2-ee7945279552")
-    (property "Reference" "C18" (id 0) (at 200.66 147.32 0)
+    (property "Reference" "C73" (id 0) (at 200.66 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 200.66 152.4 0)
@@ -1339,7 +1339,7 @@
 
   (symbol (lib_id "Device:C") (at 208.28 149.86 0) (unit 1)
     (uuid "0d125af6-6319-426f-9132-64dd65e53e20")
-    (property "Reference" "C19" (id 0) (at 209.55 147.32 0)
+    (property "Reference" "C74" (id 0) (at 209.55 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 209.55 152.4 0)
@@ -1364,7 +1364,7 @@
 
   (symbol (lib_id "Device:C") (at 217.17 149.86 0) (unit 1)
     (uuid "2a170615-2642-48ca-bf8e-edf2f5ccd56e")
-    (property "Reference" "C20" (id 0) (at 218.44 147.32 0)
+    (property "Reference" "C75" (id 0) (at 218.44 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 218.44 152.4 0)
@@ -1389,7 +1389,7 @@
 
   (symbol (lib_id "Device:C") (at 226.06 149.86 0) (unit 1)
     (uuid "63f22d8e-e190-4fa8-a125-f5bcc5256e8f")
-    (property "Reference" "C96" (id 0) (at 227.33 147.32 0)
+    (property "Reference" "C76" (id 0) (at 227.33 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (id 1) (at 227.33 152.4 0)
@@ -1414,7 +1414,7 @@
 
   (symbol (lib_id "Device:C") (at 246.38 143.51 0) (unit 1)
     (uuid "38a23650-019e-4b34-9017-e3e4e46961de")
-    (property "Reference" "C21" (id 0) (at 247.65 140.97 0)
+    (property "Reference" "C77" (id 0) (at 247.65 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 247.65 146.05 0)
@@ -1439,7 +1439,7 @@
 
   (symbol (lib_id "Device:C") (at 246.38 166.37 0) (unit 1)
     (uuid "ee585e7f-93a9-4c22-bca0-38afafd617cd")
-    (property "Reference" "C97" (id 0) (at 247.65 163.83 0)
+    (property "Reference" "C78" (id 0) (at 247.65 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 247.65 168.91 0)
@@ -1464,7 +1464,7 @@
 
   (symbol (lib_id "Device:C") (at 251.46 114.3 0) (unit 1)
     (uuid "c554b371-aeeb-4ac7-a650-d48f75af0094")
-    (property "Reference" "C11" (id 0) (at 254.381 113.1316 0)
+    (property "Reference" "C79" (id 0) (at 254.381 113.1316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (id 1) (at 254.381 115.443 0)
@@ -1486,7 +1486,7 @@
 
   (symbol (lib_id "Device:C") (at 255.27 143.51 0) (unit 1)
     (uuid "64dd4d45-8aab-4855-a493-2d3e9ce363b2")
-    (property "Reference" "C22" (id 0) (at 256.54 140.97 0)
+    (property "Reference" "C80" (id 0) (at 256.54 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 256.54 146.05 0)
@@ -1511,7 +1511,7 @@
 
   (symbol (lib_id "Device:C") (at 255.27 166.37 0) (unit 1)
     (uuid "4f807290-db43-463e-9860-e6e4a5179ce1")
-    (property "Reference" "C98" (id 0) (at 256.54 163.83 0)
+    (property "Reference" "C81" (id 0) (at 256.54 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 256.54 168.91 0)
@@ -1536,7 +1536,7 @@
 
   (symbol (lib_id "Device:C") (at 261.62 114.3 0) (unit 1)
     (uuid "e631dbe6-b89b-4611-a3ae-cbecb672e475")
-    (property "Reference" "C13" (id 0) (at 264.541 113.1316 0)
+    (property "Reference" "C82" (id 0) (at 264.541 113.1316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (id 1) (at 264.541 115.443 0)
@@ -1558,7 +1558,7 @@
 
   (symbol (lib_id "Device:C") (at 264.16 143.51 0) (unit 1)
     (uuid "44bb9612-bcac-46b2-a523-e3ee77304aec")
-    (property "Reference" "C23" (id 0) (at 265.43 140.97 0)
+    (property "Reference" "C83" (id 0) (at 265.43 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 265.43 146.05 0)
@@ -1583,7 +1583,7 @@
 
   (symbol (lib_id "Device:C") (at 264.16 166.37 0) (unit 1)
     (uuid "45684df5-4095-4d03-b119-8ed9ce70f91a")
-    (property "Reference" "C99" (id 0) (at 265.43 163.83 0)
+    (property "Reference" "C84" (id 0) (at 265.43 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 265.43 168.91 0)
@@ -1608,7 +1608,7 @@
 
   (symbol (lib_id "Device:C") (at 271.78 114.3 0) (unit 1)
     (uuid "c85e0e95-5b15-4df1-b8de-dbabf9aa0336")
-    (property "Reference" "C14" (id 0) (at 274.701 113.1316 0)
+    (property "Reference" "C85" (id 0) (at 274.701 113.1316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (id 1) (at 274.701 115.443 0)
@@ -1630,7 +1630,7 @@
 
   (symbol (lib_id "gkl_pmic:NCP167") (at 60.96 105.41 0) (unit 1)
     (uuid "6a1e7e10-1d53-44e4-abe6-86203736073c")
-    (property "Reference" "U1" (id 0) (at 60.96 97.155 0))
+    (property "Reference" "U11" (id 0) (at 60.96 97.155 0))
     (property "Value" "TLV725P" (id 1) (at 60.96 99.4664 0))
     (property "Footprint" "bosonFrameGrabber:X2SON" (id 2) (at 60.96 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1651,7 +1651,7 @@
 
   (symbol (lib_id "gkl_pmic:NCP167") (at 60.96 124.46 0) (unit 1)
     (uuid "8617a536-536b-4152-9d69-0f43ad7d6e9d")
-    (property "Reference" "U8" (id 0) (at 60.96 116.205 0))
+    (property "Reference" "U12" (id 0) (at 60.96 116.205 0))
     (property "Value" "TLV718P" (id 1) (at 60.96 118.5164 0))
     (property "Footprint" "bosonFrameGrabber:X2SON" (id 2) (at 60.96 118.11 0)
       (effects (font (size 1.27 1.27)) hide)

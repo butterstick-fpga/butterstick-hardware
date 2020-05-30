@@ -1,4 +1,4 @@
-update=Sat 30 May 2020 00:49:40 ACST
+update=Sat 30 May 2020 20:45:34 ACST
 version=1
 last_client=kicad
 [general]
@@ -35,14 +35,14 @@ ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
 [LibeditFrame]
 version=1
+[ModEditFrame]
+version=1
 [PcbFrame]
 version=1
 [SchematicFrame]
 version=1
-[ModEditFrame]
-version=1
 [sheetnames]
-1=ec1ef267-10a2-4bc7-804e-ff9a901a5bd6:
+1=f11527f1-47de-443c-b4be-0f461d69e447:
 2=7330da6e-779b-47e1-9f19-f2748ab2d0de:USB-PHY
 3=8f8777ba-89bc-4499-bd4b-cc705875169a:GIGABIT-0
 4=b1562ce7-230b-4ebc-b1fe-3f1f6b1116a2:sheetIO
@@ -67,10 +67,10 @@ PageLayoutDescrFile=
 LastNetListRead=
 LastSTEPExportPath=
 LastIDFExportPath=
-LastVRMLExportPath=
+LastVRMLExportPath=ButterStick.wrl
 LastSpecctraDSNExportPath=ButterStick.dsn
 LastGenCADExportPath=
-CopperLayerCount=6
+CopperLayerCount=8
 BoardThickness=1.6
 AllowMicroVias=1
 AllowBlindVias=1
@@ -223,11 +223,11 @@ Enabled=1
 [pcbnew/Layer.In5.Cu]
 Name=In5.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In6.Cu]
 Name=In6.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In7.Cu]
 Name=In7.Cu
 Type=0
@@ -369,7 +369,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.1524
+Clearance=0.0889
 TrackWidth=0.12
 ViaDiameter=0.45
 ViaDrill=0.2

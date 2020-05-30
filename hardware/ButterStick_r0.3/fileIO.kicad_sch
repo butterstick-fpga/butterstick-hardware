@@ -264,7 +264,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 132.08 121.92 0) (unit 1)
     (uuid "13c40d29-5271-47ab-bee6-9901f95d5382")
-    (property "Reference" "#PWR0258" (id 0) (at 132.08 128.27 0)
+    (property "Reference" "#PWR054" (id 0) (at 132.08 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 132.1562 125.1204 0))
@@ -278,7 +278,7 @@
 
   (symbol (lib_id "gkl_power:GND") (at 138.43 121.92 0) (unit 1)
     (uuid "33b40037-7619-4060-b006-41d8ad7cb1e5")
-    (property "Reference" "#PWR0257" (id 0) (at 138.43 128.27 0)
+    (property "Reference" "#PWR056" (id 0) (at 138.43 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 138.5062 125.1204 0))
@@ -292,7 +292,7 @@
 
   (symbol (lib_id "gkl_power:+3V3") (at 138.43 74.93 0) (unit 1)
     (uuid "3984a810-e29d-4ada-9b8d-941c3c78fa85")
-    (property "Reference" "#PWR0256" (id 0) (at 138.43 78.74 0)
+    (property "Reference" "#PWR055" (id 0) (at 138.43 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 138.5062 71.0946 0))
@@ -306,7 +306,7 @@
 
   (symbol (lib_id "Connector:Conn_01x11_Male") (at 157.48 92.71 0) (mirror y) (unit 1)
     (uuid "4519e399-ea1b-4e81-b33d-51e45a4ddde7")
-    (property "Reference" "J4" (id 0) (at 162.56 73.66 0))
+    (property "Reference" "J2" (id 0) (at 162.56 73.66 0))
     (property "Value" "MicroSD" (id 1) (at 163.83 76.2 0))
     (property "Footprint" "gkl_conn:molex_microsd_1040310811" (id 2) (at 157.48 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -324,7 +324,7 @@
 
   (symbol (lib_id "gkl_misc:PUSB3FR6") (at 125.73 110.49 90) (mirror x) (unit 1)
     (uuid "7fb5ea74-7b66-4757-a36f-1e9a27ae9b25")
-    (property "Reference" "U20" (id 0) (at 116.84 120.65 90)
+    (property "Reference" "U3" (id 0) (at 116.84 120.65 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PUSB3FR6" (id 1) (at 116.84 118.11 90)

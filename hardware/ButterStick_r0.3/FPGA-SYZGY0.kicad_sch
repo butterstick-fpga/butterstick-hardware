@@ -982,7 +982,7 @@
 
   (symbol (lib_id "gkl_lattice:ECP5UM5G_85_CABGA381") (at 132.08 68.58 0) (unit 6)
     (uuid "2d1b2b4c-183a-4b46-9884-ffbfcc43f754")
-    (property "Reference" "U2" (id 0) (at 178.5874 97.5614 0)
+    (property "Reference" "U4" (id 0) (at 178.5874 97.5614 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "ECP5UM5G_85_CABGA381" (id 1) (at 178.5874 100.2538 0)
