@@ -2,7 +2,7 @@
   (lib (name "power")(type "Legacy")(uri "${KIPRJMOD}/../../lib/gkl/gkl_power.lib")(options "")(descr ""))
   (lib (name "gkl_rf")(type "Legacy")(uri "${KIPRJMOD}/../../lib/gkl/gkl_rf.lib")(options "")(descr ""))
   (lib (name "gkl_microchip")(type "Legacy")(uri "${KIPRJMOD}/../../lib/gkl/gkl_microchip.lib")(options "")(descr ""))
-  (lib (name "gkl_pmic")(type "Legacy")(uri "${KIPRJMOD}/../../lib/gkl/gkl_pmic.lib")(options "")(descr ""))
+  (lib (name "gkl_pmic")(type "KiCad")(uri "${KIPRJMOD}/../../lib/gkl/gkl_pmic.kicad_sym")(options "")(descr ""))
   (lib (name "gkl_mosfet")(type "Legacy")(uri "${KIPRJMOD}/../../lib/gkl/gkl_mosfet.lib")(options "")(descr ""))
   (lib (name "gkl_mem")(type "Legacy")(uri "${KIPRJMOD}/../../lib/gkl/gkl_mem.lib")(options "")(descr ""))
   (lib (name "gkl_time")(type "Legacy")(uri "${KIPRJMOD}/../../lib/gkl/gkl_time.lib")(options "")(descr ""))
