@@ -1,6 +1,6 @@
 (kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-08c61e6~101~ubuntu18.04.1")
 
-  (page 18 19)
+  (page 1 19)
 
   (paper "A4")
 
@@ -1083,16 +1083,13 @@
   (bus (pts (xy 228.6 121.92) (xy 228.6 127))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 228.6 127) (xy 228.6 129.54))
+  (bus (pts (xy 228.6 127) (xy 228.6 132.08))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 228.6 129.54) (xy 228.6 134.62))
+  (bus (pts (xy 228.6 132.08) (xy 228.6 137.16))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 228.6 134.62) (xy 228.6 139.7))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (bus (pts (xy 228.6 139.7) (xy 228.6 153.67))
+  (bus (pts (xy 228.6 137.16) (xy 228.6 153.67))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
 

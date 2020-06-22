@@ -1,4 +1,4 @@
-update=Sun 21 Jun 2020 00:30:57 ACST
+update=Mon Jun 22 10:10:30 2020
 version=1
 last_client=kicad
 [general]
@@ -35,14 +35,14 @@ ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
 [LibeditFrame]
 version=1
-[PcbFrame]
+[SchematicFrame]
 version=1
 [ModEditFrame]
 version=1
-[SchematicFrame]
+[PcbFrame]
 version=1
 [sheetnames]
-1=1ab8619b-0a97-464d-9433-25c4f01efa35:
+1=00527e34-9ce8-437d-ba91-7e8ccdbbc186:
 2=7330da6e-779b-47e1-9f19-f2748ab2d0de:USB-PHY
 3=8f8777ba-89bc-4499-bd4b-cc705875169a:GIGABIT-0
 4=b1562ce7-230b-4ebc-b1fe-3f1f6b1116a2:sheetIO
@@ -199,7 +199,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.035
 SolderMaskMinWidth=0
 SolderPasteClearance=-0.035
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -369,7 +369,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.089
+Clearance=0.0889
 TrackWidth=0.12
 ViaDiameter=0.45
 ViaDrill=0.2
