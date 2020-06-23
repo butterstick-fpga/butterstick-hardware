@@ -1,6 +1,6 @@
 (kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-08c61e6~101~ubuntu18.04.1")
 
-  (page 4 19)
+  (page 1 19)
 
   (paper "A4")
 
@@ -627,7 +627,7 @@
   (symbol (lib_id "gkl_power:GND") (at 241.3 109.22 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "50036892-8aee-4bb2-9de0-e4a24d2611e9")
-    (property "Reference" "#PWR0208" (id 0) (at 241.3 115.57 0)
+    (property "Reference" "#PWR058" (id 0) (at 241.3 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 241.3381 112.4268 0))
@@ -657,7 +657,7 @@
   (symbol (lib_id "Device:R") (at 219.71 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "d736042c-1b7d-410f-b7ac-b7c4da1f447d")
-    (property "Reference" "R86" (id 0) (at 217.9319 83.9406 0)
+    (property "Reference" "R33" (id 0) (at 217.9319 83.9406 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10K" (id 1) (at 217.9319 86.2393 0)
@@ -674,7 +674,7 @@
   (symbol (lib_id "Device:R") (at 223.52 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "c805a4fb-6d0a-448d-abd9-2e5297246bff")
-    (property "Reference" "R87" (id 0) (at 225.2981 83.9406 0)
+    (property "Reference" "R34" (id 0) (at 225.2981 83.9406 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (id 1) (at 225.2981 86.2393 0)

@@ -1,4 +1,4 @@
-update=Mon 22 Jun 2020 22:15:46 ACST
+update=Wed 24 Jun 2020 00:32:22 ACST
 version=1
 last_client=kicad
 [general]
@@ -43,7 +43,7 @@ version=1
 [SchematicFrame]
 version=1
 [sheetnames]
-1=d67b665b-adc5-4de3-a343-cd7a24e2685c:
+1=ddc31a78-2889-4e08-aae5-2eabcc59ab01:
 2=7330da6e-779b-47e1-9f19-f2748ab2d0de:USB-PHY
 3=8f8777ba-89bc-4499-bd4b-cc705875169a:GIGABIT-0
 4=b1562ce7-230b-4ebc-b1fe-3f1f6b1116a2:sheetIO
@@ -200,7 +200,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.035
 SolderMaskMinWidth=0
 SolderPasteClearance=-0.035
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -370,7 +370,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.0889
+Clearance=0.1524
 TrackWidth=0.12
 ViaDiameter=0.45
 ViaDrill=0.2

@@ -1607,8 +1607,8 @@
   )
 
 
-  (no_connect (at 77.47 139.7))
   (no_connect (at 77.47 137.16))
+  (no_connect (at 77.47 139.7))
 
   (bus_entry (at 62.23 72.39) (size 2.54 -2.54))
   (bus_entry (at 62.23 74.93) (size 2.54 -2.54))

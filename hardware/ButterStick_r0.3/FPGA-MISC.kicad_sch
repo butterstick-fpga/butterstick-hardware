@@ -2083,7 +2083,7 @@
   (symbol (lib_id "gkl_power:+3V3") (at 115.57 55.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "0de15421-e994-4a77-af33-0741ded3ad42")
-    (property "Reference" "#PWR061" (id 0) (at 115.57 59.69 0)
+    (property "Reference" "#PWR062" (id 0) (at 115.57 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 115.6081 52.0382 0))
