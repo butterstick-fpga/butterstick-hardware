@@ -1,4 +1,4 @@
-update=Wed 24 Jun 2020 00:32:22 ACST
+update=Wed 24 Jun 2020 23:04:34 ACST
 version=1
 last_client=kicad
 [general]
@@ -42,26 +42,6 @@ version=1
 version=1
 [SchematicFrame]
 version=1
-[sheetnames]
-1=ddc31a78-2889-4e08-aae5-2eabcc59ab01:
-2=7330da6e-779b-47e1-9f19-f2748ab2d0de:USB-PHY
-3=8f8777ba-89bc-4499-bd4b-cc705875169a:GIGABIT-0
-4=b1562ce7-230b-4ebc-b1fe-3f1f6b1116a2:sheetIO
-5=e9da2530-7480-4a54-9270-e231ee404f91:IO-LEDS
-6=143efee5-76ce-4cba-84a0-fbafa001f7dd:FPGA-MISC
-7=a7f6503e-b9b1-41c4-ac57-101ceffc7fcf:sheetFPGA
-8=dc960bdd-c4aa-462f-bd9c-0fa3eceead4a:FPGA-DDR3L
-9=2f1910da-2fc7-4091-a23a-39e4aea531ec:FPGA-SYZYGY0
-10=489eb976-0485-4c9b-bfa4-d45e3a2e9193:FPGA-SYZYGY1
-11=e305807b-8c5d-4944-81e1-dba2062590e6:FPGA-5G
-12=f9addc60-22bd-459e-944d-bb7e5f89424d:sheetPower
-13=8c5c97be-ac2a-423b-b313-79cf2d3690d4:Memory-DDR3L
-14=ab00729b-e68f-45fe-a8b8-66d90dcbc74c:DDR3L1
-15=3fb004e8-3d03-4814-9e49-7690a14dd4d7:DDR3L
-16=f499de26-e362-4144-b063-0a3987ad82af:SYZYGY-0-STD
-17=357bf771-b16c-4f0a-af73-ab292e65f90c:SYZYGY-1-STD
-18=c4946e89-4f01-488f-97cf-74ab48a51cbc:SYZYGY-2-TXR4
-19=332c0c52-6236-4f8b-b699-76c0954c70c8:TestPoints
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -169,6 +149,12 @@ ViaDrill3=0.25
 dPairWidth1=0.089
 dPairGap1=0.161
 dPairViaGap1=0.25
+dPairWidth2=0.0889
+dPairGap2=0.0889
+dPairViaGap2=0.2032
+dPairWidth3=0.089
+dPairGap3=0.161
+dPairViaGap3=0.25
 SilkLineWidth=0.15
 SilkTextSizeV=0
 SilkTextSizeH=0
@@ -200,7 +186,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.035
 SolderMaskMinWidth=0
 SolderPasteClearance=-0.035
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -370,7 +356,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.1524
+Clearance=0.0889
 TrackWidth=0.12
 ViaDiameter=0.45
 ViaDrill=0.2
@@ -401,3 +387,23 @@ uViaDrill=0.1
 dPairWidth=0.089
 dPairGap=0.161
 dPairViaGap=0.25
+[sheetnames]
+1=158b50a6-e0ce-4a10-af86-e215fdd13326:
+2=7330da6e-779b-47e1-9f19-f2748ab2d0de:USB-PHY
+3=8f8777ba-89bc-4499-bd4b-cc705875169a:GIGABIT-0
+4=b1562ce7-230b-4ebc-b1fe-3f1f6b1116a2:sheetIO
+5=e9da2530-7480-4a54-9270-e231ee404f91:IO-LEDS
+6=143efee5-76ce-4cba-84a0-fbafa001f7dd:FPGA-MISC
+7=a7f6503e-b9b1-41c4-ac57-101ceffc7fcf:sheetFPGA
+8=dc960bdd-c4aa-462f-bd9c-0fa3eceead4a:FPGA-DDR3L
+9=2f1910da-2fc7-4091-a23a-39e4aea531ec:FPGA-SYZYGY0
+10=489eb976-0485-4c9b-bfa4-d45e3a2e9193:FPGA-SYZYGY1
+11=e305807b-8c5d-4944-81e1-dba2062590e6:FPGA-5G
+12=f9addc60-22bd-459e-944d-bb7e5f89424d:sheetPower
+13=8c5c97be-ac2a-423b-b313-79cf2d3690d4:Memory-DDR3L
+14=ab00729b-e68f-45fe-a8b8-66d90dcbc74c:DDR3L1
+15=3fb004e8-3d03-4814-9e49-7690a14dd4d7:DDR3L
+16=f499de26-e362-4144-b063-0a3987ad82af:SYZYGY-0-STD
+17=357bf771-b16c-4f0a-af73-ab292e65f90c:SYZYGY-1-STD
+18=c4946e89-4f01-488f-97cf-74ab48a51cbc:SYZYGY-2-TXR4
+19=332c0c52-6236-4f8b-b699-76c0954c70c8:TestPoints
