@@ -1,6 +1,6 @@
-(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-476558e~101~ubuntu18.04.1")
+(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-73168a9~101~ubuntu18.04.1")
 
-  (page 1 19)
+  (page 4 19)
 
   (paper "A4")
 
@@ -807,7 +807,7 @@
     (property "Sheet file" "IO-LEDS.kicad_sch" (id 1) (at 143.51 65.2785 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "{LED[0..7]}" input (at 143.51 54.61 180)
+    (pin "{LED[0..6]}" input (at 143.51 54.61 180)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "LEDR" input (at 143.51 57.15 180)
