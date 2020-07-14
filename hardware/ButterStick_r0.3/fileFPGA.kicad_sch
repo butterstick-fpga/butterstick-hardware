@@ -3267,6 +3267,7 @@
     )
   )
 
+
   (junction (at 49.53 86.36) (diameter 0) (color 0 0 0 0))
   (junction (at 49.53 101.6) (diameter 0) (color 0 0 0 0))
   (junction (at 49.53 111.76) (diameter 0) (color 0 0 0 0))
@@ -3333,6 +3334,8 @@
   (junction (at 261.62 57.15) (diameter 0) (color 0 0 0 0))
 
   (no_connect (at 191.77 116.84))
+  (no_connect (at 85.09 104.14))
+  (no_connect (at 85.09 106.68))
   (no_connect (at 191.77 119.38))
 
   (bus_entry (at 29.21 60.96) (size -2.54 -2.54)
@@ -4066,6 +4069,9 @@
   (label "CFG.IO2" (at 29.21 66.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
+  (label "FPGA_RESET" (at 44.45 142.24 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+  )
   (label "LEDC1" (at 60.96 109.22 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
@@ -4160,9 +4166,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
 
-  (global_label "FPGA_RESET" (shape input) (at 44.45 142.24 180)
-    (effects (font (size 1.524 1.524)) (justify right))
-  )
   (global_label "P_1V2_A" (shape input) (at 138.43 48.26 180)
     (effects (font (size 1.27 1.27)) (justify right))
   )

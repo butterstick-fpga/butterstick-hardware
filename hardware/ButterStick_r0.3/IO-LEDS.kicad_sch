@@ -1,6 +1,6 @@
 (kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-73168a9~101~ubuntu18.04.1")
 
-  (page 1 18)
+  (page 5 18)
 
   (paper "A4")
 
@@ -459,6 +459,7 @@
     )
   )
 
+
   (junction (at 116.84 125.73) (diameter 0) (color 0 0 0 0))
   (junction (at 127 125.73) (diameter 0) (color 0 0 0 0))
   (junction (at 152.4 125.73) (diameter 0) (color 0 0 0 0))
@@ -904,9 +905,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
   (label "CATR" (at 201.93 99.06 270)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-  )
-  (label "{CATR CATG CATB}" (at 212.09 110.49 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
 

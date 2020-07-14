@@ -495,6 +495,7 @@
     )
   )
 
+
   (junction (at 99.06 64.77) (diameter 0) (color 0 0 0 0))
   (junction (at 129.54 45.72) (diameter 0) (color 0 0 0 0))
   (junction (at 148.59 45.72) (diameter 0) (color 0 0 0 0))
@@ -505,6 +506,10 @@
   (junction (at 200.66 92.71) (diameter 0) (color 0 0 0 0))
   (junction (at 110.49 67.31) (diameter 0) (color 0 0 0 0))
 
+  (no_connect (at 156.21 97.79))
+  (no_connect (at 156.21 102.87))
+  (no_connect (at 203.2 102.87))
+  (no_connect (at 203.2 105.41))
   (no_connect (at 146.05 74.93))
   (no_connect (at 125.73 87.63))
 
