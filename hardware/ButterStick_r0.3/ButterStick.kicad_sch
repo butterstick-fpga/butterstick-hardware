@@ -563,7 +563,7 @@
     (at 300.99 24.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
-  (text "LENGTH MATCHING:\nid: syzygy2_serdes\nnetnames: \"/SYZYGY2.*_[NP]\"\ntolerance: 0.05 mm\nvialength: 1.6 mm"
+  (text "LENGTH MATCHING:\nid: syzygy2_serdes\nnetnames: \"/SYZYGY2.[RT].*_[NP]\"\ntolerance: 0.05 mm\nvialength: 1.6 mm"
     (at 300.99 35.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
