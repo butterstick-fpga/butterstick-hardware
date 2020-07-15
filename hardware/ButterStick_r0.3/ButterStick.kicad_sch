@@ -280,14 +280,14 @@
     )
   )
 
-  (bus_alias "SYZYGY_STD" (members "D0_P" "D0_N" "D2_P" "D2_N" "D4_P" "D4_N" "D6_P" "D6_N" "S16" "S18" "S20" "S22" "S24" "S26" "P2C_CLK_P" "P2C_CLK_N" "VIO1" "R_GA" "D1_P" "D1_N" "D3_P" "D3_N" "D5_P" "D5_N" "D7_P" "D7_N" "S17" "S19" "S21" "S23" "S25" "S27" "C2P_CLK_P" "C2P_CLK_N"))
-  (bus_alias "RGMII" (members "RESET" "MDC" "MDIO" "TX[0..3]" "RX[0..3]" "TX_CTRL" "TX_CLK" "RX_CTRL" "RX_CLK" "INT" "CLK125"))
-  (bus_alias "SDMMC" (members "DAT[0..3]" "CMD" "CK" "CD"))
-  (bus_alias "SYZYGY_TXR4" (members "RX0_P" "RX0_N" "RX1_P" "RX1_N" "REFCLK_P" "REFCLK_N" "S2" "S4" "S6" "S8" "RX3_P" "RX3_N" "RX2_P" "RX2_N" "P2C_CLK_P" "P2C_CLK_N" "VIO1" "R_GA" "TX0_P" "TX0_N" "TX1_P" "TX1_N" "S0" "S1" "S3" "S5" "S7" "S9" "TX3_P" "TX3_N" "TX2_P" "TX2_N" "C2P_CLK_P" "C2P_CLK_N"))
   (bus_alias "ULPI" (members "DATA[0..7]" "STP" "NXT" "DIR" "RESET" "REFCLK"))
-  (bus_alias "I2C" (members "SDA" "SCL"))
+  (bus_alias "SYZYGY_TXR4" (members "RX0_P" "RX0_N" "RX1_P" "RX1_N" "REFCLK_P" "REFCLK_N" "S2" "S4" "S6" "S8" "RX3_P" "RX3_N" "RX2_P" "RX2_N" "P2C_CLK_P" "P2C_CLK_N" "VIO1" "R_GA" "TX0_P" "TX0_N" "TX1_P" "TX1_N" "S0" "S1" "S3" "S5" "S7" "S9" "TX3_P" "TX3_N" "TX2_P" "TX2_N" "C2P_CLK_P" "C2P_CLK_N"))
   (bus_alias "DRAM_DAT" (members "DQ[15..0]" "LDQS_P" "LDQS_N" "UDQS_P" "UDQS_N"))
+  (bus_alias "RGMII" (members "RESET" "MDC" "MDIO" "TX[0..3]" "RX[0..3]" "TX_CTRL" "TX_CLK" "RX_CTRL" "RX_CLK" "INT" "CLK125"))
   (bus_alias "DRAM_CTRL" (members "A[15..0]" "BA[2..0]" "LDM" "UDM" "ODT[0..1]" "RAS" "CAS" "WE" "CK0_P" "CK0_N" "CKE[0..1]" "CS[0..1]" "CK1_N" "CK1_P" "RST"))
+  (bus_alias "SDMMC" (members "DAT[0..3]" "CMD" "CK" "CD"))
+  (bus_alias "I2C" (members "SDA" "SCL"))
+  (bus_alias "SYZYGY_STD" (members "D0_P" "D0_N" "D2_P" "D2_N" "D4_P" "D4_N" "D6_P" "D6_N" "S16" "S18" "S20" "S22" "S24" "S26" "P2C_CLK_P" "P2C_CLK_N" "VIO1" "R_GA" "D1_P" "D1_N" "D3_P" "D3_N" "D5_P" "D5_N" "D7_P" "D7_N" "S17" "S19" "S21" "S23" "S25" "S27" "C2P_CLK_P" "C2P_CLK_N"))
   (junction (at 180.34 105.41) (diameter 0) (color 0 0 0 0))
   (junction (at 180.34 124.46) (diameter 0) (color 0 0 0 0))
   (junction (at 78.74 110.49) (diameter 0) (color 0 0 0 0))
@@ -480,23 +480,23 @@
     (at 300.99 24.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
-  (text "LENGTH MATCHING:\nid: syzygy2_serdes\nnetnames: \"/SYZYGY2.[RT].*_[NP]\"\ntolerance: 0.05 mm\nvialength: 1.6 mm"
+  (text "_LENGTH MATCHING:\nid: syzygy2_serdes\nnetnames: \"/SYZYGY2.[RT].*_[NP]\"\ntolerance: 0.05 mm\nvialength: 1.6 mm"
     (at 300.99 35.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
-  (text "LENGTH MATCHING:\nid: dram_dq1\nnetnames: \"/(DQ[89]|DQ1[0-5]|UDQS.*|UDM)$\"\ntolerance: 0.85 mm\nvialength: 1.6 mm"
+  (text "_LENGTH MATCHING:\nid: dram_dq1\nnetnames: \"/(DQ[89]|DQ1[0-5]|UDQS.*|UDM)$\"\ntolerance: 0.85 mm\nvialength: 1.6 mm"
     (at 300.99 46.99 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
-  (text "LENGTH MATCHING:\nid: dram_dq0\nnetnames: \"/(DQ[0-7]|LDQS.*|LDM)$\"\ntolerance: 0.85 mm\nvialength: 1.6 mm"
+  (text "_LENGTH MATCHING:\nid: dram_dq0\nnetnames: \"/(DQ[0-7]|LDQS.*|LDM)$\"\ntolerance: 0.85 mm\nvialength: 1.6 mm"
     (at 300.99 58.42 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
-  (text "LENGTH MATCHING:\nid: dram_addrcmd\nnetnames: \"/(A[0-9]|A1[0-5]|BA[0-2]|CAS|RAS|WE)$\"\ntolerance: 0.85 mm\nvialength: 1.6 mm"
+  (text "_LENGTH MATCHING:\nid: dram_addrcmd\nnetnames: \"/(A[0-9]|A1[0-5]|BA[0-2]|CAS|RAS|WE)$\"\ntolerance: 0.85 mm\nvialength: 1.6 mm"
     (at 300.99 69.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
-  (text "LENGTH MATCHING:\nid: dram_addrcmd\nnetnames: \"/(CK[01]_[NP]|ODT[01]|CS[01]|CKE[01])$\"\ntolerance: 0.85 mm\nvialength: 1.6 mm"
+  (text "_LENGTH MATCHING:\nid: dram_addrcmd\nnetnames: \"/(CK[01]_[NP]|ODT[01]|CS[01]|CKE[01])$\"\ntolerance: 0.85 mm\nvialength: 1.6 mm"
     (at 300.99 81.28 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
@@ -1024,7 +1024,7 @@
       (reference "#PWR0132") (unit 1)
     )
     (path "/7330da6e-779b-47e1-9f19-f2748ab2d0de/557fa9c3-86f2-429f-8869-8dec664e0e98"
-      (reference "#PWR?") (unit 1)
+      (reference "#PWR0242") (unit 1)
     )
     (path "/7330da6e-779b-47e1-9f19-f2748ab2d0de/7ca2fa9e-705b-48f5-a05b-db9d55b21dc3"
       (reference "C1") (unit 1)

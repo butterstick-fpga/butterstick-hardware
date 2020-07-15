@@ -1,6 +1,6 @@
 (kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-73168a9~101~ubuntu18.04.1")
 
-  (page 7 18)
+  (page 1 18)
 
   (paper "A4")
 
@@ -3267,7 +3267,6 @@
     )
   )
 
-
   (junction (at 49.53 86.36) (diameter 0) (color 0 0 0 0))
   (junction (at 49.53 101.6) (diameter 0) (color 0 0 0 0))
   (junction (at 49.53 111.76) (diameter 0) (color 0 0 0 0))
@@ -3333,9 +3332,9 @@
   (junction (at 261.62 45.72) (diameter 0) (color 0 0 0 0))
   (junction (at 261.62 57.15) (diameter 0) (color 0 0 0 0))
 
-  (no_connect (at 191.77 116.84))
-  (no_connect (at 85.09 104.14))
   (no_connect (at 85.09 106.68))
+  (no_connect (at 85.09 104.14))
+  (no_connect (at 191.77 116.84))
   (no_connect (at 191.77 119.38))
 
   (bus_entry (at 29.21 60.96) (size -2.54 -2.54)
@@ -4053,10 +4052,10 @@
   (bus (pts (xy 74.93 91.44) (xy 74.93 124.46))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 74.93 124.46) (xy 74.93 127))
+  (bus (pts (xy 74.93 124.46) (xy 74.93 129.54))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 74.93 127) (xy 74.93 132.08))
+  (bus (pts (xy 74.93 129.54) (xy 74.93 132.08))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
 

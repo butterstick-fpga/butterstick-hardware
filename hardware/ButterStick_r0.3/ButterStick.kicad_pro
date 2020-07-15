@@ -25,8 +25,8 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
+          "drill": 0.9,
+          "height": 1.5,
           "width": 1.7
         },
         "silk_line_width": 0.15,
@@ -42,9 +42,14 @@
       },
       "diff_pair_dimensions": [
         {
-          "gap": 0.161,
+          "gap": 0.25,
           "via_gap": 0.25,
-          "width": 0.89
+          "width": 0.2
+        },
+        {
+          "gap": 0.161,
+          "via_gap": 0.0,
+          "width": 0.089
         }
       ],
       "drc_exclusions": [],
@@ -102,7 +107,7 @@
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.25,
+        0.089,
         0.0889,
         0.1,
         0.10033,
@@ -362,7 +367,7 @@
   },
   "sheets": [
     [
-      "51676b5b-24ae-437b-aaac-88e6518b4c78",
+      "0d75fc91-84fe-44a9-9698-26879802284f",
       ""
     ],
     [
