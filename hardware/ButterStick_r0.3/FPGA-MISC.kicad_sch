@@ -1,6 +1,6 @@
 (kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-73168a9~101~ubuntu18.04.1")
 
-  (page 1 18)
+  (page 6 18)
 
   (paper "A4")
 
@@ -1822,6 +1822,7 @@
       )
     )
   )
+
 
   (junction (at 261.62 78.74) (diameter 0) (color 0 0 0 0))
 
