@@ -6,7 +6,7 @@
 ---
 
 ## What is it?
-ECP5 based development boacd with on-board Gigabit Ethernet, High speed USB, and Lots of I/O broken out on SYZYGY connectors.
+ECP5 based development board with on-board Gigabit Ethernet, High speed USB, and Lots of I/O broken out on SYZYGY connectors.
 
 ## Hardware Overview (Work in progress)
 * Lattice ECP5-45F/85F FPGA in BGA381 package
