@@ -611,7 +611,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 266.7 185.42 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "4447287c-10e9-498f-8486-8c60f63c4bde")
-    (property "Reference" "FID?" (id 0) (at 268.8591 184.2706 0)
+    (property "Reference" "FID1" (id 0) (at 268.8591 184.2706 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "Fiducial" (id 1) (at 268.8591 186.5693 0)
@@ -628,7 +628,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 269.24 182.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "2e78da51-3c08-4585-8ab4-668c98bd70e6")
-    (property "Reference" "FID?" (id 0) (at 271.3991 181.7306 0)
+    (property "Reference" "FID2" (id 0) (at 271.3991 181.7306 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "Fiducial" (id 1) (at 271.3991 184.0293 0)
@@ -645,7 +645,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 271.78 185.42 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "2be54bf6-da6b-4d30-b669-47dbb3baa1af")
-    (property "Reference" "FID?" (id 0) (at 273.9391 184.2706 0)
+    (property "Reference" "FID3" (id 0) (at 273.9391 184.2706 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "Fiducial" (id 1) (at 273.9391 186.5693 0)
@@ -662,7 +662,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 276.86 185.42 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "e79b3288-6c46-46d0-be19-6336f2320d69")
-    (property "Reference" "FID?" (id 0) (at 279.0191 184.2706 0)
+    (property "Reference" "FID4" (id 0) (at 279.0191 184.2706 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "Fiducial" (id 1) (at 279.0191 186.5693 0)
@@ -679,7 +679,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 279.4 182.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "2143f595-751a-47db-b11c-a514f3225849")
-    (property "Reference" "FID?" (id 0) (at 281.5591 181.7306 0)
+    (property "Reference" "FID5" (id 0) (at 281.5591 181.7306 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "Fiducial" (id 1) (at 281.5591 184.0293 0)
@@ -696,7 +696,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 281.94 185.42 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "d8db450f-a123-4d00-97b4-d6f27817b710")
-    (property "Reference" "FID?" (id 0) (at 284.0991 184.2706 0)
+    (property "Reference" "FID6" (id 0) (at 284.0991 184.2706 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "Fiducial" (id 1) (at 284.0991 186.5693 0)
@@ -1105,23 +1105,23 @@
     (path "/b3a55b2f-64ae-40c5-a8e6-67c9cc8fef24"
       (reference "#PWR03") (unit 1)
     )
-    (path "/2143f595-751a-47db-b11c-a514f3225849"
-      (reference "FID?") (unit 1)
-    )
-    (path "/2be54bf6-da6b-4d30-b669-47dbb3baa1af"
-      (reference "FID?") (unit 1)
+    (path "/4447287c-10e9-498f-8486-8c60f63c4bde"
+      (reference "FID1") (unit 1)
     )
     (path "/2e78da51-3c08-4585-8ab4-668c98bd70e6"
-      (reference "FID?") (unit 1)
+      (reference "FID2") (unit 1)
     )
-    (path "/4447287c-10e9-498f-8486-8c60f63c4bde"
-      (reference "FID?") (unit 1)
-    )
-    (path "/d8db450f-a123-4d00-97b4-d6f27817b710"
-      (reference "FID?") (unit 1)
+    (path "/2be54bf6-da6b-4d30-b669-47dbb3baa1af"
+      (reference "FID3") (unit 1)
     )
     (path "/e79b3288-6c46-46d0-be19-6336f2320d69"
-      (reference "FID?") (unit 1)
+      (reference "FID4") (unit 1)
+    )
+    (path "/2143f595-751a-47db-b11c-a514f3225849"
+      (reference "FID5") (unit 1)
+    )
+    (path "/d8db450f-a123-4d00-97b4-d6f27817b710"
+      (reference "FID6") (unit 1)
     )
     (path "/e15bc80e-586e-46f2-9a9c-fba27cf7d905"
       (reference "H1") (unit 1)
@@ -2185,6 +2185,9 @@
     (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/734d4699-05a9-49ee-8d33-0fe1e6125be2"
       (reference "#PWR0235") (unit 1)
     )
+    (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/a0dfe0cd-5dbf-41d9-861b-7d635aac65f1"
+      (reference "#PWR0257") (unit 1)
+    )
     (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/6a034eaa-ed53-4db4-876b-d7f7e1c56fa8"
       (reference "C29") (unit 1)
     )
@@ -2331,6 +2334,12 @@
     )
     (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/c46ead4b-a2ea-4795-a565-92f3402257a4"
       (reference "R92") (unit 1)
+    )
+    (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/68a56b0e-7127-4d9c-9e63-9f54c7c5d71c"
+      (reference "R96") (unit 1)
+    )
+    (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/2a5b32b1-30bc-488a-b3ff-9fbf20ebc657"
+      (reference "R97") (unit 1)
     )
     (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/13c02a45-9c74-4600-8432-13bf0f9bd385"
       (reference "TP1") (unit 1)
