@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "ButterStick")
+    (date "2020-07-16")
+    (rev "r1.0")
+    (company "GsD")
+    (comment 1 "Functional prototyping board for the Lattice ECP5.")
+  )
+
   (lib_symbols
     (symbol "Device:LED_ARGB" (pin_names (offset 0) hide)
       (property "Reference" "D" (id 0) (at 0 9.398 0)

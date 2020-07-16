@@ -6,9 +6,10 @@
 
   (title_block
     (title "ButterStick")
-    (date "2019-06-14")
-    (rev "r0.2")
+    (date "2020-07-16")
+    (rev "r1.0")
     (company "GsD")
+    (comment 1 "Functional prototyping board for the Lattice ECP5.")
   )
 
   (lib_symbols

@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "ButterStick")
+    (date "2020-07-16")
+    (rev "r1.0")
+    (company "GsD")
+    (comment 1 "Functional prototyping board for the Lattice ECP5.")
+  )
+
   (lib_symbols
     (symbol "gkl_lattice:ECP5UM5G_85_CABGA381"
       (property "Reference" "U" (id 0) (at 3.81 6.35 0)
