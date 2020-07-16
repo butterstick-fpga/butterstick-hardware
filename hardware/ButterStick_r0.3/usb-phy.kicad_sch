@@ -1,6 +1,6 @@
 (kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-73168a9~101~ubuntu18.04.1")
 
-  (page 2 18)
+  (page 1 18)
 
   (paper "A4")
 
@@ -465,7 +465,6 @@
     )
   )
 
-
   (junction (at 99.06 64.77) (diameter 0) (color 0 0 0 0))
   (junction (at 121.92 64.77) (diameter 0) (color 0 0 0 0))
   (junction (at 140.97 63.5) (diameter 0) (color 0 0 0 0))
@@ -477,8 +476,8 @@
   (junction (at 110.49 67.31) (diameter 0) (color 0 0 0 0))
 
   (no_connect (at 203.2 105.41))
-  (no_connect (at 156.21 102.87))
   (no_connect (at 203.2 102.87))
+  (no_connect (at 156.21 102.87))
 
   (bus_entry (at 74.93 67.31) (size 2.54 2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
@@ -1107,7 +1106,7 @@
     (property "Reference" "C1" (id 0) (at 100.33 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (id 1) (at 100.33 82.55 0)
+    (property "Value" "0.1uF" (id 1) (at 100.33 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 100.0252 83.82 0)

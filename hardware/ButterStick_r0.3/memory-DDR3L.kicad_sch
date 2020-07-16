@@ -1,6 +1,6 @@
 (kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-73168a9~101~ubuntu18.04.1")
 
-  (page 1 18)
+  (page 13 18)
 
   (paper "A4")
 
@@ -392,7 +392,7 @@
     (property "Reference" "C119" (id 0) (at 168.529 100.4506 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1uF" (id 1) (at 168.529 102.7493 0)
+    (property "Value" "4.7uF" (id 1) (at 168.529 102.7493 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 172.4152 105.41 0)

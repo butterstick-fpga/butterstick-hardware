@@ -905,7 +905,7 @@
     (in_bom yes) (on_board yes)
     (uuid "ee585e7f-93a9-4c22-bca0-38afafd617cd")
     (property "Reference" "C64" (id 0) (at 144.78 59.6708 90))
-    (property "Value" "100nF" (id 1) (at 144.78 61.9695 90))
+    (property "Value" "0.1uF" (id 1) (at 144.78 61.9695 90))
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 148.59 65.0748 0)
       (effects (font (size 1.27 1.27)) hide)
     )
