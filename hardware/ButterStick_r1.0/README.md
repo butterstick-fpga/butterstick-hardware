@@ -1,7 +1,7 @@
-# ButterStick r0.3
+# ButterStick r1.0
 ## ECP5 SYZYGY development board.
 
-	Hardware r0.3 is in development, everything here will be complete soon™
+	Hardware r1.0 is in development, everything here will be complete soon™
     
 ---
 
@@ -12,23 +12,23 @@ ECP5 based development boacd with on-board Gigabit Ethernet, High speed USB, and
 * Lattice ECP5-45F/85F FPGA in BGA381 package
 * DDR3L Memory (dual rank)
 * USB-C USB2.0 connection
-    * High-speed (480Mbit) USB PHY + Direct FPGA connection
+    * High-speed (480Mbit) ULPI PHY
 * Non-volatile Storage
     * 128Mbit QSPI FLASH Memory 
     * MicroSD socket
         * 4bit SD interface (CK, CMD, DAT0-3)
 * Power supply
-    * TBD
+    * USB-C 5V input.
+    * Aux 5V power input.
 * onboard oscillator
-    * 60M (USB?)
-    * 24?
-    * 25?
-* Standard 0.05" JTAG connector
+    * 60Mhz
+    * 25MHz (RGMII PHY)
+* 0.1" JTAG connector
 * User I/O
-    * 1x Button 
-    * 6x RGB LED
-* Golden Ratio Board dimensions
-    * Dimensions: 80mm x 49mm
+    * 2x Button 
+    * 7x RGB LED
+* Board dimensions
+    * Dimensions: 80mm x 49mm (Golden Ratio!)
 
 ---
 
