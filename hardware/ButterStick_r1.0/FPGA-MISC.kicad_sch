@@ -1,12 +1,12 @@
 (kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-73168a9~101~ubuntu18.04.1")
 
-  (page 1 18)
+  (page 6 18)
 
   (paper "A4")
 
   (title_block
     (title "ButterStick")
-    (date "2020-07-16")
+    (date "2020-07-17")
     (rev "r1.0")
     (company "GsD")
     (comment 1 "Functional prototyping board for the Lattice ECP5.")
@@ -1831,6 +1831,7 @@
     )
   )
 
+
   (junction (at 118.11 34.29) (diameter 0) (color 0 0 0 0))
   (junction (at 124.46 62.23) (diameter 0) (color 0 0 0 0))
   (junction (at 132.08 68.58) (diameter 0) (color 0 0 0 0))
@@ -2502,16 +2503,16 @@
   (bus (pts (xy 195.58 50.8) (xy 195.58 82.55))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 195.58 82.55) (xy 195.58 95.25))
+  (bus (pts (xy 195.58 82.55) (xy 195.58 97.79))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 195.58 95.25) (xy 195.58 105.41))
+  (bus (pts (xy 195.58 97.79) (xy 195.58 107.95))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 195.58 105.41) (xy 195.58 110.49))
+  (bus (pts (xy 195.58 107.95) (xy 195.58 113.03))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 195.58 110.49) (xy 195.58 115.57))
+  (bus (pts (xy 195.58 113.03) (xy 195.58 115.57))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 195.58 115.57) (xy 195.58 120.65))

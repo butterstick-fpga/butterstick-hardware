@@ -6,7 +6,7 @@
 
   (title_block
     (title "ButterStick")
-    (date "2020-07-16")
+    (date "2020-07-17")
     (rev "r1.0")
     (company "GsD")
     (comment 1 "Functional prototyping board for the Lattice ECP5.")
@@ -644,6 +644,7 @@
     )
   )
 
+
   (junction (at 62.23 72.39) (diameter 0) (color 0 0 0 0))
   (junction (at 62.23 95.25) (diameter 0) (color 0 0 0 0))
   (junction (at 62.23 97.79) (diameter 0) (color 0 0 0 0))
@@ -682,10 +683,10 @@
   (junction (at 83.82 91.44) (diameter 0) (color 0 0 0 0))
   (junction (at 111.76 91.44) (diameter 0) (color 0 0 0 0))
 
-  (no_connect (at 194.31 100.33))
+  (no_connect (at 248.92 91.44))
   (no_connect (at 194.31 102.87))
   (no_connect (at 135.89 86.36))
-  (no_connect (at 248.92 91.44))
+  (no_connect (at 194.31 100.33))
 
   (bus_entry (at 41.91 93.98) (size 2.54 -2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
@@ -1465,10 +1466,10 @@
   (bus (pts (xy 120.65 106.68) (xy 120.65 111.76))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 120.65 111.76) (xy 120.65 116.84))
+  (bus (pts (xy 120.65 111.76) (xy 120.65 119.38))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 120.65 116.84) (xy 120.65 121.92))
+  (bus (pts (xy 120.65 119.38) (xy 120.65 121.92))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 120.65 121.92) (xy 120.65 129.54))

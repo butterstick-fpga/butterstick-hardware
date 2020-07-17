@@ -25,9 +25,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.9,
-          "height": 1.5,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 0.42,
+          "width": 0.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -42,14 +42,9 @@
       },
       "diff_pair_dimensions": [
         {
-          "gap": 0.25,
+          "gap": 0.161,
           "via_gap": 0.25,
-          "width": 0.2
-        },
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
+          "width": 0.089
         }
       ],
       "drc_exclusions": [],
@@ -103,11 +98,11 @@
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.034999999999999996,
         "solder_mask_min_width": 0.0,
-        "solder_paste_clearance": -0.034999999999999996,
+        "solder_paste_clearance": -0.015,
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.089,
+        0.25,
         0.0889,
         0.1,
         0.10033,
@@ -311,7 +306,7 @@
       "no_connect_dangling": "error",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "similar_labels": "error",
       "unresolved_variable": "error"
     }
@@ -367,7 +362,7 @@
   },
   "sheets": [
     [
-      "9293e191-046a-48e5-a8cc-6142e8cc0f8f",
+      "5a20a9e0-bd83-43fc-ab70-a47b77a87f0c",
       ""
     ],
     [
