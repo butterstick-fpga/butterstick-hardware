@@ -42,9 +42,9 @@
       },
       "diff_pair_dimensions": [
         {
-          "gap": 0.161,
+          "gap": 0.25,
           "via_gap": 0.25,
-          "width": 0.089
+          "width": 0.2
         }
       ],
       "drc_exclusions": [],
@@ -102,7 +102,7 @@
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.25,
+        0.0889,
         0.0889,
         0.1,
         0.10033,
@@ -117,8 +117,8 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.8,
-          "drill": 0.4
+          "diameter": 0.4,
+          "drill": 0.2
         },
         {
           "diameter": 0.4,
@@ -362,7 +362,7 @@
   },
   "sheets": [
     [
-      "5a20a9e0-bd83-43fc-ab70-a47b77a87f0c",
+      "0409ac89-dd6a-4f12-80b4-c47157b16ad9",
       ""
     ],
     [
