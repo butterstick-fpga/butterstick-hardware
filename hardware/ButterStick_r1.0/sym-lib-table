@@ -22,4 +22,5 @@
   (lib (name "pkl_conn")(type "Legacy")(uri "${KIPRJMOD}/../../lib/pkl/pkl_conn.lib")(options "")(descr ""))
   (lib (name "ButterStick-rescue")(type "Legacy")(uri "${KIPRJMOD}/ButterStick-rescue.lib")(options "")(descr ""))
   (lib (name "ECP5UM5G-85Pinout")(type "Legacy")(uri "/home/greg/projects/ButterStick/lib/ECP5UM5G-85Pinout.lib")(options "")(descr ""))
+  (lib (name "usb3343")(type "KiCad")(uri "/home/greg/Projects/OrangeCrab/lib/gkl/usb3343.kicad_sym")(options "")(descr ""))
 )

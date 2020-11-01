@@ -1,4 +1,4 @@
-(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-73168a9~101~ubuntu18.04.1")
+(kicad_sch (version 20201015) (generator eeschema)
 
   (page 1 18)
 
@@ -6,14 +6,15 @@
 
   (title_block
     (title "ButterStick")
-    (date "2020-07-17")
+    (date "2020-11-01")
     (rev "r1.0")
     (company "GsD")
     (comment 1 "Functional prototyping board for the Lattice ECP5.")
+    (comment 2 "SYZYGY compatible")
   )
 
   (lib_symbols
-    (symbol "Connector:Conn_01x11_Male" (pin_names hide)
+    (symbol "Connector:Conn_01x11_Male" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 15.24 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -70,47 +71,80 @@
           (stroke (width 0)) (fill (type outline))
         )
         (polyline
-          (pts (xy 1.27 -12.7) (xy 0.8636 -12.7))
+          (pts
+            (xy 1.27 -12.7)
+            (xy 0.8636 -12.7)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 -10.16) (xy 0.8636 -10.16))
+          (pts
+            (xy 1.27 -10.16)
+            (xy 0.8636 -10.16)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 -7.62) (xy 0.8636 -7.62))
+          (pts
+            (xy 1.27 -7.62)
+            (xy 0.8636 -7.62)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 -5.08) (xy 0.8636 -5.08))
+          (pts
+            (xy 1.27 -5.08)
+            (xy 0.8636 -5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 -2.54) (xy 0.8636 -2.54))
+          (pts
+            (xy 1.27 -2.54)
+            (xy 0.8636 -2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 0) (xy 0.8636 0))
+          (pts
+            (xy 1.27 0)
+            (xy 0.8636 0)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 2.54) (xy 0.8636 2.54))
+          (pts
+            (xy 1.27 2.54)
+            (xy 0.8636 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 5.08) (xy 0.8636 5.08))
+          (pts
+            (xy 1.27 5.08)
+            (xy 0.8636 5.08)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 7.62) (xy 0.8636 7.62))
+          (pts
+            (xy 1.27 7.62)
+            (xy 0.8636 7.62)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 10.16) (xy 0.8636 10.16))
+          (pts
+            (xy 1.27 10.16)
+            (xy 0.8636 10.16)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 12.7) (xy 0.8636 12.7))
+          (pts
+            (xy 1.27 12.7)
+            (xy 0.8636 12.7)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (pin passive line (at 5.08 12.7 180) (length 3.81)
@@ -159,7 +193,7 @@
         )
       )
     )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254))
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -183,11 +217,17 @@
       )
       (symbol "C_0_1"
         (polyline
-          (pts (xy -2.032 -0.762) (xy 2.032 -0.762))
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
           (stroke (width 0.508)) (fill (type none))
         )
         (polyline
-          (pts (xy -2.032 0.762) (xy 2.032 0.762))
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
           (stroke (width 0.508)) (fill (type none))
         )
       )
@@ -202,7 +242,7 @@
         )
       )
     )
-    (symbol "Device:Ferrite_Bead_Small" (pin_numbers hide) (pin_names (offset 0))
+    (symbol "Device:Ferrite_Bead_Small" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (id 0) (at 1.905 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -221,21 +261,31 @@
       (property "ki_description" "Ferrite bead, small symbol" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Inductor_*\nL_*\n*Ferrite*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Ferrite_Bead_Small_0_1"
         (polyline
-          (pts (xy 0 -1.27) (xy 0 -0.7874))
+          (pts
+            (xy 0 -1.27)
+            (xy 0 -0.7874)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 0.889) (xy 0 1.2954))
+          (pts
+            (xy 0 0.889)
+            (xy 0 1.2954)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224)
-               (xy -1.8288 0.2794)
+          (pts
+            (xy -1.8288 0.2794)
+            (xy -1.1176 1.4986)
+            (xy 1.8288 -0.2032)
+            (xy 1.1176 -1.4224)
+            (xy -1.8288 0.2794)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -251,7 +301,7 @@
         )
       )
     )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0))
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -289,7 +339,7 @@
         )
       )
     )
-    (symbol "Switch:SW_Push" (pin_numbers hide) (pin_names hide)
+    (symbol "Switch:SW_Push" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (id 0) (at 1.27 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -312,11 +362,17 @@
         (circle (center -2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
         (circle (center 2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
         (polyline
-          (pts (xy 0 1.27) (xy 0 3.048))
+          (pts
+            (xy 0 1.27)
+            (xy 0 3.048)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 2.54 1.27) (xy -2.54 1.27))
+          (pts
+            (xy 2.54 1.27)
+            (xy -2.54 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (pin passive line (at -5.08 0 0) (length 2.54)
@@ -329,7 +385,7 @@
         )
       )
     )
-    (symbol "gkl_misc:PUSB3FR6"
+    (symbol "gkl_misc:PUSB3FR6" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 12.7 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -378,7 +434,7 @@
         )
       )
     )
-    (symbol "gkl_power:+3V3" (power) (pin_names (offset 0))
+    (symbol "gkl_power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -393,11 +449,17 @@
       )
       (symbol "+3V3_0_1"
         (polyline
-          (pts (xy -1.27 1.905) (xy 1.27 1.905))
+          (pts
+            (xy -1.27 1.905)
+            (xy 1.27 1.905)
+          )
           (stroke (width 0.3048)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 0) (xy 0 1.905))
+          (pts
+            (xy 0 0)
+            (xy 0 1.905)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -408,7 +470,7 @@
         )
       )
     )
-    (symbol "gkl_power:GND" (power) (pin_names (offset 0))
+    (symbol "gkl_power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -423,11 +485,17 @@
       )
       (symbol "GND_0_1"
         (polyline
-          (pts (xy 0 -1.27) (xy 0 0))
+          (pts
+            (xy 0 -1.27)
+            (xy 0 0)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 -1.27) (xy -1.27 -1.27))
+          (pts
+            (xy 1.27 -1.27)
+            (xy -1.27 -1.27)
+          )
           (stroke (width 0.3048)) (fill (type none))
         )
       )
@@ -440,22 +508,22 @@
     )
   )
 
-  (junction (at 119.38 97.79) (diameter 0) (color 0 0 0 0))
-  (junction (at 121.92 95.25) (diameter 0) (color 0 0 0 0))
-  (junction (at 124.46 90.17) (diameter 0) (color 0 0 0 0))
-  (junction (at 127 85.09) (diameter 0) (color 0 0 0 0))
-  (junction (at 129.54 82.55) (diameter 0) (color 0 0 0 0))
-  (junction (at 132.08 80.01) (diameter 0) (color 0 0 0 0))
-  (junction (at 138.43 66.04) (diameter 0) (color 0 0 0 0))
-  (junction (at 138.43 71.12) (diameter 0) (color 0 0 0 0))
-  (junction (at 138.43 100.33) (diameter 0) (color 0 0 0 0))
-  (junction (at 138.43 102.87) (diameter 0) (color 0 0 0 0))
-  (junction (at 151.13 71.12) (diameter 0) (color 0 0 0 0))
-  (junction (at 219.71 78.74) (diameter 0) (color 0 0 0 0))
-  (junction (at 219.71 93.98) (diameter 0) (color 0 0 0 0))
-  (junction (at 223.52 104.14) (diameter 0) (color 0 0 0 0))
-  (junction (at 241.3 104.14) (diameter 0) (color 0 0 0 0))
-  (junction (at 132.08 36.83) (diameter 0) (color 0 0 0 0))
+  (junction (at 119.38 97.79) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 121.92 95.25) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 124.46 90.17) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 127 85.09) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 129.54 82.55) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 132.08 80.01) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 138.43 66.04) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 138.43 71.12) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 138.43 100.33) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 138.43 102.87) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 151.13 71.12) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 219.71 78.74) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 219.71 93.98) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 223.52 104.14) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 241.3 104.14) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 132.08 36.83) (diameter 1.016) (color 0 0 0 0))
 
   (bus_entry (at 100.33 77.47) (size 2.54 2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
@@ -668,16 +736,25 @@
   (bus (pts (xy 92.71 76.2) (xy 100.33 76.2))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 100.33 76.2) (xy 100.33 80.01))
+  (bus (pts (xy 100.33 76.2) (xy 100.33 77.47))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (bus (pts (xy 100.33 77.47) (xy 100.33 80.01))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 100.33 80.01) (xy 100.33 82.55))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 100.33 82.55) (xy 100.33 90.17))
+  (bus (pts (xy 100.33 82.55) (xy 100.33 87.63))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 100.33 90.17) (xy 100.33 95.25))
+  (bus (pts (xy 100.33 87.63) (xy 100.33 90.17))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (bus (pts (xy 100.33 90.17) (xy 100.33 92.71))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (bus (pts (xy 100.33 92.71) (xy 100.33 95.25))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 115.57 36.83) (xy 132.08 36.83))
@@ -692,7 +769,10 @@
   (bus (pts (xy 132.08 36.83) (xy 134.62 36.83))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 134.62 36.83) (xy 134.62 41.91))
+  (bus (pts (xy 134.62 36.83) (xy 134.62 39.37))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (bus (pts (xy 134.62 39.37) (xy 134.62 41.91))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 142.24 34.29) (xy 142.24 36.83))
@@ -1055,7 +1135,8 @@
 
   (sheet (at 146.05 34.29) (size 33.02 12.7)
     (stroke (width 0.1524) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 1.0000))    (uuid e9da2530-7480-4a54-9270-e231ee404f91)
+    (fill (color 255 255 255 1.0000))
+    (uuid e9da2530-7480-4a54-9270-e231ee404f91)
     (property "Sheet name" "IO-LEDS" (id 0) (at 146.05 33.6545 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
