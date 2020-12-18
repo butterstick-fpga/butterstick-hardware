@@ -24,8 +24,8 @@ Previous Revisions:
 * TCXO Oscillator
 * JST GH SM06 locking JTAG port
 * 5x USER controlable LEDs
-* 3x Stardard SYZYGY compatible connectors
-* Smart VCCIO controller to support SZYZGY DNA
+* 3x Stardard [SYZYGY compatible connectors](https://syzygyfpga.io/)
+* Smart VCCIO controller to support [SYZYGY DNA](http://syzygyfpga.io/wp-content/uploads/2019/09/Syzygy-DNA-Specification-V1p1.pdf)(*pdf*)
 * Power:
   * 3.3V/3A
   * 5V/2A  
