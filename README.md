@@ -1,9 +1,8 @@
 # ButterStick
 
-## A simple FPGA board for experiments with high speed LVDS interfaces. 3 Standard connectors with an onboard GigE link.
+    A compact Lattice ECP5 based development board with breakouts for lots of high-speed I/O and serdes.
 
-	Still in active Development (Use stuff here if you want, but there is limited support.)
-
+    With onboard DDR3, High Speed USB and Ethernet.
 
 ## Latest Revision: 
 * __Stable:__ [ButterStick r1.0](hardware/ButterStick_r1.0/) (active group buy campaign: [GroupGets](https://groupgets.com/campaigns/868-butterstick))
@@ -12,7 +11,7 @@ Previous Revisions:
 * [ButterStick r0.2](hardware/ButterStick_r0.2/)
 * [ButterStick r0.1](hardware/ButterStick_r0.1/)
 
-![alt-text](documentation/images/800px/butterstick_r1d0_003.jpg "Populated Butterstick r1.0 board with Size Comparison")
+![alt-text](documentation/images/800px/butterstick_r1d0_003.jpg "Populated ButterStick r1.0 board with Size Comparison")
 
 ## Hardware (r1.0)
 
@@ -28,7 +27,7 @@ Previous Revisions:
 * 0.1" pitch JTAG connector
 * 7x User RGB LEDs
 * 2x User Buttons
-* 2x Stardard [SYZYGY compatible connectors](https://syzygyfpga.io/)
+* 2x Standard [SYZYGY compatible connectors](https://syzygyfpga.io/)
   * Adjustable VCCIO 1.2V-3.3V
   * Up to 32 single ended I/O
   * 10 differential pairs
@@ -66,8 +65,8 @@ The 25F also has the following limitations on the ButterStick:
 * MicroSD socket
 * TCXO Oscillator
 * JST GH SM06 locking JTAG port
-* 5x USER controlable LEDs
-* 3x Stardard [SYZYGY compatible connectors](https://syzygyfpga.io/)
+* 5x USER controllable LEDs
+* 3x Standard [SYZYGY compatible connectors](https://syzygyfpga.io/)
 * Smart VCCIO controller to support [SYZYGY DNA](http://syzygyfpga.io/wp-content/uploads/2019/09/Syzygy-DNA-Specification-V1p1.pdf)(*pdf*)
 * Power:
   * 3.3V/3A
