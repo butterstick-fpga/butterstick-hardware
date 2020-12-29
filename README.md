@@ -56,23 +56,6 @@ The 25F also has the following limitations on the ButterStick:
 * 25F Only provides 2x SERDES lanes.
 * 25F does not connect I/O pins S8/S9 on SYZYGY.C
 
-## Previous Hardware (r0.1-r0.2)
-
-* ECP5 
-* Gigabit Ethernet
-* 256Mbit PSRAM (Dual HyperRAM upto 166MHz)
-* 128Mbit QSPI FLASH Memory (Bitstream + User storage)
-* MicroSD socket
-* TCXO Oscillator
-* JST GH SM06 locking JTAG port
-* 5x USER controllable LEDs
-* 3x Standard [SYZYGY compatible connectors](https://syzygyfpga.io/)
-* Smart VCCIO controller to support [SYZYGY DNA](http://syzygyfpga.io/wp-content/uploads/2019/09/Syzygy-DNA-Specification-V1p1.pdf)(*pdf*)
-* Power:
-  * 3.3V/3A
-  * 5V/2A  
-  * Adjustable VCCIO 1.2V-3.3V/150mA (per bank)
-
 
 ![alt-text](documentation/images/800px/butterstick_r1d0_001.jpg "Populated r1.0 board front with stylish unpopulated board backdrop")
 ![alt-text](documentation/images/800px/butterstick_r1d0_002.jpg "Populated r1.0 board back with stylish unpopulated board backdrop")
