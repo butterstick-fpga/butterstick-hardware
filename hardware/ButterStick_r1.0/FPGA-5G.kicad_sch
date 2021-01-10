@@ -5,7 +5,7 @@
   (title_block
     (title "ButterStick")
     (date "2021-01-10")
-    (rev "r1.0")
+    (rev "r1.0a")
     (company "GsD")
     (comment 1 "Functional prototyping board for the Lattice ECP5.")
     (comment 2 "SYZYGY compatible")

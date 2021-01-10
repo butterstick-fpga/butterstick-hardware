@@ -5,7 +5,7 @@
   (title_block
     (title "ButterStick")
     (date "2021-01-10")
-    (rev "r1.0")
+    (rev "r1.0a")
     (company "GsD")
     (comment 1 "Functional prototyping board for the Lattice ECP5.")
     (comment 2 "SYZYGY compatible")
@@ -520,14 +520,14 @@
     )
   )
 
-  (bus_alias "SYZYGY_STD" (members "D0_P" "D0_N" "D2_P" "D2_N" "D4_P" "D4_N" "D6_P" "D6_N" "S16" "S18" "S20" "S22" "S24" "S26" "P2C_CLK_P" "P2C_CLK_N" "VIO1" "R_GA" "D1_P" "D1_N" "D3_P" "D3_N" "D5_P" "D5_N" "D7_P" "D7_N" "S17" "S19" "S21" "S23" "S25" "S27" "C2P_CLK_P" "C2P_CLK_N"))
+  (bus_alias "DRAM_DAT" (members "DQ[15..0]" "LDQS_P" "LDQS_N" "UDQS_P" "UDQS_N"))
+  (bus_alias "SYZYGY_TXR4" (members "RX0_P" "RX0_N" "RX1_P" "RX1_N" "REFCLK_P" "REFCLK_N" "S2" "S4" "S6" "S8" "RX3_P" "RX3_N" "RX2_P" "RX2_N" "P2C_CLK_P" "P2C_CLK_N" "VIO1" "R_GA" "TX0_P" "TX0_N" "TX1_P" "TX1_N" "S0" "S1" "S3" "S5" "S7" "S9" "TX3_P" "TX3_N" "TX2_P" "TX2_N" "C2P_CLK_P" "C2P_CLK_N"))
+  (bus_alias "RGMII" (members "RESET" "MDC" "MDIO" "TX[0..3]" "RX[0..3]" "TX_CTRL" "TX_CLK" "RX_CTRL" "RX_CLK" "INT" "CLK125"))
+  (bus_alias "I2C" (members "SDA" "SCL"))
+  (bus_alias "SDMMC" (members "DAT[0..3]" "CMD" "CK" "CD"))
   (bus_alias "DRAM_CTRL" (members "A[15..0]" "BA[2..0]" "LDM" "UDM" "ODT[0..1]" "RAS" "CAS" "WE" "CK0_P" "CK0_N" "CKE[0..1]" "CS[0..1]" "CK1_N" "CK1_P" "RST"))
   (bus_alias "ULPI" (members "DATA[0..7]" "STP" "NXT" "DIR" "RESET" "REFCLK"))
-  (bus_alias "SDMMC" (members "DAT[0..3]" "CMD" "CK" "CD"))
-  (bus_alias "I2C" (members "SDA" "SCL"))
-  (bus_alias "SYZYGY_TXR4" (members "RX0_P" "RX0_N" "RX1_P" "RX1_N" "REFCLK_P" "REFCLK_N" "S2" "S4" "S6" "S8" "RX3_P" "RX3_N" "RX2_P" "RX2_N" "P2C_CLK_P" "P2C_CLK_N" "VIO1" "R_GA" "TX0_P" "TX0_N" "TX1_P" "TX1_N" "S0" "S1" "S3" "S5" "S7" "S9" "TX3_P" "TX3_N" "TX2_P" "TX2_N" "C2P_CLK_P" "C2P_CLK_N"))
-  (bus_alias "DRAM_DAT" (members "DQ[15..0]" "LDQS_P" "LDQS_N" "UDQS_P" "UDQS_N"))
-  (bus_alias "RGMII" (members "RESET" "MDC" "MDIO" "TX[0..3]" "RX[0..3]" "TX_CTRL" "TX_CLK" "RX_CTRL" "RX_CLK" "INT" "CLK125"))
+  (bus_alias "SYZYGY_STD" (members "D0_P" "D0_N" "D2_P" "D2_N" "D4_P" "D4_N" "D6_P" "D6_N" "S16" "S18" "S20" "S22" "S24" "S26" "P2C_CLK_P" "P2C_CLK_N" "VIO1" "R_GA" "D1_P" "D1_N" "D3_P" "D3_N" "D5_P" "D5_N" "D7_P" "D7_N" "S17" "S19" "S21" "S23" "S25" "S27" "C2P_CLK_P" "C2P_CLK_N"))
   (junction (at 180.34 105.41) (diameter 1.016) (color 0 0 0 0))
   (junction (at 180.34 124.46) (diameter 1.016) (color 0 0 0 0))
   (junction (at 78.74 110.49) (diameter 1.016) (color 0 0 0 0))
@@ -1447,9 +1447,6 @@
     )
     (path "/7330da6e-779b-47e1-9f19-f2748ab2d0de/e2c25637-9108-496f-bebd-9a8ce18648f5"
       (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7330da6e-779b-47e1-9f19-f2748ab2d0de/7cdc9f77-a04a-485b-b7fc-360684dad14c"
-      (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
     )
     (path "/7330da6e-779b-47e1-9f19-f2748ab2d0de/557fa9c3-86f2-429f-8869-8dec664e0e98"
       (reference "#PWR0242") (unit 1) (value "+3V3") (footprint "")

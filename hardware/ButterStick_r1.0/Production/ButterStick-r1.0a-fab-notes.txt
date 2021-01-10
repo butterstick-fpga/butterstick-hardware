@@ -1,0 +1,70 @@
+Part number:        ButterStick-r1.0a
+
+General fabrication notes
+
+    * Boards panelised in 2x1 pattern using tab/route.
+    * Board material is S1000-2
+    
+    * Blue solder mask on both sides of board.
+    * High DPI White LPI legend on both sides of board.
+    * Pad finish is ENIG.
+    
+    * All 0.2mm vias capped/filled/plated over (Via in Pad).
+
+    * Finished board thickness is 1.6 mm.
+    
+    * Place UL mark/date code/manufacture logo on legend on backside of board.
+
+Impedances
+
+    Control to within 10%.
+    Layer 1 microstrip (ref to layer 2)
+        89 μm trace / 161 μm space = 100 ohm differential
+
+    Layer 3 microstrip (ref to layer 2/4)
+        89 μm trace / 161 μm space = 100 ohm differential
+    
+    Layer 6 microstrip (ref to layer 7/5)
+        89 μm trace / 161 μm space = 100 ohm differential
+
+    Layer 8 microstrip (ref to layer 7)
+        89 μm trace / 161 μm space = 100 ohm differential
+
+Suggested stackup
+    1   35 μm (1 oz) copper         Signal
+        0.075mm prepreg
+    2   35 μm (1 oz) copper         Ground
+        0.130mm core
+    3   35 μm (1oz) copper          Signal
+        prepreg as needed for 1.6mm finished PCB thickness
+    4   35 μm (1 oz) copper         Power
+        core as needed for 1.6mm finished PCB 
+    5   35 μm (1oz) copper          Ground
+        prepreg as needed for 1.6mm finished PCB thickness
+    6   35 μm (1 oz) copper         Signal
+        0.130mm core/prepreg
+    7   35 μm (1 oz) copper         Ground
+        0.075mm prepreg
+    8   35 μm (1 oz) copper         Signal
+
+File naming
+    ButterStick.gko                  Board outline
+    ButterStick-PTH.drl              Through-board plated holes
+    ButterStick-NPTH.drl             Through-board unplated holes
+    ButterStick.gto                  Front silkscreen
+    ButterStick.gts                  Front solder mask
+    ButterStick.gtl                  Layer 1 copper (Front)
+    ButterStick.g2                   Layer 2 copper
+    ButterStick.g3                   Layer 3 copper
+    ButterStick.g4                   Layer 4 copper
+    ButterStick.g5                   Layer 5 copper
+    ButterStick.g6                   Layer 6 copper
+    ButterStick.g7                   Layer 7 copper
+    ButterStick.gbl                  Layer 8 copper (Back)
+    ButterStick.gbs                  Back solder mask
+    ButterStick.gbo                  Back silkscreen
+
+    ButterStick.gtp                  Top Paste
+    ButterStick.gbp                  Bottom Paste
+
+    
