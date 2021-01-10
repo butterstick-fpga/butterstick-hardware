@@ -3923,7 +3923,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 27.94 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid "09f9a5da-a97d-4b50-9026-038af09a30cf")
     (property "Reference" "J7" (id 0) (at 27.94 55.88 0))
     (property "Value" "Conn_01x02_Male" (id 1) (at 21.59 58.42 0))

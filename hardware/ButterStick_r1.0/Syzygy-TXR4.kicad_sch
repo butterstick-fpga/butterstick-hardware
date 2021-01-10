@@ -732,8 +732,8 @@
   (junction (at 137.16 39.37) (diameter 1.016) (color 0 0 0 0))
   (junction (at 176.53 142.24) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 180.34 139.7))
   (no_connect (at 213.36 139.7))
+  (no_connect (at 180.34 139.7))
 
   (bus_entry (at 161.29 96.52) (size 2.54 -2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
@@ -1667,11 +1667,11 @@
     )
   )
 
-  (symbol (lib_id "Device:Jumper_NC_Small") (at 118.11 39.37 0) (unit 1)
-    (in_bom yes) (on_board yes)
+  (symbol (lib_id "Device:Jumper_NC_Small") (at 118.11 39.37 0) (mirror x) (unit 1)
+    (in_bom no) (on_board yes)
     (uuid "fe3098a2-2079-4f68-970c-7f44a71f2bfa")
-    (property "Reference" "JP3" (id 0) (at 118.11 36.322 0))
-    (property "Value" "Jumper_NC" (id 1) (at 118.11 36.322 0)
+    (property "Reference" "JP3" (id 0) (at 118.11 37.338 0))
+    (property "Value" "Jumper_NC" (id 1) (at 118.11 42.418 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (id 2) (at 118.11 39.37 0)

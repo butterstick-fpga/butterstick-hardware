@@ -515,9 +515,9 @@
   (junction (at 200.66 92.71) (diameter 1.016) (color 0 0 0 0))
   (junction (at 110.49 67.31) (diameter 1.016) (color 0 0 0 0))
 
+  (no_connect (at 203.2 105.41))
   (no_connect (at 156.21 102.87))
   (no_connect (at 203.2 102.87))
-  (no_connect (at 203.2 105.41))
 
   (bus_entry (at 74.93 67.31) (size 2.54 2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
