@@ -1,12 +1,10 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 0 18)
-
   (paper "A4")
 
   (title_block
     (title "ButterStick")
-    (date "2020-11-01")
+    (date "2021-01-10")
     (rev "r1.0")
     (company "GsD")
     (comment 1 "Functional prototyping board for the Lattice ECP5.")
@@ -734,8 +732,8 @@
   (junction (at 133.35 31.75) (diameter 1.016) (color 0 0 0 0))
   (junction (at 176.53 142.24) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 213.36 139.7))
   (no_connect (at 180.34 139.7))
+  (no_connect (at 213.36 139.7))
 
   (bus_entry (at 161.29 96.52) (size 2.54 -2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))

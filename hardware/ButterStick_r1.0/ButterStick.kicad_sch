@@ -1,12 +1,10 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 1 18)
-
   (paper "A4")
 
   (title_block
     (title "ButterStick")
-    (date "2020-11-01")
+    (date "2021-01-10")
     (rev "r1.0")
     (company "GsD")
     (comment 1 "Functional prototyping board for the Lattice ECP5.")
@@ -522,14 +520,14 @@
     )
   )
 
-  (bus_alias "ULPI" (members "DATA[0..7]" "STP" "NXT" "DIR" "RESET" "REFCLK"))
-  (bus_alias "DRAM_CTRL" (members "A[15..0]" "BA[2..0]" "LDM" "UDM" "ODT[0..1]" "RAS" "CAS" "WE" "CK0_P" "CK0_N" "CKE[0..1]" "CS[0..1]" "CK1_N" "CK1_P" "RST"))
-  (bus_alias "SDMMC" (members "DAT[0..3]" "CMD" "CK" "CD"))
+  (bus_alias "RGMII" (members "RESET" "MDC" "MDIO" "TX[0..3]" "RX[0..3]" "TX_CTRL" "TX_CLK" "RX_CTRL" "RX_CLK" "INT" "CLK125"))
+  (bus_alias "DRAM_DAT" (members "DQ[15..0]" "LDQS_P" "LDQS_N" "UDQS_P" "UDQS_N"))
   (bus_alias "SYZYGY_TXR4" (members "RX0_P" "RX0_N" "RX1_P" "RX1_N" "REFCLK_P" "REFCLK_N" "S2" "S4" "S6" "S8" "RX3_P" "RX3_N" "RX2_P" "RX2_N" "P2C_CLK_P" "P2C_CLK_N" "VIO1" "R_GA" "TX0_P" "TX0_N" "TX1_P" "TX1_N" "S0" "S1" "S3" "S5" "S7" "S9" "TX3_P" "TX3_N" "TX2_P" "TX2_N" "C2P_CLK_P" "C2P_CLK_N"))
   (bus_alias "I2C" (members "SDA" "SCL"))
+  (bus_alias "SDMMC" (members "DAT[0..3]" "CMD" "CK" "CD"))
+  (bus_alias "DRAM_CTRL" (members "A[15..0]" "BA[2..0]" "LDM" "UDM" "ODT[0..1]" "RAS" "CAS" "WE" "CK0_P" "CK0_N" "CKE[0..1]" "CS[0..1]" "CK1_N" "CK1_P" "RST"))
   (bus_alias "SYZYGY_STD" (members "D0_P" "D0_N" "D2_P" "D2_N" "D4_P" "D4_N" "D6_P" "D6_N" "S16" "S18" "S20" "S22" "S24" "S26" "P2C_CLK_P" "P2C_CLK_N" "VIO1" "R_GA" "D1_P" "D1_N" "D3_P" "D3_N" "D5_P" "D5_N" "D7_P" "D7_N" "S17" "S19" "S21" "S23" "S25" "S27" "C2P_CLK_P" "C2P_CLK_N"))
-  (bus_alias "DRAM_DAT" (members "DQ[15..0]" "LDQS_P" "LDQS_N" "UDQS_P" "UDQS_N"))
-  (bus_alias "RGMII" (members "RESET" "MDC" "MDIO" "TX[0..3]" "RX[0..3]" "TX_CTRL" "TX_CLK" "RX_CTRL" "RX_CLK" "INT" "CLK125"))
+  (bus_alias "ULPI" (members "DATA[0..7]" "STP" "NXT" "DIR" "RESET" "REFCLK"))
   (junction (at 180.34 105.41) (diameter 1.016) (color 0 0 0 0))
   (junction (at 180.34 124.46) (diameter 1.016) (color 0 0 0 0))
   (junction (at 78.74 110.49) (diameter 1.016) (color 0 0 0 0))
@@ -1957,9 +1955,6 @@
     (path "/a7f6503e-b9b1-41c4-ac57-101ceffc7fcf/77d93dbf-8f7f-410b-9943-96df5e8757e6"
       (reference "#PWR070") (unit 1) (value "+2V5") (footprint "")
     )
-    (path "/a7f6503e-b9b1-41c4-ac57-101ceffc7fcf/6b58fac1-29f3-4b41-8ba6-11d865765f72"
-      (reference "#PWR071") (unit 1) (value "+1V1") (footprint "")
-    )
     (path "/a7f6503e-b9b1-41c4-ac57-101ceffc7fcf/5864ca1e-116b-4f1e-989d-2b935bad5076"
       (reference "#PWR072") (unit 1) (value "GND") (footprint "")
     )
@@ -1968,9 +1963,6 @@
     )
     (path "/a7f6503e-b9b1-41c4-ac57-101ceffc7fcf/f074bb6a-02b7-40a0-88bc-1b1fa6ecc2e3"
       (reference "#PWR096") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a7f6503e-b9b1-41c4-ac57-101ceffc7fcf/b37d3c6f-de8a-455f-bc8c-8d6d82f24916"
-      (reference "#PWR099") (unit 1) (value "+1V1") (footprint "")
     )
     (path "/a7f6503e-b9b1-41c4-ac57-101ceffc7fcf/049fdb74-1306-4de0-bc57-8e68d9267d04"
       (reference "#PWR0100") (unit 1) (value "GND") (footprint "")
@@ -2374,9 +2366,6 @@
     (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/f1ddef27-3890-40d3-9230-7822232d20c8"
       (reference "#PWR0135") (unit 1) (value "+1V2") (footprint "")
     )
-    (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/38e3825e-cad3-4b59-8722-3a48c05114af"
-      (reference "#PWR0136") (unit 1) (value "+1V1") (footprint "")
-    )
     (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/bbec6f52-77f1-4937-a859-a2fce15cb7b4"
       (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
     )
@@ -2588,7 +2577,7 @@
       (reference "R59") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/9c86531c-2629-40ee-8c60-3a0a0ac2917c"
-      (reference "R60") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R60") (unit 1) (value "118k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/453ee821-f2a0-4320-8b2f-d1da44c0a7c7"
       (reference "R61") (unit 1) (value "210k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -2603,7 +2592,7 @@
       (reference "R64") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/065dd512-3612-4b30-915a-3a39644d5234"
-      (reference "R65") (unit 1) (value "84k5") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R65") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/139ef9e0-6bb6-4a1b-ac41-f1b8fc26e738"
       (reference "R66") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -2612,7 +2601,7 @@
       (reference "R73") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/bc09d2fd-e0ee-4b61-9bac-bd496cf374e1"
-      (reference "R74") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R74") (unit 1) (value "118k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f9addc60-22bd-459e-944d-bb7e5f89424d/c3ba6b45-c6ed-494d-acf8-47d225d046e1"
       (reference "R90") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")

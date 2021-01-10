@@ -1,12 +1,10 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 1 18)
-
   (paper "A4")
 
   (title_block
     (title "ButterStick")
-    (date "2020-11-01")
+    (date "2021-01-10")
     (rev "r1.0")
     (company "GsD")
     (comment 1 "Functional prototyping board for the Lattice ECP5.")
@@ -3325,42 +3323,6 @@
         )
       )
     )
-    (symbol "gkl_power:+1V1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+1V1" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+1V1_0_1"
-        (polyline
-          (pts
-            (xy -1.27 1.905)
-            (xy 1.27 1.905)
-          )
-          (stroke (width 0.3048)) (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.905)
-          )
-          (stroke (width 0)) (fill (type none))
-        )
-      )
-      (symbol "+1V1_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+1V1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "gkl_power:+2V5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -3571,8 +3533,8 @@
 
   (no_connect (at 162.56 107.95))
   (no_connect (at 85.09 106.68))
-  (no_connect (at 85.09 104.14))
   (no_connect (at 162.56 110.49))
+  (no_connect (at 85.09 104.14))
 
   (bus_entry (at 29.21 43.18) (size -2.54 -2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
@@ -4754,13 +4716,34 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
 
-  (global_label "P_1V1_A" (shape input) (at 109.22 45.72 180)
+  (global_label "P_1V2_A" (shape input) (at 109.22 45.72 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 98.7388 45.6406 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "P_1V1_T" (shape input) (at 250.19 22.86 0)
+  (global_label "P_1V2_FPGA" (shape input) (at 176.53 146.05 90)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 176.4506 131.9402 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify left))
   )
-  (global_label "P_1V1_T" (shape input) (at 250.19 43.18 0)
+  (global_label "P_1V2_FPGA" (shape input) (at 203.2 77.47 90)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 203.1206 63.3602 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+
+    (effects (font (size 1.27 1.27)) (justify left))
+  )
+  (global_label "P_1V2_T" (shape input) (at 250.19 22.86 0)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 260.5503 22.7806 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+
+    (effects (font (size 1.27 1.27)) (justify left))
+  )
+  (global_label "P_1V2_T" (shape input) (at 250.19 43.18 0)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 260.5503 43.1006 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify left))
   )
 
@@ -5182,21 +5165,6 @@
     )
   )
 
-  (symbol (lib_id "gkl_power:+1V1") (at 176.53 146.05 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "b37d3c6f-de8a-455f-bc8c-8d6d82f24916")
-    (property "Reference" "#PWR099" (id 0) (at 176.53 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+1V1" (id 1) (at 176.6062 142.2146 0))
-    (property "Footprint" "" (id 2) (at 176.53 146.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 176.53 146.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "gkl_power:+2V5") (at 180.34 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "77d93dbf-8f7f-410b-9943-96df5e8757e6")
@@ -5208,21 +5176,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 180.34 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "gkl_power:+1V1") (at 203.2 77.47 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "6b58fac1-29f3-4b41-8ba6-11d865765f72")
-    (property "Reference" "#PWR071" (id 0) (at 203.2 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+1V1" (id 1) (at 203.2762 73.6346 0))
-    (property "Footprint" "" (id 2) (at 203.2 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 203.2 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

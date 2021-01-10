@@ -1,14 +1,12 @@
 # ButterStick r1.0
 ## ECP5 SYZYGY development board.
-
-	Hardware r1.0 is in development, everything here will be complete soon™
-    
+ 
 ---
 
 ## What is it?
 ECP5 based development board with on-board Gigabit Ethernet, High speed USB, and Lots of I/O broken out on SYZYGY connectors.
 
-## Hardware Overview (Work in progress)
+## Hardware Overview 
 * Lattice ECP5-45F/85F FPGA in BGA381 package
 * DDR3L Memory (dual rank)
 * USB-C USB2.0 connection

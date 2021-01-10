@@ -1,12 +1,10 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 1 18)
-
   (paper "A4")
 
   (title_block
     (title "ButterStick")
-    (date "2020-11-01")
+    (date "2021-01-10")
     (rev "r1.0")
     (company "GsD")
     (comment 1 "Functional prototyping board for the Lattice ECP5.")

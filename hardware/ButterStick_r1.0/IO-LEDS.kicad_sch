@@ -1,12 +1,10 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 1 18)
-
   (paper "A4")
 
   (title_block
     (title "ButterStick")
-    (date "2020-11-01")
+    (date "2021-01-10")
     (rev "r1.0")
     (company "GsD")
     (comment 1 "Functional prototyping board for the Lattice ECP5.")
@@ -35,6 +33,17 @@
       )
       (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LED_ARGB_0_0"
+        (text "B" (at -1.905 -6.35 0)
+          (effects (font (size 1.27 1.27)))
+        )
+        (text "G" (at -1.905 -1.27 0)
+          (effects (font (size 1.27 1.27)))
+        )
+        (text "R" (at -1.905 3.81 0)
+          (effects (font (size 1.27 1.27)))
+        )
       )
       (symbol "LED_ARGB_0_1"
         (circle (center 2.032 0) (radius 0.254) (stroke (width 0)) (fill (type outline)))
@@ -181,17 +190,6 @@
             (xy 1.524 7.112)
           )
           (stroke (width 0)) (fill (type none))
-        )
-      )
-      (symbol "LED_ARGB_0_0"
-        (text "B" (at -1.905 -6.35 0)
-          (effects (font (size 1.27 1.27)))
-        )
-        (text "G" (at -1.905 -1.27 0)
-          (effects (font (size 1.27 1.27)))
-        )
-        (text "R" (at -1.905 3.81 0)
-          (effects (font (size 1.27 1.27)))
         )
       )
       (symbol "LED_ARGB_1_1"

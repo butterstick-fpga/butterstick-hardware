@@ -1,12 +1,10 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 1 18)
-
   (paper "A4")
 
   (title_block
     (title "ButterStick")
-    (date "2020-11-01")
+    (date "2021-01-10")
     (rev "r1.0")
     (company "GsD")
     (comment 1 "Functional prototyping board for the Lattice ECP5.")
@@ -843,13 +841,22 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
 
-  (global_label "BUTTON_A" (shape input) (at 213.36 93.98 180)
+  (global_label "BUTTON_A" (shape input) (at 213.36 93.98 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "BUTTON_B" (shape input) (at 213.36 104.14 180)
+  (global_label "BUTTON_B" (shape input) (at 213.36 104.14 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "P_1.35_DRAM" (shape passive) (at 219.71 77.47 90)
+  (global_label "P_1.35_DRAM" (shape passive) (at 219.71 77.47 90)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify left))
   )
 

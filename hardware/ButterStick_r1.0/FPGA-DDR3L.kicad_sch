@@ -1,12 +1,10 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 1 18)
-
   (paper "A4")
 
   (title_block
     (title "ButterStick")
-    (date "2020-11-01")
+    (date "2021-01-10")
     (rev "r1.0")
     (company "GsD")
     (comment 1 "Functional prototyping board for the Lattice ECP5.")
@@ -2554,31 +2552,58 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
 
-  (global_label "P_1.35_DRAM" (shape passive) (at 52.07 97.79 180)
+  (global_label "P_1.35_DRAM" (shape passive) (at 52.07 97.79 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "V_DRAMREF" (shape input) (at 54.61 105.41 180)
+  (global_label "V_DRAMREF" (shape input) (at 54.61 105.41 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "P_1.35_DRAM" (shape passive) (at 113.03 156.21 180)
+  (global_label "P_1.35_DRAM" (shape passive) (at 113.03 156.21 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "P_1.35_DRAM" (shape passive) (at 127 43.18 180)
+  (global_label "P_1.35_DRAM" (shape passive) (at 127 43.18 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "P_1.35_DRAM" (shape passive) (at 160.02 50.8 180)
+  (global_label "P_1.35_DRAM" (shape passive) (at 160.02 50.8 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "V_DRAMREF" (shape input) (at 160.02 87.63 180)
+  (global_label "V_DRAMREF" (shape input) (at 160.02 87.63 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "BUTTON_A" (shape input) (at 195.58 133.35 180)
+  (global_label "BUTTON_A" (shape input) (at 195.58 133.35 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "BUTTON_B" (shape input) (at 195.58 135.89 180)
+  (global_label "BUTTON_B" (shape input) (at 195.58 135.89 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (global_label "P_1.35_DRAM" (shape passive) (at 237.49 43.18 180)
+  (global_label "P_1.35_DRAM" (shape passive) (at 237.49 43.18 180)    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
     (effects (font (size 1.27 1.27)) (justify right))
   )
 
