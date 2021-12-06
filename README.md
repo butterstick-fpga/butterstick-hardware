@@ -5,7 +5,7 @@
     With onboard DDR3, High Speed USB and Ethernet.
 
 ## Latest Revision: 
-* __Stable:__ [ButterStick r1.0](hardware/ButterStick_r1.0/) (active group buy campaign: [GroupGets](https://groupgets.com/campaigns/868-butterstick))
+* __Stable:__ [ButterStick r1.0](hardware/ButterStick_r1.0/) (Available from: [GroupGets](https://store.groupgets.com/products/butterstick-fpga-development-board))
 
 Previous Revisions:
 * [ButterStick r0.2](hardware/ButterStick_r0.2/)
