@@ -15,10 +15,10 @@ Previous Revisions:
 
 ## Hardware (r1.0)
 
-* ECP5 25F/85F (BGA381 package)
+* ECP5 25F/45F/85F (BGA381 package)
 * USB 2.0 High Speed (480 Mbit/s)
 * Gigabit Ethernet
-* 2Gbit/8Gbit DDR3L RAM (dual rank)
+* upto 8Gbit DDR3L RAM (dual rank)
 * 128Mbit QSPI FLASH Memory (Bitstream + User storage)
 * MicroSD socket (4 bit SD interface)
 * Onboard oscillators:
@@ -43,14 +43,17 @@ Board dimensions: 80mm x 49mm
 
 ### Variants
 
-The ButterStick is offered with two variants, a cheaper version with the smallest ECP5 and a fully loaded variant, featuring the largest 85F ECP5.
+The ButterStick can be configured in different variants,
+the part number defines which FPGA and DDR3 parts are installed.
 
-The part changes between the two variants are listed in the table below.
+```
+ButterStick-r1.0-[Memory gigabits]-[FPGA density]
+```
 
-|      | ButterStick-r1.0-2G-25F | ButterStick-r1.0-8G-85F | 
-|------|-------------------------|-------------------------|
-| FPGA | LFE5UM5G-25F-8BG381C    | LFE5UM5G-85F-8BG381C    | 
-| DDR3 | 2x MT41K64M16TW-107     | 2x MT41K256M16TW-107    |
+|      | ButterStick-r1.0-2G-25F | ButterStick-r1.0-2G-85F | ButterStick-r1.0-8G-85F | 
+|------|-------------------------|-------------------------|-------------------------|
+| FPGA | LFE5UM5G-25F-8BG381C    | LFE5UM5G-85F-8BG381C    | LFE5UM5G-85F-8BG381C    | 
+| DDR3 | 2x MT41K64M16TW-107     | 2x MT41K64M16TW-107     | 2x MT41K256M16TW-107    |
 
 The 25F also has the following limitations on the ButterStick:
 * 25F Only provides 2x SERDES lanes.
