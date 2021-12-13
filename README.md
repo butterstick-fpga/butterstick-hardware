@@ -5,7 +5,9 @@
     With onboard DDR3, High Speed USB and Ethernet.
 
 ## Latest Revision: 
-* __Stable:__ [ButterStick r1.0](hardware/ButterStick_r1.0/) (Available from: [GroupGets](https://store.groupgets.com/products/butterstick-fpga-development-board))
+* __Latest Release:__ [ButterStick r1.0](hardware/ButterStick_r1.0/) 
+  * Assembled PCBs available: [GroupGets](https://store.groupgets.com/products/butterstick-fpga-development-board)
+  * Bare PCBs available: [Tindie](https://www.tindie.com/products/greeeg/butterstick-r10-bare-circuit-board)
 
 Previous Revisions:
 * [ButterStick r0.2](hardware/ButterStick_r0.2/)
@@ -46,19 +48,17 @@ Board dimensions: 80mm x 49mm
 The ButterStick can be configured in different variants,
 the part number defines which FPGA and DDR3 parts are installed.
 
-```
-ButterStick-r1.0-[Memory gigabits]-[FPGA density]
-```
+`ButterStick-r1.0-[Memory gigabits]-[FPGA density]`
 
-|      | ButterStick-r1.0-2G-25F | ButterStick-r1.0-2G-85F | ButterStick-r1.0-8G-85F | 
-|------|-------------------------|-------------------------|-------------------------|
-| FPGA | LFE5UM5G-25F-8BG381C    | LFE5UM5G-85F-8BG381C    | LFE5UM5G-85F-8BG381C    | 
-| DDR3 | 2x MT41K64M16TW-107     | 2x MT41K64M16TW-107     | 2x MT41K256M16TW-107    |
+|       | ButterStick-r1.0-2G-25F | ButterStick-r1.0-2G-85F | ButterStick-r1.0-8G-85F | 
+|-------|-------------------------|-------------------------|-------------------------|
+| FPGA  | LFE5UM5G-25F-8BG381C    | LFE5UM5G-85F-8BG381C    | LFE5UM5G-85F-8BG381C    | 
+| DDR3  | 2x MT41K64M16TW-107     | 2x MT41K64M16TW-107     | 2x MT41K256M16TW-107    |
 
 The 25F also has the following limitations on the ButterStick:
 * 25F Only provides 2x SERDES lanes.
 * 25F does not connect I/O pins S8/S9 on SYZYGY.C
 
 
-![alt-text](documentation/images/800px/butterstick_r1d0_001.jpg "Populated r1.0 board front with stylish unpopulated board backdrop")
-![alt-text](documentation/images/800px/butterstick_r1d0_002.jpg "Populated r1.0 board back with stylish unpopulated board backdrop")
+![alt-text](documentation/images/800px/butterstick_r1d0_004.jpeg "Populated r1.0 board front")
+![alt-text](documentation/images/800px/butterstick_r1d0_005.jpeg "Populated r1.0 board back")
