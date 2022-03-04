@@ -62,3 +62,8 @@ The 25F also has the following limitations on the ButterStick:
 
 ![alt-text](documentation/images/800px/butterstick_r1d0_004.jpeg "Populated r1.0 board front")
 ![alt-text](documentation/images/800px/butterstick_r1d0_005.jpeg "Populated r1.0 board back")
+
+
+## Licence
+
+ * Hardware in this repository is licenced under CERN OHL v1.2
