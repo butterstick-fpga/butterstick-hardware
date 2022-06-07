@@ -1,1 +1,736 @@
+163701306397902
+gkl_antenna
+0433AT62A0020 - 433MHz 25x5x1mm chip antenna
+
+
 0
+2
+2
+gkl_antenna
+0900AT43A0070 - 900MHz Wide band ISM Chip Antenna
+
+
+0
+3
+2
+gkl_antenna
+GPS_ANT
+
+
+0
+1
+1
+gkl_conn
+10118194c_usb_microb
+
+
+0
+17
+11
+gkl_conn
+483930003_sd
+
+
+0
+13
+10
+gkl_conn
+5034801000
+
+
+0
+12
+11
+gkl_conn
+5034802000
+
+
+0
+22
+21
+gkl_conn
+5034802600
+
+
+0
+28
+26
+gkl_conn
+BM02B-GHS-TBT
+
+
+0
+4
+2
+gkl_conn
+DF12(3.0)-10DP-0.5V(86)
+
+
+0
+14
+10
+gkl_conn
+DF12(3.0)-10DS-0.5V(86)
+
+
+0
+14
+10
+gkl_conn
+DF12(3.0)-30DP-0.5V(86)
+
+
+0
+34
+30
+gkl_conn
+DF40_80Pin_boson_edit
+
+
+0
+50
+50
+gkl_conn
+FH12-20S-0.5SVA(54)
+
+
+0
+24
+20
+gkl_conn
+FH12-24S-0.5SVA(54)
+
+
+0
+28
+24
+gkl_conn
+FH19C_8
+
+
+0
+10
+8
+gkl_conn
+FH28E-30S-0.5SH(05)
+
+
+0
+32
+31
+gkl_conn
+FTSH-105-XX-X-DV
+
+
+0
+10
+10
+gkl_conn
+Feather_PinHeader_1x12
+
+
+0
+12
+12
+gkl_conn
+Feather_PinHeader_1x16
+
+
+0
+16
+16
+gkl_conn
+JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical
+JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH side entry
+0
+4
+3
+gkl_conn
+MAGJACK
+
+
+0
+18
+15
+gkl_conn
+P-MUSBR-M1C1
+
+
+0
+40
+31
+gkl_conn
+QSE-020-01-F-D-A
+
+
+0
+44
+41
+gkl_conn
+QSH-040-01-L-D-DP-A
+
+
+0
+130
+122
+gkl_conn
+QTE-020-01-F-D
+
+
+0
+44
+40
+gkl_conn
+S2B-PH-SM4-TB
+2-Pin JST PH Series Right-Angle Connector (+/- for batteries)
+
+0
+4
+4
+gkl_conn
+SB02B-PASK-2
+
+
+0
+2
+2
+gkl_conn
+SYZYGY_Transcieiver
+
+
+0
+46
+41
+gkl_conn
+SYZYGY_standard_carrier
+
+
+0
+46
+41
+gkl_conn
+SYZYGY_standard_pod
+
+
+0
+46
+41
+gkl_conn
+TFC-105-WT
+
+
+0
+12
+11
+gkl_conn
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+gkl_conn
+XF2M-2415-1A
+
+
+0
+26
+25
+gkl_conn
+micro_sd_1051620001
+
+
+0
+15
+10
+gkl_conn
+molex_microsd_1040310811
+
+
+0
+14
+11
+gkl_conn
+usb_minib_vertical
+
+
+0
+19
+6
+gkl_conn
+usbc_vert_10132328
+
+
+0
+34
+25
+gkl_housings_bga
+DSBGA-12_1.56x1.39mm_Layout3x4_P0.4mm
+DSBGA-12 http://www.ti.com/lit/ds/symlink/ina231.pdf
+
+0
+24
+12
+gkl_housings_bga
+T-PBGA-24_6.0x8.0mm_Layout5x5_P1.0mm
+
+
+0
+24
+24
+gkl_housings_bga
+TFBGA-64_6.0x6.0mm_Layout8x8_P0.65mm
+XFBGA-64, https://www.nxp.com/docs/en/package-information/SOT1555-1.pdf
+XFBGA-64
+0
+64
+64
+gkl_housings_bga
+VFBGA-49
+
+
+0
+49
+49
+gkl_housings_bga
+WLCSP-4_1.0x1.0mm_Layout2x2_P0.4mm
+
+
+0
+8
+4
+gkl_housings_bga
+WLCSP-8 3X3_0.5
+
+
+0
+16
+8
+gkl_housings_bga
+caBGA_381_17x17
+
+
+0
+381
+381
+gkl_housings_bga
+csBGA-8
+
+
+0
+8
+8
+gkl_housings_bga
+csBGA285
+
+
+0
+285
+285
+gkl_housings_dfn
+AFS434S3-T
+
+
+0
+6
+6
+gkl_housings_dfn
+CL-2025
+
+
+0
+9
+9
+gkl_housings_dfn
+DFN-8-1EP_3x2mm_Pitch0.5mm
+8-Lead Plastic Dual Flat, No Lead Package (MC) - 2x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
+DFN 0.5
+0
+9
+9
+gkl_housings_dfn
+DFN3X3_8L_EP2_P
+
+
+0
+12
+6
+gkl_housings_dfn
+UMMP008Z2020
+
+
+0
+9
+9
+gkl_housings_dfn
+WSON-10-1EP_2x2mm_P0.4mm
+10-Lead Plastic WSON (2mm x 2mm)  0.40mm pitch
+WSON 10 0.4mm
+0
+16
+11
+gkl_housings_qfn
+DFN1010B-6 (SOT1216)
+
+
+0
+6
+6
+gkl_housings_qfn
+MOSFET_1.0x0.6mm
+
+
+0
+3
+3
+gkl_housings_qfn
+QFN-12-1EP_3x3mm_P0.5mm_EP1.65x1.65mm
+QFN, 12 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_12_%2005-08-1855.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+14
+13
+gkl_housings_qfn
+VQFN-HR
+
+
+0
+16
+12
+gkl_housings_son
+SAW-5
+
+
+0
+5
+5
+gkl_housings_son
+X2SON_4_1.0x1.0mm
+
+
+0
+5
+4
+gkl_housings_son
+XSON6
+
+
+0
+6
+6
+gkl_housings_son
+XSON7
+
+
+0
+7
+7
+gkl_led
+0404LED_RGB
+
+
+0
+4
+4
+gkl_led
+LED_0201
+Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)
+capacitor 0402
+0
+2
+2
+gkl_led
+led_rbag_2121_dense
+
+
+0
+4
+4
+gkl_logos
+gsd_logo_small
+
+
+0
+0
+0
+gkl_logos
+oshw_small
+
+
+0
+0
+0
+gkl_time
+ABS05_32.768KHz Crystal
+
+
+0
+2
+2
+gkl_time
+CDFN3225-4LD-PL-1
+
+
+0
+4
+4
+gkl_time
+Oscilator_2.5x2.0
+
+
+0
+4
+4
+gkl_ublox
+MAX_M8
+
+
+0
+18
+18
+gkl_ublox
+NEO-M8
+
+
+0
+24
+24
+pkl_dipol
+C_0201
+Capacitor SMD 0201, reflow soldering
+capacitor 0201
+0
+2
+2
+pkl_dipol
+C_0402
+Capacitor SMD 0402, reflow soldering
+capacitor 0402
+0
+2
+2
+pkl_dipol
+C_0603
+Capacitor SMD 0603, reflow soldering
+capacitor 0603
+0
+2
+2
+pkl_dipol
+C_0805
+Capacitor SMD 0805, reflow soldering
+capacitor 0805
+0
+2
+2
+pkl_dipol
+C_1206
+Capacitor SMD 1206, reflow soldering
+capacitor 1206
+0
+2
+2
+pkl_dipol
+C_1218
+Capacitor SMD 1218, reflow soldering
+capacitor 1218
+0
+2
+2
+pkl_dipol
+C_2010
+Capacitor SMD 2010, reflow soldering
+capacitor 2010
+0
+2
+2
+pkl_dipol
+C_2512
+Capacitor SMD 2512, reflow soldering
+capacitor 2512
+0
+2
+2
+pkl_dipol
+C_XH414HG-IV01E
+Super Capacitor SMD Coin IV01E, reflow soldering
+super capacitor IV01E
+0
+2
+2
+pkl_dipol
+D_0402
+Diode SMD 0402, reflow soldering
+diode led 0402
+0
+2
+2
+pkl_dipol
+D_0603
+Diode SMD 0603, reflow soldering
+diode led 0603
+0
+2
+2
+pkl_dipol
+D_0603_Side
+Diode SMD 0603 Side
+diode led 0603
+0
+2
+2
+pkl_dipol
+L_0402
+Inductor SMD 0402, reflow soldering
+inductor 0402
+0
+2
+2
+pkl_dipol
+L_0603
+Inductor SMD 0603, reflow soldering
+inductor 0603
+0
+2
+2
+pkl_dipol
+R_0402
+Resistor SMD 0402, reflow soldering
+resistor 0402
+0
+2
+2
+pkl_dipol
+R_0603
+Resistor SMD 0603, reflow soldering
+resistor 0603
+0
+2
+2
+pkl_dipol
+R_Array_Concave_4x0603
+Thick Film Chip Resistor Array, Wave soldering, Vishay CRA06P (see cra06p.pdf)
+resistor array
+0
+8
+8
+pkl_dipol
+R_Array_Convex_4x0402
+Thick Film Chip Resistor Array, Wave soldering, Vishay CRA06P (see cra06p.pdf)
+resistor array
+0
+8
+8
+pkl_dipol
+SC_1210
+Super Capacitor SMD 1210
+capacitor 1210
+0
+2
+2
+pkl_housings_sot
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+pkl_housings_sot
+SOT-23-6
+6-pin SOT23 package
+SOT-23-6
+0
+6
+6
+pkl_housings_sot
+SOT-666
+Based on DiodesInc and NXP proposed footprints
+
+0
+6
+6
+pkl_housings_sot
+SOT-833-1
+NXP SOT833-1 XSON8 footprint.
+
+0
+8
+8
+pkl_housings_sot
+SOT-996-2
+NXP SOT996-2 XSON8 footprint.
+
+0
+8
+8
+pkl_housings_sot
+SOT-1089
+NXP SOT1089 XSON8 footprint.
+
+0
+8
+8
+pkl_housings_sot
+SOT353
+5-pin SOT353 package
+SOT353
+0
+5
+5
+pkl_tag_connect
+TC2030-NL_BIG
+Tag-Connect TC2030-NL footprint by carloscuev@gmail.com
+Tag-Connect TC2030-NL
+0
+6
+6
+pkl_tag_connect
+TC2030-NL_SMALL
+Tag-Connect TC2030-NL footprint by carloscuev@gmail.com
+Tag-Connect TC2030-NL
+0
+6
+6
+pkl_tag_connect
+TC2030_BIG
+Tag-Connect TC2030 footprint by carloscuev@gmail.com
+Tag-Connect TC2030
+0
+6
+6
+pkl_tag_connect
+TC2030_SMALL
+Tag-Connect TC2030 footprint by carloscuev@gmail.com
+Tag-Connect TC2030
+0
+6
+6
+pkl_tag_connect
+TC2050-NL_BIG
+Tag-Connect TC2050-NL footprint by carloscuev@gmail.com
+Tag-Connect TC2050-NL
+0
+10
+10
+pkl_tag_connect
+TC2050-NL_SMALL
+Tag-Connect TC2050-NL footprint by carloscuev@gmail.com
+Tag-Connect TC2050-NL
+0
+10
+10
+pkl_tag_connect
+TC2050_BIG
+Tag-Connect TC2050 footprint by carloscuev@gmail.com
+Tag-Connect TC2050
+0
+10
+10
+pkl_tag_connect
+TC2050_SMALL
+Tag-Connect TC2050 footprint by carloscuev@gmail.com
+Tag-Connect TC2050
+0
+10
+10

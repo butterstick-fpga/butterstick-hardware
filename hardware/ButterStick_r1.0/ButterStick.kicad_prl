@@ -3,8 +3,9 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
+    "auto_track_width": true,
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
@@ -37,7 +38,6 @@
       9,
       10,
       11,
-      12,
       13,
       14,
       15,
@@ -49,21 +49,21 @@
       23,
       24,
       25,
-      26,
-      27,
-      28,
-      29,
-      30,
+      32,
+      33,
+      34,
+      35,
       36,
       37,
       38
     ],
-    "visible_layers": "003ffff_8000007f"
+    "visible_layers": "003ffff_8000007f",
+    "zone_display_mode": 1
   },
   "hidden_nets": [],
   "meta": {
     "filename": "ButterStick.kicad_prl",
-    "version": 2
+    "version": 3
   },
   "project": {
     "files": []
