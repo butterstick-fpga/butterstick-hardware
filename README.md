@@ -24,7 +24,7 @@ Previous Revisions:
 * 128Mbit QSPI FLASH Memory (Bitstream + User storage)
 * MicroSD socket (4 bit SD interface)
 * Onboard oscillators:
-  * 60 MHz
+  * 30 MHz (ECP5's PLLs can create 60MHz,125MHz,etc.)
   * 25 MHz (RGMII PHY)
 * 0.1" pitch JTAG connector
 * 7x User RGB LEDs
