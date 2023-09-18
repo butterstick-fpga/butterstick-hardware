@@ -66,4 +66,7 @@ The 25F also has the following limitations on the ButterStick:
 
 ## Licence
 
- * Hardware in this repository is licenced under CERN OHL v1.2
+ * Hardware in this repository is licensed under CERN OHL v1.2
+
+ ## Open Source Hardware
+This board is an OSHWA approved design: [AU000016](https://certification.oshwa.org/au000016.html)
